@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/minimal/nikita-andreev-410115-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101215",
+        "foreground": "#dad2cb",
+        "cursor": "#dad2cb"
+    },
+    "colors": {
+        "color0": "#101215",
+        "color1": "#707986",
+        "color2": "#7A858E",
+        "color3": "#938F8E",
+        "color4": "#A69990",
+        "color5": "#A4A2A1",
+        "color6": "#AEAEAF",
+        "color7": "#dad2cb",
+        "color8": "#98938e",
+        "color9": "#707986",
+        "color10": "#7A858E",
+        "color11": "#938F8E",
+        "color12": "#A69990",
+        "color13": "#A4A2A1",
+        "color14": "#AEAEAF",
+        "color15": "#dad2cb"
+    }
+}

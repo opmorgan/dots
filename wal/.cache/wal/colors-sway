@@ -1,0 +1,21 @@
+set $wallpaper /home/om/pics/wall/denis_psyche.jpg
+
+set $background #2d2324
+set $foreground #cac2bb
+
+set $color0 #2d2324
+set $color1 #8C8274
+set $color2 #A08D68
+set $color3 #B58B6D
+set $color4 #C9916B
+set $color5 #D2B272
+set $color6 #E1C37D
+set $color7 #cac2bb
+set $color8 #8d8782
+set $color9 #8C8274
+set $color10 #A08D68
+set $color11 #B58B6D
+set $color12 #C9916B
+set $color13 #D2B272
+set $color14 #E1C37D
+set $color15 #cac2bb

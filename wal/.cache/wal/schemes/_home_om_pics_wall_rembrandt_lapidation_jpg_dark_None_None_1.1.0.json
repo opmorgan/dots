@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/rembrandt_lapidation.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0b09",
+        "foreground": "#e5be8e",
+        "cursor": "#e5be8e"
+    },
+    "colors": {
+        "color0": "#0f0b09",
+        "color1": "#676647",
+        "color2": "#8B2F0B",
+        "color3": "#9E5C1B",
+        "color4": "#CB7023",
+        "color5": "#A17847",
+        "color6": "#7B8769",
+        "color7": "#e5be8e",
+        "color8": "#a08563",
+        "color9": "#676647",
+        "color10": "#8B2F0B",
+        "color11": "#9E5C1B",
+        "color12": "#CB7023",
+        "color13": "#A17847",
+        "color14": "#7B8769",
+        "color15": "#e5be8e"
+    }
+}

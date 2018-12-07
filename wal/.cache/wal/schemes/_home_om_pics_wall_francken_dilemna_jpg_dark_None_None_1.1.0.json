@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/francken_dilemna.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090702",
+        "foreground": "#c1b29c",
+        "cursor": "#c1b29c"
+    },
+    "colors": {
+        "color0": "#090702",
+        "color1": "#694E21",
+        "color2": "#6F542B",
+        "color3": "#716B4B",
+        "color4": "#8E3A18",
+        "color5": "#915B2B",
+        "color6": "#8F6835",
+        "color7": "#c1b29c",
+        "color8": "#877c6d",
+        "color9": "#694E21",
+        "color10": "#6F542B",
+        "color11": "#716B4B",
+        "color12": "#8E3A18",
+        "color13": "#915B2B",
+        "color14": "#8F6835",
+        "color15": "#c1b29c"
+    }
+}

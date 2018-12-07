@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/single-leaf-gray.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c100a",
+        "foreground": "#bbbca2",
+        "cursor": "#bbbca2"
+    },
+    "colors": {
+        "color0": "#0c100a",
+        "color1": "#5D674A",
+        "color2": "#6F754C",
+        "color3": "#798237",
+        "color4": "#7C8355",
+        "color5": "#7F8257",
+        "color6": "#878836",
+        "color7": "#bbbca2",
+        "color8": "#828371",
+        "color9": "#5D674A",
+        "color10": "#6F754C",
+        "color11": "#798237",
+        "color12": "#7C8355",
+        "color13": "#7F8257",
+        "color14": "#878836",
+        "color15": "#bbbca2"
+    }
+}

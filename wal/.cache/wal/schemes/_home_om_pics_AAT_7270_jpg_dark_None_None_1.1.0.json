@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/AAT_7270.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#051213",
+        "foreground": "#c5c2aa",
+        "cursor": "#c5c2aa"
+    },
+    "colors": {
+        "color0": "#051213",
+        "color1": "#094C50",
+        "color2": "#054567",
+        "color3": "#166A6A",
+        "color4": "#656954",
+        "color5": "#877749",
+        "color6": "#6C8570",
+        "color7": "#c5c2aa",
+        "color8": "#898776",
+        "color9": "#094C50",
+        "color10": "#054567",
+        "color11": "#166A6A",
+        "color12": "#656954",
+        "color13": "#877749",
+        "color14": "#6C8570",
+        "color15": "#c5c2aa"
+    }
+}

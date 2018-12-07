@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/rembrandt_anatomy.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0a08",
+        "foreground": "#dac2ae",
+        "cursor": "#dac2ae"
+    },
+    "colors": {
+        "color0": "#0c0a08",
+        "color1": "#4C4438",
+        "color2": "#6D4D34",
+        "color3": "#695F54",
+        "color4": "#915831",
+        "color5": "#94725F",
+        "color6": "#A08775",
+        "color7": "#dac2ae",
+        "color8": "#988779",
+        "color9": "#4C4438",
+        "color10": "#6D4D34",
+        "color11": "#695F54",
+        "color12": "#915831",
+        "color13": "#94725F",
+        "color14": "#A08775",
+        "color15": "#dac2ae"
+    }
+}

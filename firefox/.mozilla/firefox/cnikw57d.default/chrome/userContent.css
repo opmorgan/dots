@@ -1,0 +1,24 @@
+@import url('file:///home/om/.cache/wal/colors.css');
+
+@-moz-document url(about:blank),
+               url(about:newtab)
+{
+  #newtab-window,
+  html
+  {
+    background: black;
+  }
+}
+
+/*
+ * This file can be used to apply a style to all web pages you view
+ * Rules without !important are overruled by author rules if the
+ * author sets any.  Rules with !important overrule author rules.
+ */
+
+/* You can find the latest version of this ad blocking css at:
+ * http://www.floppymoose.com
+ * hides many ads by preventing display of images that are inside
+ * links when the link HREF contans certain substrings.
+ */
+

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/mountains_peaks_snow.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#161116",
+        "foreground": "#bfbfc0",
+        "cursor": "#bfbfc0"
+    },
+    "colors": {
+        "color0": "#161116",
+        "color1": "#635C5E",
+        "color2": "#495A64",
+        "color3": "#57646B",
+        "color4": "#6C6E72",
+        "color5": "#767C82",
+        "color6": "#7F7F83",
+        "color7": "#bfbfc0",
+        "color8": "#858586",
+        "color9": "#635C5E",
+        "color10": "#495A64",
+        "color11": "#57646B",
+        "color12": "#6C6E72",
+        "color13": "#767C82",
+        "color14": "#7F7F83",
+        "color15": "#bfbfc0"
+    }
+}

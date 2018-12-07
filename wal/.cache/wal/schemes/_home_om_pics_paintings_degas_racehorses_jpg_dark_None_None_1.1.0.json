@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/paintings/degas_racehorses.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#222824",
+        "foreground": "#a8bfc5",
+        "cursor": "#a8bfc5"
+    },
+    "colors": {
+        "color0": "#222824",
+        "color1": "#79823D",
+        "color2": "#758859",
+        "color3": "#89895B",
+        "color4": "#928E68",
+        "color5": "#A99B73",
+        "color6": "#CCA277",
+        "color7": "#a8bfc5",
+        "color8": "#758589",
+        "color9": "#79823D",
+        "color10": "#758859",
+        "color11": "#89895B",
+        "color12": "#928E68",
+        "color13": "#A99B73",
+        "color14": "#CCA277",
+        "color15": "#a8bfc5"
+    }
+}

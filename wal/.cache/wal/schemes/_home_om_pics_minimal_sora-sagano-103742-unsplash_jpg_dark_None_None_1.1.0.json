@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/minimal/sora-sagano-103742-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#052E16",
+        "foreground": "#ceae9e",
+        "cursor": "#ceae9e"
+    },
+    "colors": {
+        "color0": "#052E16",
+        "color1": "#255A4D",
+        "color2": "#18644E",
+        "color3": "#296755",
+        "color4": "#047C64",
+        "color5": "#357565",
+        "color6": "#5A6459",
+        "color7": "#ceae9e",
+        "color8": "#90796e",
+        "color9": "#255A4D",
+        "color10": "#18644E",
+        "color11": "#296755",
+        "color12": "#047C64",
+        "color13": "#357565",
+        "color14": "#5A6459",
+        "color15": "#ceae9e"
+    }
+}

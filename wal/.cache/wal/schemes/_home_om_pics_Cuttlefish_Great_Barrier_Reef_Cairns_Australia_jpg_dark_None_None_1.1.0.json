@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/Cuttlefish_Great_Barrier_Reef_Cairns_Australia.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151811",
+        "foreground": "#b4b9ad",
+        "cursor": "#b4b9ad"
+    },
+    "colors": {
+        "color0": "#151811",
+        "color1": "#305647",
+        "color2": "#5F6352",
+        "color3": "#706C51",
+        "color4": "#994D28",
+        "color5": "#8E5C32",
+        "color6": "#907351",
+        "color7": "#b4b9ad",
+        "color8": "#7d8179",
+        "color9": "#305647",
+        "color10": "#5F6352",
+        "color11": "#706C51",
+        "color12": "#994D28",
+        "color13": "#8E5C32",
+        "color14": "#907351",
+        "color15": "#b4b9ad"
+    }
+}

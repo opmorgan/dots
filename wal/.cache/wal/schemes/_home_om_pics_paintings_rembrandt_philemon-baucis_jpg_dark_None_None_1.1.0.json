@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/paintings/rembrandt_philemon-baucis.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0b07",
+        "foreground": "#baa48a",
+        "cursor": "#baa48a"
+    },
+    "colors": {
+        "color0": "#0f0b07",
+        "color1": "#5E431E",
+        "color2": "#6F471B",
+        "color3": "#5C4224",
+        "color4": "#6F4C25",
+        "color5": "#895419",
+        "color6": "#A7711F",
+        "color7": "#baa48a",
+        "color8": "#827260",
+        "color9": "#5E431E",
+        "color10": "#6F471B",
+        "color11": "#5C4224",
+        "color12": "#6F4C25",
+        "color13": "#895419",
+        "color14": "#A7711F",
+        "color15": "#baa48a"
+    }
+}

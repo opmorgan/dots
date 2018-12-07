@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/blue/elena-prokofyeva-17909-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#123c47",
+        "foreground": "#bfd2df",
+        "cursor": "#bfd2df"
+    },
+    "colors": {
+        "color0": "#123c47",
+        "color1": "#0787AF",
+        "color2": "#5F95A4",
+        "color3": "#0F8DCE",
+        "color4": "#69A9CF",
+        "color5": "#7BC2E7",
+        "color6": "#99B3B4",
+        "color7": "#bfd2df",
+        "color8": "#85939c",
+        "color9": "#0787AF",
+        "color10": "#5F95A4",
+        "color11": "#0F8DCE",
+        "color12": "#69A9CF",
+        "color13": "#7BC2E7",
+        "color14": "#99B3B4",
+        "color15": "#bfd2df"
+    }
+}

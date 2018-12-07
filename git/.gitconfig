@@ -1,0 +1,9 @@
+[user]
+	name = Owen Morgan
+	email = owen.morgan95@gmail.com
+[core]
+	editor = nvim
+[color]
+	ui = auto
+[alias]
+	glog = log --oneline --graph

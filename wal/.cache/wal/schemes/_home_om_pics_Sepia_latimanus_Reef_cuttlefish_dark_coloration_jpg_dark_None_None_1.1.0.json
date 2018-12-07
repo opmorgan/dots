@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/Sepia_latimanus_Reef_cuttlefish_dark_coloration.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080906",
+        "foreground": "#c3bdaf",
+        "cursor": "#c3bdaf"
+    },
+    "colors": {
+        "color0": "#080906",
+        "color1": "#62532E",
+        "color2": "#6E524F",
+        "color3": "#635D59",
+        "color4": "#8D4240",
+        "color5": "#956467",
+        "color6": "#6F994D",
+        "color7": "#c3bdaf",
+        "color8": "#88847a",
+        "color9": "#62532E",
+        "color10": "#6E524F",
+        "color11": "#635D59",
+        "color12": "#8D4240",
+        "color13": "#956467",
+        "color14": "#6F994D",
+        "color15": "#c3bdaf"
+    }
+}

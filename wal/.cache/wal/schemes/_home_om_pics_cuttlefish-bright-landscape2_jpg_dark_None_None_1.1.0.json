@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/cuttlefish-bright-landscape2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100703",
+        "foreground": "#cca689",
+        "cursor": "#cca689"
+    },
+    "colors": {
+        "color0": "#100703",
+        "color1": "#714711",
+        "color2": "#764629",
+        "color3": "#744E4B",
+        "color4": "#92391E",
+        "color5": "#8E4C15",
+        "color6": "#904D2A",
+        "color7": "#cca689",
+        "color8": "#8e745f",
+        "color9": "#714711",
+        "color10": "#764629",
+        "color11": "#744E4B",
+        "color12": "#92391E",
+        "color13": "#8E4C15",
+        "color14": "#904D2A",
+        "color15": "#cca689"
+    }
+}

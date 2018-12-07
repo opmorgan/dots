@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/paintings/denis_psyche.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#2d2324",
+        "foreground": "#cac2bb",
+        "cursor": "#cac2bb"
+    },
+    "colors": {
+        "color0": "#2d2324",
+        "color1": "#8C8274",
+        "color2": "#A08D68",
+        "color3": "#B58B6D",
+        "color4": "#C9916B",
+        "color5": "#D2B272",
+        "color6": "#E1C37D",
+        "color7": "#cac2bb",
+        "color8": "#8d8782",
+        "color9": "#8C8274",
+        "color10": "#A08D68",
+        "color11": "#B58B6D",
+        "color12": "#C9916B",
+        "color13": "#D2B272",
+        "color14": "#E1C37D",
+        "color15": "#cac2bb"
+    }
+}

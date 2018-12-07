@@ -1,0 +1,21 @@
+Xft.dpi: 190
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+Xcursor.theme: Adwaita
+Xcursor.size: 40 
+
+URxvt.font: xft:Source Code Pro:size=8:minspace=False
+URxvt.scrollBar: false
+URxvt.internalBorder: 70
+URxvt.boldFont:
+URxvt.letterSpace: 1
+
+st.font: Source Code Pro:pixelsize=22
+st.termname: st-256color
+st.borderpx: 70
+st.opacity: 255

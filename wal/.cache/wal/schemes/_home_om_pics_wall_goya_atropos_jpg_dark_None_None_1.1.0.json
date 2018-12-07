@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/goya_atropos.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0b09",
+        "foreground": "#c1bcac",
+        "cursor": "#c1bcac"
+    },
+    "colors": {
+        "color0": "#0b0b09",
+        "color1": "#5F594B",
+        "color2": "#776D4C",
+        "color3": "#88743A",
+        "color4": "#897A4E",
+        "color5": "#857D65",
+        "color6": "#968554",
+        "color7": "#c1bcac",
+        "color8": "#878378",
+        "color9": "#5F594B",
+        "color10": "#776D4C",
+        "color11": "#88743A",
+        "color12": "#897A4E",
+        "color13": "#857D65",
+        "color14": "#968554",
+        "color15": "#c1bcac"
+    }
+}

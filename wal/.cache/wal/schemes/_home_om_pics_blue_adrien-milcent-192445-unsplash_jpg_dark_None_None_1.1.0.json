@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/blue/adrien-milcent-192445-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#02131A",
+        "foreground": "#79c5d9",
+        "cursor": "#79c5d9"
+    },
+    "colors": {
+        "color0": "#02131A",
+        "color1": "#015D83",
+        "color2": "#016A8F",
+        "color3": "#267B9A",
+        "color4": "#017AA5",
+        "color5": "#018BB2",
+        "color6": "#0398B1",
+        "color7": "#79c5d9",
+        "color8": "#548997",
+        "color9": "#015D83",
+        "color10": "#016A8F",
+        "color11": "#267B9A",
+        "color12": "#017AA5",
+        "color13": "#018BB2",
+        "color14": "#0398B1",
+        "color15": "#79c5d9"
+    }
+}

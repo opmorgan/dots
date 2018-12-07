@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/gaudi/stained_glass1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1515",
+        "foreground": "#d9d8d5",
+        "cursor": "#d9d8d5"
+    },
+    "colors": {
+        "color0": "#1c1515",
+        "color1": "#5DE7FD",
+        "color2": "#A59E96",
+        "color3": "#B7B3AE",
+        "color4": "#CCA597",
+        "color5": "#C4BCB9",
+        "color6": "#F4E58D",
+        "color7": "#d9d8d5",
+        "color8": "#979795",
+        "color9": "#5DE7FD",
+        "color10": "#A59E96",
+        "color11": "#B7B3AE",
+        "color12": "#CCA597",
+        "color13": "#C4BCB9",
+        "color14": "#F4E58D",
+        "color15": "#d9d8d5"
+    }
+}

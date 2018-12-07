@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/paintings/kandinsky_comp-8.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c0c",
+        "foreground": "#d5d8d0",
+        "cursor": "#d5d8d0"
+    },
+    "colors": {
+        "color0": "#0c0c0c",
+        "color1": "#7C8988",
+        "color2": "#969C9A",
+        "color3": "#B3B09A",
+        "color4": "#B7B8A9",
+        "color5": "#C8AB91",
+        "color6": "#C3BDA8",
+        "color7": "#d5d8d0",
+        "color8": "#959791",
+        "color9": "#7C8988",
+        "color10": "#969C9A",
+        "color11": "#B3B09A",
+        "color12": "#B7B8A9",
+        "color13": "#C8AB91",
+        "color14": "#C3BDA8",
+        "color15": "#d5d8d0"
+    }
+}

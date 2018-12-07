@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/paintings/denis_wave.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#27232b",
+        "foreground": "#c6b1b9",
+        "cursor": "#c6b1b9"
+    },
+    "colors": {
+        "color0": "#27232b",
+        "color1": "#C3756C",
+        "color2": "#BD9374",
+        "color3": "#D19A72",
+        "color4": "#316C8E",
+        "color5": "#597088",
+        "color6": "#127DC1",
+        "color7": "#c6b1b9",
+        "color8": "#8a7b81",
+        "color9": "#C3756C",
+        "color10": "#BD9374",
+        "color11": "#D19A72",
+        "color12": "#316C8E",
+        "color13": "#597088",
+        "color14": "#127DC1",
+        "color15": "#c6b1b9"
+    }
+}

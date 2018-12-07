@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/om/dev/learning/rust-stuff/projects/option'
+let g:netrw_dirhist_2='/home/om/dev/learning/rust-stuff/projects/option/src'
+let g:netrw_dirhist_3='/home/om/.config/nvim'
+let g:netrw_dirhist_4='/home/om/.config/nvim/plugged'
+let g:netrw_dirhist_5='/home/om/.config/nvim'

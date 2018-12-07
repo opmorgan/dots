@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/paintings/mondrian_red-tree.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0710",
+        "foreground": "#8c96b8",
+        "cursor": "#8c96b8"
+    },
+    "colors": {
+        "color0": "#0D0710",
+        "color1": "#523853",
+        "color2": "#38445A",
+        "color3": "#374773",
+        "color4": "#5F5262",
+        "color5": "#494F73",
+        "color6": "#924344",
+        "color7": "#8c96b8",
+        "color8": "#626980",
+        "color9": "#523853",
+        "color10": "#38445A",
+        "color11": "#374773",
+        "color12": "#5F5262",
+        "color13": "#494F73",
+        "color14": "#924344",
+        "color15": "#8c96b8"
+    }
+}

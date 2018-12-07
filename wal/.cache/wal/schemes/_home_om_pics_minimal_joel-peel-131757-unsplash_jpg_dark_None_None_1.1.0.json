@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/minimal/joel-peel-131757-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a3618",
+        "foreground": "#e4e2e1",
+        "cursor": "#e4e2e1"
+    },
+    "colors": {
+        "color0": "#0a3618",
+        "color1": "#54B890",
+        "color2": "#3EC494",
+        "color3": "#62CB9E",
+        "color4": "#A9AC9B",
+        "color5": "#A7CAAC",
+        "color6": "#CAC7B8",
+        "color7": "#e4e2e1",
+        "color8": "#9f9e9d",
+        "color9": "#54B890",
+        "color10": "#3EC494",
+        "color11": "#62CB9E",
+        "color12": "#A9AC9B",
+        "color13": "#A7CAAC",
+        "color14": "#CAC7B8",
+        "color15": "#e4e2e1"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/cajal.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1e19",
+        "foreground": "#d1cbc1",
+        "cursor": "#d1cbc1"
+    },
+    "colors": {
+        "color0": "#1d1e19",
+        "color1": "#938876",
+        "color2": "#A4947C",
+        "color3": "#C09E7A",
+        "color4": "#6F6C85",
+        "color5": "#7E8187",
+        "color6": "#A39C90",
+        "color7": "#d1cbc1",
+        "color8": "#928e87",
+        "color9": "#938876",
+        "color10": "#A4947C",
+        "color11": "#C09E7A",
+        "color12": "#6F6C85",
+        "color13": "#7E8187",
+        "color14": "#A39C90",
+        "color15": "#d1cbc1"
+    }
+}

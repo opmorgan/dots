@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/minimal/sarah-dorweiler-357715-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c110a",
+        "foreground": "#bfc0a8",
+        "cursor": "#bfc0a8"
+    },
+    "colors": {
+        "color0": "#0c110a",
+        "color1": "#5B6849",
+        "color2": "#6F764E",
+        "color3": "#778339",
+        "color4": "#7C8357",
+        "color5": "#7E8760",
+        "color6": "#86893A",
+        "color7": "#bfc0a8",
+        "color8": "#858675",
+        "color9": "#5B6849",
+        "color10": "#6F764E",
+        "color11": "#778339",
+        "color12": "#7C8357",
+        "color13": "#7E8760",
+        "color14": "#86893A",
+        "color15": "#bfc0a8"
+    }
+}

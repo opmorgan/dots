@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/wall/blue-fog",
+    "alpha": "100",
+    "special": {
+        "background": "#010B32",
+        "foreground": "#bdcbe2",
+        "cursor": "#bdcbe2"
+    },
+    "colors": {
+        "color0": "#010B32",
+        "color1": "#6185BC",
+        "color2": "#5886C7",
+        "color3": "#6F96CC",
+        "color4": "#7DA2D7",
+        "color5": "#7DA1E0",
+        "color6": "#8DA7D7",
+        "color7": "#bdcbe2",
+        "color8": "#848e9e",
+        "color9": "#6185BC",
+        "color10": "#5886C7",
+        "color11": "#6F96CC",
+        "color12": "#7DA2D7",
+        "color13": "#7DA1E0",
+        "color14": "#8DA7D7",
+        "color15": "#bdcbe2"
+    }
+}

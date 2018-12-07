@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/blue/brady-bellini-114681-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#01155E",
+        "foreground": "#adcee5",
+        "cursor": "#adcee5"
+    },
+    "colors": {
+        "color0": "#01155E",
+        "color1": "#026AB3",
+        "color2": "#037CC2",
+        "color3": "#3886BC",
+        "color4": "#0789CA",
+        "color5": "#3196D2",
+        "color6": "#57A5D7",
+        "color7": "#adcee5",
+        "color8": "#7990a0",
+        "color9": "#026AB3",
+        "color10": "#037CC2",
+        "color11": "#3886BC",
+        "color12": "#0789CA",
+        "color13": "#3196D2",
+        "color14": "#57A5D7",
+        "color15": "#adcee5"
+    }
+}

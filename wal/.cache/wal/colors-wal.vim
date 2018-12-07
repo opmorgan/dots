@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/om/pics/wall/denis_psyche.jpg"
+let background = "#2d2324"
+let foreground = "#cac2bb"
+let cursor     = "#cac2bb"
+
+" Colors
+let color0  = "#2d2324"
+let color1  = "#8C8274"
+let color2  = "#A08D68"
+let color3  = "#B58B6D"
+let color4  = "#C9916B"
+let color5  = "#D2B272"
+let color6  = "#E1C37D"
+let color7  = "#cac2bb"
+let color8  = "#8d8782"
+let color9  = "#8C8274"
+let color10 = "#A08D68"
+let color11 = "#B58B6D"
+let color12 = "#C9916B"
+let color13 = "#D2B272"
+let color14 = "#E1C37D"
+let color15 = "#cac2bb"

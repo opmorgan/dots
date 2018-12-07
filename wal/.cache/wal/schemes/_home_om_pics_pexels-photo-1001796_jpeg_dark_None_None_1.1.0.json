@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/pexels-photo-1001796.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#011011",
+        "foreground": "#bfcba0",
+        "cursor": "#bfcba0"
+    },
+    "colors": {
+        "color0": "#011011",
+        "color1": "#02304E",
+        "color2": "#04504E",
+        "color3": "#056E50",
+        "color4": "#0B6769",
+        "color5": "#139364",
+        "color6": "#469E57",
+        "color7": "#bfcba0",
+        "color8": "#858e70",
+        "color9": "#02304E",
+        "color10": "#04504E",
+        "color11": "#056E50",
+        "color12": "#0B6769",
+        "color13": "#139364",
+        "color14": "#469E57",
+        "color15": "#bfcba0"
+    }
+}

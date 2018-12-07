@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/paintings/cezanne_gulf.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090706",
+        "foreground": "#c7ccc5",
+        "cursor": "#c7ccc5"
+    },
+    "colors": {
+        "color0": "#090706",
+        "color1": "#CEB064",
+        "color2": "#6A7A8A",
+        "color3": "#807F86",
+        "color4": "#788994",
+        "color5": "#7C929D",
+        "color6": "#889297",
+        "color7": "#c7ccc5",
+        "color8": "#8b8e89",
+        "color9": "#CEB064",
+        "color10": "#6A7A8A",
+        "color11": "#807F86",
+        "color12": "#788994",
+        "color13": "#7C929D",
+        "color14": "#889297",
+        "color15": "#c7ccc5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/origami/pomeranian.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#161312",
+        "foreground": "#cec1bd",
+        "cursor": "#cec1bd"
+    },
+    "colors": {
+        "color0": "#161312",
+        "color1": "#9C7062",
+        "color2": "#AB7967",
+        "color3": "#9F8276",
+        "color4": "#B48773",
+        "color5": "#C49373",
+        "color6": "#8D7E81",
+        "color7": "#cec1bd",
+        "color8": "#908784",
+        "color9": "#9C7062",
+        "color10": "#AB7967",
+        "color11": "#9F8276",
+        "color12": "#B48773",
+        "color13": "#C49373",
+        "color14": "#8D7E81",
+        "color15": "#cec1bd"
+    }
+}

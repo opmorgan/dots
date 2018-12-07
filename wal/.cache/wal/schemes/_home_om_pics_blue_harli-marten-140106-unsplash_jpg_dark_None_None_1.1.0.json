@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/pics/blue/harli-marten-140106-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1431",
+        "foreground": "#bfd2da",
+        "cursor": "#bfd2da"
+    },
+    "colors": {
+        "color0": "#0d1431",
+        "color1": "#B098A7",
+        "color2": "#D4A0A0",
+        "color3": "#EDB2A8",
+        "color4": "#BCC1BD",
+        "color5": "#D1C7B9",
+        "color6": "#EFCDB6",
+        "color7": "#bfd2da",
+        "color8": "#859398",
+        "color9": "#B098A7",
+        "color10": "#D4A0A0",
+        "color11": "#EDB2A8",
+        "color12": "#BCC1BD",
+        "color13": "#D1C7B9",
+        "color14": "#EFCDB6",
+        "color15": "#bfd2da"
+    }
+}
