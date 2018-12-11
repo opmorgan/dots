@@ -8,7 +8,7 @@ export GDK_SCALE=2
 export GDK_DPI_SCALE=0.5
 export GDK_OVERLAY_SCROLLING=true
 
-wal -i ~/pics/wall/denis_psyche.jpg -o ~/bin/wal_set.sh ~/bin/bat_not.sh
+wal -i ~/pics/wall/denis_psyche.jpg -o ~/bin/wal_set.sh 
 
 xsetroot -cursor_name left_ptr
 
@@ -18,6 +18,7 @@ urxvt &
 xbindkeys &  
 compton --config ~/.compton.conf &
 ~/.config/polybar/launch.sh &
-~/scripts/set_v4l2.sh &
+~/bin/set_v4l2.sh &
+~/bin/bat_not.sh &
 dunst &
 exec bspwm
