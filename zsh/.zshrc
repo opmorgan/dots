@@ -23,3 +23,4 @@ PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_
 
 # set aliases
 alias lsa='ls -a'
+alias tp='trash-put'

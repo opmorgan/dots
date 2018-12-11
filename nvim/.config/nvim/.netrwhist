@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/om/dots/dunst/.config/dunst'
-let g:netrw_dirhist_2='/home/om/.ipython'
-let g:netrw_dirhist_3='/home/om/.ipython/profile_default'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/om'
+let g:netrw_dirhist_2='/home/om/dots/nvim'
+let g:netrw_dirhist_3='/home/om/dots/nvim/.config'
+let g:netrw_dirhist_4='/home/om/dots/nvim/.config/nvim'
+let g:netrw_dirhist_5='/home/om/dev/learning/plot_python'
+let g:netrw_dirhist_6='/home/om/dots/zsh'
