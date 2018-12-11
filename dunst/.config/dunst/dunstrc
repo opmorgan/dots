@@ -33,7 +33,7 @@
     # top right corner:
     # geometry = "450-100+0"
     # top left corner:
-    geometry = "510+100+0"
+    geometry = "480+100+0"
     # attached to right bar
     # geometry = "510-1950+0"
     # top right corner float:
@@ -44,7 +44,7 @@
 
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
-    shrink = yes
+    shrink = no
 
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
@@ -132,11 +132,13 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>%s</b>\n%b"
+    format = "%s"
+    #format = "  %s   |   <i>%b</i>"
+
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
-    alignment = left
+    alignment = center
 
     # Show age of message if message is older than show_age_threshold
     # seconds.
@@ -169,10 +171,10 @@
     icon_position = left
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 32
+    max_icon_size = 94
 
     # Paths to default icons.
-    icon_path = /home/om/.icons/Paper/scalable
+    icon_path = /home/om/.icons/Paper/scalable/status/:/home/om/.icons/Paper/scalable/devices/:/usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
 
     ### History ###
 

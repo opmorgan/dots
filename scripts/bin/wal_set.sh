@@ -13,8 +13,7 @@ reload_dunst() {
         -bf "${color7:-#000000}" \
         -cf "${color7:-#000000}" \
         -nf "${color7:-#000000}" \
-        -frame_color "${color3:-#000000}"\
-        -format "%I  <b>%s</b>   |   %b" &
+        -frame_color "${color3:-#000000}" &
 }
 
 reload_mpv() {
