@@ -1,0 +1,8 @@
+[Unit]
+Description=battery level daemon
+
+[Service]
+Environment="DISPLAY=:0" "XAUTHORITY=/home/om/.Xauthority"
+ExecStart=/home/om/scripts/bat_not.sh
+
+[Install]

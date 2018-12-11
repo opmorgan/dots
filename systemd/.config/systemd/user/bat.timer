@@ -1,0 +1,8 @@
+[Unit]
+Description=probe battery level
+
+[Timer]
+OnUniActiveSec=45sec
+
+[Install]
+WantedBy=timers.target
