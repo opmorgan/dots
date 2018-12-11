@@ -1,8 +1,5 @@
 [Unit]
-Description=battery level daemon
+Description=battery check daemon
 
 [Service]
-Environment="DISPLAY=:0" "XAUTHORITY=/home/om/.Xauthority"
-ExecStart=/home/om/scripts/bat_not.sh
-
-[Install]
+ExecStart=/home/om/.config/systemd/user/bat.sh

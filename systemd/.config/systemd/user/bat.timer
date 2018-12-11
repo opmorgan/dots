@@ -1,8 +1,10 @@
 [Unit]
-Description=probe battery level
+Description=battery check timer
 
 [Timer]
-OnUniActiveSec=45sec
+OnBootSec=30sec
+OnUnitActiveSec=30sec
+AccuracySec=29sec
 
 [Install]
 WantedBy=timers.target

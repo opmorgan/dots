@@ -19,6 +19,5 @@ xbindkeys &
 compton --config ~/.compton.conf &
 ~/.config/polybar/launch.sh &
 ~/bin/set_v4l2.sh &
-~/bin/bat_not.sh &
 dunst &
 exec bspwm
