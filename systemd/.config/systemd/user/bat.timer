@@ -4,7 +4,7 @@ Description=battery check timer
 [Timer]
 OnBootSec=30sec
 OnUnitActiveSec=30sec
-AccuracySec=29sec
+AccuracySec=2sec
 
 [Install]
 WantedBy=timers.target

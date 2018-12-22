@@ -38,7 +38,7 @@ set noruler
 set list
 set tabstop=2 shiftwidth=2 expandtab
 set autoindent
-"set clipboard=unnamedplus
+set clipboard=unnamedplus
 set hidden
 set mouse=a
 set number

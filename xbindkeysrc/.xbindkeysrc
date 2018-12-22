@@ -1,12 +1,12 @@
-"amixer set Master 5%+"
+"amixer set Master 5%+; bash /home/om/bin/vol_not.sh up"
     m:0x0 + c:123
     XF86AudioRaiseVolume
 
-"amixer set Master 5%-"
+"amixer set Master 5%-; bash /home/om/bin/vol_not.sh down"
     m:0x0 + c:122
     XF86AudioLowerVolume
 
-"amixer set Master toggle"
+"amixer set Master toggle; bash /home/om/bin/vol_not.sh mute"
     m:0x0 + c:121
     XF86AudioMute
 
