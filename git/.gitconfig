@@ -3,6 +3,7 @@
 	email = owen.morgan95@gmail.com
 [core]
 	editor = nvim
+	excludesfile = ~/.gitignore_global
 [color]
 	ui = auto
 [alias]

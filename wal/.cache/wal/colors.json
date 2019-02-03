@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/home/om/media/pics/wall/denis_psyche.jpg",
+    "wallpaper": "/home/om/media/pics/wall/cat.jpg",
     "alpha": "100",
 
     "special": {
-        "background": "#272124",
-        "foreground": "#cac2bb",
-        "cursor": "#cac2bb"
+        "background": "#070F0D",
+        "foreground": "#b1bcbd",
+        "cursor": "#b1bcbd"
     },
     "colors": {
-        "color0": "#272124",
-        "color1": "#848471",
-        "color2": "#A18D66",
-        "color3": "#B58A6E",
-        "color4": "#C9926A",
-        "color5": "#D2B271",
-        "color6": "#E1C37C",
-        "color7": "#cac2bb",
-        "color8": "#8d8782",
-        "color9": "#848471",
-        "color10": "#A18D66",
-        "color11": "#B58A6E",
-        "color12": "#C9926A",
-        "color13": "#D2B271",
-        "color14": "#E1C37C",
-        "color15": "#cac2bb"
+        "color0": "#070F0D",
+        "color1": "#394747",
+        "color2": "#4C524E",
+        "color3": "#616D69",
+        "color4": "#AF592F",
+        "color5": "#77837B",
+        "color6": "#8B857A",
+        "color7": "#b1bcbd",
+        "color8": "#7b8384",
+        "color9": "#394747",
+        "color10": "#4C524E",
+        "color11": "#616D69",
+        "color12": "#AF592F",
+        "color13": "#77837B",
+        "color14": "#8B857A",
+        "color15": "#b1bcbd"
     }
 }

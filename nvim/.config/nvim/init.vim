@@ -47,8 +47,9 @@ nnoremap <C-N> :bnext<CR>
 nnoremap <C-P> :bprev<CR>
 
 autocmd BufEnter * silent! lcd %:p:h
+autocmd InsertEnter,InsertLeave * set cul!
 
-hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+hi CursorLine   cterm=NONE ctermbg=black ctermfg=NONE
 hi VertSplit	cterm=NONE ctermbg=NONE ctermfg=NONE
 hi TabLineFill cterm=none ctermfg=cyan  ctermbg=none
 hi TabLine     cterm=none ctermfg=cyan ctermbg=none

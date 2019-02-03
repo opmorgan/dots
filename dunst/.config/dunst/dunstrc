@@ -174,7 +174,7 @@
     max_icon_size = 94
 
     # Paths to default icons.
-    icon_path = /home/om/.icons/Paper/scalable/status/:/home/om/.icons/Paper/scalable/devices/:/usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
+    icon_path = /home/om/.icons/Paper/scalable/status/:/home/om/.icons/Paper/scalable/devices/
 
     ### History ###
 
@@ -294,9 +294,20 @@
 # NOTE: It might be helpful to run dunst -print in a terminal in order
 # to find fitting options for rules.
 [volume]
-    #appname = volume                                                  #history_ignore = yes                                                         
+    #appname = volume
+    history_ignore = yes
     set_stack_tag = "volume" 
+    timeout = 1
 
+[brightness]
+    history_ignore = yes
+    set_stack_tag = "brightness"
+    timeout = 1
+
+[key_brightness]
+    history_ignore = yes
+    set_stack_tag = "key_brightness"
+    timeout = 1
 
 #[espeak]
 #    summary = "*"

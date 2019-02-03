@@ -394,3 +394,12 @@ echo #hello
 #hello
 cargo
 fish
+fish
+ls
+preferences
+settings
+testes
+jh.edu
+fish
+testes
+fish

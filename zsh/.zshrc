@@ -10,6 +10,8 @@ source ~/.cache/wal/colors-tty.sh
 
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+source ~/.profile
+
 
 # Source Prezto.
 #
@@ -18,9 +20,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 echo "om@mira"
-PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/om/bin/art:/home/om/.cargo/bin
+#PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/om/bin/art:/home/om/.cargo/bin
 
 
-# set aliases
-alias lsa='ls -a'
-alias tp='trash-put'

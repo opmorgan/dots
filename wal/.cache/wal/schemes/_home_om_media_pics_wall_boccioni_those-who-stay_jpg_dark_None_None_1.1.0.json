@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/media/pics/wall/boccioni_those-who-stay.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#10100d",
+        "foreground": "#a3a8a3",
+        "cursor": "#a3a8a3"
+    },
+    "colors": {
+        "color0": "#10100d",
+        "color1": "#39433C",
+        "color2": "#44453C",
+        "color3": "#645A3C",
+        "color4": "#3C4844",
+        "color5": "#3D4D62",
+        "color6": "#49524B",
+        "color7": "#a3a8a3",
+        "color8": "#727572",
+        "color9": "#39433C",
+        "color10": "#44453C",
+        "color11": "#645A3C",
+        "color12": "#3C4844",
+        "color13": "#3D4D62",
+        "color14": "#49524B",
+        "color15": "#a3a8a3"
+    }
+}
