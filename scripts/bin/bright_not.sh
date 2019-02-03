@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# This script will display backlight brightness notifications.
 # You can call this script like this:
 # $./bright_not.sh up
 # $./bright_not.sh down

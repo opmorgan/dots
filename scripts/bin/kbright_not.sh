@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# This script will display keyboard brightness notifications.
 # You can call this script like this:
 # $./kbright_not.sh up
 # $./kbright_not.sh down
