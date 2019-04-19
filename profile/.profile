@@ -11,3 +11,4 @@ alias lsa='ls -a'
 alias lla="ll -a"
 alias tp='trash-put'
 alias R='R --quiet --no-save'
+source /usr/share/nvm/init-nvm.sh

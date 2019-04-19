@@ -6,7 +6,7 @@ sxhkd &
 
 bspc monitor -d alpha beta gamma delta epsilon 
 
-bspc config border_width 3
+bspc config border_width 12 #3
 bspc config window_gap 75
 bspc config top_padding 95
 bspc config bottom_padding 40

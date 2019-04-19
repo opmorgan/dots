@@ -9,6 +9,8 @@ Plug 'tpope/vim-vinegar'
 "Plug 'hail2u/vim-css3-syntax'
 "Plug 'leafgarland/typescript-vim'
 Plug 'w0rp/ale'
+Plug 'posva/vim-vue'
+Plug 'jalvesaq/Nvim-R'
 "Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html', 'vue'] }
 call plug#end()
 

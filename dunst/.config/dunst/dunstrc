@@ -256,7 +256,7 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#222222"
     foreground = "#888888"
-    timeout = 5
+    timeout = 7
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
@@ -308,6 +308,13 @@
     history_ignore = yes
     set_stack_tag = "key_brightness"
     timeout = 1
+
+[spotify]
+    appname = Spotify
+    #summary = *twitter.com*
+    set_stack_tag = "spotify"
+    urgency = normal
+    timeout = 5
 
 #[espeak]
 #    summary = "*"
