@@ -33,11 +33,13 @@
     # top right corner:
     # geometry = "450-100+0"
     # top left corner:
-    geometry = "480+100+0"
+    # geometry = "480+100+0"
     # attached to right bar
     # geometry = "510-1950+0"
     # top right corner float:
     # geometry = "480+102+37"
+    # top left corner float
+    geometry = "450+100+45"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -54,7 +56,7 @@
     # The height of the entire notification.  If the height is smaller
     # than the font height and padding combined, it will be raised
     # to the font height and padding.
-    notification_height = 51
+    notification_height = 86
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -62,7 +64,7 @@
     separator_height = 2
 
     # Padding between text and separator.
-    padding = 8
+    padding = 21
 
     # Horizontal padding.
     horizontal_padding = 12
@@ -93,7 +95,7 @@
 
     ### Text ###
 
-    font = Source Sans Pro 9
+    font = Source Sans Pro Light 9
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
     line_height = 0
@@ -171,7 +173,7 @@
     icon_position = left
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 94
+    max_icon_size = 40
 
     # Paths to default icons.
     icon_path = /home/om/.icons/Paper/scalable/status/:/home/om/.icons/Paper/scalable/devices/

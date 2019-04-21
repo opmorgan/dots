@@ -1,7 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/om/dev/homepage/client/src/components'
-let g:netrw_dirhist_2='/home/om/.config/polybar'
-let g:netrw_dirhist_3='/home/om/dots/R/.config'
-let g:netrw_dirhist_4='/home/om/dots/R/.config/r'
-let g:netrw_dirhist_5='/home/om/temp'
+let g:netrw_dirhist_cnt =0

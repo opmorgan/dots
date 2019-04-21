@@ -403,3 +403,19 @@ jh.edu
 fish
 testes
 fish
+cd
+ls
+cd lab
+ls
+git pull git@gitlab.com:opmorgan/ttt-analysis.git
+git clone git@gitlab.com:opmorgan/ttt-analysis.git
+ls
+cd ttt-analysis/
+ls
+git checkout dev
+git checkout load
+git pull
+fish
+ls
+cd r
+zsh

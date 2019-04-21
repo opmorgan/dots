@@ -4,11 +4,11 @@ sxhkd &
 . "${HOME}/.cache/wal/colors.sh"
 
 
-bspc monitor -d alpha beta gamma delta epsilon 
+bspc monitor -d alpha beta gamma delta 
 
 bspc config border_width 12 #3
 bspc config window_gap 75
-bspc config top_padding 95
+bspc config top_padding 175
 bspc config bottom_padding 40
 bspc config left_padding	25
 bspc config right_padding	25
