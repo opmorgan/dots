@@ -28,13 +28,13 @@ white-alpha = #8CFFFFFF
 [bar/bar1]
 monitor = ${env:MONITOR:eDP-1}
 width = 1820
-height = 85
+height = 90
 offset-x = 640
-offset-y = 50
+offset-y = 45
 fixed-center = true
 
 background = ${colors.bg-trans-medium}
-foreground = ${colors.foreground}
+foreground = ${colors.white-alpha}
 
 line-size = 3
 line-color = #f00
@@ -54,8 +54,8 @@ font-1 = Font Awesome 5 Free:style=Regular:pixelsize=15;3
 font-2 = Font Awesome 5 Free:style=Solid:pixelsize=15;3
 font-3 = Font Awesome 5 Brands:pixelsize=15;3
 
-modules-left = bspwm music 
-modules-center = 
+modules-left = bspwm musicinfo playstatus
+modules-center = xwindow 
 modules-right = battery date
 
 tray-position = right
@@ -76,11 +76,13 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 label = %date% %time%
-label-foreground = ${colors.foreground} 
-label-background = ${colors.background}
+label-foreground = ${colors.background} 
+label-background = ${colors.foreground}
 label-padding = 6
 
 [module/battery]
+label-charging-foreground = ${colors.white-alpha} 
+label-discharging-foreground = ${colors.white-alpha} 
 type = internal/battery
 battery = BAT0
 adapter = ADP1
@@ -94,16 +96,16 @@ format-discharging = <label-discharging>
 # format-discharging = <ramp-capacity> <label-discharging>
 # format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = ""
-format-full-prefix-foreground = ${colors.foreground-alt}
+#format-full-prefix = ""
+#format-full-prefix-foreground = ${colors.foreground-alt}
 # format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = ""
-ramp-capacity-1 = ""
-ramp-capacity-2 = ""
-ramp-capacity-3 = ""
-ramp-capacity-4 = ""
-ramp-capacity-foreground = ${colors.foreground-alt}
+#ramp-capacity-0 = ""
+#ramp-capacity-1 = ""
+#ramp-capacity-2 = ""
+#ramp-capacity-3 = ""
+#ramp-capacity-4 = ""
+#ramp-capacity-foreground = ${colors.foreground-alt}
 
 #animation-charging-0 = ""
 #animation-charging-1 = ""
@@ -120,17 +122,26 @@ ramp-capacity-foreground = ${colors.foreground-alt}
 #label-full-margin-left = 2.5
 #label-full-margin-right = 0
 
-[module/music]
+[module/musicinfo]
+label-foreground = ${colors.white-alpha} 
 type = custom/script
-exec = if [[ "$(playerctl status)" = "Playing" ]]; then playerctl metadata mpris:artUrL; playerctl metadata xesam:artist; echo -n "     "; else playerctl metadata xesam:artist; echo -n "     "; fi
+exec = if [[ "$(playerctl status)" = "Playing" ]]; then playerctl metadata mpris:artUrL; playerctl metadata xesam:artist; else playerctl metadata xesam:artist; fi
+exec-if = [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]] && echo "0"
+interval = .2
+format = <label>
+
+[module/playstatus]
+label-foreground = ${colors.white-alpha} 
+type = custom/script
+exec = if [[ "$(playerctl status)" = "Playing" ]]; then echo -n "(playing)"; else echo -n "(paused)"; fi
 exec-if = [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]] && echo "0"
 interval = .2
 format = <label>
 
 
 [module/bspwm]
-ws-icon-0 = alpha;
-ws-icon-1 = beta;
+ws-icon-0 = alpha;
+ws-icon-1 = beta;
 ws-icon-2 = gamma;
 ws-icon-3 = delta;
 ws-icon-default = 
@@ -139,8 +150,8 @@ ws-icon-default = 
 type = internal/bspwm
 
 label-focused = %icon%
-label-focused-foreground = ${colors.white-alpha}
-label-focused-background = ${colors.primary}
+label-focused-foreground = ${colors.background}
+label-focused-background = ${colors.foreground}
 #label-focused-underline= ${colors.background}
 label-focused-padding = 7
 
@@ -156,3 +167,11 @@ label-urgent-padding = 7
 label-empty = %icon%
 label-empty-foreground = ${colors.white-alpha}
 label-empty-padding = 7
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:50:...%
+label-maxlen = 100 
+format-background = ${colors.foreground}
+format-foreground = ${colors.background}
+format-padding = 4
