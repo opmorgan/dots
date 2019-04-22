@@ -419,3 +419,6 @@ fish
 ls
 cd r
 zsh
+git pull
+git stash
+git pull
