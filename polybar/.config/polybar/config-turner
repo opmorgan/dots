@@ -89,7 +89,7 @@ label-discharging-foreground = ${colors.white-alpha}
 type = internal/battery
 battery = BAT0
 adapter = ADP1
-full-at = 101
+full-at = 99
 
 format-charging = <label-charging>
 # format-charging = <ramp-capacity> <label-charging>
