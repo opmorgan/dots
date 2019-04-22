@@ -67,7 +67,7 @@
     padding = 21
 
     # Horizontal padding.
-    horizontal_padding = 12
+    horizontal_padding = 21
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
@@ -173,7 +173,7 @@
     icon_position = left
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 40
+    max_icon_size = 120
 
     # Paths to default icons.
     icon_path = /home/om/.icons/Paper/scalable/status/:/home/om/.icons/Paper/scalable/devices/

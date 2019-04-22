@@ -1,2 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/om/.config/qt5ct'
+let g:netrw_dirhist_2='/home/om/.config/bspwm'
+let g:netrw_dirhist_3='/home/om/.config/polybar'
+let g:netrw_dirhist_4='/home/om/dots/R/.config'
+let g:netrw_dirhist_5='/home/om/dots/R'
+let g:netrw_dirhist_6='/home/om/dots/R/.config'
+let g:netrw_dirhist_7='/home/om/dots/R/.config/r'
+let g:netrw_dirhist_8='/home/om/.config/polybar'
