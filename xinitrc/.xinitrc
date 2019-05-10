@@ -8,7 +8,7 @@ export GDK_SCALE=2
 export GDK_DPI_SCALE=0.5
 export GDK_OVERLAY_SCROLLING=true
 
-wal -i ~/media/pics/wall/cat.jpg
+wal -R
 
 xsetroot -cursor_name left_ptr
 

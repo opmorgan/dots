@@ -940,3 +940,23 @@ table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .g
 .ace_scroller {
   right: 0 !important;
 }
+
+/* various lettering */
+.rstudio-themes-flat .rstudio-themes-dark .dataGridHeader {
+    color: var(--foreground);
+}
+
+.rstudio-themes-flat .rstudio-themes-dark .GFUMY0GCIU, .rstudio-themes-flat .rstudio-themes-dark .GFUMY0GCPT {
+  color: var(--foreground) !important;
+}
+
+.GFUMY0GCMU {
+    color: var(--foreground) !important;
+    font-family: var(--font-ui-0);
+}
+
+/* checkboxes */
+.rstudio-themes-flat .rstudio-themes-dark input[type="checkbox"] {
+    background: var(--foreground);
+    border-color: var(--foreground);
+}
