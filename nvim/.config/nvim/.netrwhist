@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/om/.config/Code - OSS'
-let g:netrw_dirhist_2='/home/om/.config/Code - OSS/User'
-let g:netrw_dirhist_3='/home/om/.config/polybar'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/om/.config/polybar'
+let g:netrw_dirhist_2='/home/om/.config/wal'
+let g:netrw_dirhist_3='/home/om/.config/wal/templates'
+let g:netrw_dirhist_4='/home/om/.config/wal'
