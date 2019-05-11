@@ -2,7 +2,7 @@
 
 BATTINFO=`acpi -b`
 if [[ `echo $BATTINFO | grep Discharging` && `echo $BATTINFO | cut -f 5 -d " "` < 00:30:00 && `echo $BATTINFO | cut -f 5 -d " "` > 00:25:01 ]]; then 
-    DISPLAY=:0 /usr/bin/notify-send "Battery test:  testing notification service" -i "battery-empty-symbolic" -u normal
+    DISPLAY=:0 /usr/bin/notify-send "Battery low: 30 minutes to midnight" -i "battery-empty-symbolic" -u normal
 fi
 
 if [[ `echo $BATTINFO | grep Discharging` && `echo $BATTINFO | cut -f 5 -d " "` < 00:20:00 && `echo $BATTINFO | cut -f 5 -d " "` > 00:15:01 ]]; then 

@@ -932,6 +932,12 @@ table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .g
     background: var(--fg-alt-2);
 }
 
+
+.rstudio-themes-flat .rstudio-themes-default .dataGridHeader {
+    background: var(--foreground);
+    border-color: var(--fg-alt-2);
+}
+
 /* remove scrollbars */
 .ace_scrollbar {
     display: none !important;
@@ -955,8 +961,17 @@ table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .g
     font-family: var(--font-ui-0);
 }
 
+.GFUMY0GCGI {
+    color: var(--color2) !important;
+}
+
+.breadcrumb table.GFUMY0GCJJ a {
+    color: var(--color2) !important;
+}
+
 /* checkboxes */
-.rstudio-themes-flat .rstudio-themes-dark input[type="checkbox"] {
-    background: var(--foreground);
-    border-color: var(--foreground);
+
+.rstudio-themes-flat input[type="checkbox"] {
+    border: 0px; 
+    background: var(--fg-alt);
 }

@@ -61,7 +61,7 @@ modules-right = battery date
 
 tray-position = right
 tray-padding = 2
-tray-background = ${colors.background}
+tray-background = ${colors.bg-trans-medium}
 
 wm-restack = bspwm
 

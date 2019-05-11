@@ -1001,3 +1001,8 @@ table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .g
     background: var(--foreground);
     border-color: var(--foreground);
 }
+
+.rstudio-themes-flat input[type="checkbox"] {
+    border: 0px 
+    background: var(--foreground);
+}
