@@ -26,10 +26,10 @@ alert = ${xrdb:color3:#222}
 white-alpha = #8CFFFFFF
 
 [bar/bar1]
-monitor = ${env:MONITOR:eDP-1}
-width = 1820
+monitor = ${env:MONITOR:}
+width = 71%
 height = 90
-offset-x = 640
+offset-x = 25%
 offset-y = 45
 fixed-center = false
 

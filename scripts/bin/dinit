@@ -1,0 +1,21 @@
+#! /bin/bash
+
+echo "test!!!"
+
+nohup xrandr --auto &
+
+for arg in "$@"
+do
+  echo "entered loop"
+  echo "$arg"
+  if [ "$arg" == "--ojjo" ] || [ "$arg" == "-o" ]
+  then
+    echo "Initializing ojjo display configuration..."
+    /bin/bash /home/om/.screenlayout/ojjo_setup.sh
+    wal -R -q 
+    nohup /bin/bash /home/om/bin/polyset.sh &
+  else
+    echo "entered elif"
+  fi
+done
+

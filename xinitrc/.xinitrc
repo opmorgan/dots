@@ -18,7 +18,8 @@ urxvt &
 xbindkeys &  
 compton --config ~/.compton.conf &
 ~/.config/polybar/launch.sh &
-~/bin/set_v4l2.sh &
-~/bin/wal_set.sh &
+polyset.sh &
+set_v4l2.sh &
+wal_set.sh &
 dunst &
 exec bspwm

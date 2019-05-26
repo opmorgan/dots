@@ -957,7 +957,7 @@ table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .g
 }
 
 .GFUMY0GCMU {
-    color: var(--foreground) !important;
+    color: var(--background) !important;
     font-family: var(--font-ui-0);
 }
 
@@ -972,6 +972,21 @@ table.rstheme_tabLayoutCenter, .rstudio-themes-flat .rstudio-themes-dark-grey .g
 /* checkboxes */
 
 .rstudio-themes-flat input[type="checkbox"] {
-    border: 0px; 
-    background: var(--fg-alt);
+    border: 1px !important; 
+    background: var(--fg-alt) !imortant;
+}
+
+/* dialog boxes */
+.rstudio-themes-flat .gwt-DialogBox .dialogMiddleCenter {
+  color: var(--background) !important;
+  background: var(--foreground) !important;
+}
+
+.rstudio-themes-flat .gwt-DialogBox .dialogMiddleCenter {
+    background: black;
+}
+
+.GFUMY0GCGK {
+    background-color: var(--fg-alt);
+    border: 0px solid var(--bg-alt);
 }
