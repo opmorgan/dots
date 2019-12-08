@@ -1,4 +1,4 @@
-rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
 rofi.combi-modi: drun,window
 rofi.font: Source Sans Pro 18
-rofi.modi: drun
+rofi.modi: drun,combi,window
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi

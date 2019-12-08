@@ -32,6 +32,7 @@ autocmd FileType javascript nnoremap <silent> <buffer> gb :TernDef<CR>
 syntax enable
 
 set noswapfile
+set nobackup
 "set nowrap
 set laststatus=0
 set noshowmode
@@ -40,7 +41,7 @@ set noruler
 set list
 set tabstop=2 shiftwidth=2 expandtab
 set autoindent
-set clipboard=unnamedplus
+set clipboard=unnamed
 set hidden
 set mouse=a
 set number
