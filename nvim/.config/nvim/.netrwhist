@@ -1,5 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/om/dev/proj/crawlrs'
-let g:netrw_dirhist_2='/home/om/dev/proj/crawlrs/src'
-let g:netrw_dirhist_3='/home/om/.config/sxhkd'
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/om/.themes/active/openbox-3'
+let g:netrw_dirhist_3='/home/om/.themes/active'
+let g:netrw_dirhist_2='/home/om/.themes'
+let g:netrw_dirhist_1='/home/om'
+let g:netrw_dirhist_0='/home/om/.themes'
+let g:netrw_dirhist_9='/home/om/.themes/active'
+let g:netrw_dirhist_8='/home/om/.themes/active/openbox-3'
+let g:netrw_dirhist_7='/home/om/.themes/active'
+let g:netrw_dirhist_6='/home/om/.themes'
+let g:netrw_dirhist_5='/home/om'
