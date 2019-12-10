@@ -7,4 +7,7 @@ wal -R
 unclutter --timeout 1 &
 urxvt & 
 sxhkd &
+xbindkeys & 
+wal_set.sh &
+dunst &
 exec openbox

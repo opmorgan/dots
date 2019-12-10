@@ -1,12 +1,12 @@
-"amixer set Master 5%+; bash /home/om/bin/vol_not.sh up"
+"amixer set Master 5%+; bash /home/om/scripts/vol_not.sh up"
     m:0x0 + c:123
     XF86AudioRaiseVolume
 
-"amixer set Master 5%-; bash /home/om/bin/vol_not.sh down"
+"amixer set Master 5%-; bash /home/om/scripts/vol_not.sh down"
     m:0x0 + c:122
     XF86AudioLowerVolume
 
-"amixer set Master toggle; bash /home/om/bin/vol_not.sh mute"
+"pactl set-sink-mute 0 toggle; bash /home/om/scripts/vol_not.sh mute"
     m:0x0 + c:121
     XF86AudioMute
 
@@ -20,19 +20,12 @@
     XF86AudioPrev
 
 
-"xbacklight -inc 5; bash /home/om/bin/bright_not.sh up"
+"xbacklight -inc 5; bash /home/om/scripts/bright_not.sh up"
     m:0x0 + c:233
     XF86MonBrightnessUp
 
-"xbacklight -dec 5; bash /home/om/bin/bright_not.sh down"
+"xbacklight -dec 5; bash /home/om/scripts/bright_not.sh down"
     m:0x0 + c:232
     XF86MonBrightnessDown
 
-"xbacklight -ctrl smc::kbd_backlight -inc 5; bash /home/om/bin/kbright_not.sh up"
-    m:0x0 + c:238
-    XF86KbdBrightnessUp
-
-"xbacklight -ctrl smc::kbd_backlight -dec 5; bash /home/om/bin/kbright_not.sh down"
-    m:0x0 + c:237
-    XF86KbdBrightnessDown
 
