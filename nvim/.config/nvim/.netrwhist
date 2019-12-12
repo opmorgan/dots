@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/om/.config/dunst'
+let g:netrw_dirhist_0='/home/om/dots/scripts/scripts'
 let g:netrw_dirhist_9='/etc/X11/xorg.conf.d'
 let g:netrw_dirhist_8='/etc/X11'
 let g:netrw_dirhist_7='/etc/X11/xorg.conf.d'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_5='/etc/X11/xorg.conf.d'
 let g:netrw_dirhist_4='/sys/class/backlight/intel_backlight'
 let g:netrw_dirhist_3='/sys/class/backlight'
 let g:netrw_dirhist_2='/home/om'
-let g:netrw_dirhist_1='/home/om/dots/Xresources'
-let g:netrw_dirhist_0='/home/om/dots/xinitrc'
