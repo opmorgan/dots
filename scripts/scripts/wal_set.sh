@@ -3,18 +3,25 @@
 # source wal colors
 . "${HOME}/.cache/wal/colors.sh"
 
+#reload_dunst() {
+#    pkill dunst
+#    dunst \
+#        -lb "${color0:-#FFFFFF}" \
+#        -nb "${color0:-#FFFFFF}" \
+#        -cb "${color0:-#FFFFFF}" \
+#        -lf "${color7:-#000000}" \
+#        -bf "${color7:-#000000}" \
+#        -cf "${color7:-#000000}" \
+#        -nf "${color7:-#000000}" \
+#        -frame_color "${color7:-#000000}" &
+#}
+
 reload_dunst() {
-    pkill dunst
-    dunst \
-        -lb "${color0:-#FFFFFF}" \
-        -nb "${color0:-#FFFFFF}" \
-        -cb "${color0:-#FFFFFF}" \
-        -lf "${color7:-#000000}" \
-        -bf "${color7:-#000000}" \
-        -cf "${color7:-#000000}" \
-        -nf "${color7:-#000000}" \
-        -frame_color "${color7:-#000000}" &
+  sed -i "/    frame_color =/c\    frame_color = \"${foreground}\"" ~/.config/dunst/dunstrc
+  sed -i "/    background =/c\    background = \"${background}\"" ~/.config/dunst/dunstrc
+  sed -i "/    foreground =/c\    foreground = \"${foreground}\"" ~/.config/dunst/dunstrc
 }
+
 
 
 reload_openbox() {

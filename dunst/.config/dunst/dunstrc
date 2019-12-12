@@ -1,5 +1,4 @@
 [global]
-    ### THIS IS A TEST!!!!!
     ### Display ###
 
     # Which monitor should the notifications be displayed on.
@@ -40,7 +39,7 @@
     # geometry = "480+102+37"
     # top left corner float
     # geometry = "450+100+45"
-    # bottommiddle
+    # bottom middle
     geometry = "370+775-45"
 
     # Show how many messages are currently hidden (because of geometry).
@@ -76,7 +75,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#aaaaaa"
+    frame_color = "#7B7061"
 
     # Define a color for the separator.
     # possible values are:
@@ -178,8 +177,8 @@
     max_icon_size = 120
 
     # Paths to default icons.
-   # icon_path = /home/om/.icons/Paper/scalable/status/:/home/om/.icons/Paper/scalable/devices/
-
+    icon_path = /home/om/.icons/material-design-icons/av/drawable-anydpi-v21
+    
     ### History ###
 
     # Should a notification popped up from history be sticky or timeout
@@ -258,23 +257,23 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#222222"
-    foreground = "#888888"
+    background = "#fcfcfb"
+    foreground = "#7B7061"
     timeout = 7
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#285577"
-    foreground = "#ffffff"
+    background = "#fcfcfb"
+    foreground = "#7B7061"
     timeout = 7
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
-    frame_color = "#ff0000"
+    background = "#fcfcfb"
+    foreground = "#7B7061"
+    frame_color = "#7B7061"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
     #icon = /path/to/icon
@@ -315,7 +314,6 @@
 
 [spotify]
     appname = Spotify
-    #summary = *twitter.com*
     set_stack_tag = "spotify"
     urgency = normal
     timeout = 5
