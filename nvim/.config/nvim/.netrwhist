@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/etc/fonts/conf.d'
+let g:netrw_dirhist_4='/etc/fonts'
 let g:netrw_dirhist_3='/home/om/dots/dunst/.config/dunst'
 let g:netrw_dirhist_2='/home/om/dots/xinitrc'
 let g:netrw_dirhist_1='/home/om/dots'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_9='/home/om/dots/dunst/.config'
 let g:netrw_dirhist_8='/home/om/dots/dunst/.config/dunst'
 let g:netrw_dirhist_7='/home/om/dots/dunst/.config'
 let g:netrw_dirhist_6='/home/om/dots/dunst'
-let g:netrw_dirhist_5='/home/om/dots'
-let g:netrw_dirhist_4='/home/om/dots/dunst'
