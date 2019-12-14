@@ -1,21 +1,22 @@
-#! /bin/bash
-
-echo "test!!!"
-
-nohup xrandr --auto &
-
+#!/bin/bash
+center=false
 for arg in "$@"
 do
-  echo "entered loop"
-  echo "$arg"
-  if [ "$arg" == "--ojjo" ] || [ "$arg" == "-o" ]
+  if [ "$arg" == "home" ] || [ "$arg" == "h" ]
   then
-    echo "Initializing ojjo display configuration..."
-    /bin/bash /home/om/.screenlayout/ojjo_setup.sh
-    wal -R -q 
-    nohup /bin/bash /home/om/bin/polyset.sh &
-  else
-    echo "entered elif"
+    echo "Initializing home config..."
+    /bin/bash /home/om/.screenlayout/drt1.sh 
+  elif [ "$arg" == "--center" ] || [ "$arg" == "-c" ]
+  then
+    center=true
   fi
 done
-
+echo "Initializing ricey goodness..."
+if [ "$center" = true ]
+then
+  wllppr center &
+else
+  wllppr &
+fi
+nohup wal -R -n &
+exec nohup polyset.sh &

@@ -1,5 +1,7 @@
 xrdb ~/.Xresources
 
+xrandr --auto
+
 xsetroot -cursor_name left_ptr
 
 wal -R
@@ -10,4 +12,6 @@ sxhkd &
 xbindkeys & 
 wal_set.sh &
 dunst &
-exec openbox
+picom &
+polyset.sh &
+exec 2bwm

@@ -1,0 +1,22 @@
+#! /bin/bash
+source ~/.xmode
+echo wallpaper
+for arg in "$@"
+do
+    if [ "$arg" == "center" ] || [ "$arg" == "c" ]
+    then
+      echo "Setting wallpaper to center: "
+      echo $wallpaper
+      feh --bg-center $wallpaper
+    else
+      echo "Invalid argument. The only availble argument is: "
+      echo "    \"center\""
+    fi
+done
+if [ $# -eq 0 ]
+then
+    echo "Setting wallpaper: "
+    echo $wallpaper
+    feh --bg-fill $wallpaper
+fi
+

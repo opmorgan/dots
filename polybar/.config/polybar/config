@@ -12,11 +12,14 @@
 
 [colors]
 background = ${xrdb:color0:#222}
+foreground = ${xrdb:color7:#222}
+black = #323232
+bg-trans = #00000000
+
 background-alt = ${xrdb:color1:#222}
 bg-trans-light = #aa1c2225
 bg-trans-medium = #dd1c2225
 bg-trans-dark = #ee1c2225
-foreground = ${xrdb:color7:#222}
 foreground-alt = ${xrdb:color7:#222}
 primary = ${xrdb:color2:#222}
 secondary = ${xrdb:color4:#222}
@@ -27,14 +30,15 @@ white-alpha = #8CFFFFFF
 
 [bar/bar1]
 monitor = ${env:MONITOR:}
-width = 71%
-height = 90
-offset-x = 25%
-offset-y = 45
-fixed-center = false
+width = 100%
+height = 60
+offset-x = 0%
+offset-y = 0%
+; offset-y = 1015
+fixed-center = true
 
-background = ${colors.bg-trans-medium}
-foreground = ${colors.white-alpha}
+background = ${colors.bg-trans}
+foreground = ${colors.black}
 
 line-size = 3
 line-color = #f00
@@ -43,27 +47,25 @@ border-size = 0
 border-color = #00000000
 radius = 0.0
 
-padding-left = 0 
+padding-left = 5 
 padding-right = 0
 
-module-margin-left = 3
-module-margin-right = 3
+module-margin-left = 0
+module-margin-right = 0
 
-font-0 = Source Sans Pro:style=Light:pixelsize=18;1
-font-1 = Material Icons:style=Regular:pixelsize=20;5
-font-2 = Font Awesome 5 Free:style=Regular:pixelsize=15;3
-font-3 = Font Awesome 5 Free:style=Solid:pixelsize=15;3
-font-4 = Font Awesome 5 Brands:pixelsize=15;3
+font-0 = Source Code Pro:style=Light:pixelsize=12;1
+font-1 = Material Icons:style=Regular:pixelsize=12;2
+font-2 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
+font-3 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
+font-4 = Font Awesome 5 Brands:pixelsize=10;3
 
-modules-left = bspwm musicinfo playstatus
-modules-center = xwindow
-modules-right = battery date
+modules-left = battery 
+modules-center = playstatus musicinfo 
+modules-right = date
 
 tray-position = right
 tray-padding = 2
-tray-background = ${colors.bg-trans-medium}
-
-wm-restack = openbox
+tray-background = ${colors.bg-trans}
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -79,98 +81,38 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 label = %date% %time%
-label-foreground = ${colors.background} 
-label-background = ${colors.foreground}
+; label-foreground = ${colors.foreground} 
+; label-background = ${colors.bg-trans}
 label-padding = 6
 
 [module/battery]
-label-charging-foreground = ${colors.white-alpha} 
-label-discharging-foreground = ${colors.white-alpha} 
 type = internal/battery
 battery = BAT0
 adapter = ADP1
 full-at = 99
 
 format-charging = <label-charging>
-# format-charging = <ramp-capacity> <label-charging>
+format-discharging = <label-discharging>
 
-format-discharging = <ramp-capacity> <label-discharging>
-# format-discharging = <ramp-capacity> <label-discharging>
+format-charging-prefix = "↑"
+format-discharging-prefix = "↓"
 
-format-full-prefix = ""
-format-full-prefix-foreground = ${colors.white-alpha}
-format-charging-prefix = ""
-
-ramp-capacity-0 = ""
-ramp-capacity-1 = ""
-ramp-capacity-2 = ""
-ramp-capacity-3 = ""
-ramp-capacity-4 = ""
-
-animation-charging-0 = ""
-animation-charging-1 = ""
-animation-charging-2 = ""
-animation-charging-3 = ""
-animation-charging-4 = ""
-animation-charging-framerate = 750
-
-label-charging-margin-left = 4
-label-discharging-margin-left = 4
-label-full-margin-left = 4
-label-charging-margin-right = 0
-label-discharging-margin-right = 0
-label-full-margin-right = 0
+label-charging-margin-left = 1
+label-discharging-margin-left = 1
 
 [module/musicinfo]
-label-foreground = ${colors.white-alpha} 
 type = custom/script
 exec = if [[ "$(playerctl status)" = "Playing" ]]; then playerctl metadata mpris:artUrL; playerctl metadata xesam:artist; else playerctl metadata xesam:artist; fi
 exec-if = [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]] && echo "0"
 interval = .1
 format = <label>
+label-margin-left = .5
 
 [module/playstatus]
-label-foreground = ${colors.white-alpha} 
 type = custom/script
-exec = if [[ "$(playerctl status)" = "Playing" ]]; then echo -n ""; else echo -n ""; fi
+exec = if [[ "$(playerctl status)" = "Playing" ]]; then echo -n ""; else echo -n ""; fi
 exec-if = [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]] && echo "0"
 interval = .1
 format = <label>
+label-margin-right = 1
 
-
-[module/bspwm]
-ws-icon-0 = alpha;%{T3}%{T-}
-ws-icon-1 = beta;%{T2}%{T-}
-ws-icon-2 = gamma;%{T2}%{T-}
-ws-icon-3 = delta;%{T2}%{T-}
-ws-icon-default = %{T2}􏿽%{T-}
-#ws-icon-default = *
-
-type = internal/bspwm
-
-label-focused = %icon%
-label-focused-foreground = ${colors.background}
-label-focused-background = ${colors.foreground}
-#label-focused-underline= ${colors.background}
-label-focused-padding = 7
-
-label-occupied = %icon%
-label-occupied-padding = 7
-label-occupied-background = ${colors.background}
-label-occupied-foreground = ${colors.white-alpha}
-
-label-urgent = %icon%
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 7
-
-label-empty = %icon%
-label-empty-foreground = ${colors.white-alpha}
-label-empty-padding = 7
-
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:50:...%
-label-maxlen = 100 
-format-background = ${colors.foreground}
-format-foreground = ${colors.background}
-format-padding = 4

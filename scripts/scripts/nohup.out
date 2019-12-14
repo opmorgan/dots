@@ -1,0 +1,43 @@
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+polybar|error: tray: Failed to put tray above 0x2200001 in the stack (XCB_MATCH (8))
+polybar|warn:  Systray selection already managed (window=0x1200005)
+polybar|warn:  Termination signal received, shutting down...
+polybar|error: tray: Failed to put tray above 0x2200001 in the stack (XCB_MATCH (8))
+polybar|warn:  Systray selection already managed (window=0x1200005)
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+polybar|warn:  Termination signal received, shutting down...
+polybar|error: tray: Failed to put tray above 0x3400001 in the stack (XCB_MATCH (8))
+polybar|warn:  Systray selection already managed (window=0x1200005)
+polybar|warn:  Termination signal received, shutting down...
+polybar|error: tray: Failed to put tray above 0x2200001 in the stack (XCB_MATCH (8))
+polybar|error: tray: Failed to put tray above 0x3400001 in the stack (XCB_MATCH (8))
+polybar|warn:  Systray selection already managed (window=0x2200005)
+polybar|warn:  Termination signal received, shutting down...
+polybar|warn:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+polybar|error: tray: Failed to put tray above 0x1600001 in the stack (XCB_MATCH (8))
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+polybar|warn:  Termination signal received, shutting down...
+polybar|error: tray: Failed to put tray above 0x1200001 in the stack (XCB_MATCH (8))
+polybar|warn:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
