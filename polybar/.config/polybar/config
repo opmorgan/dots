@@ -31,7 +31,7 @@ white-alpha = #8CFFFFFF
 [bar/bar1]
 monitor = ${env:MONITOR:}
 width = 100%
-height = 60
+height = 80
 offset-x = 0%
 offset-y = 0%
 ; offset-y = 1015
