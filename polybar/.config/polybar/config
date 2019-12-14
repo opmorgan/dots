@@ -97,11 +97,11 @@ format-full = <label-full>
 
 format-charging-prefix = "↑"
 format-discharging-prefix = "↓"
-format-full-prefix = ""
+format-full-prefix = "↑"
 
 label-charging-margin-left = 1
 label-discharging-margin-left = 1
-label-full-prefix = 1
+label-full-margin-left = 1
 
 [module/musicinfo]
 type = custom/script
