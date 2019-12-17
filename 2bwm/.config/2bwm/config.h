@@ -154,7 +154,7 @@ static key keys[] = {
     // Raise or lower a window
     {  MOD ,              XK_r,          raiseorlower,      {}},
     // Next/Previous workspace
-e   {  MOD ,              XK_v,          nextworkspace,     {}},
+    {  MOD ,              XK_v,          nextworkspace,     {}},
     {  MOD ,              XK_c,          prevworkspace,     {}},
     // Move to Next/Previous workspace
     {  MOD |SHIFT ,       XK_v,          sendtonextworkspace,{}},

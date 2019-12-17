@@ -3,3 +3,7 @@ Description=battery check daemon
 
 [Service]
 ExecStart=/home/om/.config/systemd/user/bat.sh
+#!/usr/bin/env bash
+
+[Install]
+WantedBy=multi.unit.target

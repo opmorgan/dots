@@ -5,7 +5,7 @@ do
   if [ "$arg" == "home" ] || [ "$arg" == "h" ]
   then
     echo "Initializing home config..."
-    /bin/bash /home/om/.screenlayout/drt1.sh 
+    /bin/bash /home/om/.screenlayout/origami-table.sh 
   elif [ "$arg" == "--center" ] || [ "$arg" == "-c" ]
   then
     center=true

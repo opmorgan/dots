@@ -1,0 +1,9 @@
+[Unit]
+Description=delete Downloads, Desktop folders from home directory
+
+[Service]
+ExecStart=/home/om/scripts/systemd/clean_homedir.sh
+#!/bin/bash
+
+[Install]
+WantedBy=multi.unit.target
