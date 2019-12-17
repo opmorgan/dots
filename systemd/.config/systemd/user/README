@@ -1,2 +1,0 @@
-Put *.service files and *.timer files in /etc/systemd/system
-start/enable services with systemctl 
