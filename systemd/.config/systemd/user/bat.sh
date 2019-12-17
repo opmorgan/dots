@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 BATTINFO=`acpi -b`
 if [[ `echo $BATTINFO | grep Discharging` && `echo $BATTINFO | cut -f 5 -d " "` < 01:30:00 && `echo $BATTINFO | cut -f 5 -d " "` > 00:25:01 ]]; then 
     DISPLAY=:0 /usr/bin/notify-send "Battery low: 30 minutes left" -i "/home/om/.icons/material-design-icons/device/drawable-mdpi/ic_battery_alert_black_48dp.png" -u normal

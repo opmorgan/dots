@@ -1,0 +1,10 @@
+[Unit]
+Description=home directory cleanup timer (for delting Downloads, Desktop folders)
+
+[Timer]
+OnBootSec=30sec
+OnUnitActiveSec=30sec
+AccuracySec=2sec
+
+[Install]
+WantedBy=timers.target

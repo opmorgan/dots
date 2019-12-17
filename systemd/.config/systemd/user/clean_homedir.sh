@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-rm -rf /home/om/Downloads
-rm -rf /home/om/Desktop
+/usr/bin/trash-put /home/om/Downloads
+/usr/bin/trash-put /home/om/Desktop
