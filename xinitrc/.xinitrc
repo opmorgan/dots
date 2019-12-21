@@ -12,6 +12,7 @@ sxhkd &
 xbindkeys & 
 wal_set.sh &
 dunst &
-picom &
+picom --respect-prop-shadow &
 polyset.sh &
+nm-applet &
 exec 2bwm
