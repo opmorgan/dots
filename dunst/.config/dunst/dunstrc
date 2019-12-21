@@ -40,7 +40,9 @@
     # top left corner float
     # geometry = "450+100+45"
     # bottom middle
-    geometry = "370+775-45"
+    # geometry = "370+775-45"
+    # bottom left corner
+    geometry = "400+45-45"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -174,7 +176,7 @@
     icon_position = left
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 120
+    max_icon_size = 90
  
     # Paths to default icons.
     icon_path = /home/om/.icons/material-design-icons/device/drawable-mdpi/
