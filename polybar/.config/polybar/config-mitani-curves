@@ -47,7 +47,7 @@ border-size = 0
 border-color = #00000000
 radius = 0.0
 
-padding-left = 5 
+padding-left = 4 
 padding-right = 0
 
 module-margin-left = 0
@@ -82,7 +82,7 @@ time-alt = %H:%M:%S
 label = %date% %time%
 ; label-foreground = ${colors.foreground} 
 ; label-background = ${colors.bg-trans}
-label-padding = 6
+label-padding = 4
 
 [module/battery]
 type = internal/battery
