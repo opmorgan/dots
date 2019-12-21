@@ -3,26 +3,11 @@
 # source wal colors
 . "${HOME}/.cache/wal/colors.sh"
 
-#reload_dunst() {
-#    pkill dunst
-#    dunst \
-#        -lb "${color0:-#FFFFFF}" \
-#        -nb "${color0:-#FFFFFF}" \
-#        -cb "${color0:-#FFFFFF}" \
-#        -lf "${color7:-#000000}" \
-#        -bf "${color7:-#000000}" \
-#        -cf "${color7:-#000000}" \
-#        -nf "${color7:-#000000}" \
-#        -frame_color "${color7:-#000000}" &
-#}
-
 reload_dunst() {
   sed -i "/    frame_color =/c\    frame_color = \"${foreground}\"" ~/.config/dunst/dunstrc
   sed -i "/    background =/c\    background = \"${background}\"" ~/.config/dunst/dunstrc
   sed -i "/    foreground =/c\    foreground = \"${foreground}\"" ~/.config/dunst/dunstrc
 }
-
-
 
 reload_openbox() {
   sed -i "/menu.items.bg.color:/c\menu.items.bg.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
@@ -48,7 +33,6 @@ reload_cava(){
   sed -i "/gradient_color_2=/c\gradient_color_2=\"${color4:-#000000}\"" ~/.config/cava/config
 }
 
-
 reload_zathura() {
   sed -i "/set default-bg/c\set default-bg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
   sed -i "/set default-fg/c\set default-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
@@ -64,8 +48,6 @@ reload_zathura() {
   sed -i "/set notification-fg/c\set notification-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
   
 }
-
-  
 
 main() {
     reload_openbox

@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/om/dots/scripts/scripts'
+let g:netrw_dirhist_7='/home/om/.config/2bwm'
 let g:netrw_dirhist_6='/home/om/.config/polybar'
 let g:netrw_dirhist_5='/etc/fonts/conf.d'
 let g:netrw_dirhist_4='/etc/fonts'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_2='/home/om/dots/systemd/.config/systemd/user'
 let g:netrw_dirhist_1='/etc/systemd/system'
 let g:netrw_dirhist_0='/home/om/dots/scripts/scripts'
 let g:netrw_dirhist_9='/etc/systemd/system'
-let g:netrw_dirhist_8='/home/om/dots/scripts/scripts'
-let g:netrw_dirhist_7='/sys/module/snd_hda_intel/parameters'
