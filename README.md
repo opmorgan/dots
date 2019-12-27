@@ -1,1 +1,1 @@
-Install with stow.
+These dotfiles can be deployed quickly with gnu stow. You can clone this repo to your home directory, then [use stow to symlink all or individual config files to their target locations.](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html) 
