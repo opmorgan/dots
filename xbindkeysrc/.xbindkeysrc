@@ -28,8 +28,7 @@
     m:0x0 + c:232
     XF86MonBrightnessDown
 
-""
-    m:0x0 + c:107
-    Print
+"maim ~/pics/shots/$(date +%m-%d-%y_%H%M-%S).png"
+    m:0x0 + c:96
 
 
