@@ -4,7 +4,7 @@ export R_ENVIRON_USER="$HOME/.config/r/.Renviron"
 export TEST1="999899"
 
 # set $PATH
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/om/bin:/home/om/.cargo/bin:/home/om/scripts"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/om/bin:/home/om/.cargo/bin:/home/om/scripts:\$GOPATH:\$GOPATH/bin"
 
 source /usr/share/nvm/init-nvm.sh
 
