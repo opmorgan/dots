@@ -7,10 +7,6 @@
 #
 # Rewritten as shell script simply for speed
 
-GIT_REPO_PATH=`git rev-parse --git-dir 2>/dev/null`
-
-if [[ $GIT_REPO_PATH != '' && $GIT_REPO_PATH != '~' && $GIT_REPO_PATH != "$HOME/.git" ]]; then
-
   GIT_BRANCH=`git symbolic-ref -q HEAD | sed 's/refs\/heads\///'`
   GIT_COMMIT_ID=`git rev-parse --short HEAD 2>/dev/null`
 
@@ -29,4 +25,3 @@ if [[ $GIT_REPO_PATH != '' && $GIT_REPO_PATH != '~' && $GIT_REPO_PATH != "$HOME/
   fi
 
   echo " %{[90m%}$GIT_BRANCH %{[0m%}$GIT_MODE$GIT_DIRTY"
-fi

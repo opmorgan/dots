@@ -1,11 +1,14 @@
 # To install source this file from your .zshrc file
 
 # see documentation at http://linux.die.net/man/1/zshexpn
-# A: finds the absolute path, even if this is symlinked
+
+#A: finds the absolute path, even if this is symlinked
 # h: equivalent to dirname
 export __GIT_PROMPT_DIR=${0:A:h}
 
 export GIT_PROMPT_EXECUTABLE=${GIT_PROMPT_EXECUTABLE:-"python"}
+
+
 
 # Initialize colors.
 autoload -U colors
@@ -104,5 +107,3 @@ ZSH_THEME_GIT_PROMPT_BEHIND="%{↓%G%}"
 ZSH_THEME_GIT_PROMPT_AHEAD="%{↑%G%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{…%G%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}%{✔%G%}"
-
-

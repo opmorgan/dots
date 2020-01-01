@@ -23,6 +23,6 @@ echo "om@monad"
 #RPROMPT='%{$fg[white]%} $(~/scripts/git-cwd-info)%{$reset_color%}'
 
 # show git status using https://github.com/olivierverdier/zsh-git-prompt
-source /home/om/scripts/zshrc.sh
+source /home/om/scripts/zsh-git-prompt.sh
 RPROMPT='$(git_super_status)'
 PS1='%(?..x (%?%) )• '
