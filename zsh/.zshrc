@@ -1,5 +1,3 @@
-setopt EXTENDED_GLOB
-
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.
@@ -12,14 +10,20 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source ~/.profile
 
+setopt EXTENDED_GLOB
+setopt EXTENDED_HISTORY
+setopt HIST_VERIFY
+setopt CORRECT
+setopt CORRECT_ALL
 
-# Source Prezto.
-#
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
+# greeting message
+echo "om@monad"
 
-echo "om@mira"
-#PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/om/bin/art:/home/om/.cargo/bin
-
-
+# set prompt
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+zstyle ':vcs_info:git:*' formats '%c%b'
+RPROMPT='%{$fg[white]%} $(~/scripts/git-cwd-info)%{$reset_color%}'
+PS1='%(?..x (%?%) )• '

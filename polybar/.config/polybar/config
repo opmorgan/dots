@@ -63,9 +63,6 @@ modules-left = battery
 modules-center = playstatus musicinfo 
 modules-right = date
 
-tray-padding = 8
-tray-background = ${colors.bg-trans}
-
 cursor-click = pointer
 cursor-scroll = ns-resize
 
@@ -143,8 +140,8 @@ border-size = 0
 border-color = #00000000
 radius = 0.0
 
-padding-left = 5 
-padding-right = 0
+padding-left = 0 
+padding-right = 2
 
 module-margin-left = 0
 module-margin-right = 0
@@ -152,12 +149,13 @@ module-margin-right = 0
 font-0 = Source Code Pro:style=Regular:pixelsize=12;1
 font-1 = Material Icons:style=Regular:pixelsize=12;2
 
-modules-left =  null
+modules-left =  
 modules-center =  
 modules-right = xwindow 
 
 tray-position = right
-tray-padding = 10
+tray-padding-left = 0
+tray-padding-right = 10
 tray-background = ${colors.bg-trans}
 
 cursor-click = pointer
