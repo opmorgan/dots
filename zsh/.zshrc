@@ -20,10 +20,9 @@ setopt CORRECT_ALL
 echo "om@monad"
 
 # set prompt
-autoload -Uz vcs_info
-precmd_vcs_info() { vcs_info }
-precmd_functions+=( precmd_vcs_info )
-setopt prompt_subst
-zstyle ':vcs_info:git:*' formats '%c%b'
-RPROMPT='%{$fg[white]%} $(~/scripts/git-cwd-info)%{$reset_color%}'
+#RPROMPT='%{$fg[white]%} $(~/scripts/git-cwd-info)%{$reset_color%}'
+
+# show git status using https://github.com/olivierverdier/zsh-git-prompt
+source /home/om/scripts/zshrc.sh
+RPROMPT='$(git_super_status)'
 PS1='%(?..x (%?%) )• '
