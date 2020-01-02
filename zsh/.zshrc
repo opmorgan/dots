@@ -16,6 +16,13 @@ setopt HIST_VERIFY
 setopt CORRECT
 setopt CORRECT_ALL
 
+# set xwindow title to current directory
+case $TERM in
+  xterm*)
+    precmd () {print -Pn "\e]0;%~\a"}
+    ;;
+esac
+
 # greeting message
 echo "om@monad"
 
@@ -26,7 +33,8 @@ setopt prompt_subst
 # RPROMPT='%{$fg[white]%} $(~/scripts/git-cwd-info)%{$reset_color%}'
 
 # show git status using https://github.com/olivierverdier/zsh-git-prompt
-source /home/om/scripts/zsh-git-prompt.sh
+GIT_PROMPT_EXECUTABLE="haskell"
+source /home/om/bin/zsh-git-prompt/zshrc.sh
 RPROMPT='$(git_super_status)'
 
 PS1='%(?..x (%?%) )• '
