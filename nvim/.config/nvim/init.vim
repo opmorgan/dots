@@ -44,6 +44,7 @@ set clipboard=unnamedplus
 set hidden
 set mouse=a
 set number
+set title
 
 nnoremap <C-N> :bnext<CR>
 nnoremap <C-P> :bprev<CR>
