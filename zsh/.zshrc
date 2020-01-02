@@ -18,7 +18,7 @@ setopt CORRECT_ALL
 
 # set xwindow title to current directory
 case $TERM in
-  xterm*)
+  xterm*|urxvt)
     precmd () {print -Pn "\e]0;%~\a"}
     ;;
 esac

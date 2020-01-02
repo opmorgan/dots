@@ -14,8 +14,3 @@ URxvt.scrollBar: false
 URxvt.internalBorder: 50
 URxvt.boldFont:
 URxvt.letterSpace: -1
-
-st.font: Source Code Pro:pixelsize=22
-st.termname: st-256color
-st.borderpx: 70
-st.opacity: 255
