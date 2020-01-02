@@ -1,3 +1,4 @@
+# source path, all aliases from .profile
 source ~/.profile
 
 # Import colorscheme from 'wal' asynchronously
@@ -28,18 +29,9 @@ esac
 # greeting message
 echo "om@monad"
 
-# prompt: show git status using git-cwd-info
-# autoload -U colors
-# setopt prompt_subst
-# RPROMPT='%{$fg[white]%} $(~/scripts/git-cwd-info)%{$reset_color%}'
-
-# prompt: show git status using https://github.com/olivierverdier/zsh-git-prompt
-# GIT_PROMPT_EXECUTABLE="haskell"
-# source /home/om/bin/zsh-git-prompt/zshrc.sh
-# RPROMPT='$(git_super_status)'
-
-# prompt: show git status using github.com/woefe/git-prompt.zsh
+# git prompt: show git status using github.com/woefe/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
 
+# set left prompt
 PS1='%(?..x (%?%) )• '

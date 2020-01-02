@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/om/dots/zsh/.zsh/git-prompt.zsh'
+let g:netrw_dirhist_3='/home/om/dots/zsh/.zsh/git-prompt.zsh/prompts'
 let g:netrw_dirhist_2='/home/om/bin/git-prompt.zsh/examples'
 let g:netrw_dirhist_1='/home/om/dots/nvim'
 let g:netrw_dirhist_0='/home/om/dots/nvim/.config/nvim'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_8='/home/om/dots/nvim/.config/nvim'
 let g:netrw_dirhist_7='/home/om/dots/nvim/.config'
 let g:netrw_dirhist_6='/home/om'
 let g:netrw_dirhist_5='/home/om/scripts'
-let g:netrw_dirhist_4='/home/om'
-let g:netrw_dirhist_3='/home/om/.zprezto'
