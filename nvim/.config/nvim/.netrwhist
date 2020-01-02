@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/om/scripts'
 let g:netrw_dirhist_4='/home/om'
 let g:netrw_dirhist_3='/home/om/.zprezto'
 let g:netrw_dirhist_2='/home/om'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_9='/home/om/dots/vimiv/.config/vimiv'
 let g:netrw_dirhist_8='/home/om/gdrive/.gd'
 let g:netrw_dirhist_7='/home/om/.config/sxhkd'
 let g:netrw_dirhist_6='/home/om'
-let g:netrw_dirhist_5='/home/om/.config'

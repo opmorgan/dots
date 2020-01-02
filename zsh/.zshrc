@@ -18,8 +18,10 @@ setopt CORRECT_ALL
 
 # set xwindow title to current directory
 case $TERM in
-  xterm*|urxvt)
-    precmd () {print -Pn "\e]0;%~\a"}
+  rxvt-unicode-256color)
+    # precmd () {print -Pn "\e]0;Terminal\a"}
+    precmd () {print -Pn "\e]0;urxvt: %~\a"}
+    preexec () {print -Pn "\e]0;$1\a"}
     ;;
 esac
 
