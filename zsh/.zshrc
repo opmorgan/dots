@@ -34,4 +34,4 @@ source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
 
 # set left prompt
-PS1='%(?..x (%?%) )• '
+PROMPT='%(?..x (%?%) )• '
