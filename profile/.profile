@@ -32,6 +32,7 @@ alias lla="ls -la"
 alias tp='trash-put'
 alias R='R --quiet --no-save'
 alias feh='feh --image-bg black -.'
+alias oms='optimus-manager --status'
 # disable sleep on lid close. use time argument, eg "qlid 2h"
 alias qlid='systemd-inhibit --what=handle-lid-switch sleep'
 
