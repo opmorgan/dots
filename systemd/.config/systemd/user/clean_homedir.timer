@@ -2,8 +2,8 @@
 Description=home directory cleanup timer (for delting Downloads, Desktop folders)
 
 [Timer]
-OnBootSec=30sec
-OnUnitActiveSec=30sec
+OnBootSec=10sec
+OnUnitActiveSec=10sec
 AccuracySec=2sec
 
 [Install]

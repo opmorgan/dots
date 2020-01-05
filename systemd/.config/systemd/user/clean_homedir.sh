@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-/usr/bin/trash-put /home/om/Downloads
-/usr/bin/trash-put /home/om/Desktop
+mv $HOME/Downloads/* $HOME/temp/
+mv $HOME/Desktop/* $HOME/temp/
+
+/usr/bin/trash-put $HOME/Downloads
+/usr/bin/trash-put $HOME/Desktop
