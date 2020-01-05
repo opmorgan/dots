@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/om/temp'
 let g:netrw_dirhist_2='/home/om/.local/share/Trash/files'
 let g:netrw_dirhist_1='/home/om/.local/share/Trash/files/git-prompt.zsh_3'
 let g:netrw_dirhist_0='/home/om/.local/share/Trash/files'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_7='/home/om/dots/zsh/.zsh/git-prompt.zsh/prompts'
 let g:netrw_dirhist_6='/home/om/dots/zsh/.zsh/git-prompt.zsh'
 let g:netrw_dirhist_5='/home/om/dots/zsh/.zsh/git-prompt.zsh/prompts'
 let g:netrw_dirhist_4='/home/om/dots/zsh/.zsh/git-prompt.zsh'
-let g:netrw_dirhist_3='/home/om/dots/zsh/.zsh/git-prompt.zsh/prompts'

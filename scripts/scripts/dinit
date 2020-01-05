@@ -6,9 +6,13 @@ do
   then
     echo "Initializing home config..."
     /bin/bash /home/om/.screenlayout/origami-table.sh 
-  elif [ "$arg" == "--center" ] || [ "$arg" == "-c" ]
+  elif [ "$arg" == "--center" ] || [ "$arg" == "c" ]
   then
     center=true
+  elif [ "$arg" == "--joshdesk" ] || [ "$arg" == "j" ]
+  then
+    echo "Initializing josh's desk config..."
+    /bin/bash /home/om/.screenlayout/josh-desk.sh 
   fi
 done
 echo "Initializing ricey goodness..."
