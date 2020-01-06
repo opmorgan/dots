@@ -1,6 +1,5 @@
 super + Return
-    urxvt
-
+    urxvt -e tmux
 
 super + alt + space
     rofi -combi-modi window,drun,run -show combi -modi combi
@@ -9,8 +8,8 @@ super + alt + space
 super + Escape
     pkill -USR1 -x sxhkd
 
-
 # take screenshots with maim
 shift + alt + 4
   maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png
+
 
