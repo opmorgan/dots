@@ -20,8 +20,8 @@ setopt CORRECT_ALL
 
 # set xwindow title to current directory, or executed command
 case $TERM in
-  rxvt-unicode-256color)
-    precmd () {print -Pn "\e]0;urxvt: %~\a"}
+  rxvt-unicode-256color|screen*|tmux*)
+    precmd () {print -Pn "\e]0;zsh: %~\a"}
     preexec () {print -Pn "\e]0;$1\a"}
     ;;
 esac
