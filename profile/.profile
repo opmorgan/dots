@@ -24,6 +24,11 @@ function gpu-intel {
   optimus-manager --switch intel --no-confirm
 }
 
+## if the shell is interactive, tmux exists, and tmux isn't already running, start tmux.
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux new-session -A -s main
+fi
+
 # set aliases
 alias ls='ls --color=auto'
 alias ll='ls -l'
