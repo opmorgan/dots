@@ -85,15 +85,17 @@ label-padding = 4
 type = internal/battery
 battery = BAT0
 adapter = ADP1
-full-at = 98
+full-at = 96
 
 format-charging = <label-charging>
 format-discharging = <label-discharging>
 format-full = <label-full>
+format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
 format-discharging-prefix = "↓"
-format-full-prefix = "↑"
+format-full-prefix = "√"
+format-unknown-prefix = "√"
 
 label-charging-margin-left = 1
 label-discharging-margin-left = 1
