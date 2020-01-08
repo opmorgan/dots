@@ -76,7 +76,7 @@ visualizer.ellipse.character=#
 visualizer.ellipse.radius=2
 
 ## Turns off overriding the user's terminal colors
-# colors.override.terminal=false
+colors.override.terminal=false
 
 #Specifies the color scheme. The color scheme must be in ~/.config/vis/colors/ directory. Default is "colors"
 colors.scheme=white
