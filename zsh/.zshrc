@@ -13,6 +13,7 @@ source ~/.cache/wal/colors-tty.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 setopt EXTENDED_GLOB
+setopt globdots
 setopt EXTENDED_HISTORY
 setopt HIST_VERIFY
 setopt CORRECT
