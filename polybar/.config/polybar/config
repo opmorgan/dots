@@ -60,7 +60,7 @@ font-3 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-4 = Font Awesome 5 Brands:pixelsize=10;3
 
 modules-left = battery
-modules-center = playstatus musicinfo 
+modules-center = xwindow 
 modules-right = date
 
 cursor-click = pointer
@@ -153,7 +153,7 @@ font-1 = Material Icons:style=Regular:pixelsize=12;2
 
 modules-left =  
 modules-center =  
-modules-right = xwindow 
+modules-right = playstatus musicinfo 
 
 tray-position = right
 tray-padding-left = 0
