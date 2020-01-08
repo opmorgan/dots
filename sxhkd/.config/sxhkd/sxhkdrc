@@ -12,4 +12,9 @@ super + Escape
 shift + alt + 4
   maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png
 
+# decrease/increase transparency
+Control + alt + minus
+  picom-trans -c -5
 
+Control + alt + equal
+  picom-trans -c +5
