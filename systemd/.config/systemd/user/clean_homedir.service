@@ -2,8 +2,7 @@
 Description=delete Downloads, Desktop folders from home directory
 
 [Service]
-Type=oneshot
-ExecStart=$HOME/.config/systemd/user/clean_homedir.sh
+ExecStart=/home/om/scripts/clean_homedir.sh
 
 [Install]
 WantedBy=multi.unit.target

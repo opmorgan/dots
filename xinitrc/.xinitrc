@@ -14,5 +14,4 @@ wal_set.sh &
 dunst &
 picom --respect-prop-shadow &
 polyset.sh &
-nm-applet &
 exec 2bwm
