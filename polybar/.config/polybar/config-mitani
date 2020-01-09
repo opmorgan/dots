@@ -47,24 +47,21 @@ border-size = 0
 border-color = #00000000
 radius = 0.0
 
-padding-left = 5 
+padding-left = 4 
 padding-right = 0
 
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Source Code Pro:style=Light:pixelsize=12;1
+font-0 = Source Code Pro:style=Regular:pixelsize=12;1
 font-1 = Material Icons:style=Regular:pixelsize=12;2
 font-2 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
 font-3 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-4 = Font Awesome 5 Brands:pixelsize=10;3
 
 modules-left = battery
-modules-center = playstatus musicinfo 
+modules-center = xwindow 
 modules-right = date
-
-tray-padding = 8
-tray-background = ${colors.bg-trans}
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -82,21 +79,23 @@ time-alt = %H:%M:%S
 label = %date% %time%
 ; label-foreground = ${colors.foreground} 
 ; label-background = ${colors.bg-trans}
-label-padding = 6
+label-padding = 4
 
 [module/battery]
 type = internal/battery
 battery = BAT0
 adapter = ADP1
-full-at = 98
+full-at = 96
 
 format-charging = <label-charging>
 format-discharging = <label-discharging>
 format-full = <label-full>
+format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
 format-discharging-prefix = "↓"
-format-full-prefix = "↑"
+format-full-prefix = "√"
+format-unknown-prefix = "√"
 
 label-charging-margin-left = 1
 label-discharging-margin-left = 1
@@ -134,7 +133,7 @@ offset-y = 1000
 fixed-center = true
 
 background = ${colors.bg-trans}
-foreground = ${colors.black}
+foreground = ${colors.background}
 
 line-size = 3
 line-color = #f00
@@ -143,21 +142,22 @@ border-size = 0
 border-color = #00000000
 radius = 0.0
 
-padding-left = 5 
-padding-right = 0
+padding-left = 0 
+padding-right = 2
 
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Source Code Pro:style=Light:pixelsize=12;1
+font-0 = Source Code Pro:style=Regular:pixelsize=12;1
 font-1 = Material Icons:style=Regular:pixelsize=12;2
 
-modules-left =  null
+modules-left =  
 modules-center =  
-modules-right = xwindow 
+modules-right = playstatus musicinfo 
 
 tray-position = right
-tray-padding = 10
+tray-padding-left = 0
+tray-padding-right = 10
 tray-background = ${colors.bg-trans}
 
 cursor-click = pointer
