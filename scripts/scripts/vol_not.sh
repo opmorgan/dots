@@ -26,19 +26,19 @@ function send_notification {
 case $1 in
     up)
 	if is_mute ; then
-      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_off_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_off_white_24dp.png'
       send_notification
 	else
-      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_up_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_up_white_24dp.png'
 	    send_notification
 	fi
 	;;
     down)
 	if is_mute ; then
-      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_off_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_off_white_24dp.png'
       send_notification
 	else
-      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_down_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_down_white_24dp.png'
 	    send_notification
 	fi
 	;;
@@ -46,10 +46,10 @@ case $1 in
     	# Toggle mute
   echo "mute!!!"
 	if is_mute ; then
-      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_off_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_off_white_24dp.png'
       send_notification
 	else
-      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_up_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_up_white_24dp.png'
 	    send_notification
 	fi
 	;;

@@ -1,7 +1,7 @@
 super + Return
     urxvt -e tmux
 
-super + alt + space
+super + space
     rofi -combi-modi window,drun,run -show combi -modi combi
 
 # make sxhkd reload its configuration files:

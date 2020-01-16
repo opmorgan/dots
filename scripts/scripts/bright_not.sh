@@ -30,11 +30,11 @@ function send_notification {
 
 case $1 in
     up)
-      icon='/home/om/.icons/material-design-icons/image/drawable-hdpi/ic_brightness_7_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/image/drawable-hdpi/ic_brightness_7_white_24dp.png'
       send_notification
 	;;
     down)
-      icon='/home/om/.icons/material-design-icons/image/drawable-hdpi/ic_brightness_5_black_24dp.png'
+      icon='/home/om/.icons/material-design-icons/image/drawable-hdpi/ic_brightness_5_white_24dp.png'
 	  send_notification
 	;;
 esac

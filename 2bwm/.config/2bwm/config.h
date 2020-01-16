@@ -1,4 +1,4 @@
-///---User configurable stuff---///
+///---User configurable stuff---/// 
 ///---Modifiers---///
 #define MOD             XCB_MOD_MASK_4       /* Super/Windows key  or check xmodmap(1) with -pm  defined in /usr/include/xcb/xproto.h */
 ///--Speed---///
@@ -154,11 +154,11 @@ static key keys[] = {
     // Raise or lower a window
     {  MOD ,              XK_r,          raiseorlower,      {}},
     // Next/Previous workspace
-    {  MOD ,              XK_v,          nextworkspace,     {}},
-    {  MOD ,              XK_c,          prevworkspace,     {}},
+    {  MOD |CONTROL,      XK_Left,       nextworkspace,     {}},
+    {  MOD |CONTROL,      XK_Right,      prevworkspace,     {}},
     // Move to Next/Previous workspace
-    {  MOD |SHIFT ,       XK_v,          sendtonextworkspace,{}},
-    {  MOD |SHIFT ,       XK_c,          sendtoprevworkspace,{}},
+    {  MOD |SHIFT|CONTROL ,       XK_Left,          sendtonextworkspace,{}},
+    {  MOD |SHIFT|CONTROL ,       XK_Right,         sendtoprevworkspace,{}},
     // Iconify the window
     {  MOD ,              XK_i,          hide,              {}},
     // Make the window unkillable
