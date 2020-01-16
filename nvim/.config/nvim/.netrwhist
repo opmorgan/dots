@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/om/.config/sxhkd'
 let g:netrw_dirhist_9='/home/om/dots/polybar/.config/polybar'
 let g:netrw_dirhist_8='/home/om/dots/ncspot/.config/ncspot'
 let g:netrw_dirhist_7='/home/om/dots/ncspot/.config'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_4='/home/om/dots/ncspot/.config'
 let g:netrw_dirhist_3='/home/om/dots/ncspot'
 let g:netrw_dirhist_2='/home/om/dots'
 let g:netrw_dirhist_1='/home/om/dots/ncspot'
-let g:netrw_dirhist_0='/home/om/dots/ncspot/.config'

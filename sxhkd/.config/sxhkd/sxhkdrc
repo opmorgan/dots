@@ -9,12 +9,12 @@ super + Escape
     pkill -USR1 -x sxhkd
 
 # take screenshots with maim
-shift + alt + 4
-  maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png
+control + super + alt + o
+  maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
 
 # decrease/increase transparency
-Control + alt + minus
+control + super + alt + k
   picom-trans -c -5
 
-Control + alt + equal
+control + super + alt + j
   picom-trans -c +5
