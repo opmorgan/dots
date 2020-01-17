@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/media/pics/wall/koi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#efeff4",
+        "foreground": "#3e3e3e",
+        "cursor": "#3e3e3e"
+    },
+    "colors": {
+        "color0": "#efeff4",
+        "color1": "#b32530",
+        "color2": "#b68b59",
+        "color3": "#1789a7",
+        "color4": "#7a9ca9",
+        "color5": "#3e3e3e",
+        "color6": "#b32530",
+        "color7": "#b68b59",
+        "color8": "#3e3e3e",
+        "color9": "#b32530",
+        "color10": "#b68b59",
+        "color11": "#1789a7",
+        "color12": "#7a9ca9",
+        "color13": "#3e3e3e",
+        "color14": "#b32530",
+        "color15": "#b68b59"
+    }
+}
