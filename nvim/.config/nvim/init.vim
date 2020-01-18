@@ -2,8 +2,11 @@
 call plug#begin()
 Plug 'dylanaraps/wal.vim'
 Plug 'tpope/vim-vinegar'
+"Plug 'gko/vim-coloresque'
+"Plug 'ap/vim-css-color'
+Plug 'lilydjwg/colorizer'
 "Plug 'terryma/vim-multiple-cursors'
-"Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine'
 "Plug 'kien/ctrlp.vim'
 "Plug 'posva/vim-vue'
 "Plug 'hail2u/vim-css3-syntax'
@@ -16,6 +19,9 @@ call plug#end()
 
 " wal
 colorscheme wal
+
+" colorizer
+let g:colorizer_maxlines = 1000
 
 " ale
 let g:ale_sign_column_always = 1
