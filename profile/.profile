@@ -32,9 +32,9 @@ function gpu-intel {
 
 # set aliases
 alias ls='ls --color=auto'
-alias ll='ls -l'
+alias ll='ls -lh'
 alias lsa='ls -a'
-alias lla="ls -la"
+alias lla="ls -lha"
 alias tp='trash-put'
 alias R='R --quiet --no-save'
 alias feh='feh --image-bg black -.'
