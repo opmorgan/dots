@@ -6,11 +6,11 @@
 # $./vol_not.sh mute
 
 function get_volume {
-    amixer get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1
+  pamixer --get-volume
 }
 
 function is_mute {
-    amixer get Master | grep '%' | grep -oE '[^ ]+$' | grep off > /dev/null
+  pamixer --get-mute
 }
 
 function send_notification {
@@ -34,7 +34,7 @@ case $1 in
 	fi
 	;;
     down)
-	if is_mute ; then
+	if [is_mute == "true"] ; then
       icon='/home/om/.icons/material-design-icons/av/drawable-hdpi/ic_volume_off_black_24dp.png'
       send_notification
 	else
