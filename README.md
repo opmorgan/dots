@@ -3,4 +3,4 @@ These dotfiles can be deployed quickly with stow. You can clone this repo to you
 
 ![Koi-rice](https://github.com/opmorgan/dots/blob/master/.glamour-shots/koi-l.png?raw=true)
 
-Background image: Origami koi folded by Welkin Tan, from [flickr](https://www.flickr.com/photos/142336460@N07/31924963873)
+Background image: Photo and fold by Welkin Tan, from [flickr](https://www.flickr.com/photos/142336460@N07/31924963873), last accessed 2020-01-20 at 16:19.
