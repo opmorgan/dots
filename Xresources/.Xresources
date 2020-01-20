@@ -9,11 +9,23 @@ Xft.rgba: rgb
 Xcursor.theme: Adwaita
 Xcursor.size: 18
 
+!! urxvt
+! default window size
+URxvt*geometry: 60x18
+! disable ctrl + shift
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+! font
 URxvt.font: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+URxvt.boldFont: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+! scrollbar
 URxvt.scrollBar: false
 URxvt.internalBorder: 50
-URxvt.boldFont:
+! cursor
+URxvt.cursorBlink: false
+! style
 URxvt.letterSpace: -1
+! perl plugins
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
