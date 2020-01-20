@@ -2,6 +2,7 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 export R_ENVIRON_USER="$HOME/.config/r/.Renviron"
 export GOPATH="$HOME/.go"
+export QT_QPA_PLATFORMTHEME=gtk2
 
 # set $PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"
