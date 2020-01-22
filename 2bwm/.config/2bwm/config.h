@@ -141,13 +141,13 @@ static key keys[] = {
     // horizontally right
     {  MOD |SHIFT,        XK_n,          maxhalf,           {.i=TWOBWM_MAXHALF_HORIZONTAL_TOP}},
     //fold half vertically
-    {  MOD |SHIFT|CONTROL,XK_y,          maxhalf,           {.i=TWOBWM_MAXHALF_FOLD_VERTICAL}},
+    {  MOD |CONTROL,XK_y,          maxhalf,           {.i=TWOBWM_MAXHALF_FOLD_VERTICAL}},
     //fold half horizontally
-    {  MOD |SHIFT|CONTROL,XK_b,          maxhalf,           {.i=TWOBWM_MAXHALF_FOLD_HORIZONTAL}},
+    {  MOD |CONTROL,XK_b,          maxhalf,           {.i=TWOBWM_MAXHALF_FOLD_HORIZONTAL}},
     //unfold vertically
-    {  MOD |SHIFT|CONTROL,XK_u,          maxhalf,           {.i=TWOBWM_MAXHALF_UNFOLD_VERTICAL}},
+    {  MOD |CONTROL,XK_u,          maxhalf,           {.i=TWOBWM_MAXHALF_UNFOLD_VERTICAL}},
     //unfold horizontally
-    {  MOD |SHIFT|CONTROL,XK_n,          maxhalf,           {.i=TWOBWM_MAXHALF_UNFOLD_HORIZONTAL}},
+    {  MOD |CONTROL,XK_n,          maxhalf,           {.i=TWOBWM_MAXHALF_UNFOLD_HORIZONTAL}},
     // Next/Previous screen
     {  MOD ,              XK_comma,      changescreen,      {.i=TWOBWM_NEXT_SCREEN}},
     {  MOD ,              XK_period,     changescreen,      {.i=TWOBWM_PREVIOUS_SCREEN}},
@@ -157,8 +157,8 @@ static key keys[] = {
     {  MOD |CONTROL,      XK_Left,       nextworkspace,     {}},
     {  MOD |CONTROL,      XK_Right,      prevworkspace,     {}},
     // Move to Next/Previous workspace
-    {  MOD |SHIFT|CONTROL ,       XK_Left,          sendtonextworkspace,{}},
-    {  MOD |SHIFT|CONTROL ,       XK_Right,         sendtoprevworkspace,{}},
+    {  MOD |SHIFT|CONTROL,       XK_Left,          sendtonextworkspace,{}},
+    {  MOD |SHIFT|CONTROL,       XK_Right,         sendtoprevworkspace,{}},
     // Iconify the window
     {  MOD ,              XK_i,          hide,              {}},
     // Make the window unkillable
