@@ -23,7 +23,7 @@ c.statusbar.padding = {'top': 12, 'bottom': 1, 'left': 12, 'right': 12}
 ## tabs
 # behavior
 c.tabs.last_close = 'blank'
-c.tabs.show = 'multiple'
+c.tabs.show = 'always'
 c.tabs.show_switching_delay = 1200
 # style
 c.tabs.favicons.show = 'never'

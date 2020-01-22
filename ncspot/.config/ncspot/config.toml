@@ -1,3 +1,16 @@
 [theme]
-playing = "green"
+background = "black"
+primary = "white"
+secondary = "blue"
+title = "red"
+playing = "black"
+playing_bg = "green"
 highlight = "black"
+highlight_bg = "yellow"
+error = "black"
+error_bg = "red"
+statusbar = "green"
+statusbar_bg = "black"
+cmdline = "blue"
+cmdline_bg = "black"
+
