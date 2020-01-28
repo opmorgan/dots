@@ -6,9 +6,6 @@
 ;   The README contains alot of information
 ;
 ;=====================================================
-; PLAN. bar1: date, battery; top left. 
-; bar2: music, xwindow; centered. 
-; bar3: bspwm, top right.
 
 [colors]
 background = ${xrdb:color0:#222}
@@ -159,10 +156,10 @@ modules-left =
 modules-center = 
 modules-right = playstatus musicinfo
 
-tray-position = right
-tray-padding-left = 0
-tray-padding-right = 0
-tray-background = ${colors.bg-trans}
+;tray-position = right
+;tray-padding-left = 0
+;tray-padding-right = 0
+;tray-background = ${colors.bg-trans}
 
 cursor-click = pointer
 cursor-scroll = ns-resize

@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/om/dots/polybar/.config/polybar'
+let g:netrw_dirhist_5='/home/om/dots/polybar/.config/polybar/archive'
+let g:netrw_dirhist_4='/home/om/scripts'
+let g:netrw_dirhist_3='/home/om/dots/scripts/scripts'
 let g:netrw_dirhist_2='/home/om/bin/qmk_firmware/keyboards/dztech/dz60rgb'
 let g:netrw_dirhist_1='/home/om/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps'
 let g:netrw_dirhist_0='/home/om/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps/opmorgan6'
 let g:netrw_dirhist_9='/home/om/dev/pyglet-encoding-task/v1'
 let g:netrw_dirhist_8='/home/om/dev/pyglet-encoding-task/v1/lib'
 let g:netrw_dirhist_7='/home/om/dev/pyglet-encoding-task/v1'
-let g:netrw_dirhist_6='/home/om/docs/cornell-faculty'
-let g:netrw_dirhist_5='/home/om/dots/qutebrowser/.config/qutebrowser'
-let g:netrw_dirhist_4='/home/om/dots/qutebrowser/.config'
-let g:netrw_dirhist_3='/home/om/dots/qutebrowser'
