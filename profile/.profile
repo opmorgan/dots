@@ -42,4 +42,6 @@ alias feh='feh --image-bg black -.'
 alias oms='optimus-manager --status'
 # disable sleep on lid close. use time argument, eg "qlid 2h"
 alias qlid='systemd-inhibit --what=handle-lid-switch sleep'
+# shortcut to qmk flashing keymap to dz60 keyboard. use a keymap named "custom" in the folder ~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter before flashing.
+alias flash='make dztech/dz60rgb:custom:flash'
 
