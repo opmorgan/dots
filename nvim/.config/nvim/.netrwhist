@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/om/dev/pyglet-encoding-task/results'
+let g:netrw_dirhist_3='/home/om/dev/pyglet-encoding-task'
 let g:netrw_dirhist_2='/home/om/dots/sc-im/.scimrc'
 let g:netrw_dirhist_1='/home/om/dev/py-seqtest/lib'
 let g:netrw_dirhist_0='/home/om/dev/py-seqtest'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_8='/home/om/dots/qmk/bin/qmk_firmware/keyboards/dztech/dz60r
 let g:netrw_dirhist_7='/home/om/dots/qmk/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps'
 let g:netrw_dirhist_6='/home/om/dots/polybar/.config/polybar'
 let g:netrw_dirhist_5='/home/om/dots/polybar/.config/polybar/archive'
-let g:netrw_dirhist_4='/home/om/scripts'
-let g:netrw_dirhist_3='/home/om/dots/scripts/scripts'

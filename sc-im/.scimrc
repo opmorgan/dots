@@ -1,5 +1,7 @@
 set autocalc
-set numeric
+set numeric 1
+set autojus
+set newline_action 0
 set xlsx_readformulas
 color "type=HEADINGS fg=WHITE bg=BLACK"
 color "type=CELL_SELECTION fg=WHITE bg=BLUE"
