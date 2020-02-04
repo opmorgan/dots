@@ -30,9 +30,9 @@ c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 
 # fonts
-c.fonts.monospace = '"Source Code Pro"'
+c.fonts.default_family = '"Source Code Pro"'
+c.fonts.default_size = '10pt'
 c.fonts.tabs = '12pt Avenir'
-c.fonts.statusbar = '10pt monospace'
 
 # downloads
 c.downloads.location.directory = '/home/om/temp/'

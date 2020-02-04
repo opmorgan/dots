@@ -24,7 +24,7 @@ def magic(s):
     s = s.lstrip("#")
     return tuple(int(s[i:i+2], 16) for i in (0, 2 ,4))
 
-wal_colors = list(map(magic, list(pywal.colors.get(wp, False, "wal", os.path.expanduser("~/.cache/wal/keys"), 0.5)["colors"].values())))
+wal_colors = list(map(magic, list(pywal.colors.get(wp, False, "colorz", os.path.expanduser("~/.cache/wal/keys"), 0.5)["colors"].values())))
 
 print("wal colors: {}".format(wal_colors))
 
