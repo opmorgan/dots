@@ -1,0 +1,135 @@
+: 1580916312:0;ls
+: 1580916316:1;nvim .zsh/
+: 1580916413:0;ls
+: 1580916419:4;nvim .zhistory
+: 1580916424:0;ls
+: 1580916428:0;tp .zhistory
+: 1580916428:0;ls
+: 1580916434:0;cd .zsh
+: 1580916435:0;ls
+: 1580916439:0;touch history
+: 1580916441:0;ls
+: 1580916459:6;nvim .zsh/history
+: 1580916637:145;sudo openconnect --juniper https://vpn.jh.edu
+: 1580916790:0;sudo openconnect --juniper https://vpn.jh.edu & disown
+: 1580916795:7;sudo openconnect --juniper https://vpn.jh.edu
+: 1580916803:384;sudo openconnect --juniper https://vpn.jh.edu
+: 1580917481:64;sudo openconnect --juniper https://vpn.jh.edu
+: 1580917547:383;sudo openconnect --juniper https://vpn.jh.edu
+: 1580916885:34;ping google.com
+: 1580916919:3;ping google.com
+: 1580917446:0;cd dev
+: 1580917446:0;ls
+: 1580917448:0;cd pyglet-encoding-task
+: 1580917448:0;ls
+: 1580917451:0;git add -A
+: 1580917459:0;git commit -m "adds stimuli list"
+: 1580917462:6;git push
+: 1580943321:9;ping google.com
+: 1580917262:0;cd .R
+: 1580917263:0;ls
+: 1580917265:13;nvim rstudio
+: 1580917279:4;nvim rstudio
+: 1580917285:23;nvim rstudio
+: 1580917309:0;ls
+: 1580917312:0;cd rstudio
+: 1580917312:0;ls
+: 1580917314:0;cd themes
+: 1580917314:0;ls
+: 1580917318:0;tp colors-rstudio.rstheme
+: 1580917322:0;tp dark.rstheme
+: 1580917322:0;ls
+: 1580943482:159312;htop
+: 1581102794:0;poweroff
+: 1580945639:0;cd temp
+: 1580945642:1;rm *
+: 1580945644:0;ls
+: 1580917120:0;ls
+: 1580917122:0;ls R
+: 1580917124:0;ls
+: 1580917131:0;cd ..
+: 1580917131:0;ls
+: 1580917133:0;cd
+: 1580917133:0;ls
+: 1580917134:0;tp R
+: 1580917341:0;pkill rstudio
+: 1580917359:0;ls
+: 1580917362:0;rm -rf R
+: 1581345104:0;ls
+: 1581345112:0;touch v1/__init__.py
+: 1581345114:0;python v1/randomize/randomize.py
+: 1581345177:0;tp v1/__init__.py
+: 1581345180:0;python v1/randomize/randomize.py
+: 1581345318:0;python v1/randomize/randomize.py
+: 1581345332:0;python v1/randomize/randomize.py
+: 1581345457:0;python v1/randomize/randomize.py
+: 1581345605:0;touch v1/__init__.py
+: 1581345606:0;python v1/randomize/randomize.py
+: 1581345613:0;python v1/randomize/randomize.py
+: 1581345761:0;ls
+: 1581345775:0;mv v1/randomize randomize
+: 1581345776:0;ls
+: 1581345784:0;python randomize/randomize.py
+: 1581345785:0;ls
+: 1581345899:0;python randomize/randomize.py
+: 1581345934:0;python randomize/randomize.py
+: 1581345951:0;python randomize/randomize.py
+: 1581345958:0;python randomize/randomize.py
+: 1581345972:0;python randomize/randomize.py
+: 1581346014:1;python randomize/randomize.py
+: 1581346020:0;git add -A
+: 1581346027:0;git commit -m "load stim list"
+: 1581346028:0;git push
+: 1581346030:0;344521
+: 1581346039:0;tp v1/__init__.py
+: 1581346041:0;git add -A
+: 1581346043:0;git commit -m "load stim list"
+: 1581346047:5;git push -u origin randomize
+: 1581343457:0;oms
+: 1581343684:0;cd dev/pyglet-encoding-task
+: 1581343684:0;ls
+: 1581343687:0;cd resources
+: 1581343687:0;s
+: 1581343688:0;ls
+: 1581343742:0;sc-im stimuli.csv
+: 1581364109:0;htop
+: 1581369299:1;gpu-nvidia
+: 1581369301:0;pkill x
+: 1581369292:0;qlid 6h &
+: 1581369331:0;dinit h
+: 1581369336:0;dinit h
+: 1581369339:1;oms
+: 1581369356:0;oms
+: 1581369358:0;dinit h
+: 1581369378:0;qlid 6h &
+: 1581377998:1699;steam
+: 1581379699:0;steam
+: 1581379710:0;steam
+: 1581379799:0;pkill x
+: 1581379252:0;ls
+: 1581379254:0;cd temp
+: 1581379254:0;ls
+: 1581379259:0;nvim ff_code
+: 1581378139:0;cd /steamapps
+: 1581378263:0;cd .steam
+: 1581378265:0;ks
+: 1581378266:0;ls
+: 1581378529:0;ls
+: 1581378535:0;cd .local/share
+: 1581378535:0;ls
+: 1581378546:0;cd Steam/steamapps/compatdata
+: 1581378548:0;ls
+: 1581378605:0;cd 39210/pfx/drive_c/users/steamuser/My\ Documents/My\ Games/FINAL\ FANTASY\ XIV\ -\ A\ Realm\ Reborn
+: 1581378606:0;ls
+: 1581378610:169;nvim FFXIV_BOOT.cfg
+: 1581378780:0;ls
+: 1581378782:12;nvim FFXIV_BOOT.cfg
+: 1581379787:0;ps aux | grep steam
+: 1581379791:0;pkill steam
+: 1581379792:1;steam
+: 1581467953:1;gpu-nvidia
+: 1581467956:0;pkill x
+: 1581467966:0;dinit h
+: 1581467981:0;dinit h
+: 1581467987:0;oms
+: 1581467993:0;pkill x

@@ -14,10 +14,17 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 setopt EXTENDED_GLOB
 setopt globdots
-setopt EXTENDED_HISTORY
-setopt HIST_VERIFY
 setopt CORRECT
 setopt CORRECT_ALL
+
+# history 
+SAVEHIST=10000
+HISTFILE=~/.zsh/history
+setopt APPEND_HISTORY
+setopt EXTENDED_HISTORY
+setopt HIST_VERIFY
+setopt HIST_REDUCE_BLANKS
+setopt HIST_IGNORE_SPACE
 
 # set xwindow title to current directory, or executed command
 case $TERM in
