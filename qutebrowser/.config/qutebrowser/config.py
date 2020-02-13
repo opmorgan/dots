@@ -20,7 +20,8 @@ c.statusbar.widgets = ['keypress', 'url', 'scroll', 'progress']
 c.statusbar.padding = {'top': 12, 'bottom': 1, 'left': 12, 'right': 12}
 
 # tabs: behavior
-c.tabs.last_close = 'blank'
+c.tabs.last_close = 'close'
+c.tabs.background = True
 c.tabs.show = 'always'
 c.tabs.show_switching_delay = 1200
 # tabs: style
@@ -40,3 +41,15 @@ c.downloads.location.directory = '/home/om/temp/'
 c.downloads.location.suggestion = 'both'
 c.downloads.position = 'bottom'
 c.downloads.remove_finished = 1200
+
+# default page
+c.url.default_page = 'about:blank'
+
+# default search engine
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
+
+# start pages
+c.url.start_pages = 'about:blank'
+
+# xwindow title
+c.window.title_format = '{perc}{current_title} | qb'
