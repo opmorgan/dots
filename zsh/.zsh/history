@@ -311,3 +311,52 @@
 : 1581543625:0;startx
 : 1581543636:0;nqpkillx
 : 1581561299:0;pkill x
+: 1581543687:0;nxim .Xresources
+: 1581543690:22;nvim .Xresources
+: 1581543714:17586;startx
+: 1581561301:0;startx
+: 1581561449:0;acpi
+: 1581561552:0;cd dots
+: 1581561555:1856;nvim qutebrowser/.config/qutebrowser
+: 1581563413:1;git add -A
+: 1581563438:0;git commit -m "tweaks qutebrowser window title, new tab behavior (new tab opens in background)"
+: 1581563441:4;git push
+: 1581563721:749;nvim qutebrowser/.config/qutebrowser
+: 1581564473:0;cd
+: 1581564479:0;cd gdrive/origami-share
+: 1581564480:0;ls
+: 1581564488:7242;zathura Hideo\ Komatsu\ -\ Works\ of\ Hideo\ Komatsu.pdf
+: 1581619608:0;acpi
+: 1581619618:0;acpi
+: 1581642254:0;reboot
+: 1581692961:0;startx
+: 1581693143:0;cd gdrive
+: 1581693143:0;ls
+: 1581693145:0;cd Zotero_files
+: 1581693148:20;drive diff
+: 1581693184:55;drive pull
+: 1581693242:33;drive push
+: 1581693281:18;drive diff
+: 1581693363:0;drive lis
+: 1581693381:2;drive list
+: 1581693386:2;drive list M
+: 1581695022:29;drive diff
+: 1581693565:0;cd temp
+: 1581693565:0;ls
+: 1581693571:0;zathura Michel_et_al-2019-Mind_\&_Language.pdf&
+: 1581693652:0;cd gdrive
+: 1581693653:0;ls
+: 1581693654:0;cd
+: 1581693656:0;cd gdrive
+: 1581693656:0;ls
+: 1581693657:0;cd notes
+: 1581693659:0;cd readings
+: 1581693660:0;ls
+: 1581693661:0;cd notes
+: 1581693661:0;ls
+: 1581693672:4;nvim michel_morales
+: 1581693677:0;ls
+: 1581693681:0;mkdir michel_morales
+: 1581693699:0;nvim michel_morales/minority-reports_2018
+: 1581779964:0;nmcli
+: 1581782261:0;reboot
