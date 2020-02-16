@@ -42,4 +42,6 @@ source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
 
 # set left prompt
-PROMPT='%{$fg[blue]%}%(?..x (%?%) )• %{$reset_color%}%'
+# PROMPT='%{$fg[blue]%}%(?..x (%?%) )• %{$reset_color%}%'
+NEWLINE=$'\n'
+PROMPT='%~${NEWLINE}%{$fg[blue]%}%(?..x (%?%) )• %{$reset_color%}%'
