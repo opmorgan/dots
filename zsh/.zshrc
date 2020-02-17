@@ -26,6 +26,12 @@ setopt HIST_VERIFY
 setopt HIST_REDUCE_BLANKS
 setopt HIST_IGNORE_SPACE
 
+# help for zsh builtins
+unalias run-help
+autoload run-help
+# make it like bash
+alias help=run-help  
+
 # set xwindow title to current directory, or executed command
 case $TERM in
   rxvt-unicode-256color|screen*|tmux*)
