@@ -41,14 +41,13 @@ case $TERM in
 esac
 
 # greeting message
-echo "om@monad"
+echo 'om@monad'
 
 # git prompt: show git status using github.com/woefe/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
 
 # set left prompt
-# PROMPT='%{$fg[blue]%}%(?..x (%?%) )• %{$reset_color%}%'
 NEWLINE=$'\n'
 PROMPT='%{$fg[yellow]%}%~${NEWLINE}%{$fg[blue]%}%(?..x (%?%) )• %{$reset_color%}%'
 
