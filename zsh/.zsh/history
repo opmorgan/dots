@@ -361,3 +361,238 @@
 : 1581779964:0;nmcli
 : 1581782261:0;reboot
 : 1581812806:0;ls
+: 1581810659:0;startx
+: 1581812068:41;nvim .profile
+: 1581812113:0;cd dots
+: 1581812113:0;ls
+: 1581812115:0;git status
+: 1581812122:5;nvim .git
+: 1581812132:6;nvim .gitignore
+: 1581812141:0;git add -A
+: 1581812150:0;git commit -m "added documentation, added history to .gitignore"
+: 1581812151:6;git push
+: 1581812159:0;git status
+: 1581812839:0;git status
+: 1581812846:8;nvim .gitignore
+: 1581812856:5;nvim .gitignore
+: 1581812867:0;git add -A
+: 1581812881:0;git commit -m "added current directory to zsh prompt"
+: 1581812882:5;git push
+: 1581812888:0;zsh
+: 1581812678:0;zsh
+: 1581813146:0;zsh
+: 1581813039:0;cd dots/zsh
+: 1581813041:0;nvim
+: 1581813175:0;zsh
+: 1581812612:0;zsh
+: 1581812576:0;zsh
+: 1581813095:0;zsh
+: 1581813186:0;zsh
+: 1581812473:0;zsh
+: 1581812661:0;zsh
+: 1581813101:0;zsh
+: 1581812801:0;zsh
+: 1581813262:0;ls
+: 1581825783:0;reboot
+: 1581812442:0;zsh
+: 1581812723:30;man zshmisc
+: 1581825779:0;zsh
+: 1581811434:0;ls
+: 1581811435:0;ll
+: 1581811466:0;rm fun-hard
+: 1581811467:0;ll
+: 1581811472:1;rm -i fun
+: 1581811474:0;ll
+: 1581811476:0;ls
+: 1581811494:0;ll
+: 1581811505:1;nvim fun-sym
+: 1581811826:0;rm fun-sym dir1-sym
+: 1581811827:0;ls
+: 1581811831:0;cd ..
+: 1581811831:0;ls
+: 1581811836:0;rm -rv playground
+: 1581811879:0;apropos
+: 1581811948:0;apropos type
+: 1581811965:0;type ls
+: 1581811998:0;type type
+: 1581812011:0;which ls
+: 1581812013:0;which python
+: 1581812015:0;which r
+: 1581812019:0;r
+: 1581812019:0;which r
+: 1581812021:0;r
+: 1581812021:0;which r
+: 1581812024:3;R
+: 1581812028:0;which R
+: 1581812050:0;which R --queiet --no-save
+: 1581812168:0;which ls
+: 1581812174:0;bash
+: 1581813201:0;zsh
+: 1581812554:0;zsh
+: 1581813260:0;zsh
+: 1581812506:0;zsh
+: 1581812223:11;nvim .profile
+: 1581812236:4;nvim .zsh
+: 1581812243:0;ll
+: 1581812245:0;lla
+: 1581812248:9;nvim .zsh
+: 1581812262:0;nvim .zshrc
+: 1581812517:0;zsh
+: 1581812948:0;ls
+: 1581812949:0;cd dots
+: 1581812950:0;ls
+: 1581813076:0;zsh
+: 1581813102:0;ls
+: 1581813114:0;zsh
+: 1581810667:0;cd edu
+: 1581810667:0;ls
+: 1581810669:0;cd bash
+: 1581810670:0;ls
+: 1581810673:0;cd tlcl
+: 1581810674:0;ls
+: 1581810681:0;ll
+: 1581810685:0;file temp
+: 1581810688:0;ls temp
+: 1581810692:1;nvim temp
+: 1581810699:0;zathura TLCL-19.01.pdf&
+: 1581880823:0;cd dev/pyglet-encoding-task/
+: 1581880824:0;ls
+: 1581881027:0;git checkout dev
+: 1581881033:0;git status
+: 1581881035:0;git add -A
+: 1581881039:0;git commit -m "small changes"
+: 1581881040:4;git push
+: 1581881048:0;git checkout dev
+: 1581881050:0;ls
+: 1581881125:0;ls
+: 1581881228:40;nvim requirements.txt
+: 1581881483:0;cd dev/pyglet-encoding-task
+: 1581881483:0;ls
+: 1581881497:0;source venv/bin/activate
+: 1581884366:0;git status
+: 1581884381:0;git checkout entity-manager
+: 1581884386:0;git checkout -b entity-manager
+: 1581884872:0;git add -A
+: 1581883748:0;cd dev
+: 1581883748:0;ls
+: 1581883755:0;cd py-seqtest
+: 1581883755:0;ls
+: 1581883759:0;cd lib
+: 1581883761:0;ls
+: 1581883795:0;nvim entity.py
+: 1581884795:7;htop
+: 1581883799:0;dev
+: 1581883802:0;cd dev/py-seqtest
+: 1581883804:0;code .
+: 1581884141:0;git status
+: 1581884147:0;python main.py
+: 1581884793:0;zsh
+: 1581885303:0;oms
+: 1581885308:0;gpu-nvidia
+: 1581885310:0;pkill x
+: 1581880730:4581;startx
+: 1581885315:1;gpu-switch
+: 1581885319:0;startx
+: 1581885341:0;xrandr
+: 1581885411:0;cd scripts
+: 1581885412:0;ls
+: 1581885413:0;nvim dinit
+: 1581885433:0;dinit
+: 1581885589:0;cd dev/pyglet-encoding-task
+: 1581885590:0;ls
+: 1581885681:0;code .
+: 1581889971:0;ls
+: 1581889972:0;cd ..
+: 1581889973:0;ls
+: 1581889977:0;cd pyglet-encoding-task
+: 1581889978:0;ls
+: 1581890048:0;python v1/main.py
+: 1581890049:0;ls
+: 1581890052:0;ls v1
+: 1581890055:0;ls va/lib
+: 1581890059:0;ls va/lib
+: 1581890062:0;ls v1/lib
+: 1581885475:0;pkill arandr
+: 1581885477:10;arandr
+: 1581888421:0;ls
+: 1581888425:0;ls v1/lib
+: 1581888434:0;git add .
+: 1581888441:0;git commit -m "test"
+: 1581888443:2;git push
+: 1581888617:0;git status
+: 1581888629:0;git status
+: 1581889214:0;git branch -A
+: 1581889217:0;git branch -a
+: 1581889230:0;git checkout entity-manager
+: 1581889231:0;ls
+: 1581889233:0;ls lib
+: 1581889236:0;ls va/lib
+: 1581889239:0;ls v1/lib
+: 1581889396:0;git checkout [200~def compare_layers(e1, e2):
+: 1581889396:0;class EM:
+: 1581889425:0;git checkout 4d496bca96ba75a0ff7904b7326be9b810b83de6
+: 1581889432:5;python v1/main.py
+: 1581889494:0;git status
+: 1581889551:0;git push
+: 1581889589:5;git push origin HEAD:dev
+: 1581889604:5;git push --force origin HEAD:dev
+: 1581889612:0;git status
+: 1581889642:0;ls v1/lib
+: 1581889652:0;git status
+: 1581889686:0;ls
+: 1581889688:0;lsa
+: 1581889692:1;tp .git
+: 1581889695:0;ls
+: 1581889699:0;git status
+: 1581885485:0;dinit
+: 1581891215:0;ls
+: 1581891219:0;cd dev
+: 1581891219:0;ls
+: 1581891221:0;cd py-seqtest
+: 1581891223:0;cd ..
+: 1581891223:0;ls
+: 1581891228:0;cd pyglet-encoding-task
+: 1581891228:0;ls
+: 1581891230:0;cd res
+: 1581891232:0;cd resources
+: 1581891234:0;ls
+: 1581891235:0;lsa
+: 1581891253:0;sc-im stimuli.csv
+: 1581897964:0;reboot
+: 1581890206:0;cd .local/share/Trash
+: 1581890207:0;ls
+: 1581890209:0;cd files
+: 1581890210:0;ls
+: 1581890216:0;ls *git
+: 1581890220:0;lsa *git
+: 1581890295:5;git push --force -u origin master
+: 1581890309:3;python v1/main.py
+: 1581890411:0;ls
+: 1581890416:0;ls results
+: 1581891958:0;ls
+: 1581891960:0;ls resources
+: 1581892000:4;git pull
+: 1581892013:0;git status
+: 1581892025:0;git add -A
+: 1581892037:0;git rm resources/.\~lock.stimuli-2.csv\#
+: 1581892052:0;git commit -m "added stim list"
+: 1581892054:5;git push
+: 1581892323:0;ls
+: 1581892909:14;git pull
+: 1581892928:0;git stash
+: 1581892931:2;git pull
+: 1581892936:0;git status
+: 1581892944:0;git add -A
+: 1581892956:0;git commit -m "added new stim list"
+: 1581892958:4;git push
+: 1581896763:0;ls
+: 1581896766:0;ls resources
+: 1581896782:0;rm resources/encoding_instructions.ods
+: 1581896791:2;git pull
+: 1581896795:0;git add -A
+: 1581896799:1;git status
+: 1581896813:0;git commit -m "added encoding instructions"
+: 1581896815:5;git push
+: 1581897449:11;python v1/main.py
+: 1581897947:9;python v1/main.py
+: 1581898003:0;reboot
