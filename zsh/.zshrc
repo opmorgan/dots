@@ -41,7 +41,7 @@ case $TERM in
 esac
 
 # greeting message
-echo 'om@monad'
+# echo 'om@monad'
 
 # git prompt: show git status using github.com/woefe/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
