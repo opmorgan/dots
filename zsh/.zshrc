@@ -49,7 +49,8 @@ source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
 
 # set left prompt
 NEWLINE=$'\n'
-PROMPT='%{$fg[yellow]%}%~${NEWLINE}%{$fg[blue]%}%(?..x (%?%) )• %{$reset_color%}%'
+#PROMPT='%{$fg[yellow]%}%~${NEWLINE}%{$fg[blue]%}%(?..x (%?%) )• %{$reset_color%}%'
+PROMPT='%{$fg[yellow]%}%(5~|%-1~/…/%3~|%4~)%{$fg[blue]%}%(?..x (%?%) ) • %{$reset_color%}%'
 
 #precmd() {
 #  LEFT="LEFT"
