@@ -19,15 +19,15 @@ Plug 'itchyny/lightline.vim'
 "Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html', 'vue'] }
 call plug#end()
 
-
+" lightline
+" let g:lightline#colorscheme#nord#palette = lightline#colorscheme#flatten(s:p)
+"
+let g:lightline = {
+      \ 'colorscheme': 'koi',
+      \ }
 " wal
 colorscheme wal
 
-" lightline
-" let g:lightline#colorscheme#nord#palette = lightline#colorscheme#flatten(s:p)
-let g:lightline = {
-      \ 'colorscheme': 'Tomorrow',
-      \ }
 
 " colorizer
 let g:colorizer_maxlines = 1000
