@@ -14,11 +14,20 @@ Plug 'lilydjwg/colorizer'
 Plug 'w0rp/ale'
 Plug 'posva/vim-vue'
 Plug 'jalvesaq/Nvim-R'
+Plug 'ajh17/VimCompletesMe'
+Plug 'itchyny/lightline.vim'
 "Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html', 'vue'] }
 call plug#end()
 
+
 " wal
 colorscheme wal
+
+" lightline
+" let g:lightline#colorscheme#nord#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline = {
+      \ 'colorscheme': 'Tomorrow',
+      \ }
 
 " colorizer
 let g:colorizer_maxlines = 1000
@@ -37,9 +46,11 @@ autocmd FileType javascript nnoremap <silent> <buffer> gb :TernDef<CR>
 " vim
 syntax enable
 
+" enable statusbar
+set laststatus=2
+
 set noswapfile
 "set nowrap
-set laststatus=0
 set noshowmode
 set noshowcmd
 set noruler
