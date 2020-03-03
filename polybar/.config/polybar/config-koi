@@ -6,9 +6,6 @@
 ;   The README contains alot of information
 ;
 ;=====================================================
-; PLAN. bar1: date, battery; top left. 
-; bar2: music, xwindow; centered. 
-; bar3: bspwm, top right.
 
 [colors]
 background = ${xrdb:color0:#222}
@@ -104,7 +101,7 @@ label-full-margin-left = 1
 
 [module/musicinfo]
 type = custom/script
-exec = if [[ "$(playerctl status)" = "Playing" ]]; then echo " $(playerctl metadata title | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')  |  $(playerctl metadata album | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')  |  $(playerctl metadata artist | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')"; else playerctl metadata xesam:artist; fi
+exec = if [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]]; then echo " $(playerctl metadata title | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')  |  $(playerctl metadata album | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')  |  $(playerctl metadata artist | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')"; else playerctl metadata xesam:artist; fi
 exec-if = [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]] && echo "0"
 interval = .1
 format = <label>
@@ -159,10 +156,10 @@ modules-left =
 modules-center = 
 modules-right = playstatus musicinfo
 
-tray-position = right
-tray-padding-left = 0
-tray-padding-right = 0
-tray-background = ${colors.bg-trans}
+;tray-position = right
+;tray-padding-left = 0
+;tray-padding-right = 0
+;tray-background = ${colors.bg-trans}
 
 cursor-click = pointer
 cursor-scroll = ns-resize
