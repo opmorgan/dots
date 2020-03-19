@@ -32,6 +32,7 @@ function gpu-intel {
 #fi
 
 # set aliases
+alias sudo='sudo '
 alias ls='ls --color=auto'
 alias ll='ls -lh'
 alias lsa='ls -a'
@@ -40,8 +41,6 @@ alias tp='trash-put'
 alias R='R --quiet --no-save'
 alias feh='feh --image-bg black -.'
 alias oms='optimus-manager --status'
-# disable sleep on lid close. use time argument, eg "qlid 2h"
-alias qlid='systemd-inhibit --what=handle-lid-switch sleep'
 # shortcut to qmk flashing keymap to dz60 keyboard. use a keymap named "custom" in the folder ~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter (or holding escape while plugging in the keyboard)  before flashing. Run this command from bin/qmkfirmware/.
 alias flash='make dztech/dz60rgb:custom:flash'
 
