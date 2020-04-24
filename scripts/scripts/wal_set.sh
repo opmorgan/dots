@@ -48,11 +48,18 @@ reload_zathura() {
   sed -i "/set notification-fg/c\set notification-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
 }
 
+reload_mpv() {
+  sed -i "/sub-color=/c\sub-color=\"${foreground:-#FFFFFF}\"" ~/.config/mpv/mpv.conf
+  sed -i "/sub-border-color=/c\sub-border-color=\"${background:-#FFFFFF}\"" ~/.config/mpv/mpv.conf 
+  sed -i "/sub-shadow-color=/c\sub-shadow-color=\"${background:-#FFFFFF}\"" ~/.config/mpv/mpv.conf 
+}
+
 main() {
     reload_openbox
     reload_dunst
     reload_zathura
     reload_cava
+    reload_mpv
 }
 
 main
