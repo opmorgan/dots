@@ -46,7 +46,8 @@ c.downloads.remove_finished = 1200
 c.url.default_page = 'about:blank'
 
 # default search engine
-c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
+# c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
 
 # start pages
 c.url.start_pages = 'about:blank'
