@@ -82,7 +82,7 @@ label-padding = 4
 [module/battery]
 type = internal/battery
 battery = BAT0
-adapter = ADP1
+adapter = AC0
 full-at = 96
 
 format-charging = <label-charging>
