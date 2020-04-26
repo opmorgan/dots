@@ -2,9 +2,9 @@
 Description=home directory cleanup timer (for delting Downloads, Desktop folders)
 
 [Timer]
-OnBootSec=10sec
-OnUnitActiveSec=10sec
-AccuracySec=2sec
+OnBootSec=90sec
+OnUnitActiveSec=90sec
+AccuracySec=20sec
 
 [Install]
 WantedBy=timers.target
