@@ -12,6 +12,24 @@ source ~/.cache/wal/colors-tty.sh
 # use autosuggestions plugin
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# use vim keybindings
+bindkey -v
+
+# change cursor depending on mode (insert vs command)
+zle-keymap-select () {
+if [ $KEYMAP = vicmd ]; then
+    printf "\033[2 q"
+else
+    printf "\033[6 q"
+fi
+}
+zle -N zle-keymap-select
+zle-line-init () {
+zle -K viins
+printf "\033[6 q"
+}
+zle -N zle-line-init
+
 setopt EXTENDED_GLOB
 setopt globdots
 setopt CORRECT
