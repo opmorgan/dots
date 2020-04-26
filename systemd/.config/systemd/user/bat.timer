@@ -2,9 +2,9 @@
 Description=battery check timer
 
 [Timer]
-OnBootSec=60sec
-OnUnitActiveSec=60sec
-AccuracySec=10sec
+OnBootSec=15sec
+OnUnitActiveSec=15sec
+AccuracySec=5sec
 
 [Install]
 WantedBy=timers.target
