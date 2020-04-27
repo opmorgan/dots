@@ -92,8 +92,8 @@ format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
 format-discharging-prefix = "↓"
-format-full-prefix = "√"
-format-unknown-prefix = "√"
+format-full-prefix = "•"
+format-unknown-prefix = "•"
 
 label-charging-margin-left = 1
 label-discharging-margin-left = 1
