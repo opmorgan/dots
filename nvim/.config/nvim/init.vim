@@ -21,7 +21,7 @@ Plug 'posva/vim-vue'
 Plug 'jalvesaq/Nvim-R'
 Plug 'ajh17/VimCompletesMe'
 Plug 'itchyny/lightline.vim'
-Plug 'vim-scripts/buftabs'
+" Plug 'vim-scripts/buftabs'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 "Plug 'preservim/nerdtree'
@@ -77,6 +77,7 @@ nnoremap <C-Right> :tabnext<CR>
 noremap <S-H> :bprev<CR>
 noremap <S-L> :bnext<CR>
 nnoremap <C-B> :Buffers<CR>
+nnoremap <C-F> :Files<CR>
 
 " GFiles, Rg 
 nnoremap <C-P> :GFiles<CR>
