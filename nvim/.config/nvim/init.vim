@@ -19,7 +19,7 @@ Plug 'lilydjwg/colorizer'
 Plug 'w0rp/ale'
 Plug 'posva/vim-vue'
 Plug 'jalvesaq/Nvim-R'
-Plug 'ajh17/VimCompletesMe'
+" Plug 'ajh17/VimCompletesMe'
 Plug 'itchyny/lightline.vim'
 " Plug 'vim-scripts/buftabs'
 Plug 'junegunn/fzf'
@@ -37,7 +37,9 @@ let g:lightline = {
 set laststatus=2
 
 " Wal
-colorscheme wal
+" colorscheme wal
+" highlighting color
+" set termguicolors
 
 " Colorizer
 let g:colorizer_maxlines = 1000
