@@ -101,21 +101,6 @@ nnoremap <C-S> :Rg<CR>
 "let g:NERDTreeDirArrowCollapsible = '-'
 "let NERDTreeShowHidden=1
 
-autocmd BufEnter * silent! lcd %:p:h
-autocmd InsertEnter,InsertLeave * set cul!
-
-hi CursorLine   cterm=NONE ctermbg=black ctermfg=NONE
-hi VertSplit	cterm=NONE ctermbg=NONE ctermfg=NONE
-hi TabLineFill cterm=none ctermfg=cyan  ctermbg=none
-hi TabLine     cterm=none ctermfg=cyan ctermbg=none
-hi TabLineSel  cterm=none ctermfg=black ctermbg=cyan
-
-"" from Josh's config:
-"let delimitMate_expand_cr = 1
-"let delimitMate_expand_space = 1
-"
-"let g:vue_disable_pre_processors=1
-"
-"autocmd FileType vue syntax sync fromstart
-"autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css.less.pug
+"autocmd BufEnter * silent! lcd %:p:h
+"autocmd InsertEnter,InsertLeave * set cul!
 
