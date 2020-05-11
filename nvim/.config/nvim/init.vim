@@ -81,6 +81,9 @@ noremap <S-L> :bnext<CR>
 nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>
+
 " GFiles, Rg 
 nnoremap <C-P> :GFiles<CR>
 " command! -bang -nargs=* PRg \ call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'dir': system('git -C '.expand('%:p:h').' rev-parse --show-toplevel 2> /dev/null')[:-2]}, <bang>0)
