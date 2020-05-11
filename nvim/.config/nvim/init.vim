@@ -19,13 +19,14 @@ Plug 'lilydjwg/colorizer'
 Plug 'w0rp/ale'
 Plug 'posva/vim-vue'
 Plug 'jalvesaq/Nvim-R'
-" Plug 'ajh17/VimCompletesMe'
+Plug 'ajh17/VimCompletesMe'
 Plug 'itchyny/lightline.vim'
 " Plug 'vim-scripts/buftabs'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'preservim/nerdtree'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 
@@ -37,9 +38,7 @@ let g:lightline = {
 set laststatus=2
 
 " Wal
-" colorscheme wal
-" highlighting color
-" set termguicolors
+colorscheme wal
 
 " Colorizer
 let g:colorizer_maxlines = 1000
