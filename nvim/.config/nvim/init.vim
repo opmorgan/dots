@@ -81,6 +81,9 @@ noremap <S-L> :bnext<CR>
 nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
+" code formatting
+noremap = gg=G
+
 "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
