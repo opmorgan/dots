@@ -5,6 +5,8 @@ export GOPATH="$HOME/.go"
 export QT_QPA_PLATFORMTHEME=gtk2 #use gtk theme in qt applications
 export EDITOR=nvim
 export VISUAL=nvim
+export HISTCONTROL=ignoredups #shell history ignores duplicates
+export HISTSIZE=1000 #increase shell history length
 
 # set $PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"
@@ -42,9 +44,11 @@ function gpu-intel {
 # set aliases
 alias sudo='sudo '
 alias ls='ls --color=auto'
-alias ll='ls -lh'
+alias l.='ls -d .*'
 alias lsa='ls -a'
-alias lla="ls -lha"
+alias ll='ls -lh'
+alias ll.='ll -d .*'
+alias lla='ls -lha'
 alias tp='trash-put'
 alias R='R --quiet --no-save'
 alias feh='feh --image-bg black -.'
