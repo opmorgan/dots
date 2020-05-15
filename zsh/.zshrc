@@ -9,10 +9,14 @@ fi
 (cat ~/.cache/wal/sequences &)
 
 # To add support for TTYs this line can be optionally added.
-source ~/.cache/wal/colors-tty.sh
+if [ -f ~/.cache/wal/colors-tty.sh ]; then
+  source ~/.cache/wal/colors-tty.sh
+fi
 
 # use autosuggestions plugin
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+if [ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+  source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi
 
 # use vim keybindings
 bindkey -v
