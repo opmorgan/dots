@@ -32,7 +32,7 @@ call plug#end()
 
 " Status line
 let g:lightline = {
-      \ 'colorscheme': 'koi',
+      \ 'colorscheme': 'seoul256',
       \ }
 " enable statusbar
 set laststatus=2

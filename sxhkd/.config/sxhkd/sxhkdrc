@@ -1,3 +1,7 @@
+# show keybindings help
+super + F1
+    urxvt -geometry 100x30 -name urxvt_keys_help -e ~/.config/sxhkd/show_help.sh
+
 # open a new terminal
 super + Return
     st -e tmux
@@ -29,15 +33,15 @@ super + y
 
 # swap the current node and the biggest node
 super + g
-	bspc node -s biggest
+	bspc node -s biggest.local
 
 #
 # state/flags
 #
 
 # set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+super + {t,shift + t,s,x}
+	bspc node -t {tiled,pseudo_tiled,floating, fullscreen}
 
 # set the node flags
 super + ctrl + {m,x,y,z}
@@ -46,25 +50,21 @@ super + ctrl + {m,x,y,z}
 #
 # focus/swap
 #
-
 # focus/swap the node in the given direction
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
-# focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous node in the current desktop
-super + {_,shift + }
+super + {v, c}
 	bspc node -f {next,prev}.local
 
 # focus the next/previous desktop in the current monitor
-super + bracket{left,right}
+super + {comma,period}
 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
+super + {Tab,grave}
 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
@@ -90,16 +90,15 @@ super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
-super + ctrl + space
+super + ctrl + Escape
 	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
-super + ctrl + shift + space
+super + ctrl + shift + Escape
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 #
 # move/resize
-#
 
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
@@ -112,8 +111,9 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+#
 # take screenshots with maim
-control + super + alt + o
+Print
   maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
 
 # decrease/increase transparency
