@@ -1,6 +1,8 @@
+# open a new terminal
 super + Return
     urxvt -e tmux
 
+# open rofi
 super + space
     rofi -combi-modi window,drun,run -show combi -modi combi
 
@@ -9,7 +11,7 @@ super + Escape
     pkill -USR1 -x sxhkd
 
 # take screenshots with maim
-control + super + alt + o
+Print
   maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
 
 # decrease/increase transparency
