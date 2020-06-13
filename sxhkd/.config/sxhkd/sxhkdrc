@@ -13,6 +13,8 @@ super + Escape
 # take screenshots with maim
 Print
   maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
+control + shift + 4
+  maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
 
 # decrease/increase transparency
 control + super + alt + k
