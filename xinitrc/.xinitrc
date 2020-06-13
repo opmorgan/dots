@@ -3,6 +3,8 @@ xrdb ~/.Xresources
 xrandr --auto
 
 xsetroot -cursor_name left_ptr
+setxkbmap -option ctrl:nocaps
+xcape -e 'Caps_Lock=Escape;Control_L=Escape'
 
 wal -R
 
