@@ -2,8 +2,8 @@
 Description=battery check timer
 
 [Timer]
-OnBootSec=60sec
-OnUnitActiveSec=60sec
+OnBootSec=120sec
+OnUnitActiveSec=120sec
 AccuracySec=5sec
 
 [Install]
