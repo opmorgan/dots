@@ -17,8 +17,9 @@ control + shift + 4
   maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
 
 # decrease/increase transparency
-control + super + alt + k
-  picom-trans -c -5
+super + alt + {j, k}
+  picom-trans -c {-5, +5} 
 
-control + super + alt + j
-  picom-trans -c +5
+# execute test script
+super + alt + t
+  bat_not.sh
