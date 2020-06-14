@@ -3,7 +3,7 @@ Description=battery check daemon
 
 [Service]
 Type=simple
-ExecStart=/home/om/.config/systemd/user/bat.sh
+ExecStart=/home/om/scripts/bat_not.sh
 
 [Install]
 WantedBy=multi.unit.target
