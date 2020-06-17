@@ -16,12 +16,18 @@ function get_maxbrightness {
     cat /sys/class/backlight/intel_backlight/max_brightness
 }
 
+
 function send_notification {
   actual_brightness=$(get_brightness)
   max_brightness=$(get_maxbrightness)
     scale_factor=$((max_brightness / 100))
 
     brightness=$((actual_brightness / scale_factor))
+  
+    echo $actual_brightness
+    echo $max_brightness
+    echo $brightness
+    echo $scale_factor
 
     # Make the bar with the special character ─ (it's not dash -)
     # https://en.wikipedia.org/wiki/Box-drawing_character
