@@ -6,6 +6,7 @@ config.bind('H', 'tab-prev')
 config.bind('L', 'tab-next')
 config.bind('J', 'back')
 config.bind('K', 'forward')
+config.bind('I', 'enter-mode passthrough')
 
 # scrollbar
 c.scrolling.bar = 'when-searching'
@@ -30,11 +31,20 @@ c.tabs.title.format = '{audio} {current_title}'
 c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 
-# fonts
-c.fonts.default_family = '"Source Code Pro"'
-c.fonts.default_size = '10pt'
-c.fonts.tabs = '12pt Avenir'
-c.fonts.contextmenu = '12pt Avenir'
+# Fonts
+font = "11pt Source Code Pro"
+c.fonts.completion.entry = font
+c.fonts.completion.category = font
+c.fonts.debug_console = font
+c.fonts.downloads = font
+c.fonts.hints = font
+c.fonts.keyhint = font
+c.fonts.messages.error = font
+c.fonts.messages.info = font
+c.fonts.messages.warning = font
+c.fonts.prompts = font
+c.fonts.statusbar = font
+c.fonts.tabs = font
 
 # downloads
 c.downloads.location.directory = '/home/om/temp/'

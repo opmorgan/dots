@@ -16,8 +16,8 @@ URxvt*geometry: 60x18
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 ! font
-URxvt.font: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
-URxvt.boldFont: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+URxvt.font: xft:cozette:size=10:minspace=FALSE:style=regular:antialias=false
+URxvt.boldFont: xft:cozette:size=10:minspace=FALSE:style=regular:antialias=false
 ! scrollbar
 URxvt.scrollBar: false
 URxvt.internalBorder: 50
