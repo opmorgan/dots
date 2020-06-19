@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script changes screen brightness.
+# Takes one argument, an integer (% to change)
+# brightness.sh +5
+
 # base dir for backlight class
 basedir="/sys/class/backlight/"
 

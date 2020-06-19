@@ -1,6 +1,6 @@
 xrdb ~/.Xresources
 
-wal -R -n
+wal -R
 
 setxkbmap -option ctrl:nocaps
 

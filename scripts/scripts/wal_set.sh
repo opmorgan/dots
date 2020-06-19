@@ -9,6 +9,25 @@ reload_dunst() {
   sed -i "/    foreground =/c\    foreground = \"${foreground}\"" ~/.config/dunst/dunstrc
 }
 
+reload_openbox() {
+  sed -i "/menu.items.bg.color:/c\menu.items.bg.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/menu.items.text.color:/c\menu.items.text.color:\ ${foreground:-#eeeeee}" ~/.themes/active/openbox-3/themerc
+  sed -i "/menu.title.bg.color:/c\menu.title.bg.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/menu.border.color:/c\menu.border.color:\ ${foreground:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.active.title.bg.color:/c\window.active.title.bg.color:\ ${foreground:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.inactive.title.bg.color:/c\window.inactive.title.bg.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.active.label.text.color:/c\window.active.label.text.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.inactive.label.text.color:/c\window.inactive.label.text.color:\ ${foreground:-#EEEEEE}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.active.border.color:/c\window.active.border.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.inactive.border.color:/c\window.inactive.border.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.active.client.color:/c\window.active.client.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.inactive.client.color:/c\window.inactive.client.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.active.handle.bg.color:/c\window.active.handle.bg.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.inactive.handle.bg.color:/c\window.inactive.handle.bg.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.active.grip.bg.color:/c\window.active.grip.bg.color:\ ${background:=#FFFFFF}" ~/.themes/active/openbox-3/themerc
+  sed -i "/window.inactive.grip.bg.color/c\window.inactive.grip.bg.color:\ ${background:-#FFFFFF}" ~/.themes/active/openbox-3/themerc
+ }
+
 reload_cava(){
   sed -i "/gradient_color_1=/c\gradient_color_1=\"${color3:-#000000}\"" ~/.config/cava/config
   sed -i "/gradient_color_2=/c\gradient_color_2=\"${color4:-#000000}\"" ~/.config/cava/config

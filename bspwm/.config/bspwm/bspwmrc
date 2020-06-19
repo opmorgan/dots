@@ -29,8 +29,8 @@ bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action2 resize_corner
 
-#bspc rule -a * floating=on
-#bspc rule -a * state=floating
+bspc rule -a * floating=on
+bspc rule -a * state=floating
 bspc rule -a Gimp desktop='^4' state=floating follow=on
 bspc rule -a Firefox desktop='^2'
 bspc rule -a LibreOffice desktop='^4'
