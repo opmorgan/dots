@@ -32,7 +32,7 @@ c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 
 # Fonts
-font = "11pt Source Code Pro"
+font = "11pt Cozette"
 c.fonts.completion.entry = font
 c.fonts.completion.category = font
 c.fonts.debug_console = font
