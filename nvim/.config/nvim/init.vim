@@ -81,22 +81,10 @@ set ignorecase
 set smartcase
 map ; :
 autocmd VimEnter * Alias W w
-"autocmd VimEnter * Alias q q!
 autocmd VimEnter * Alias Q q
-"autocmd VimEnter * Alias wq wq!
 autocmd VimEnter * Alias WQ wq
 autocmd VimEnter * Alias Wq wq
 autocmd VimEnter * Alias wq wq
-
-
-"call CmdAlias('W', 'w')
-"nnoremap :W :w!<CR>
-"nnoremap :w :w!<CR>
-"nnoremap :q :q!<CR>
-"nnoremap :Q :q!<CR>
-"nnoremap :wq :wq!<cr>
-"nnoremap :Wq :wq!<CR>
-"nnoremap :WQ :Wq!<CR>
 
 " Tabs
 nnoremap <C-Left> :tabprevious<CR>
@@ -117,7 +105,7 @@ nnoremap <CR> :noh<CR><CR>
 " GFiles, Rg 
 nnoremap <C-P> :GFiles<CR>
 " command! -bang -nargs=* PRg \ call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'dir': system('git -C '.expand('%:p:h').' rev-parse --show-toplevel 2> /dev/null')[:-2]}, <bang>0)
-nnoremap <C-S> :Rg<CR>
+" nnoremap <C-S> :Rg<CR>
 " search current git repo
 " nnoremap <C-S> :PRg<CR> 
 

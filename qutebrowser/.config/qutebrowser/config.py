@@ -10,7 +10,7 @@ config.bind('I', 'enter-mode passthrough')
 config.bind('c', 'enter-mode caret')
 config.bind('v', 'hint links spawn ~/bin/umpv {hint-url}')
 config.bind('V', 'spawn ~/bin/umpv {url}')
-# videos
+config.bind('d', 'hint links download')
 
 # scrollbar
 c.scrolling.bar = 'when-searching'
@@ -31,7 +31,7 @@ c.tabs.show = 'always'
 c.tabs.show_switching_delay = 1200
 # tabs: style
 c.tabs.favicons.show = 'never'
-c.tabs.title.format = '{audio} {current_title}'
+c.tabs.title.format = '{perc} [{index}] {current_title}'
 # mute tabs by default
 c.content.mute = True
 c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
@@ -48,6 +48,7 @@ c.downloads.location.directory = '/home/om/temp/'
 c.downloads.location.suggestion = 'both'
 c.downloads.position = 'bottom'
 c.downloads.remove_finished = 1200
+c.confirm_quit = "downloads"
 
 # default page
 c.url.default_page = 'about:blank'
