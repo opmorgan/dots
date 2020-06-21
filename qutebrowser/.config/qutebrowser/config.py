@@ -48,7 +48,7 @@ c.downloads.location.directory = '/home/om/temp/'
 c.downloads.location.suggestion = 'both'
 c.downloads.position = 'bottom'
 c.downloads.remove_finished = 1200
-c.confirm_quit = "downloads"
+c.confirm_quit = ['downloads']
 
 # default page
 c.url.default_page = 'about:blank'
