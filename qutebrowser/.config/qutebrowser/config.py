@@ -7,6 +7,10 @@ config.bind('L', 'tab-next')
 config.bind('J', 'back')
 config.bind('K', 'forward')
 config.bind('I', 'enter-mode passthrough')
+config.bind('c', 'enter-mode caret')
+config.bind('v', 'hint links spawn ~/bin/umpv {hint-url}')
+config.bind('V', 'spawn ~/bin/umpv {url}')
+# videos
 
 # scrollbar
 c.scrolling.bar = 'when-searching'
@@ -28,6 +32,8 @@ c.tabs.show_switching_delay = 1200
 # tabs: style
 c.tabs.favicons.show = 'never'
 c.tabs.title.format = '{audio} {current_title}'
+# mute tabs by default
+c.content.muute = True
 c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 

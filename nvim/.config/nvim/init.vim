@@ -21,12 +21,13 @@ Plug 'posva/vim-vue'
 Plug 'jalvesaq/Nvim-R'
 Plug 'ajh17/VimCompletesMe'
 Plug 'itchyny/lightline.vim'
-" Plug 'vim-scripts/buftabs'
+"Plug 'vim-scripts/buftabs'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-scripts/cmdalias.vim'
 call plug#end()
 
 
@@ -71,6 +72,31 @@ set number
 set title
 " relative line numbers
 set nu rnu 
+"ask to save if quit with unsaved changes
+set confirm
+set hidden
+
+" Sloppy keybindings
+set ignorecase
+set smartcase
+map ; :
+autocmd VimEnter * Alias W w
+"autocmd VimEnter * Alias q q!
+autocmd VimEnter * Alias Q q
+"autocmd VimEnter * Alias wq wq!
+autocmd VimEnter * Alias WQ wq
+autocmd VimEnter * Alias Wq wq
+autocmd VimEnter * Alias wq wq
+
+
+"call CmdAlias('W', 'w')
+"nnoremap :W :w!<CR>
+"nnoremap :w :w!<CR>
+"nnoremap :q :q!<CR>
+"nnoremap :Q :q!<CR>
+"nnoremap :wq :wq!<cr>
+"nnoremap :Wq :wq!<CR>
+"nnoremap :WQ :Wq!<CR>
 
 " Tabs
 nnoremap <C-Left> :tabprevious<CR>
