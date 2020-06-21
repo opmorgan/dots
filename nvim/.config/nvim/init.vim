@@ -58,7 +58,7 @@ autocmd FileType javascript nnoremap <silent> <buffer> gb :TernDef<CR>
 " Vim
 syntax enable
 set noswapfile
-"set nowrap
+set nowrap
 set noshowmode
 set noshowcmd
 set noruler
