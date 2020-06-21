@@ -33,7 +33,7 @@ c.tabs.show_switching_delay = 1200
 c.tabs.favicons.show = 'never'
 c.tabs.title.format = '{audio} {current_title}'
 # mute tabs by default
-c.content.muute = True
+c.content.mute = True
 c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 
