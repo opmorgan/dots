@@ -10,6 +10,7 @@ config.bind('I', 'enter-mode passthrough')
 config.bind('c', 'enter-mode caret')
 config.bind('v', 'hint links spawn ~/bin/umpv {hint-url}')
 config.bind('V', 'spawn ~/bin/umpv {url}')
+config.bind('d', 'tab-close')
 
 # scrollbar
 c.scrolling.bar = 'when-searching'
