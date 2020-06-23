@@ -16,5 +16,5 @@ wal_set.sh &
 dunst &
 picom --respect-prop-shadow &
 polyset.sh &
-setkb.sh &
+kblight_set.sh &
 exec 2bwm
