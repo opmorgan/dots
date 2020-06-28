@@ -62,8 +62,8 @@ XClock*minuteColor: rgba:3e/3e/3e/ff
 XClock*secondColor: rgba:3e/3e/3e/ff
 ! Set depth to make transparency work.
 URxvt*depth: 32
-twobwm.border_width: 0
-twobwm.outer_border: 0
+twobwm.border_width: 5
+twobwm.outer_border: 5
 twobwm.focus_color: #efeff4
 twobwm.unfocus_color: #efeff4
 twobwm.fixed_color: #b68b59
