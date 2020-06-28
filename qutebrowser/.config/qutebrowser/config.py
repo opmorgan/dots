@@ -38,8 +38,8 @@ c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 
 # fonts
-c.fonts.default_family = '"Source Code Pro"'
-c.fonts.default_size = '10pt'
+c.fonts.default_family = 'Avenir'
+c.fonts.default_size = '9pt'
 c.fonts.tabs = '12pt Avenir'
 c.fonts.contextmenu = '12pt Avenir'
 

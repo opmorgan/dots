@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/dots/wallpaper/media/pics/wall/koi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a181a",
+        "foreground": "#dddddd",
+        "cursor": "#dddddd"
+    },
+    "colors": {
+        "color0": "#0a181a",
+        "color1": "#5BA8AB",
+        "color2": "#8F9396",
+        "color3": "#9CA0A2",
+        "color4": "#B0B1B2",
+        "color5": "#BCBFBD",
+        "color6": "#C6C2BC",
+        "color7": "#dddddd",
+        "color8": "#9a9a9a",
+        "color9": "#5BA8AB",
+        "color10": "#8F9396",
+        "color11": "#9CA0A2",
+        "color12": "#B0B1B2",
+        "color13": "#BCBFBD",
+        "color14": "#C6C2BC",
+        "color15": "#dddddd"
+    }
+}
