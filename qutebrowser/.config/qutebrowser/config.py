@@ -13,9 +13,17 @@ config.bind('V', 'spawn ~/scripts/umpv {url}')
 config.bind('d', 'tab-close')
 config.bind('S', 'view-source')
 config.bind('s', 'config-source')
+config.bind('<Ctrl-=>', 'zoom-in')
+config.bind('<Ctrl-->', 'zoom-out')
 
 # scrollbar
 c.scrolling.bar = 'when-searching'
+
+# zoom
+c.zoom.default = '100%'
+## Available zoom levels.
+## Type: List of Perc
+c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%', '150%', '175%', '200%', '250%', '300%', '400%', '500%']
 
 # statusbar: behavior
 c.statusbar.hide = False
