@@ -8,9 +8,11 @@ config.bind('J', 'back')
 config.bind('K', 'forward')
 config.bind('I', 'enter-mode passthrough')
 config.bind('c', 'enter-mode caret')
-config.bind('v', 'hint links spawn ~/bin/umpv {hint-url}')
-config.bind('V', 'spawn ~/bin/umpv {url}')
+config.bind('v', 'hint links spawn ~/scripts/umpv {hint-url}')
+config.bind('V', 'spawn ~/scripts/umpv {url}')
 config.bind('d', 'tab-close')
+config.bind('S', 'view-source')
+config.bind('s', 'config-source')
 
 # scrollbar
 c.scrolling.bar = 'when-searching'
