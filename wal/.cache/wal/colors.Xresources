@@ -64,7 +64,7 @@ XClock*secondColor: rgba:3e/3e/3e/ff
 URxvt*depth: 32
 twobwm.border_width: 5
 twobwm.outer_border: 5
-twobwm.focus_color: #F5F5F0
+twobwm.focus_color: #efeff4
 twobwm.unfocus_color: #efeff4
 twobwm.fixed_color: #b68b59
 twobwm.outer_border_color: #efeff4
