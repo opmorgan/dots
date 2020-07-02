@@ -2,8 +2,8 @@
 config.source('qutewal-koi.py')
 
 # keybindings
-config.bind('H', 'tab-prev')
-config.bind('L', 'tab-next')
+config.bind('<alt-H>', 'tab-prev')
+config.bind('<alt-L>', 'tab-next')
 config.bind('J', 'back')
 config.bind('K', 'forward')
 config.bind('I', 'enter-mode passthrough')
