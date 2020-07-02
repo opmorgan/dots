@@ -15,6 +15,18 @@ config.bind('S', 'view-source')
 config.bind('s', 'config-source')
 config.bind('<Ctrl-=>', 'zoom-in')
 config.bind('<Ctrl-->', 'zoom-out')
+config.bind('z', 'zotero')
+config.bind('Z', 'Zotero')
+
+# aliases
+c.aliases = {
+        'zotero': 'hint links userscript zotero',
+        'Zotero': 'spawn --userscript zotero'
+        }
+
+
+# save session?
+c.auto_save.session = True
 
 # scrollbar
 c.scrolling.bar = 'when-searching'
@@ -87,7 +99,7 @@ c.hints.radius = 0
 c.hints.uppercase = False 
 
 # default page
-c.url.default_page = 'about:blank'
+c.url.default_page = 'news.google.com'
 
 # default search engine
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}

@@ -24,7 +24,7 @@ Plug 'itchyny/lightline.vim'
 "Plug 'vim-scripts/buftabs'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-scripts/cmdalias.vim'
