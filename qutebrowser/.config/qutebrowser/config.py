@@ -1,11 +1,19 @@
+## need to update deprecated settings:
+## statusbar.hide
+## fonts.tabs
+
 # pywal theme
 config.source('qutewal-koi.py')
 
 # keybindings
-config.bind('<alt-H>', 'tab-prev')
-config.bind('<alt-L>', 'tab-next')
-config.bind('J', 'back')
-config.bind('K', 'forward')
+config.bind('<alt-h>', 'tab-prev')
+config.bind('<alt-l>', 'tab-next')
+config.bind('<alt-j>', 'back')
+config.bind('<alt-k>', 'forward')
+config.unbind('H')
+config.unbind('J')
+config.unbind('K')
+config.unbind('L')
 config.bind('I', 'enter-mode passthrough')
 config.bind('C', 'enter-mode caret')
 config.bind('v', 'hint links spawn ~/scripts/umpv {hint-url}')
@@ -38,7 +46,8 @@ c.zoom.default = '100%'
 c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%', '150%', '175%', '200%', '250%', '300%', '400%', '500%']
 
 # statusbar: behavior
-c.statusbar.hide = False
+# c.statusbar.hide = False
+c.statusbar.show = 'always'
 config.bind('b', 'config-cycle statusbar.hide')
 config.bind('t', 'config-cycle tabs.show always switching')
 # statusbar: widgets
@@ -60,25 +69,22 @@ c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 
 # fonts
-#c.fonts.default_family = 'Avenir'
-#c.fonts.default_size = '10pt'
-#c.fonts.tabs = '12pt Avenir'
-#c.fonts.contextmenu = '12pt Avenir'
-#c.fonts.hints = 'default_size default_family'
-font_family = 'Avenir'
-font = '10pt' + font_family
-c.fonts.completion.entry = font
-c.fonts.completion.category = font
-c.fonts.debug_console = font
-c.fonts.downloads = font
-c.fonts.hints = '10pt Avenir'
-c.fonts.keyhint = font
-c.fonts.messages.error = font
-c.fonts.messages.info = font
-c.fonts.messages.warning = font
-c.fonts.prompts = font
-c.fonts.statusbar = font
-c.fonts.tabs = '12pt ' + font_family
+c.fonts.default_family = 'Avenir'
+c.fonts.default_size = '10pt'
+c.fonts.tabs.selected = '11pt ' + 'default_family'
+c.fonts.tabs.unselected = '11pt ' + 'default_family'
+c.fonts.contextmenu = 'default_size default_family'
+c.fonts.completion.entry = 'default_size default_family'
+c.fonts.completion.category = 'default_size default_family'
+c.fonts.debug_console = 'default_size default_family'
+c.fonts.downloads = 'default_size default_family'
+c.fonts.hints = 'default_size default_family'
+c.fonts.keyhint = 'default_size default_family'
+c.fonts.messages.error = 'default_size default_family'
+c.fonts.messages.info = 'default_size default_family'
+c.fonts.messages.warning = 'default_size default_family'
+c.fonts.prompts = 'default_size default_family'
+c.fonts.statusbar = 'default_size default_family'
 
 # downloads
 c.downloads.location.directory = '/home/om/temp/'

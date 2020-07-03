@@ -1,0 +1,3 @@
+# Global drive configuration
+[pull/push]
+no-clobber=true
