@@ -46,9 +46,8 @@ c.zoom.default = '100%'
 c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%', '150%', '175%', '200%', '250%', '300%', '400%', '500%']
 
 # statusbar: behavior
-# c.statusbar.hide = False
-c.statusbar.show = 'always'
-config.bind('b', 'config-cycle statusbar.hide')
+c.statusbar.show = 'in-mode'
+config.bind('b', 'config-cycle statusbar.show always in-mode')
 config.bind('t', 'config-cycle tabs.show always switching')
 # statusbar: widgets
 c.statusbar.widgets = ['keypress', 'url', 'scroll', 'progress']
