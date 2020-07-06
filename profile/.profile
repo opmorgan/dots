@@ -58,6 +58,7 @@ alias git pul='git pull'
 alias git pus='git push'
 alias calc='python -ic "from math import *"'
 alias R='R --quiet --no-save'
+alias grep='grep -i' # to ignore case, use --no-ignore-case
 alias feh='feh --image-bg black -.'
 alias lo='libreoffice'
 alias oms='optimus-manager --status'
