@@ -1,3 +1,6 @@
+"" Wal
+colorscheme wal
+
 "" Status line
 let g:lightline = {
       \ 'colorscheme': 'koi',
@@ -7,7 +10,7 @@ let g:lightline = {
       \ },
       \ }
 
-" make the statusbar thinner
+" make the statusline thinner
 function! LightlineFileformat()
   return winwidth(0) > 70 ? &fileformat : ''
 endfunction
@@ -18,9 +21,6 @@ endfunction
 
 " enable statusbar
 set laststatus=2
-
-"" Wal
-colorscheme wal
 
 "" Colorizer
 let g:colorizer_maxlines = 1000
@@ -88,9 +88,26 @@ set signcolumn=yes
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 
-" Visual macro function
-xnoremap @ :<C-u>call ExecuteMacroOverVisualRange()<CR>
-function! ExecuteMacroOverVisualRange()
-  echo "@".getcmdline()
-  execute ":'<,'>normal @".nr2char(getchar())
+" gd - go to definition of word under cursor
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+
+" gi - go to implementation
+nmap <silent> gi <Plug>(coc-implementation)
+
+" gr - find references
+nmap <silent> gr <Plug>(coc-references)
+
+" gh - get hint on whatever's under the cursor
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+nnoremap <silent> gh :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
 endfunction
+
+

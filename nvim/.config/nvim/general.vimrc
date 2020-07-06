@@ -4,7 +4,7 @@ set noswapfile
 "set nowrap
 set noshowmode
 set noshowcmd
-set noruler
+set noruler " handled by statusline
 set list
 set tabstop=2 shiftwidth=2 expandtab
 set autoindent
