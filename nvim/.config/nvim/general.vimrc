@@ -18,3 +18,8 @@ set nu rnu
 "ask to save if quit with unsaved changes
 set confirm
 set hidden
+" from vim-sensible
+"set autoindent
+"set backspace=indent,eol,start
+"set complete-=i
+"set smarttab
