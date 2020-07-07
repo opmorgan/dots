@@ -2,3 +2,4 @@ nvim/.config/nvim/.netrwhist
 nvim/.config/nvim/plugged
 zsh/.zsh/history
 bash/.bash_history
+.ccls-cache/
