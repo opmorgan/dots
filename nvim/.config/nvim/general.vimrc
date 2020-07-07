@@ -2,8 +2,8 @@
 syntax enable
 set noswapfile
 "set nowrap
-set noshowmode
-set noshowcmd
+set noshowmode " handled by statusline
+set noshowcmd " handled by statusline
 set noruler " handled by statusline
 set list
 set tabstop=2 shiftwidth=2 expandtab
@@ -19,7 +19,14 @@ set nu rnu
 set confirm
 set hidden
 " from vim-sensible
-"set autoindent
-"set backspace=indent,eol,start
+set backspace=indent,eol,start
 "set complete-=i
-"set smarttab
+set smarttab
+set autoread
+if !&scrolloff
+  set scrolloff=3
+endif
+if !&sidescrolloff
+  set sidescrolloff=5
+endif
+set display+=lastline
