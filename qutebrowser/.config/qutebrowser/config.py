@@ -10,11 +10,6 @@ config.bind('<alt-h>', 'tab-prev')
 config.bind('<alt-l>', 'tab-next')
 config.bind('<alt-j>', 'back')
 config.bind('<alt-k>', 'forward')
-config.unbind('H')
-config.unbind('J')
-config.unbind('K')
-config.unbind('L')
-config.unbind('d')
 config.bind('I', 'enter-mode passthrough')
 config.bind('C', 'enter-mode caret')
 config.bind('v', 'hint links spawn ~/scripts/umpv {hint-url}')
@@ -48,7 +43,7 @@ c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%
 
 # statusbar: behavior
 c.statusbar.show = 'in-mode'
-config.bind('b', 'config-cycle statusbar.show always in-mode')
+# config.bind('b', 'config-cycle statusbar.show always in-mode')
 config.bind('t', 'config-cycle tabs.show always switching')
 # statusbar: widgets
 c.statusbar.widgets = ['keypress', 'url', 'scroll', 'progress']
