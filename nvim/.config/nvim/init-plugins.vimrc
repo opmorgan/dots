@@ -7,11 +7,12 @@ Plug 'dylanaraps/wal.vim'
 
 " navigation
 Plug 'tpope/vim-vinegar'
-"Plug 'preservim/nerdtree'
+" Plug 'preservim/nerdtree'
 "Plug 'vim-scripts/buftabs'
 
 " editing
 Plug 'tpope/vim-surround'
+Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 
 " statusbar
 Plug 'itchyny/lightline.vim'

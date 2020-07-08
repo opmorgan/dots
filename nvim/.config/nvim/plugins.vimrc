@@ -1,6 +1,9 @@
 "" Wal
 colorscheme wal
 
+"" Tcomment
+
+
 "" Status line
 let g:lightline = {
       \ 'colorscheme': 'koi',
