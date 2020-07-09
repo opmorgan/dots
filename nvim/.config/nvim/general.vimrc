@@ -6,7 +6,7 @@ set noshowmode " handled by statusline
 set noshowcmd " handled by statusline
 set noruler " handled by statusline
 set list
-set tabstop=2 shiftwidth=2 expandtab
+set tabstop=2 shiftwidth=2 expandtab " use spaces
 set autoindent
 set clipboard=unnamedplus
 set hidden

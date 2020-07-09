@@ -29,6 +29,9 @@ Plug 'junegunn/fzf.vim'
 " language-specific
 Plug 'jalvesaq/Nvim-R'
 Plug 'posva/vim-vue'
+" Plug 'LucHermitte/lh-vim-lib'
+" Plug 'LucHermitte/lh-style'
+" Plug 'LucHermitte/lh-brackets'
 
 " keypress aliases
 Plug 'vim-scripts/cmdalias.vim'

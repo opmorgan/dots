@@ -43,6 +43,7 @@ function gpu-intel {
 
 # set aliases
 alias sudo='sudo '
+alias a='./a.out'
 alias ls='ls --color=auto'
 alias l.='ls -d .*'
 alias lsa='ls -a'
