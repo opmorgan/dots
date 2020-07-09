@@ -6,6 +6,10 @@ super + F1
 super + Return
     urxvt -e tmux
 
+# open a terminal with tmate (for shared sessions)
+super + alt + Return
+  urxvt -e tmate
+
 # open rofi
 super + space
     rofi -combi-modi window,drun,run -show combi -modi combi
@@ -16,8 +20,6 @@ super + Escape
 
 # take screenshots with maim
 Print
-  maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
-control + shift + 4
   maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
 
 # decrease/increase transparency
