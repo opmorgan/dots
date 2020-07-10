@@ -17,3 +17,6 @@ inoremap {<CR>  {<CR>}<Esc>O
 
 " do nothing for {}
 inoremap {} {}
+
+" force single bracket by entering twice
+inoremap {{ {

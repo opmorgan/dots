@@ -14,8 +14,8 @@ nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
 " Buffers
-noremap <S-H> :bprev<CR>
-noremap <S-L> :bnext<CR>
+noremap <S-M-H> :bprev<CR>
+noremap <S-M-L> :bnext<CR>
 nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
