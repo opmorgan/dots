@@ -1,5 +1,6 @@
 set recolor-keephue 1
 set pages-per-row 1
+set page-padding 0
 set selection-clipboard "clipboard"
 set guioptions "s"
 set statusbar-basename 1
