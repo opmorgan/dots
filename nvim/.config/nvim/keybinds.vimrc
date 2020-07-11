@@ -20,7 +20,7 @@ nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
 " Code formatting
-noremap = gg=G<C-o>
+noremap = gg=G<C-o>zz
 
 " Unset the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
