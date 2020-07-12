@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 icon="$HOME/scripts/resources/screenshot_not/ic_camera_black_24dp.png"
 
