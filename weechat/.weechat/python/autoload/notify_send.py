@@ -1,0 +1,1 @@
+/home/om/.weechat/python/wee-chat-notify_send.py

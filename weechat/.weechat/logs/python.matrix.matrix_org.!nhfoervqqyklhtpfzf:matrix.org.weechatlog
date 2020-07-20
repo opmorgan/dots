@@ -1,0 +1,1297 @@
+2020-06-23 22:23:39	zarathustra_69	poop
+2020-06-23 22:23:48	zarathustra_69	ok finally on this shit
+2020-06-23 22:24:05	zarathustra_69	fyckerz!!
+2020-06-23 22:24:48	zarathustra_69	anybody know how the FUCk to get qutebrowser dark mode working?
+2020-06-23 22:25:12	zarathustra_69	I have enabled it via the :set command... doesn't seem to work
+2020-06-23 22:25:42	zarathustra_69	i usually use the "dark reader" browser extension on firefox
+2020-06-24 09:06:01	&ttylta	I'll look into it today.
+2020-06-24 09:14:14	&ttylta	Did this work for you zarathustra_69: config.set("colors.webpage.darkmode.enabled", True)
+2020-06-24 09:39:55	zzarathustra_69	Yes, well, I did it from the command prompt, and also thru the config page. Is that syntax u sent meant to be in a config file tho?
+2020-06-24 09:41:06	zzarathustra_69	P.S., finally using my linux workstation for werk B-)... it is worth it just to use i3, rather than fumbling around with Windows
+2020-06-24 09:41:35	zzarathustra_69	I've just been lazy/busy, but its vacation season so things get slow.
+2020-06-24 09:48:52	&ttylta	SWEEEEEEEEET
+2020-06-24 09:49:02	&ttylta	And yeah, that should go in .config/qutebrowser/config.py
+2020-06-24 09:53:03	zzarathustra_69	I see, I'll try that. Weird it's not working the other ways, as it's supposed to.
+2020-06-24 10:01:25	zzarathustra_69	Yeah still not working!
+2020-06-24 10:07:11	&ttylta	huh
+2020-06-24 10:07:19	&ttylta	I'll keep trying things on my end and report back
+2020-06-24 10:07:34	&ttylta	What are you expecting it to do btw?
+2020-06-24 10:11:02	zzarathustra_69	Well, on websites like archlinux.org, I am expecting it to enable dark mode so that the website shows a dark color scheme instead of the basic white background
+2020-06-24 10:12:33	zzarathustra_69	But, it could be that this website doesn't have a true dark mode. The FF/Chrome extension I use, "Dark Reader", just inserts come code when it loads a web page, so it could create the illusion for me that more websites have a dark theme than really do
+2020-06-24 10:13:41	zzarathustra_69	But it's description says that it enables the websites dark theme, so I figured qute would work the same. But its possible that the qutebrowser way is weaker.
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-07-02 18:24:12	ommira	u no it
+2020-07-02 18:25:49	ommira	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:28:11	ommira	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:28:11	ommira	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	ommira	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	ommira	u no it
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-06-24 10:13:41	zzarathustra_69	But it's description says that it enables the websites dark theme, so I figured qute would work the same. But its possible that the qutebrowser way is weaker.
+2020-06-24 10:12:33	zzarathustra_69	But, it could be that this website doesn't have a true dark mode. The FF/Chrome extension I use, "Dark Reader", just inserts come code when it loads a web page, so it could create the illusion for me that more websites have a dark theme than really do
+2020-06-24 10:11:02	zzarathustra_69	Well, on websites like archlinux.org, I am expecting it to enable dark mode so that the website shows a dark color scheme instead of the basic white background
+2020-06-24 10:07:34	&ttylta	What are you expecting it to do btw?
+2020-06-24 10:07:19	&ttylta	I'll keep trying things on my end and report back
+2020-06-24 10:07:11	&ttylta	huh
+2020-06-24 10:01:25	zzarathustra_69	Yeah still not working!
+2020-06-24 09:53:03	zzarathustra_69	I see, I'll try that. Weird it's not working the other ways, as it's supposed to.
+2020-06-24 09:49:02	&ttylta	And yeah, that should go in .config/qutebrowser/config.py
+2020-06-24 09:48:52	&ttylta	SWEEEEEEEEET
+2020-06-24 09:41:35	zzarathustra_69	I've just been lazy/busy, but its vacation season so things get slow.
+2020-06-24 09:41:06	zzarathustra_69	P.S., finally using my linux workstation for werk B-)... it is worth it just to use i3, rather than fumbling around with Windows
+2020-06-24 09:39:55	zzarathustra_69	Yes, well, I did it from the command prompt, and also thru the config page. Is that syntax u sent meant to be in a config file tho?
+2020-06-24 09:14:14	&ttylta	Did this work for you zarathustra_69: config.set("colors.webpage.darkmode.enabled", True)
+2020-06-24 09:06:01	&ttylta	I'll look into it today.
+2020-06-23 22:25:42	zarathustra_69	i usually use the "dark reader" browser extension on firefox
+2020-06-23 22:25:12	zarathustra_69	I have enabled it via the :set command... doesn't seem to work
+2020-06-23 22:24:48	zarathustra_69	anybody know how the FUCk to get qutebrowser dark mode working?
+2020-06-23 22:24:05	zarathustra_69	fyckerz!!
+2020-06-23 22:23:48	zarathustra_69	ok finally on this shit
+2020-06-23 22:23:39	zarathustra_69	poop
+2020-07-02 18:28:11	ommira	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	ommira	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	ommira	u no it
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-06-24 10:13:41	zzarathustra_69	But it's description says that it enables the websites dark theme, so I figured qute would work the same. But its possible that the qutebrowser way is weaker.
+2020-06-24 10:12:33	zzarathustra_69	But, it could be that this website doesn't have a true dark mode. The FF/Chrome extension I use, "Dark Reader", just inserts come code when it loads a web page, so it could create the illusion for me that more websites have a dark theme than really do
+2020-06-24 10:11:02	zzarathustra_69	Well, on websites like archlinux.org, I am expecting it to enable dark mode so that the website shows a dark color scheme instead of the basic white background
+2020-06-24 10:07:34	&ttylta	What are you expecting it to do btw?
+2020-06-24 10:07:19	&ttylta	I'll keep trying things on my end and report back
+2020-06-24 10:07:11	&ttylta	huh
+2020-06-24 10:01:25	zzarathustra_69	Yeah still not working!
+2020-06-24 09:53:03	zzarathustra_69	I see, I'll try that. Weird it's not working the other ways, as it's supposed to.
+2020-06-24 09:49:02	&ttylta	And yeah, that should go in .config/qutebrowser/config.py
+2020-06-24 09:48:52	&ttylta	SWEEEEEEEEET
+2020-06-24 09:41:35	zzarathustra_69	I've just been lazy/busy, but its vacation season so things get slow.
+2020-06-24 09:41:06	zzarathustra_69	P.S., finally using my linux workstation for werk B-)... it is worth it just to use i3, rather than fumbling around with Windows
+2020-06-24 09:39:55	zzarathustra_69	Yes, well, I did it from the command prompt, and also thru the config page. Is that syntax u sent meant to be in a config file tho?
+2020-06-24 09:14:14	&ttylta	Did this work for you zarathustra_69: config.set("colors.webpage.darkmode.enabled", True)
+2020-06-24 09:06:01	&ttylta	I'll look into it today.
+2020-06-23 22:25:42	zarathustra_69	i usually use the "dark reader" browser extension on firefox
+2020-06-23 22:25:12	zarathustra_69	I have enabled it via the :set command... doesn't seem to work
+2020-06-23 22:24:48	zarathustra_69	anybody know how the FUCk to get qutebrowser dark mode working?
+2020-06-23 22:24:05	zarathustra_69	fyckerz!!
+2020-06-23 22:23:48	zarathustra_69	ok finally on this shit
+2020-06-23 22:23:39	zarathustra_69	poop
+2020-06-23 20:17:56	&ttylta	http://mef-lab.com/osnove-2016/C-Programming-Ebook.pdf
+2020-06-23 20:16:25	neoone	 /quit
+2020-06-21 15:12:24	&ttylta	boogaloo
+2020-06-21 10:49:06	neoone	yo, i think i fucked up my xserver or something... can run startx anymore... gives an error related to kms color map
+2020-06-18 23:03:40	&ttylta	yay -S terminus-font-ttf
+2020-06-18 23:01:43	&ttylta	https://github.com/xero/bitmap-fonts
+2020-06-18 22:29:04	&ttylta	https://github.com/ryanoasis/nerd-fonts
+2020-06-18 22:26:17	&ttylta	http://madmalik.github.io/mononoki/
+2020-06-18 22:26:04	&ttylta	https://github.com/madmalik/mononoki
+2020-06-18 22:26:03	ommedulla	https://www.archlinux.org/packages/extra/any/adobe-source-code-pro-fonts/
+2020-06-18 22:21:00	&ttylta	https://github.com/ttylta/stod
+2020-06-18 22:14:58	ommedulla	URxvt.scrollBar: false
+2020-06-18 22:06:33	&ttylta	80pKBjUFAveTIupV8ev9xCHggbdpWB/XeSDj+MA/aWbU0psYqZ7YVSSs7212GPqP
+2020-06-18 22:06:20	&ttylta	xfe5fc7TTYHgKxsHm2fpzOrOucBX3V7IH0TaxfQ8of8M/5osHi/s+1hIz16SGehMp
+2020-06-18 22:06:16	ommedulla	https://github.com/opmorgan/dots/blob/master/xinitrc/.xinitrc
+2020-06-18 22:03:48	zzarathustra_69	kk
+2020-06-18 21:59:51	&ttylta	. "${HOME}/.cache/wal/colors.sh"
+2020-06-18 21:59:51	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:59:51	&ttylta	fi
+2020-06-18 21:59:51	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:59:50	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:59:45	&ttylta	if [ -f "$userresources" ]; then
+2020-06-18 21:59:45	&ttylta	userresources=$HOME/.Xresources
+2020-06-18 21:59:45	&ttylta	usermodmap=$HOME/.Xmodmap
+2020-06-18 21:59:45	&ttylta	fi
+2020-06-18 21:59:40	&ttylta	=============
+2020-06-18 21:47:03	&ttylta	cryptobin.co/l641u2o1
+2020-06-18 21:46:47	&ttylta	80pKBjUFAveTIupV8ev9xCHggbdpWB/XeSDj+MA/aWbU0psYqZ7YVSSs7212GPqP
+2020-06-18 21:45:18	zzarathustra_69	xrdb: Can't open display ' '
+2020-06-18 21:45:11	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:45:11	&ttylta	fi
+2020-06-18 21:45:11	&ttylta	. "${HOME}/.cache/wal/colors.sh"
+2020-06-18 21:45:11	&ttylta	if [ -f "$userresources" ]; then
+2020-06-18 21:45:11	&ttylta	fi
+2020-06-18 21:45:11	&ttylta	usermodmap=$HOME/.Xmodmap
+2020-06-18 21:45:11	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:45:11	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:44:17	&ttylta	xrdb -merge ~/.Xresources
+2020-06-18 21:43:51	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:43:51	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:43:51	&ttylta	fi
+2020-06-18 21:43:51	&ttylta	cryptobin.co/62u3k060if [ -f "$userresources" ]; then
+2020-06-18 21:43:51	&ttylta	fi
+2020-06-18 21:43:51	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:29:47	&ttylta	cryptobin.co/m4v6x1c0
+2020-06-18 21:28:33	zzarathustra_69	cryptobin.co/62u3k060
+2020-06-18 21:28:07	zzarathustra_69	         
+2020-06-18 21:13:50	&ttylta	URxvt.font:xft:Cozette:style=Medium:size=10:antialias=false
+2020-06-18 21:09:18	ommedulla	some more urxvt config options: https://github.com/opmorgan/dots/blob/master/Xresources/.Xresources
+2020-06-18 21:07:41	ommedulla	URxvt.boldFont: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+2020-06-18 21:07:41	ommedulla	URxvt.font: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+2020-06-18 21:06:06	zzarathustra_69	jos u froze
+2020-06-18 21:03:40	&ttylta	URxvt.scrollBar: false
+2020-06-18 21:03:40	&ttylta	URxvt.internalBorder:  30
+2020-06-18 20:59:44	&ttylta	https://wiki.archlinux.org/index.php/Fonts#Set_terminal_font_on-the-fly
+2020-06-18 20:58:00	&ttylta	fc-list | grep curie
+2020-06-18 20:47:20	&ttylta	yay -S fontpreview-git
+2020-06-18 20:35:32	&ttylta	makepkg -si
+2020-06-18 20:35:08	&ttylta	git clone https://aur.archlinux.org/yay.git
+2020-06-18 20:33:40	&ttylta	sudo make install
+2020-06-18 20:33:38	&ttylta	make
+2020-06-18 20:33:37	&ttylta	git clone https://github.com/Jguer/yay
+2020-06-18 20:33:35	&ttylta	------------
+2020-06-18 20:32:02	&ttylta	makepkg -si
+2020-06-18 20:31:45	&ttylta	makepkg
+2020-06-18 20:31:24	&ttylta	yay -S package
+2020-06-18 20:31:12	&ttylta	-S
+2020-06-18 20:30:58	&ttylta	mkpkg -si
+2020-06-18 20:30:37	&ttylta	git clone https://github.com/Jguer/yay
+2020-06-18 20:29:33	&ttylta	https://aur.archlinux.org/packages/yay/
+2020-06-18 20:28:51	&ttylta	fc-list | grep term
+2020-06-18 20:28:14	zzarathustra_69	URxvt.font:xft:terminus:size=24
+2020-06-18 20:17:08	&ttylta	pavucontrol
+2020-06-18 20:15:41	neoone	yo, I opened pavucontrol.ini in the .config folder and it has nothing related to munmuting microphone
+2020-06-18 20:13:53	&ttylta	touch. ~/.Xresources
+2020-06-18 20:13:30	&ttylta	unmute your mic
+2020-06-18 20:13:27	&ttylta	open it, go to mic settings
+2020-06-18 20:13:23	&ttylta	pavucontrol
+2020-06-18 20:12:40	neoone	then what's the name of the package you want to install?
+2020-06-18 20:12:06	neoone	I am running a full update of the pacman packages
+2020-06-18 20:09:43	neoone	on jitsi
+2020-06-18 19:47:52	&ttylta	https://en.wikipedia.org/wiki/Hikikomori
+2020-06-18 19:32:36	&ttylta	https://meet.jit.si/sybersexoids
+2020-06-18 19:18:02	zzarathustra_69	@_@
+2020-06-18 19:15:03	&ttylta	7:30 sounds perfect 2 me
+2020-06-18 19:14:44	&ttylta	The beast of burden
+2020-06-18 19:14:38	&ttylta	ooo bb
+2020-06-18 19:09:19	neoone	The Beast has entered the chat
+2020-06-18 18:43:50	zzarathustra_69	and h3cx
+2020-06-18 18:43:34	zzarathustra_69	some day covid will not prevent us from travel and we can get together for a weekend and eat pizza and drink soda pop!
+2020-06-18 18:42:13	zzarathustra_69	pre-covid i was hoping to come up to bmore to do so in person, and now y'all are movin away! but we can always do it virtual.
+2020-06-18 18:41:29	zzarathustra_69	that'd be down the line tho when we are comfortable with the syntax and stuff... but would be cool to do from time to time if we want a little boost, only so much we will ever get done together in a few hours a week
+2020-06-18 18:40:24	zzarathustra_69	I'd also be into, once we get working on a project down the line, doing something like a whole-day ojjo marathon where we do a bunch of work
+2020-06-18 18:39:46	zzarathustra_69	but I was thinking we could look at 'c programming language' and talk about a general plan or way of going about working thru it
+2020-06-18 18:39:02	zzarathustra_69	im still doin some ricing stuff, really just need to get the terminal font bigger and I cant remember how I did that on this one
+2020-06-18 18:38:18	zzarathustra_69	gotta set it up on my thinkpad tho
+2020-06-18 18:37:23	zzarathustra_69	yeeet i do still use it this is way better than slack LOL
+2020-06-18 18:11:33	ommedulla	Ill be down2clown around 7:30 or 8 tonight
+2020-06-18 18:11:08	ommedulla	&zz looking at c programming language tn sounds good to me! @tt thanks for the fonts. just using this on my thinkpad, but meaning to set it up on daily razer too.
+2020-07-02 18:28:11	ommira	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	ommira	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	ommira	u no it
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-06-24 10:13:41	zzarathustra_69	But it's description says that it enables the websites dark theme, so I figured qute would work the same. But its possible that the qutebrowser way is weaker.
+2020-07-02 18:28:11	ommira	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	ommira	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	ommira	u no it
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-06-24 10:13:41	zzarathustra_69	But it's description says that it enables the websites dark theme, so I figured qute would work the same. But its possible that the qutebrowser way is weaker.
+2020-07-05 15:11:23	&ttylta	I'm now on forever. 
+2020-07-05 15:11:51	&ttylta	And I've tried problems on project euler years ago.
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-02 18:28:11	ommira	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	ommira	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	ommira	u no it
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-07-05 19:28:55	ommedulla	gr8, same here. hows philly?
+2020-07-05 19:29:33	<--	@ommira:matrix.org (None) has left #ojjo
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-05 15:11:51	&ttylta	And I've tried problems on project euler years ago.
+2020-07-05 15:11:23	&ttylta	I'm now on forever. 
+2020-07-02 18:28:11	@ommira:matrix.org	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	@ommira:matrix.org	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	@ommira:matrix.org	u no it
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-05 15:11:51	&ttylta	And I've tried problems on project euler years ago.
+2020-07-05 15:11:23	&ttylta	I'm now on forever. 
+2020-07-02 18:28:11	@ommira:matrix.org	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-05 15:11:51	&ttylta	And I've tried problems on project euler years ago.
+2020-07-05 15:11:23	&ttylta	I'm now on forever. 
+2020-07-02 18:28:11	@ommira:matrix.org	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-05 15:11:51	&ttylta	And I've tried problems on project euler years ago.
+2020-07-05 15:11:23	&ttylta	I'm now on forever. 
+2020-07-02 18:28:11	@ommira:matrix.org	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-06 21:35:19	zarathustra_69	do you guys want to choose some programming examples to go over from the chapter on Thurs?
+2020-07-06 21:37:04	zarathustra_69	@ommedulla yes the optimus manager setting... have to use my nvidia for my external monitor bc the hdmi port is hooked to it, which isn't a problem bc i'm always hooked up to power. will be nice to have the auto switch for when running on battery tho
+2020-07-06 21:52:54	zarathustra_69	as a matter of fact, i have a small program i am working on that would be great if we could look at. it just checks if the input is a "narcissistic number"
+2020-07-06 22:19:07	ommedulla	^^^ sure! I'm planning on working through chapter 1 tonight
+2020-07-06 22:19:38	ommedulla	^^great! im in the same boat, need nvidia to use an external monitor (in whch case I'm always plugged in)
+2020-07-06 22:20:30	ommedulla	^ and sounds great! want to put it on github or similar so we can all preview?
+2020-07-06 22:20:38	ommedulla	!
+2020-07-07 07:31:43	zzarathustra_69	yeah I'll try and finish it today and put it up there. haven't even tried to compile it yet hehe
+2020-07-07 13:31:32	zzarathustra_69	https://blogs.scientificamerican.com/observations/time-on-the-brain-how-you-are-always-living-in-the-past-and-other-quirks-of-perception/\
+2020-07-07 13:31:46	zzarathustra_69	sans the last '\'
+2020-07-07 13:32:37	zzarathustra_69	^^ had a crazy dream this morning that i was waiting for my alarm to go off, and as soon as the time changed in my dream my alarm really went off. but according to this article i may have just made up that part of the dream in split seconds after the fact :')
+2020-07-07 17:11:56	ommedulla	haha maybe. imo pointing out instances of retroactive "mistakes" about perception is the easy way out of creating an account of perception/conscious experience. E.g., in the flash-lag illusion, you describe the timing of the flash and the other thing as instantaneous or not, in a way that doesn't track or accurately represent the stimuli as they were presented. But why would perception be made of representations of discrete stimuli of the kind that happen to be useful to experimenters? These "mistakes" aren't mistakes if you consider perceptaion as an activity that creates useful "presentations", or creates a useful "perceptul field", based on how it is keyed into events like flashes of light.
+2020-07-07 17:12:49	ommedulla	imo there's no reason to suppose that perception does or should be fast representation of events like light flashes. That's not what experience is like (speaker on authority of being someone who experiences), and it would be less useful if it did work like that
+2020-07-07 17:15:06	ommedulla	another great example of a retroactive effect like the flash lag is: you're presented with a green dot on the elft side of a screen. quickly, it disappears and a red dot is presented to the right. You would describe your experience as seeing the green dot move from the left to the right, and change color as it goes (and imo, this is what your experience is like, reflected in your decription). You aren't "misrepresenting" the dot as moving, or making a mistake about what is going on (unless your goal is to decribe what is going on in the experimental apparatus). This is just how perception goes when you're in a situation like that.
+2020-07-07 17:18:47	ommedulla	to me experiments like that reveal the insight that perception is not a quick copy of events like flashing lights, but constructed on the basis of events that occur at various timepoints (agreeing with the general conclusion of the article). It's just that these experiments don't show that you are constructing a particular representational experience that can be analyzed at any "moment" in the way you can describe the timepoint of a flashof light or movement of a pool ball. Experience doesn't move/change in th way that we impute objects like "light stimuli" to
+2020-07-07 17:19:16	ommedulla	sorry to take up the whole chat window, obviously have a lot of opinions about this haha
+2020-07-07 18:33:43	ommedulla	til that you can pres "a" in vim to go to insert mode after the current character (I had always used "i" + "arrow key"...) not sure how I missed this one in the vim tutor, but it's a huge gamechanger
+2020-07-07 18:34:22	ommedulla	shift + i to go to insert at the beginning of a line is another big revelation
+2020-07-07 18:34:22	ommedulla	shift + i to go to insert at the beginning of a line is another big revelation
+2020-07-07 18:33:43	ommedulla	til that you can pres "a" in vim to go to insert mode after the current character (I had always used "i" + "arrow key"...) not sure how I missed this one in the vim tutor, but it's a huge gamechanger
+2020-07-07 17:19:16	ommedulla	sorry to take up the whole chat window, obviously have a lot of opinions about this haha
+2020-07-07 17:18:47	ommedulla	to me experiments like that reveal the insight that perception is not a quick copy of events like flashing lights, but constructed on the basis of events that occur at various timepoints (agreeing with the general conclusion of the article). It's just that these experiments don't show that you are constructing a particular representational experience that can be analyzed at any "moment" in the way you can describe the timepoint of a flashof light or movement of a pool ball. Experience doesn't move/change in th way that we impute objects like "light stimuli" to
+2020-07-07 17:15:06	ommedulla	another great example of a retroactive effect like the flash lag is: you're presented with a green dot on the elft side of a screen. quickly, it disappears and a red dot is presented to the right. You would describe your experience as seeing the green dot move from the left to the right, and change color as it goes (and imo, this is what your experience is like, reflected in your decription). You aren't "misrepresenting" the dot as moving, or making a mistake about what is going on (unless your goal is to decribe what is going on in the experimental apparatus). This is just how perception goes when you're in a situation like that. 
+2020-07-07 17:12:49	ommedulla	imo there's no reason to suppose that perception does or should be fast representation of events like light flashes. That's not what experience is like (speaker on authority of being someone who experiences), and it would be less useful if it did work like that
+2020-07-07 17:11:56	ommedulla	haha maybe. imo pointing out instances of retroactive "mistakes" about perception is the easy way out of creating an account of perception/conscious experience. E.g., in the flash-lag illusion, you describe the timing of the flash and the other thing as instantaneous or not, in a way that doesn't track or accurately represent the stimuli as they were presented. But why would perception be made of representations of discrete stimuli of the kind that happen to be useful to experimenters? These "mistakes" aren't mistakes if you consider perceptaion as an activity that creates useful "presentations", or creates a useful "perceptul field", based on how it is keyed into events like flashes of light. 
+2020-07-07 13:32:37	zzarathustra_69	^^ had a crazy dream this morning that i was waiting for my alarm to go off, and as soon as the time changed in my dream my alarm really went off. but according to this article i may have just made up that part of the dream in split seconds after the fact :')
+2020-07-07 13:31:46	zzarathustra_69	sans the last '\'
+2020-07-07 13:31:32	zzarathustra_69	https://blogs.scientificamerican.com/observations/time-on-the-brain-how-you-are-always-living-in-the-past-and-other-quirks-of-perception/\
+2020-07-07 21:37:08	zarathustra_69	so how would you relate that to the dream scenario?
+2020-07-07 21:38:46	zarathustra_69	i'm guessing the person who posted this article on the reddit thread i found it on (in response to a similar dream scenario where someone felt they predicted their alarm) would claim that i invented the coincidence between my dream clock and real clock in the split second between when i heard my alarm and when i woke up
+2020-07-07 21:39:24	zarathustra_69	though i will say that i woke up an hour earlier and went back to sleep because i knew i could sleep in, so i could well have been anticipating it based on my circadian rhythm, which on most days i do wake up a few minutes before my alarm goes off
+2020-07-07 21:40:00	zarathustra_69	but in the dream, it felt like i was watching the hand of the clock move to where my alarm was set to go off, and when it lined up, i heard the alarm go off in real life which pulled me out of the dream
+2020-07-07 22:11:37	ommedulla	I'd say believe your memory, and that it wouldn't have surprised you if your dream alarm had been at another time. misremembering details of episodic memories probably happens all the time, but if you experienced watching the hand go to a particular spot in your dream, and that's how you remembered it right after, that must be what you experienced! especially with your plausible reasons that your dream planner could have anticipated it
+2020-07-07 22:12:44	ommedulla	neuroscientists like to say that everything you think you know about your experience is wrong. well, jokes on them, they are doing science in experience
+2020-07-07 22:19:35	ommedulla	your recent memory of your experience is the ground truth about what your experience is. psychology/neuroscience can point out interesting ways that your behavior, and experience, relate to events and to your previous descriptions (and in the case of rememebring things like an eyewitness, there is strong reason to doubt your later descriptions), but psychology and neuroscience depend on trusting descriptions of recent expereince for their explananda. Like you did just now, your description of an interesting experience is the starting point for an interesting line of investigation about how that experience was possible
+2020-07-07 22:22:10	ommedulla	but then again, maybe dream experiences are special. they are extra hard to remember etc., and you are definitely in a pretty weird place wehn just waking up. might not be the best situation to found all your beleifs on...
+2020-07-08 13:31:13	zzarathustra_69	Hm, so im psychic after all!
+2020-07-08 13:32:31	zzarathustra_69	Honestly, it wouldn't be too hard for me to believe that my body just has a pretty good sense of time, since I wake up around the same time every day. That to me is a more straightforward explanation than some crazy paradox about how my perception lags behind in time by 80 milliseconds
+2020-07-07 22:22:10	ommedulla	but then again, maybe dream experiences are special. they are extra hard to remember etc., and you are definitely in a pretty weird place wehn just waking up. might not be the best situation to found all your beleifs on...
+2020-07-07 22:19:35	ommedulla	your recent memory of your experience is the ground truth about what your experience is. psychology/neuroscience can point out interesting ways that your behavior, and experience, relate to events and to your previous descriptions (and in the case of rememebring things like an eyewitness, there is strong reason to doubt your later descriptions), but psychology and neuroscience depend on trusting descriptions of recent expereince for their explananda. Like you did just now, your description of an interesting experience is the starting point for an interesting line of investigation about how that experience was possible
+2020-07-07 22:12:44	ommedulla	neuroscientists like to say that everything you think you know about your experience is wrong. well, jokes on them, they are doing science in experience
+2020-07-07 22:11:38	ommedulla	I'd say believe your memory, and that it wouldn't have surprised you if your dream alarm had been at another time. misremembering details of episodic memories probably happens all the time, but if you experienced watching the hand go to a particular spot in your dream, and that's how you remembered it right after, that must be what you experienced! especially with your plausible reasons that your dream planner could have anticipated it
+2020-07-07 21:40:00	zarathustra_69	but in the dream, it felt like i was watching the hand of the clock move to where my alarm was set to go off, and when it lined up, i heard the alarm go off in real life which pulled me out of the dream
+2020-07-07 21:39:24	zarathustra_69	though i will say that i woke up an hour earlier and went back to sleep because i knew i could sleep in, so i could well have been anticipating it based on my circadian rhythm, which on most days i do wake up a few minutes before my alarm goes off
+2020-07-07 21:38:46	zarathustra_69	i'm guessing the person who posted this article on the reddit thread i found it on (in response to a similar dream scenario where someone felt they predicted their alarm) would claim that i invented the coincidence between my dream clock and real clock in the split second between when i heard my alarm and when i woke up
+2020-07-07 21:37:08	zarathustra_69	so how would you relate that to the dream scenario?
+2020-07-07 18:34:22	ommedulla	shift + i to go to insert at the beginning of a line is another big revelation
+2020-07-07 18:33:43	ommedulla	til that you can pres "a" in vim to go to insert mode after the current character (I had always used "i" + "arrow key"...) not sure how I missed this one in the vim tutor, but it's a huge gamechanger
+2020-07-07 17:19:16	ommedulla	sorry to take up the whole chat window, obviously have a lot of opinions about this haha
+2020-07-07 17:18:47	ommedulla	to me experiments like that reveal the insight that perception is not a quick copy of events like flashing lights, but constructed on the basis of events that occur at various timepoints (agreeing with the general conclusion of the article). It's just that these experiments don't show that you are constructing a particular representational experience that can be analyzed at any "moment" in the way you can describe the timepoint of a flashof light or movement of a pool ball. Experience doesn't move/change in th way that we impute objects like "light stimuli" to
+2020-07-07 17:15:06	ommedulla	another great example of a retroactive effect like the flash lag is: you're presented with a green dot on the elft side of a screen. quickly, it disappears and a red dot is presented to the right. You would describe your experience as seeing the green dot move from the left to the right, and change color as it goes (and imo, this is what your experience is like, reflected in your decription). You aren't "misrepresenting" the dot as moving, or making a mistake about what is going on (unless your goal is to decribe what is going on in the experimental apparatus). This is just how perception goes when you're in a situation like that. 
+2020-07-07 17:12:49	ommedulla	imo there's no reason to suppose that perception does or should be fast representation of events like light flashes. That's not what experience is like (speaker on authority of being someone who experiences), and it would be less useful if it did work like that
+2020-07-07 17:11:56	ommedulla	haha maybe. imo pointing out instances of retroactive "mistakes" about perception is the easy way out of creating an account of perception/conscious experience. E.g., in the flash-lag illusion, you describe the timing of the flash and the other thing as instantaneous or not, in a way that doesn't track or accurately represent the stimuli as they were presented. But why would perception be made of representations of discrete stimuli of the kind that happen to be useful to experimenters? These "mistakes" aren't mistakes if you consider perceptaion as an activity that creates useful "presentations", or creates a useful "perceptul field", based on how it is keyed into events like flashes of light. 
+2020-07-07 13:32:37	zzarathustra_69	^^ had a crazy dream this morning that i was waiting for my alarm to go off, and as soon as the time changed in my dream my alarm really went off. but according to this article i may have just made up that part of the dream in split seconds after the fact :')
+2020-07-07 13:31:46	zzarathustra_69	sans the last '\'
+2020-07-07 13:31:32	zzarathustra_69	https://blogs.scientificamerican.com/observations/time-on-the-brain-how-you-are-always-living-in-the-past-and-other-quirks-of-perception/\
+2020-07-07 07:31:43	zzarathustra_69	yeah I'll try and finish it today and put it up there. haven't even tried to compile it yet hehe
+2020-07-06 22:20:38	ommedulla	!
+2020-07-06 22:20:30	ommedulla	^ and sounds great! want to put it on github or similar so we can all preview?
+2020-07-06 22:19:38	ommedulla	^^great! im in the same boat, need nvidia to use an external monitor (in whch case I'm always plugged in)
+2020-07-06 22:19:07	ommedulla	^^^ sure! I'm planning on working through chapter 1 tonight
+2020-07-06 21:52:54	zarathustra_69	as a matter of fact, i have a small program i am working on that would be great if we could look at. it just checks if the input is a "narcissistic number"
+2020-07-06 21:37:04	zarathustra_69	@ommedulla yes the optimus manager setting... have to use my nvidia for my external monitor bc the hdmi port is hooked to it, which isn't a problem bc i'm always hooked up to power. will be nice to have the auto switch for when running on battery tho
+2020-07-06 21:35:19	zarathustra_69	do you guys want to choose some programming examples to go over from the chapter on Thurs?
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-05 15:11:51	&ttylta	And I've tried problems on project euler years ago.
+2020-07-05 15:11:23	&ttylta	I'm now on forever. 
+2020-07-02 18:28:11	@ommira:matrix.org	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	@ommira:matrix.org	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	@ommira:matrix.org	u no it
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-06-24 10:13:41	zzarathustra_69	But it's description says that it enables the websites dark theme, so I figured qute would work the same. But its possible that the qutebrowser way is weaker.
+2020-06-24 10:12:33	zzarathustra_69	But, it could be that this website doesn't have a true dark mode. The FF/Chrome extension I use, "Dark Reader", just inserts come code when it loads a web page, so it could create the illusion for me that more websites have a dark theme than really do
+2020-06-24 10:11:02	zzarathustra_69	Well, on websites like archlinux.org, I am expecting it to enable dark mode so that the website shows a dark color scheme instead of the basic white background
+2020-06-24 10:07:34	&ttylta	What are you expecting it to do btw?
+2020-06-24 10:07:19	&ttylta	I'll keep trying things on my end and report back
+2020-06-24 10:07:11	&ttylta	huh
+2020-06-24 10:01:25	zzarathustra_69	Yeah still not working!
+2020-06-24 09:53:03	zzarathustra_69	I see, I'll try that. Weird it's not working the other ways, as it's supposed to.
+2020-06-24 09:49:02	&ttylta	And yeah, that should go in .config/qutebrowser/config.py
+2020-06-24 09:48:52	&ttylta	SWEEEEEEEEET
+2020-06-24 09:41:35	zzarathustra_69	I've just been lazy/busy, but its vacation season so things get slow.
+2020-06-24 09:41:06	zzarathustra_69	P.S., finally using my linux workstation for werk B-)... it is worth it just to use i3, rather than fumbling around with Windows
+2020-06-24 09:39:55	zzarathustra_69	Yes, well, I did it from the command prompt, and also thru the config page. Is that syntax u sent meant to be in a config file tho?
+2020-06-24 09:14:14	&ttylta	Did this work for you zarathustra_69: config.set("colors.webpage.darkmode.enabled", True)
+2020-06-24 09:06:01	&ttylta	I'll look into it today.
+2020-06-23 22:25:42	zarathustra_69	i usually use the "dark reader" browser extension on firefox
+2020-06-23 22:25:12	zarathustra_69	I have enabled it via the :set command... doesn't seem to work
+2020-06-23 22:24:48	zarathustra_69	anybody know how the FUCk to get qutebrowser dark mode working?
+2020-06-23 22:24:05	zarathustra_69	fyckerz!!
+2020-06-23 22:23:48	zarathustra_69	ok finally on this shit
+2020-06-23 22:23:39	zarathustra_69	poop
+2020-06-23 20:17:56	&ttylta	http://mef-lab.com/osnove-2016/C-Programming-Ebook.pdf
+2020-06-23 20:16:25	neoone	 /quit
+2020-06-21 15:12:24	&ttylta	boogaloo
+2020-06-21 10:49:06	neoone	yo, i think i fucked up my xserver or something... can run startx anymore... gives an error related to kms color map
+2020-06-18 23:03:40	&ttylta	yay -S terminus-font-ttf
+2020-06-18 23:01:43	&ttylta	https://github.com/xero/bitmap-fonts
+2020-06-18 22:29:04	&ttylta	https://github.com/ryanoasis/nerd-fonts
+2020-06-18 22:26:17	&ttylta	http://madmalik.github.io/mononoki/
+2020-06-18 22:26:04	&ttylta	https://github.com/madmalik/mononoki
+2020-06-18 22:26:03	ommedulla	https://www.archlinux.org/packages/extra/any/adobe-source-code-pro-fonts/
+2020-06-18 22:21:00	&ttylta	https://github.com/ttylta/stod
+2020-06-18 22:14:58	ommedulla	URxvt.scrollBar: false
+2020-06-18 22:06:33	&ttylta	80pKBjUFAveTIupV8ev9xCHggbdpWB/XeSDj+MA/aWbU0psYqZ7YVSSs7212GPqP
+2020-06-18 22:06:20	&ttylta	xfe5fc7TTYHgKxsHm2fpzOrOucBX3V7IH0TaxfQ8of8M/5osHi/s+1hIz16SGehMp
+2020-06-18 22:06:16	ommedulla	https://github.com/opmorgan/dots/blob/master/xinitrc/.xinitrc
+2020-06-18 22:03:48	zzarathustra_69	kk
+2020-06-18 21:59:51	&ttylta	. "${HOME}/.cache/wal/colors.sh"
+2020-06-18 21:59:51	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:59:51	&ttylta	fi
+2020-06-18 21:59:51	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:59:50	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:59:45	&ttylta	if [ -f "$userresources" ]; then
+2020-06-18 21:59:45	&ttylta	userresources=$HOME/.Xresources
+2020-06-18 21:59:45	&ttylta	usermodmap=$HOME/.Xmodmap
+2020-06-18 21:59:45	&ttylta	fi
+2020-06-18 21:59:40	&ttylta	=============
+2020-06-18 21:47:03	&ttylta	cryptobin.co/l641u2o1
+2020-06-18 21:46:47	&ttylta	80pKBjUFAveTIupV8ev9xCHggbdpWB/XeSDj+MA/aWbU0psYqZ7YVSSs7212GPqP
+2020-06-18 21:45:18	zzarathustra_69	xrdb: Can't open display ' '
+2020-06-18 21:45:11	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:45:11	&ttylta	fi
+2020-06-18 21:45:11	&ttylta	. "${HOME}/.cache/wal/colors.sh"
+2020-06-18 21:45:11	&ttylta	if [ -f "$userresources" ]; then
+2020-06-18 21:45:11	&ttylta	fi
+2020-06-18 21:45:11	&ttylta	usermodmap=$HOME/.Xmodmap
+2020-06-18 21:45:11	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:45:11	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:44:17	&ttylta	xrdb -merge ~/.Xresources
+2020-06-18 21:43:51	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:43:51	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:43:51	&ttylta	fi
+2020-06-18 21:43:51	&ttylta	cryptobin.co/62u3k060if [ -f "$userresources" ]; then
+2020-06-18 21:43:51	&ttylta	fi
+2020-06-18 21:43:51	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:29:47	&ttylta	cryptobin.co/m4v6x1c0
+2020-06-18 21:28:33	zzarathustra_69	cryptobin.co/62u3k060
+2020-06-18 21:28:07	zzarathustra_69	         
+2020-06-18 21:13:50	&ttylta	URxvt.font:xft:Cozette:style=Medium:size=10:antialias=false
+2020-06-18 21:09:18	ommedulla	some more urxvt config options: https://github.com/opmorgan/dots/blob/master/Xresources/.Xresources
+2020-06-18 21:07:41	ommedulla	URxvt.boldFont: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+2020-06-18 21:07:41	ommedulla	URxvt.font: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+2020-06-18 21:06:06	zzarathustra_69	jos u froze
+2020-06-18 21:03:40	&ttylta	URxvt.scrollBar: false
+2020-06-18 21:03:40	&ttylta	URxvt.internalBorder:  30
+2020-06-18 20:59:44	&ttylta	https://wiki.archlinux.org/index.php/Fonts#Set_terminal_font_on-the-fly
+2020-06-18 20:58:00	&ttylta	fc-list | grep curie
+2020-06-18 20:47:20	&ttylta	yay -S fontpreview-git
+2020-06-18 20:35:32	&ttylta	makepkg -si
+2020-06-18 20:35:08	&ttylta	git clone https://aur.archlinux.org/yay.git
+2020-06-18 20:33:40	&ttylta	sudo make install
+2020-06-18 20:33:38	&ttylta	make
+2020-06-18 20:33:37	&ttylta	git clone https://github.com/Jguer/yay
+2020-06-18 20:33:35	&ttylta	------------
+2020-06-18 20:32:02	&ttylta	makepkg -si
+2020-06-18 20:31:45	&ttylta	makepkg
+2020-06-18 20:31:24	&ttylta	yay -S package
+2020-06-18 20:31:12	&ttylta	-S
+2020-06-18 20:30:58	&ttylta	mkpkg -si
+2020-06-18 20:30:37	&ttylta	git clone https://github.com/Jguer/yay
+2020-06-18 20:29:33	&ttylta	https://aur.archlinux.org/packages/yay/
+2020-06-18 20:28:51	&ttylta	fc-list | grep term
+2020-06-18 20:28:14	zzarathustra_69	URxvt.font:xft:terminus:size=24
+2020-06-18 20:17:08	&ttylta	pavucontrol
+2020-06-18 20:15:41	neoone	yo, I opened pavucontrol.ini in the .config folder and it has nothing related to munmuting microphone
+2020-06-18 20:13:53	&ttylta	touch. ~/.Xresources
+2020-06-18 20:13:30	&ttylta	unmute your mic
+2020-06-18 20:13:27	&ttylta	open it, go to mic settings
+2020-06-18 20:13:23	&ttylta	pavucontrol
+2020-06-18 20:12:40	neoone	then what's the name of the package you want to install?
+2020-06-18 20:12:06	neoone	I am running a full update of the pacman packages
+2020-06-18 20:09:43	neoone	on jitsi
+2020-06-18 19:47:52	&ttylta	https://en.wikipedia.org/wiki/Hikikomori
+2020-06-18 19:32:36	&ttylta	https://meet.jit.si/sybersexoids
+2020-06-18 19:18:02	zzarathustra_69	@_@
+2020-06-18 19:15:03	&ttylta	7:30 sounds perfect 2 me
+2020-06-18 19:14:44	&ttylta	The beast of burden
+2020-06-18 19:14:38	&ttylta	ooo bb
+2020-06-18 19:09:19	neoone	The Beast has entered the chat
+2020-07-09 10:28:51	&ttylta	kiiiiiiiiiiiiiiiiiiiii
+2020-07-09 10:29:02	&ttylta	That was my cat. 
+2020-07-09 10:29:29	&ttylta	Sad that I missed out on all of this.
+2020-07-09 10:29:38	&ttylta	But ttl for optimus-manager auto.
+2020-07-09 10:30:05	&ttylta	I really need to setup notify-send to work with weechat tonight.
+2020-07-09 10:52:45	zzarathustra_69	Me too lol i just look at it from time to time
+2020-07-09 10:53:10	zzarathustra_69	man we use Microsoft Teams at work.... the fucking linux client uses like 20% of my cpu!!! so i just use it on my phone lol
+2020-07-09 10:54:45	zzarathustra_69	no IRC integration :(
+2020-07-09 11:09:37	ommedulla	same. I've just been leaving it open in a space with discord and checking it now and then
+2020-07-09 11:50:32	&ttylta	That's basically what I'm doing now too. 
+2020-07-09 16:23:17	zarathustra_69	i may need my new github to be added to the ojjo group
+2020-07-09 16:23:32	zarathustra_69	username zzzebo email zarathustr@tutanota.com
+2020-07-09 18:19:50	ommedulla	ill be on around 7, you all?
+2020-07-09 18:31:57	zarathustra_69	7 is good
+2020-07-09 19:06:32	zarathustra_69	oi lost track of time
+2020-07-09 19:06:34	zarathustra_69	moving a couch
+2020-07-09 19:06:36	zarathustra_69	be there in a few
+2020-07-09 19:06:36	@zarathustra_69:matrix.org	be there in a few
+2020-07-09 19:06:34	@zarathustra_69:matrix.org	moving a couch
+2020-07-09 19:06:32	@zarathustra_69:matrix.org	oi lost track of time
+2020-07-09 18:31:57	@zarathustra_69:matrix.org	7 is good
+2020-07-09 18:19:51	ommedulla	ill be on around 7, you all?
+2020-07-09 16:23:32	@zarathustra_69:matrix.org	username zzzebo email zarathustr@tutanota.com
+2020-07-09 16:23:17	@zarathustra_69:matrix.org	i may need my new github to be added to the ojjo group
+2020-07-09 11:50:32	@ttylta:matrix.org	That's basically what I'm doing now too. 
+2020-07-09 11:09:37	ommedulla	same. I've just been leaving it open in a space with discord and checking it now and then
+2020-07-09 10:54:45	@zzarathustra_69:matrix.org	no IRC integration :(
+2020-07-09 10:53:10	zzarathustra_69	man we use Microsoft Teams at work.... the fucking linux client uses like 20% of my cpu!!! so i just use it on my phone lol
+2020-07-09 10:52:45	zzarathustra_69	Me too lol i just look at it from time to time
+2020-07-09 10:30:05	&ttylta	I really need to setup notify-send to work with weechat tonight.
+2020-07-09 10:29:38	&ttylta	But ttl for optimus-manager auto.
+2020-07-09 10:29:29	&ttylta	Sad that I missed out on all of this.
+2020-07-09 10:29:02	&ttylta	That was my cat. 
+2020-07-09 10:28:51	&ttylta	kiiiiiiiiiiiiiiiiiiiii
+2020-07-08 13:32:31	zzarathustra_69	Honestly, it wouldn't be too hard for me to believe that my body just has a pretty good sense of time, since I wake up around the same time every day. That to me is a more straightforward explanation than some crazy paradox about how my perception lags behind in time by 80 milliseconds
+2020-07-08 13:31:13	zzarathustra_69	Hm, so im psychic after all!
+2020-07-07 22:22:10	ommedulla	but then again, maybe dream experiences are special. they are extra hard to remember etc., and you are definitely in a pretty weird place wehn just waking up. might not be the best situation to found all your beleifs on...
+2020-07-07 22:19:35	ommedulla	your recent memory of your experience is the ground truth about what your experience is. psychology/neuroscience can point out interesting ways that your behavior, and experience, relate to events and to your previous descriptions (and in the case of rememebring things like an eyewitness, there is strong reason to doubt your later descriptions), but psychology and neuroscience depend on trusting descriptions of recent expereince for their explananda. Like you did just now, your description of an interesting experience is the starting point for an interesting line of investigation about how that experience was possible
+2020-07-07 22:12:44	ommedulla	neuroscientists like to say that everything you think you know about your experience is wrong. well, jokes on them, they are doing science in experience
+2020-07-07 22:11:38	ommedulla	I'd say believe your memory, and that it wouldn't have surprised you if your dream alarm had been at another time. misremembering details of episodic memories probably happens all the time, but if you experienced watching the hand go to a particular spot in your dream, and that's how you remembered it right after, that must be what you experienced! especially with your plausible reasons that your dream planner could have anticipated it
+2020-07-07 21:40:00	zarathustra_69	but in the dream, it felt like i was watching the hand of the clock move to where my alarm was set to go off, and when it lined up, i heard the alarm go off in real life which pulled me out of the dream
+2020-07-07 21:39:24	zarathustra_69	though i will say that i woke up an hour earlier and went back to sleep because i knew i could sleep in, so i could well have been anticipating it based on my circadian rhythm, which on most days i do wake up a few minutes before my alarm goes off
+2020-07-07 21:38:46	zarathustra_69	i'm guessing the person who posted this article on the reddit thread i found it on (in response to a similar dream scenario where someone felt they predicted their alarm) would claim that i invented the coincidence between my dream clock and real clock in the split second between when i heard my alarm and when i woke up
+2020-07-07 21:37:08	zarathustra_69	so how would you relate that to the dream scenario?
+2020-07-07 18:34:22	ommedulla	shift + i to go to insert at the beginning of a line is another big revelation
+2020-07-07 18:33:43	ommedulla	til that you can pres "a" in vim to go to insert mode after the current character (I had always used "i" + "arrow key"...) not sure how I missed this one in the vim tutor, but it's a huge gamechanger
+2020-07-07 17:19:16	ommedulla	sorry to take up the whole chat window, obviously have a lot of opinions about this haha
+2020-07-07 17:18:47	ommedulla	to me experiments like that reveal the insight that perception is not a quick copy of events like flashing lights, but constructed on the basis of events that occur at various timepoints (agreeing with the general conclusion of the article). It's just that these experiments don't show that you are constructing a particular representational experience that can be analyzed at any "moment" in the way you can describe the timepoint of a flashof light or movement of a pool ball. Experience doesn't move/change in th way that we impute objects like "light stimuli" to
+2020-07-07 17:15:06	ommedulla	another great example of a retroactive effect like the flash lag is: you're presented with a green dot on the elft side of a screen. quickly, it disappears and a red dot is presented to the right. You would describe your experience as seeing the green dot move from the left to the right, and change color as it goes (and imo, this is what your experience is like, reflected in your decription). You aren't "misrepresenting" the dot as moving, or making a mistake about what is going on (unless your goal is to decribe what is going on in the experimental apparatus). This is just how perception goes when you're in a situation like that. 
+2020-07-07 17:12:49	ommedulla	imo there's no reason to suppose that perception does or should be fast representation of events like light flashes. That's not what experience is like (speaker on authority of being someone who experiences), and it would be less useful if it did work like that
+2020-07-07 17:11:56	ommedulla	haha maybe. imo pointing out instances of retroactive "mistakes" about perception is the easy way out of creating an account of perception/conscious experience. E.g., in the flash-lag illusion, you describe the timing of the flash and the other thing as instantaneous or not, in a way that doesn't track or accurately represent the stimuli as they were presented. But why would perception be made of representations of discrete stimuli of the kind that happen to be useful to experimenters? These "mistakes" aren't mistakes if you consider perceptaion as an activity that creates useful "presentations", or creates a useful "perceptul field", based on how it is keyed into events like flashes of light. 
+2020-07-07 13:32:37	zzarathustra_69	^^ had a crazy dream this morning that i was waiting for my alarm to go off, and as soon as the time changed in my dream my alarm really went off. but according to this article i may have just made up that part of the dream in split seconds after the fact :')
+2020-07-07 13:31:46	zzarathustra_69	sans the last '\'
+2020-07-07 13:31:32	zzarathustra_69	https://blogs.scientificamerican.com/observations/time-on-the-brain-how-you-are-always-living-in-the-past-and-other-quirks-of-perception/\
+2020-07-07 07:31:43	zzarathustra_69	yeah I'll try and finish it today and put it up there. haven't even tried to compile it yet hehe
+2020-07-06 22:20:38	ommedulla	!
+2020-07-06 22:20:30	ommedulla	^ and sounds great! want to put it on github or similar so we can all preview?
+2020-07-09 19:24:53	ommedulla	https://meet.jit.si/SlightEquationsWidenFreely
+2020-07-09 19:24:53	ommedulla	https://meet.jit.si/SlightEquationsWidenFreely
+2020-07-09 19:06:36	zarathustra_69	be there in a few
+2020-07-09 19:06:34	zarathustra_69	moving a couch
+2020-07-09 19:06:32	zarathustra_69	oi lost track of time
+2020-07-09 18:31:57	zarathustra_69	7 is good
+2020-07-09 18:19:51	ommedulla	ill be on around 7, you all?
+2020-07-09 16:23:32	zarathustra_69	username zzzebo email zarathustr@tutanota.com
+2020-07-09 16:23:17	zarathustra_69	i may need my new github to be added to the ojjo group
+2020-07-09 11:50:32	&ttylta	That's basically what I'm doing now too. 
+2020-07-09 11:09:37	ommedulla	same. I've just been leaving it open in a space with discord and checking it now and then
+2020-07-09 10:54:45	zzarathustra_69	no IRC integration :(
+2020-07-09 10:53:10	zzarathustra_69	man we use Microsoft Teams at work.... the fucking linux client uses like 20% of my cpu!!! so i just use it on my phone lol
+2020-07-09 10:52:45	zzarathustra_69	Me too lol i just look at it from time to time
+2020-07-09 10:30:05	&ttylta	I really need to setup notify-send to work with weechat tonight.
+2020-07-09 10:29:38	&ttylta	But ttl for optimus-manager auto.
+2020-07-09 10:29:29	&ttylta	Sad that I missed out on all of this.
+2020-07-09 10:29:02	&ttylta	That was my cat. 
+2020-07-09 10:28:51	&ttylta	kiiiiiiiiiiiiiiiiiiiii
+2020-07-08 13:32:31	zzarathustra_69	Honestly, it wouldn't be too hard for me to believe that my body just has a pretty good sense of time, since I wake up around the same time every day. That to me is a more straightforward explanation than some crazy paradox about how my perception lags behind in time by 80 milliseconds
+2020-07-08 13:31:13	zzarathustra_69	Hm, so im psychic after all!
+2020-07-07 22:22:10	ommedulla	but then again, maybe dream experiences are special. they are extra hard to remember etc., and you are definitely in a pretty weird place wehn just waking up. might not be the best situation to found all your beleifs on...
+2020-07-07 22:19:35	ommedulla	your recent memory of your experience is the ground truth about what your experience is. psychology/neuroscience can point out interesting ways that your behavior, and experience, relate to events and to your previous descriptions (and in the case of rememebring things like an eyewitness, there is strong reason to doubt your later descriptions), but psychology and neuroscience depend on trusting descriptions of recent expereince for their explananda. Like you did just now, your description of an interesting experience is the starting point for an interesting line of investigation about how that experience was possible
+2020-07-07 22:12:44	ommedulla	neuroscientists like to say that everything you think you know about your experience is wrong. well, jokes on them, they are doing science in experience
+2020-07-07 22:11:38	ommedulla	I'd say believe your memory, and that it wouldn't have surprised you if your dream alarm had been at another time. misremembering details of episodic memories probably happens all the time, but if you experienced watching the hand go to a particular spot in your dream, and that's how you remembered it right after, that must be what you experienced! especially with your plausible reasons that your dream planner could have anticipated it
+2020-07-07 21:40:00	zarathustra_69	but in the dream, it felt like i was watching the hand of the clock move to where my alarm was set to go off, and when it lined up, i heard the alarm go off in real life which pulled me out of the dream
+2020-07-07 21:39:24	zarathustra_69	though i will say that i woke up an hour earlier and went back to sleep because i knew i could sleep in, so i could well have been anticipating it based on my circadian rhythm, which on most days i do wake up a few minutes before my alarm goes off
+2020-07-07 21:38:46	zarathustra_69	i'm guessing the person who posted this article on the reddit thread i found it on (in response to a similar dream scenario where someone felt they predicted their alarm) would claim that i invented the coincidence between my dream clock and real clock in the split second between when i heard my alarm and when i woke up
+2020-07-07 21:37:08	zarathustra_69	so how would you relate that to the dream scenario?
+2020-07-07 18:34:22	ommedulla	shift + i to go to insert at the beginning of a line is another big revelation
+2020-07-07 18:33:43	ommedulla	til that you can pres "a" in vim to go to insert mode after the current character (I had always used "i" + "arrow key"...) not sure how I missed this one in the vim tutor, but it's a huge gamechanger
+2020-07-07 17:19:16	ommedulla	sorry to take up the whole chat window, obviously have a lot of opinions about this haha
+2020-07-07 17:18:47	ommedulla	to me experiments like that reveal the insight that perception is not a quick copy of events like flashing lights, but constructed on the basis of events that occur at various timepoints (agreeing with the general conclusion of the article). It's just that these experiments don't show that you are constructing a particular representational experience that can be analyzed at any "moment" in the way you can describe the timepoint of a flashof light or movement of a pool ball. Experience doesn't move/change in th way that we impute objects like "light stimuli" to
+2020-07-07 17:15:06	ommedulla	another great example of a retroactive effect like the flash lag is: you're presented with a green dot on the elft side of a screen. quickly, it disappears and a red dot is presented to the right. You would describe your experience as seeing the green dot move from the left to the right, and change color as it goes (and imo, this is what your experience is like, reflected in your decription). You aren't "misrepresenting" the dot as moving, or making a mistake about what is going on (unless your goal is to decribe what is going on in the experimental apparatus). This is just how perception goes when you're in a situation like that. 
+2020-07-07 17:12:49	ommedulla	imo there's no reason to suppose that perception does or should be fast representation of events like light flashes. That's not what experience is like (speaker on authority of being someone who experiences), and it would be less useful if it did work like that
+2020-07-07 17:11:56	ommedulla	haha maybe. imo pointing out instances of retroactive "mistakes" about perception is the easy way out of creating an account of perception/conscious experience. E.g., in the flash-lag illusion, you describe the timing of the flash and the other thing as instantaneous or not, in a way that doesn't track or accurately represent the stimuli as they were presented. But why would perception be made of representations of discrete stimuli of the kind that happen to be useful to experimenters? These "mistakes" aren't mistakes if you consider perceptaion as an activity that creates useful "presentations", or creates a useful "perceptul field", based on how it is keyed into events like flashes of light. 
+2020-07-07 13:32:37	zzarathustra_69	^^ had a crazy dream this morning that i was waiting for my alarm to go off, and as soon as the time changed in my dream my alarm really went off. but according to this article i may have just made up that part of the dream in split seconds after the fact :')
+2020-07-07 13:31:46	zzarathustra_69	sans the last '\'
+2020-07-07 13:31:32	zzarathustra_69	https://blogs.scientificamerican.com/observations/time-on-the-brain-how-you-are-always-living-in-the-past-and-other-quirks-of-perception/\
+2020-07-07 07:31:43	zzarathustra_69	yeah I'll try and finish it today and put it up there. haven't even tried to compile it yet hehe
+2020-07-06 22:20:38	ommedulla	!
+2020-07-06 22:20:30	ommedulla	^ and sounds great! want to put it on github or similar so we can all preview?
+2020-07-06 22:19:38	ommedulla	^^great! im in the same boat, need nvidia to use an external monitor (in whch case I'm always plugged in)
+2020-07-06 22:19:07	ommedulla	^^^ sure! I'm planning on working through chapter 1 tonight
+2020-07-06 21:52:54	zarathustra_69	as a matter of fact, i have a small program i am working on that would be great if we could look at. it just checks if the input is a "narcissistic number"
+2020-07-06 21:37:04	zarathustra_69	@ommedulla yes the optimus manager setting... have to use my nvidia for my external monitor bc the hdmi port is hooked to it, which isn't a problem bc i'm always hooked up to power. will be nice to have the auto switch for when running on battery tho
+2020-07-06 21:35:19	zarathustra_69	do you guys want to choose some programming examples to go over from the chapter on Thurs?
+2020-07-06 15:43:04	ommedulla	you all might like this weechat plugin: https://github.com/GermainZ/weechat-vimode
+2020-07-06 14:46:27	ommedulla	@zz the optimus manager setting? awesome. I wish i'd found it a while ago!
+2020-07-06 13:40:39	zzarathustra_69	wow! that's exactly what I need owen lol. timely
+2020-07-06 10:17:15	ommedulla	:q
+2020-07-06 10:17:09	ommedulla	cool hack for razer keyboard lighting: https://www.reddit.com/r/unixporn/comments/hgba3b/i3_razer_blade_stealth_highlighting_shortcuts_and/
+2020-07-05 20:01:21	ommedulla	https://gist.github.com/opmorgan/55921830cddd8417ebf4d53c1a375543
+2020-07-05 20:01:12	ommedulla	@ttyelud also, I've been using optimus-manager's "auto" mode and it works pretty nicely. Can set it to boot intel if on battery, and nvidia if plugged in. have you tried it?
+2020-07-05 19:28:56	ommedulla	gr8, same here. hows philly?
+2020-07-05 15:12:23	&ttylta	:open 2
+2020-07-05 15:12:18	&ttylta	:open-url 2
+2020-07-05 15:11:52	&ttylta	It's fun. 
+2020-07-05 15:11:51	&ttylta	And I've tried problems on project euler years ago.
+2020-07-05 15:11:23	&ttylta	I'm now on forever. 
+2020-07-02 18:28:11	@ommira:matrix.org	also, has anyone tried the problems on https://projecteuler.net/? I'm thinking of working through some of them in C as a way to get comfy
+2020-07-02 18:25:49	@ommira:matrix.org	this looks like a fun little project, linked on the arch wiki for "locate": https://jvns.ca/blog/2015/03/05/how-the-locate-command-works-and-lets-rewrite-it-in-one-minute/
+2020-07-02 18:24:12	@ommira:matrix.org	u no it
+2020-06-30 10:59:43	zzarathustra_69	and libreboot
+2020-06-30 10:55:50	zzarathustra_69	so 2021 we are all gonna install gentoo right
+2020-06-29 22:27:05	zarathustra_69	nobody gets on here :(
+2020-06-26 18:17:51	zarathustra_69	jjjjj
+2020-06-26 08:24:34	zzarathustra_69	well, I'll be hangin and hackin tonight if anybody wants to
+2020-06-24 21:45:09	zarathustra_69	well, for some reason it finally started working... maybe because i finally closed all instances of qutebrowser... hadn't thought of that
+2020-06-24 10:13:41	zzarathustra_69	But it's description says that it enables the websites dark theme, so I figured qute would work the same. But its possible that the qutebrowser way is weaker.
+2020-06-24 10:12:33	zzarathustra_69	But, it could be that this website doesn't have a true dark mode. The FF/Chrome extension I use, "Dark Reader", just inserts come code when it loads a web page, so it could create the illusion for me that more websites have a dark theme than really do
+2020-06-24 10:11:02	zzarathustra_69	Well, on websites like archlinux.org, I am expecting it to enable dark mode so that the website shows a dark color scheme instead of the basic white background
+2020-06-24 10:07:34	&ttylta	What are you expecting it to do btw?
+2020-06-24 10:07:19	&ttylta	I'll keep trying things on my end and report back
+2020-06-24 10:07:11	&ttylta	huh
+2020-06-24 10:01:25	zzarathustra_69	Yeah still not working!
+2020-06-24 09:53:03	zzarathustra_69	I see, I'll try that. Weird it's not working the other ways, as it's supposed to.
+2020-06-24 09:49:02	&ttylta	And yeah, that should go in .config/qutebrowser/config.py
+2020-06-24 09:48:52	&ttylta	SWEEEEEEEEET
+2020-06-24 09:41:35	zzarathustra_69	I've just been lazy/busy, but its vacation season so things get slow.
+2020-06-24 09:41:06	zzarathustra_69	P.S., finally using my linux workstation for werk B-)... it is worth it just to use i3, rather than fumbling around with Windows
+2020-06-24 09:39:55	zzarathustra_69	Yes, well, I did it from the command prompt, and also thru the config page. Is that syntax u sent meant to be in a config file tho?
+2020-06-24 09:14:14	&ttylta	Did this work for you zarathustra_69: config.set("colors.webpage.darkmode.enabled", True)
+2020-06-24 09:06:01	&ttylta	I'll look into it today.
+2020-06-23 22:25:42	zarathustra_69	i usually use the "dark reader" browser extension on firefox
+2020-06-23 22:25:12	zarathustra_69	I have enabled it via the :set command... doesn't seem to work
+2020-06-23 22:24:48	zarathustra_69	anybody know how the FUCk to get qutebrowser dark mode working?
+2020-06-23 22:24:05	zarathustra_69	fyckerz!!
+2020-06-23 22:23:48	zarathustra_69	ok finally on this shit
+2020-06-23 22:23:39	zarathustra_69	poop
+2020-06-23 20:17:56	&ttylta	http://mef-lab.com/osnove-2016/C-Programming-Ebook.pdf
+2020-06-23 20:16:25	neoone	 /quit
+2020-06-21 15:12:24	&ttylta	boogaloo
+2020-06-21 10:49:06	neoone	yo, i think i fucked up my xserver or something... can run startx anymore... gives an error related to kms color map
+2020-06-18 23:03:40	&ttylta	yay -S terminus-font-ttf
+2020-06-18 23:01:43	&ttylta	https://github.com/xero/bitmap-fonts
+2020-06-18 22:29:04	&ttylta	https://github.com/ryanoasis/nerd-fonts
+2020-06-18 22:26:17	&ttylta	http://madmalik.github.io/mononoki/
+2020-06-18 22:26:04	&ttylta	https://github.com/madmalik/mononoki
+2020-06-18 22:26:03	ommedulla	https://www.archlinux.org/packages/extra/any/adobe-source-code-pro-fonts/
+2020-06-18 22:21:00	&ttylta	https://github.com/ttylta/stod
+2020-06-18 22:14:58	ommedulla	URxvt.scrollBar: false
+2020-06-18 22:06:33	&ttylta	80pKBjUFAveTIupV8ev9xCHggbdpWB/XeSDj+MA/aWbU0psYqZ7YVSSs7212GPqP
+2020-06-18 22:06:20	&ttylta	xfe5fc7TTYHgKxsHm2fpzOrOucBX3V7IH0TaxfQ8of8M/5osHi/s+1hIz16SGehMp
+2020-06-18 22:06:16	ommedulla	https://github.com/opmorgan/dots/blob/master/xinitrc/.xinitrc
+2020-06-18 22:03:48	zzarathustra_69	kk
+2020-06-18 21:59:51	&ttylta	. "${HOME}/.cache/wal/colors.sh"
+2020-06-18 21:59:51	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:59:51	&ttylta	fi
+2020-06-18 21:59:51	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:59:50	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:59:45	&ttylta	if [ -f "$userresources" ]; then
+2020-06-18 21:59:45	&ttylta	userresources=$HOME/.Xresources
+2020-06-18 21:59:45	&ttylta	usermodmap=$HOME/.Xmodmap
+2020-06-18 21:59:45	&ttylta	fi
+2020-06-18 21:59:40	&ttylta	=============
+2020-06-18 21:47:03	&ttylta	cryptobin.co/l641u2o1
+2020-06-18 21:46:47	&ttylta	80pKBjUFAveTIupV8ev9xCHggbdpWB/XeSDj+MA/aWbU0psYqZ7YVSSs7212GPqP
+2020-06-18 21:45:18	zzarathustra_69	xrdb: Can't open display ' '
+2020-06-18 21:45:11	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:45:11	&ttylta	fi
+2020-06-18 21:45:11	&ttylta	. "${HOME}/.cache/wal/colors.sh"
+2020-06-18 21:45:11	&ttylta	if [ -f "$userresources" ]; then
+2020-06-18 21:45:11	&ttylta	fi
+2020-06-18 21:45:11	&ttylta	usermodmap=$HOME/.Xmodmap
+2020-06-18 21:45:11	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:45:11	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:44:17	&ttylta	xrdb -merge ~/.Xresources
+2020-06-18 21:43:51	&ttylta	    xmodmap "$usermodmap"
+2020-06-18 21:43:51	&ttylta	    xrdb -merge "$userresources"
+2020-06-18 21:43:51	&ttylta	fi
+2020-06-18 21:43:51	&ttylta	cryptobin.co/62u3k060if [ -f "$userresources" ]; then
+2020-06-18 21:43:51	&ttylta	fi
+2020-06-18 21:43:51	&ttylta	if [ -f "$usermodmap" ]; then
+2020-06-18 21:29:47	&ttylta	cryptobin.co/m4v6x1c0
+2020-06-18 21:28:33	zzarathustra_69	cryptobin.co/62u3k060
+2020-06-18 21:28:07	zzarathustra_69	         
+2020-06-18 21:13:50	&ttylta	URxvt.font:xft:Cozette:style=Medium:size=10:antialias=false
+2020-06-18 21:09:18	ommedulla	some more urxvt config options: https://github.com/opmorgan/dots/blob/master/Xresources/.Xresources
+2020-06-18 21:07:41	ommedulla	URxvt.boldFont: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+2020-06-18 21:07:41	ommedulla	URxvt.font: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+2020-06-18 21:06:06	zzarathustra_69	jos u froze
+2020-06-18 21:03:40	&ttylta	URxvt.scrollBar: false
+2020-06-18 21:03:40	&ttylta	URxvt.internalBorder:  30
+2020-06-18 20:59:44	&ttylta	https://wiki.archlinux.org/index.php/Fonts#Set_terminal_font_on-the-fly
+2020-06-18 20:58:00	&ttylta	fc-list | grep curie
+2020-06-18 20:47:20	&ttylta	yay -S fontpreview-git
+2020-06-18 20:35:32	&ttylta	makepkg -si
+2020-06-18 20:35:08	&ttylta	git clone https://aur.archlinux.org/yay.git
+2020-06-18 20:33:40	&ttylta	sudo make install
+2020-06-18 20:33:38	&ttylta	make
+2020-06-18 20:33:37	&ttylta	git clone https://github.com/Jguer/yay
+2020-06-18 20:33:35	&ttylta	------------
+2020-06-18 20:32:02	&ttylta	makepkg -si
+2020-06-18 20:31:45	&ttylta	makepkg
+2020-06-18 20:31:24	&ttylta	yay -S package
+2020-06-18 20:31:12	&ttylta	-S
+2020-06-18 20:30:58	&ttylta	mkpkg -si
+2020-06-18 20:30:37	&ttylta	git clone https://github.com/Jguer/yay
+2020-06-18 20:29:33	&ttylta	https://aur.archlinux.org/packages/yay/
+2020-06-18 20:28:51	&ttylta	fc-list | grep term
+2020-06-18 20:28:14	zzarathustra_69	URxvt.font:xft:terminus:size=24
+2020-06-18 20:17:08	&ttylta	pavucontrol
+2020-06-18 20:15:41	neoone	yo, I opened pavucontrol.ini in the .config folder and it has nothing related to munmuting microphone
+2020-06-18 20:13:53	&ttylta	touch. ~/.Xresources
+2020-06-18 20:13:30	&ttylta	unmute your mic
+2020-06-18 20:13:27	&ttylta	open it, go to mic settings
+2020-06-18 20:13:23	&ttylta	pavucontrol
+2020-06-18 20:12:40	neoone	then what's the name of the package you want to install?
+2020-06-18 20:12:06	neoone	I am running a full update of the pacman packages
+2020-06-18 20:09:43	neoone	on jitsi
+2020-06-18 19:47:52	&ttylta	https://en.wikipedia.org/wiki/Hikikomori
+2020-06-18 19:32:36	&ttylta	https://meet.jit.si/sybersexoids
+2020-06-18 19:18:02	zzarathustra_69	@_@
+2020-06-18 19:15:03	&ttylta	7:30 sounds perfect 2 me
+2020-06-18 19:14:44	&ttylta	The beast of burden
+2020-06-18 19:14:38	&ttylta	ooo bb
+2020-06-18 19:09:19	neoone	The Beast has entered the chat
+2020-06-18 18:43:50	zzarathustra_69	and h3cx
+2020-06-18 18:43:34	zzarathustra_69	some day covid will not prevent us from travel and we can get together for a weekend and eat pizza and drink soda pop!
+2020-06-18 18:42:13	zzarathustra_69	pre-covid i was hoping to come up to bmore to do so in person, and now y'all are movin away! but we can always do it virtual.
+2020-06-18 18:41:29	zzarathustra_69	that'd be down the line tho when we are comfortable with the syntax and stuff... but would be cool to do from time to time if we want a little boost, only so much we will ever get done together in a few hours a week
+2020-06-18 18:40:24	zzarathustra_69	I'd also be into, once we get working on a project down the line, doing something like a whole-day ojjo marathon where we do a bunch of work
+2020-06-18 18:39:46	zzarathustra_69	but I was thinking we could look at 'c programming language' and talk about a general plan or way of going about working thru it
+2020-06-18 18:39:02	zzarathustra_69	im still doin some ricing stuff, really just need to get the terminal font bigger and I cant remember how I did that on this one
+2020-06-18 18:38:18	zzarathustra_69	gotta set it up on my thinkpad tho
+2020-06-18 18:37:23	zzarathustra_69	yeeet i do still use it this is way better than slack LOL
+2020-06-18 18:11:33	ommedulla	Ill be down2clown around 7:30 or 8 tonight
+2020-06-18 18:11:08	ommedulla	&zz looking at c programming language tn sounds good to me! @tt thanks for the fonts. just using this on my thinkpad, but meaning to set it up on daily razer too.
+2020-06-16 19:04:52	&ttylta	Anyway, I'm on here everyday. Gonna start posting links to shit. Trying this out soon: https://github.com/iberianpig/fusuma
+2020-06-16 19:04:28	&ttylta	You guys still using this thing!?
+2020-06-14 11:38:04	&ttylta	invite @neonone:matrix.org
+2020-06-13 16:39:44	zzarathustra_69	Maybe on thursday we can check out the C programming language, and figure out a loose timeline for how we wanna work thru it
+2020-06-13 16:39:06	zzarathustra_69	Syck that would be fun.
+2020-06-12 22:02:48	&ttylta	Turns out the API for matrix is pretty straightforward. I really think we could make a client in C. 
+2020-06-12 16:41:35	&ttylta	I'm using curie on the new machine, cozette on the old.
+2020-06-12 16:41:22	&ttylta	Oh, and ommedulla: best bitmap fonts are curie, tamyzyn, cozette, and terminus.
+2020-06-12 15:14:58	&ttylta	But that's only for scrolling in the current message list
+2020-06-12 15:05:00	&ttylta	also /window scroll_up can be bound
+2020-06-12 14:53:16	&ttylta	Oh, and btw: tmate works wonders
+2020-06-12 14:52:30	&ttylta	Here's a list of common keybindings and how to change them: https://weechat.org/files/doc/stable/weechat_quickstart.en.html#key_bindings
+2020-06-12 14:48:49	&ttylta	You can also type in /window page_up
+2020-06-12 14:46:56	&ttylta	You can change that with /set
+2020-06-12 14:46:41	&ttylta	Sorry, page up.
+2020-06-12 14:46:30	&ttylta	Yeah, the default binding is page down.
+2020-06-12 11:49:50	ommedulla	also, do you know how to scroll back in history in weechat?
+2020-07-09 19:35:59	ommedulla	@josh re tmate, do you remember how you installed? im running into issues with the AUR tmate-git
+2020-07-09 19:44:36	ommedulla	nvm, installed the stable AUR package (tmate) and no problem
+2020-07-09 19:54:08	zarathustra_69	6006135
+2020-07-09 19:54:14	&ttylta	bad juji
+2020-07-09 19:54:16	zarathustra_69	8008135
+2020-07-09 19:59:41	zarathustra_69	i can hear you guys very quietly
+2020-07-09 19:59:43	zarathustra_69	can you hear me
+2020-07-09 20:45:39	zarathustra_69	 https://tmate.io/t/Z2yHZ5E8xWMMgFKt4HFX2xzqC
+2020-07-09 20:46:51	zarathustra_69	ssh Z2yHZ5E8xWMMgFKt4HFX2xzqC@nyc1.tmate.io
+2020-07-09 20:46:51	zarathustra_69	ssh Z2yHZ5E8xWMMgFKt4HFX2xzqC@nyc1.tmate.io
+2020-07-09 20:45:39	zarathustra_69	 https://tmate.io/t/Z2yHZ5E8xWMMgFKt4HFX2xzqC
+2020-07-09 19:59:43	zarathustra_69	can you hear me
+2020-07-09 19:59:41	zarathustra_69	i can hear you guys very quietly
+2020-07-09 19:54:16	zarathustra_69	8008135
+2020-07-09 19:54:14	&ttylta	bad juji
+2020-07-09 19:54:08	zarathustra_69	6006135
+2020-07-09 19:44:36	ommedulla	nvm, installed the stable AUR package (tmate) and no problem
+2020-07-09 19:35:59	ommedulla	@josh re tmate, do you remember how you installed? im running into issues with the AUR tmate-git
+2020-07-09 19:24:53	ommedulla	https://meet.jit.si/SlightEquationsWidenFreely
+2020-07-09 21:07:03	&ttylta	bbchat
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-09 21:07:36	ommedulla	//github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:37	ommedulla	//github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-09 21:07:03	&ttylta	bbchat
+2020-07-09 20:46:51	zarathustra_69	ssh Z2yHZ5E8xWMMgFKt4HFX2xzqC@nyc1.tmate.io
+2020-07-09 20:45:39	zarathustra_69	 https://tmate.io/t/Z2yHZ5E8xWMMgFKt4HFX2xzqC
+2020-07-10 11:04:56	&ttylta	ommedulla: do you have a script that prevents computer sleep when charging?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:37	ommedulla	//github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-09 21:07:03	&ttylta	bbchat
+2020-07-09 20:46:51	zarathustra_69	ssh Z2yHZ5E8xWMMgFKt4HFX2xzqC@nyc1.tmate.io
+2020-07-10 11:53:52	ommedulla	@ttylta I don't, and would find that useful. to stop the screen going to sleep if the lid is closed when charging, I have "HandleLidSwitchExternalPower=ignore" in the [login] section in /etc/systemd/logind.conf
+2020-07-10 11:53:52	ommedulla	@ttylta I don't, and would find that useful. to stop the screen going to sleep if the lid is closed when charging, I have "HandleLidSwitchExternalPower=ignore" in the [login] section in /etc/systemd/logind.conf
+2020-07-10 11:04:56	&ttylta	ommedulla: do you have a script that prevents computer sleep when charging?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:37	ommedulla	//github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-09 21:07:03	&ttylta	bbchat
+2020-07-10 11:53:52	ommedulla	@ttylta I don't, and would find that useful. to stop the screen going to sleep if the lid is closed when charging, I have "HandleLidSwitchExternalPower=ignore" in the [login] section in /etc/systemd/logind.conf
+2020-07-10 11:04:56	&ttylta	ommedulla: do you have a script that prevents computer sleep when charging?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:37	ommedulla	//github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-09 21:07:03	&ttylta	bbchat
+2020-07-10 11:53:52	ommedulla	@ttylta I don't, and would find that useful. to stop the screen going to sleep if the lid is closed when charging, I have "HandleLidSwitchExternalPower=ignore" in the [login] section in /etc/systemd/logind.conf
+2020-07-10 11:04:56	&ttylta	ommedulla: do you have a script that prevents computer sleep when charging?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:37	ommedulla	//github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-09 21:07:03	&ttylta	bbchat
+2020-07-10 20:53:02	ommedulla	started the euler problems last night and thought it was a great exercise to try how to do some of them in c. The first two problems on the site were similar kinds of problems to Max's program. Especially the 2nd problem I felt like I learned a lot about how to approach things in c, and what kind of algorithms (I think that's the right word) can make the problem possible to solve efficiently (e.g., by not needing huge arrays). If you all are interested it would be great to compare notes/approaches!
+2020-07-10 20:55:46	ommedulla	heres my solution to problem 2. It seemed like a fraily commonsensical approach to me, but based on other answers on the site there are much cleaner ways to do it (fewer lines, making fewer objects). working on coming up with a more concise solution in c
+2020-07-10 20:55:52	ommedulla	https://gist.github.com/opmorgan/e8ed8c4af88e7255cfd6f50cd1122a14
+2020-07-10 20:56:01	ommedulla	(spoilers! obv)
+2020-07-10 22:12:36	ommedulla	better solution/best I can think of, after seeing what other users did:
+2020-07-10 22:12:37	ommedulla	https://gist.github.com/opmorgan/ca3f429b6f954a9a1762aa0f0ee8352e
+2020-07-10 22:12:37	ommedulla	https://gist.github.com/opmorgan/ca3f429b6f954a9a1762aa0f0ee8352e
+2020-07-10 22:12:36	ommedulla	better solution/best I can think of, after seeing what other users did: 
+2020-07-10 20:56:01	ommedulla	(spoilers! obv)
+2020-07-10 20:55:52	ommedulla	https://gist.github.com/opmorgan/e8ed8c4af88e7255cfd6f50cd1122a14
+2020-07-10 20:55:46	ommedulla	heres my solution to problem 2. It seemed like a fraily commonsensical approach to me, but based on other answers on the site there are much cleaner ways to do it (fewer lines, making fewer objects). working on coming up with a more concise solution in c 
+2020-07-10 20:53:02	ommedulla	started the euler problems last night and thought it was a great exercise to try how to do some of them in c. The first two problems on the site were similar kinds of problems to Max's program. Especially the 2nd problem I felt like I learned a lot about how to approach things in c, and what kind of algorithms (I think that's the right word) can make the problem possible to solve efficiently (e.g., by not needing huge arrays). If you all are interested it would be great to compare notes/approaches!
+2020-07-10 11:53:52	ommedulla	@ttylta I don't, and would find that useful. to stop the screen going to sleep if the lid is closed when charging, I have "HandleLidSwitchExternalPower=ignore" in the [login] section in /etc/systemd/logind.conf
+2020-07-10 11:04:56	&ttylta	ommedulla: do you have a script that prevents computer sleep when charging?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-11 02:33:14	&ttylta	I'll take a look tomorrow morning
+2020-07-11 14:11:39	zarathustra_69	yeah I'll check this oot later today
+2020-07-11 14:13:44	zarathustra_69	I like the concept of function declaration. lately i've been thinking about how this mirrors the way we learn, or at least a nice trick I have found for learning: take in a broad overview of a topic first, i.e. read the first time once thru without stopping, skim, whatever to get the gist ane 'make space" for information, then go through a second or even third time in finer detail when you already have some understanding of what you are learning at least in the form of some general schema and how it fits into the broader topic in a general way
+2020-07-11 14:39:39	zzarathustra_69	Also, if you guys wanted to study some  compsci stuff later when we get a handle on C, specifically discrete math & algorithms, i found some good textbooks online and put them here https://drive.google.com/file/d/1gw5A1yfzEVoDBSHhkTx97BJ6jB5-LiEV/view?usp=sharing
+2020-07-11 14:39:39	zzarathustra_69	Also, if you guys wanted to study some  compsci stuff later when we get a handle on C, specifically discrete math & algorithms, i found some good textbooks online and put them here https://drive.google.com/file/d/1gw5A1yfzEVoDBSHhkTx97BJ6jB5-LiEV/view?usp=sharing
+2020-07-11 14:13:44	zarathustra_69	I like the concept of function declaration. lately i've been thinking about how this mirrors the way we learn, or at least a nice trick I have found for learning: take in a broad overview of a topic first, i.e. read the first time once thru without stopping, skim, whatever to get the gist ane 'make space" for information, then go through a second or even third time in finer detail when you already have some understanding of what you are learning at least in the form of some general schema and how it fits into the broader topic in a general way
+2020-07-11 14:11:39	zarathustra_69	yeah I'll check this oot later today
+2020-07-11 02:33:14	&ttylta	I'll take a look tomorrow morning
+2020-07-10 22:12:37	ommedulla	https://gist.github.com/opmorgan/ca3f429b6f954a9a1762aa0f0ee8352e
+2020-07-10 22:12:36	ommedulla	better solution/best I can think of, after seeing what other users did: 
+2020-07-10 20:56:01	ommedulla	(spoilers! obv)
+2020-07-10 20:55:52	ommedulla	https://gist.github.com/opmorgan/e8ed8c4af88e7255cfd6f50cd1122a14
+2020-07-10 20:55:46	ommedulla	heres my solution to problem 2. It seemed like a fraily commonsensical approach to me, but based on other answers on the site there are much cleaner ways to do it (fewer lines, making fewer objects). working on coming up with a more concise solution in c 
+2020-07-10 20:53:02	ommedulla	started the euler problems last night and thought it was a great exercise to try how to do some of them in c. The first two problems on the site were similar kinds of problems to Max's program. Especially the 2nd problem I felt like I learned a lot about how to approach things in c, and what kind of algorithms (I think that's the right word) can make the problem possible to solve efficiently (e.g., by not needing huge arrays). If you all are interested it would be great to compare notes/approaches!
+2020-07-11 15:42:33	ommedulla	cool, thanks for sharing!
+2020-07-11 15:57:44	ommedulla	for me, that gdrive link led to one pdf called discmath.pdf; is that right or was it supposed to be a folder?
+2020-07-11 16:49:40	ommedulla	Im also putting together a folder with programming books:
+2020-07-11 16:49:43	ommedulla	https://drive.google.com/drive/folders/1GUWPLuAo2bkKeF6WjBpE9XL6A_s2tiXh?usp=sharing
+2020-07-11 16:51:03	ommedulla	"The Practive of Progamming" could be another good follow-up to the C Programming Language (same authors, on general principles of programming). @ttylta, did you reccomend this book at some point?
+2020-07-11 16:52:17	ommedulla	I came across it as one of a few references in the Linux Kernel's style guide, which I was looking at because the just approved a pull request to update blacklist/whitelist, master/slave naming
+2020-07-11 16:53:02	ommedulla	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/coding-style.rst?id=49decddd39e5f6132ccd7d9fdc3d7c470b0061bb
+2020-07-11 17:57:35	zzarathustra_69	oops it was supposed to be a folder
+2020-07-11 18:00:29	zzarathustra_69	https://drive.google.com/drive/folders/1-U2gQDTVW9bwAuqDIrI-ssc0ngdh1S0y?usp=sharing
+2020-07-11 18:08:31	ommedulla	thanks! btw, have you tried using "drive" to mount google drive on your filesystem? very handy, lets you synchornize with push/pull commands
+2020-07-11 18:08:33	ommedulla	https://github.com/odeke-em/drive
+2020-07-11 18:09:01	ommedulla	(maybe its "copying back and forth" more than mounting)
+2020-07-11 18:13:31	ommedulla	also, if either of you have time, would you mind looking at this code that I'm working on for tcpl exercise 1-14?
+2020-07-11 18:15:06	ommedulla	I'm struggling to figure out the correct way to define/initialize an array whose size is based on another constant array, whose contents are known ("a", "b", "c") but whose length it seems unweildy to hardcode
+2020-07-11 18:15:10	ommedulla	https://gist.github.com/opmorgan/7aadb372b90d05f2d77a4266acf61a76
+2020-07-11 18:16:22	ommedulla	the code runs, but compiler gives the error "variable-sized object may not be initialized"
+2020-07-11 18:16:31	ommedulla	(linter complains of this error too)
+2020-07-11 18:16:31	ommedulla	(linter complains of this error too)
+2020-07-11 18:16:22	ommedulla	the code runs, but compiler gives the error "variable-sized object may not be initialized"
+2020-07-11 18:15:10	ommedulla	https://gist.github.com/opmorgan/7aadb372b90d05f2d77a4266acf61a76
+2020-07-11 18:15:06	ommedulla	I'm struggling to figure out the correct way to define/initialize an array whose size is based on another constant array, whose contents are known ("a", "b", "c") but whose length it seems unweildy to hardcode
+2020-07-11 18:13:31	ommedulla	also, if either of you have time, would you mind looking at this code that I'm working on for tcpl exercise 1-14? 
+2020-07-11 18:09:01	ommedulla	(maybe its "copying back and forth" more than mounting)
+2020-07-11 18:08:33	ommedulla	https://github.com/odeke-em/drive
+2020-07-11 18:08:31	ommedulla	thanks! btw, have you tried using "drive" to mount google drive on your filesystem? very handy, lets you synchornize with push/pull commands
+2020-07-11 18:00:29	zzarathustra_69	https://drive.google.com/drive/folders/1-U2gQDTVW9bwAuqDIrI-ssc0ngdh1S0y?usp=sharing
+2020-07-11 17:57:35	zzarathustra_69	oops it was supposed to be a folder
+2020-07-11 18:22:22	ommedulla	exit
+2020-07-11 18:22:27	ommedulla	oops
+2020-07-11 18:22:27	ommedulla	oops
+2020-07-11 18:22:22	ommedulla	exit
+2020-07-11 18:16:31	ommedulla	(linter complains of this error too)
+2020-07-11 18:16:22	ommedulla	the code runs, but compiler gives the error "variable-sized object may not be initialized"
+2020-07-11 18:15:10	ommedulla	https://gist.github.com/opmorgan/7aadb372b90d05f2d77a4266acf61a76
+2020-07-11 18:15:06	ommedulla	I'm struggling to figure out the correct way to define/initialize an array whose size is based on another constant array, whose contents are known ("a", "b", "c") but whose length it seems unweildy to hardcode
+2020-07-11 18:13:31	ommedulla	also, if either of you have time, would you mind looking at this code that I'm working on for tcpl exercise 1-14? 
+2020-07-11 18:09:01	ommedulla	(maybe its "copying back and forth" more than mounting)
+2020-07-11 18:08:33	ommedulla	https://github.com/odeke-em/drive
+2020-07-11 18:08:31	ommedulla	thanks! btw, have you tried using "drive" to mount google drive on your filesystem? very handy, lets you synchornize with push/pull commands
+2020-07-11 18:36:06	zarathustra_69	:') i'll look at it in a few, messing with my new sampler now
+2020-07-11 18:36:06	zarathustra_69	:') i'll look at it in a few, messing with my new sampler now
+2020-07-11 18:22:27	ommedulla	oops
+2020-07-11 18:22:22	ommedulla	exit
+2020-07-11 18:16:31	ommedulla	(linter complains of this error too)
+2020-07-11 18:16:22	ommedulla	the code runs, but compiler gives the error "variable-sized object may not be initialized"
+2020-07-11 18:15:10	ommedulla	https://gist.github.com/opmorgan/7aadb372b90d05f2d77a4266acf61a76
+2020-07-11 18:15:06	ommedulla	I'm struggling to figure out the correct way to define/initialize an array whose size is based on another constant array, whose contents are known ("a", "b", "c") but whose length it seems unweildy to hardcode
+2020-07-11 18:13:31	ommedulla	also, if either of you have time, would you mind looking at this code that I'm working on for tcpl exercise 1-14? 
+2020-07-11 18:09:01	ommedulla	(maybe its "copying back and forth" more than mounting)
+2020-07-11 18:08:33	ommedulla	https://github.com/odeke-em/drive
+2020-07-11 18:36:06	zarathustra_69	:') i'll look at it in a few, messing with my new sampler now
+2020-07-11 18:22:27	ommedulla	oops
+2020-07-11 18:22:22	ommedulla	exit
+2020-07-11 18:16:31	ommedulla	(linter complains of this error too)
+2020-07-11 18:16:22	ommedulla	the code runs, but compiler gives the error "variable-sized object may not be initialized"
+2020-07-11 18:15:10	ommedulla	https://gist.github.com/opmorgan/7aadb372b90d05f2d77a4266acf61a76
+2020-07-11 18:15:06	ommedulla	I'm struggling to figure out the correct way to define/initialize an array whose size is based on another constant array, whose contents are known ("a", "b", "c") but whose length it seems unweildy to hardcode
+2020-07-11 18:13:31	ommedulla	also, if either of you have time, would you mind looking at this code that I'm working on for tcpl exercise 1-14? 
+2020-07-11 18:09:01	ommedulla	(maybe its "copying back and forth" more than mounting)
+2020-07-11 18:08:33	ommedulla	https://github.com/odeke-em/drive
+2020-07-11 18:08:31	ommedulla	thanks! btw, have you tried using "drive" to mount google drive on your filesystem? very handy, lets you synchornize with push/pull commands
+2020-07-11 18:00:29	zzarathustra_69	https://drive.google.com/drive/folders/1-U2gQDTVW9bwAuqDIrI-ssc0ngdh1S0y?usp=sharing
+2020-07-11 17:57:35	zzarathustra_69	oops it was supposed to be a folder
+2020-07-11 16:53:02	ommedulla	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/coding-style.rst?id=49decddd39e5f6132ccd7d9fdc3d7c470b0061bb
+2020-07-11 16:52:17	ommedulla	I came across it as one of a few references in the Linux Kernel's style guide, which I was looking at because the just approved a pull request to update blacklist/whitelist, master/slave naming
+2020-07-11 16:51:03	ommedulla	"The Practive of Progamming" could be another good follow-up to the C Programming Language (same authors, on general principles of programming). @ttylta, did you reccomend this book at some point?
+2020-07-11 16:49:43	ommedulla	https://drive.google.com/drive/folders/1GUWPLuAo2bkKeF6WjBpE9XL6A_s2tiXh?usp=sharing
+2020-07-11 16:49:40	ommedulla	Im also putting together a folder with programming books:
+2020-07-11 15:57:44	ommedulla	for me, that gdrive link led to one pdf called discmath.pdf; is that right or was it supposed to be a folder?
+2020-07-11 15:42:33	ommedulla	cool, thanks for sharing!
+2020-07-11 14:39:39	zzarathustra_69	Also, if you guys wanted to study some  compsci stuff later when we get a handle on C, specifically discrete math & algorithms, i found some good textbooks online and put them here https://drive.google.com/file/d/1gw5A1yfzEVoDBSHhkTx97BJ6jB5-LiEV/view?usp=sharing
+2020-07-11 14:13:44	zarathustra_69	I like the concept of function declaration. lately i've been thinking about how this mirrors the way we learn, or at least a nice trick I have found for learning: take in a broad overview of a topic first, i.e. read the first time once thru without stopping, skim, whatever to get the gist ane 'make space" for information, then go through a second or even third time in finer detail when you already have some understanding of what you are learning at least in the form of some general schema and how it fits into the broader topic in a general way
+2020-07-11 14:11:39	zarathustra_69	yeah I'll check this oot later today
+2020-07-11 02:33:14	&ttylta	I'll take a look tomorrow morning
+2020-07-10 22:12:37	ommedulla	https://gist.github.com/opmorgan/ca3f429b6f954a9a1762aa0f0ee8352e
+2020-07-10 22:12:36	ommedulla	better solution/best I can think of, after seeing what other users did: 
+2020-07-10 20:56:01	ommedulla	(spoilers! obv)
+2020-07-10 20:55:52	ommedulla	https://gist.github.com/opmorgan/e8ed8c4af88e7255cfd6f50cd1122a14
+2020-07-10 20:55:46	ommedulla	heres my solution to problem 2. It seemed like a fraily commonsensical approach to me, but based on other answers on the site there are much cleaner ways to do it (fewer lines, making fewer objects). working on coming up with a more concise solution in c 
+2020-07-10 20:53:02	ommedulla	started the euler problems last night and thought it was a great exercise to try how to do some of them in c. The first two problems on the site were similar kinds of problems to Max's program. Especially the 2nd problem I felt like I learned a lot about how to approach things in c, and what kind of algorithms (I think that's the right word) can make the problem possible to solve efficiently (e.g., by not needing huge arrays). If you all are interested it would be great to compare notes/approaches!
+2020-07-10 11:53:52	ommedulla	@ttylta I don't, and would find that useful. to stop the screen going to sleep if the lid is closed when charging, I have "HandleLidSwitchExternalPower=ignore" in the [login] section in /etc/systemd/logind.conf
+2020-07-10 11:04:56	&ttylta	ommedulla: do you have a script that prevents computer sleep when charging?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:37	ommedulla	//github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-09 21:07:03	&ttylta	bbchat
+2020-07-09 20:46:51	zarathustra_69	ssh Z2yHZ5E8xWMMgFKt4HFX2xzqC@nyc1.tmate.io
+2020-07-09 20:45:39	zarathustra_69	 https://tmate.io/t/Z2yHZ5E8xWMMgFKt4HFX2xzqC
+2020-07-09 19:59:43	zarathustra_69	can you hear me
+2020-07-09 19:59:41	zarathustra_69	i can hear you guys very quietly
+2020-07-09 19:54:16	zarathustra_69	8008135
+2020-07-09 19:54:14	&ttylta	bad juji
+2020-07-09 19:54:08	zarathustra_69	6006135
+2020-07-09 19:44:36	ommedulla	nvm, installed the stable AUR package (tmate) and no problem
+2020-07-09 19:35:59	ommedulla	@josh re tmate, do you remember how you installed? im running into issues with the AUR tmate-git
+2020-07-09 19:24:53	ommedulla	https://meet.jit.si/SlightEquationsWidenFreely
+2020-07-11 23:07:39	zarathustra_69	i think this error is because you haven't declared the arrays ahead of time
+2020-07-11 23:24:19	zarathustra_69	working on this now, are you there owen?
+2020-07-11 23:29:13	zarathustra_69	if not, lets work on this sometime tomorrow if you're free
+2020-07-11 23:48:13	zarathustra_69	https://gist.github.com/zzzebo/16967ffbe36df9311f194637a6f403c9
+2020-07-11 18:36:06	zarathustra_69	:') i'll look at it in a few, messing with my new sampler now
+2020-07-11 18:22:27	ommedulla	oops
+2020-07-11 18:22:22	ommedulla	exit
+2020-07-11 18:16:31	ommedulla	(linter complains of this error too)
+2020-07-11 18:16:22	ommedulla	the code runs, but compiler gives the error "variable-sized object may not be initialized"
+2020-07-11 18:15:10	ommedulla	https://gist.github.com/opmorgan/7aadb372b90d05f2d77a4266acf61a76
+2020-07-11 18:15:06	ommedulla	I'm struggling to figure out the correct way to define/initialize an array whose size is based on another constant array, whose contents are known ("a", "b", "c") but whose length it seems unweildy to hardcode
+2020-07-11 18:13:31	ommedulla	also, if either of you have time, would you mind looking at this code that I'm working on for tcpl exercise 1-14? 
+2020-07-11 18:09:01	ommedulla	(maybe its "copying back and forth" more than mounting)
+2020-07-11 23:53:55	ommedulla	just hopped on, am i too late?
+2020-07-11 23:58:37	ommedulla	looking at your gist, your solution makes sense. (I am understanding the idea as declaring the length of the array as a constant, as well as the contents of the array. I still think it would be nice/more elegant if there were a way to link the array contents and size. For example, if you had an array of many letters, or were reading the letters from a file, you might want the length to be determined based on the content that is fed in. (it seems to me that it could be error prone to have to enter the length, and contents, of a long array manually).
+2020-07-11 18:08:33	ommedulla	https://github.com/odeke-em/drive
+2020-07-11 18:08:31	ommedulla	thanks! btw, have you tried using "drive" to mount google drive on your filesystem? very handy, lets you synchornize with push/pull commands
+2020-07-11 18:00:29	zzarathustra_69	https://drive.google.com/drive/folders/1-U2gQDTVW9bwAuqDIrI-ssc0ngdh1S0y?usp=sharing
+2020-07-11 17:57:35	zzarathustra_69	oops it was supposed to be a folder
+2020-07-11 16:53:02	ommedulla	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/coding-style.rst?id=49decddd39e5f6132ccd7d9fdc3d7c470b0061bb
+2020-07-11 16:52:17	ommedulla	I came across it as one of a few references in the Linux Kernel's style guide, which I was looking at because the just approved a pull request to update blacklist/whitelist, master/slave naming
+2020-07-11 16:51:03	ommedulla	"The Practive of Progamming" could be another good follow-up to the C Programming Language (same authors, on general principles of programming). @ttylta, did you reccomend this book at some point?
+2020-07-11 16:49:43	ommedulla	https://drive.google.com/drive/folders/1GUWPLuAo2bkKeF6WjBpE9XL6A_s2tiXh?usp=sharing
+2020-07-11 16:49:40	ommedulla	Im also putting together a folder with programming books:
+2020-07-11 15:57:44	ommedulla	for me, that gdrive link led to one pdf called discmath.pdf; is that right or was it supposed to be a folder?
+2020-07-11 15:42:33	ommedulla	cool, thanks for sharing!
+2020-07-11 14:39:39	zzarathustra_69	Also, if you guys wanted to study some  compsci stuff later when we get a handle on C, specifically discrete math & algorithms, i found some good textbooks online and put them here https://drive.google.com/file/d/1gw5A1yfzEVoDBSHhkTx97BJ6jB5-LiEV/view?usp=sharing
+2020-07-11 14:13:44	zarathustra_69	I like the concept of function declaration. lately i've been thinking about how this mirrors the way we learn, or at least a nice trick I have found for learning: take in a broad overview of a topic first, i.e. read the first time once thru without stopping, skim, whatever to get the gist ane 'make space" for information, then go through a second or even third time in finer detail when you already have some understanding of what you are learning at least in the form of some general schema and how it fits into the broader topic in a general way
+2020-07-11 14:11:39	zarathustra_69	yeah I'll check this oot later today
+2020-07-11 02:33:14	&ttylta	I'll take a look tomorrow morning
+2020-07-10 22:12:37	ommedulla	https://gist.github.com/opmorgan/ca3f429b6f954a9a1762aa0f0ee8352e
+2020-07-10 22:12:36	ommedulla	better solution/best I can think of, after seeing what other users did: 
+2020-07-10 20:56:01	ommedulla	(spoilers! obv)
+2020-07-10 20:55:52	ommedulla	https://gist.github.com/opmorgan/e8ed8c4af88e7255cfd6f50cd1122a14
+2020-07-10 20:55:46	ommedulla	heres my solution to problem 2. It seemed like a fraily commonsensical approach to me, but based on other answers on the site there are much cleaner ways to do it (fewer lines, making fewer objects). working on coming up with a more concise solution in c 
+2020-07-10 20:53:02	ommedulla	started the euler problems last night and thought it was a great exercise to try how to do some of them in c. The first two problems on the site were similar kinds of problems to Max's program. Especially the 2nd problem I felt like I learned a lot about how to approach things in c, and what kind of algorithms (I think that's the right word) can make the problem possible to solve efficiently (e.g., by not needing huge arrays). If you all are interested it would be great to compare notes/approaches!
+2020-07-10 11:53:52	ommedulla	@ttylta I don't, and would find that useful. to stop the screen going to sleep if the lid is closed when charging, I have "HandleLidSwitchExternalPower=ignore" in the [login] section in /etc/systemd/logind.conf
+2020-07-10 11:04:56	&ttylta	ommedulla: do you have a script that prevents computer sleep when charging?
+2020-07-09 23:48:33	ommedulla	just stopped being able to ehar you, can you hear me?
+2020-07-09 23:01:29	ommedulla	https://www.tutorialspoint.com/cprogramming/c_type_casting.htm
+2020-07-09 21:11:20	ommedulla	https://github.com/neoclide/coc.nvim
+2020-07-09 21:08:10	ommedulla	https://github.com/tomtom/tcomment_vim
+2020-07-09 21:07:45	ommedulla	/ttps://github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:37	ommedulla	//github.com/tomtom/tcomment_vim 
+2020-07-09 21:07:11	&ttylta	weeweechat
+2020-07-12 03:17:19	ommedulla	some hours later, this is what I've come up with. Following your gist, I defined the size of the array that will hold the counts at the beginning. Because I wanted it to be possible to change the set of characters you are counting without changing the rest of the code, I made it 255 items (?) long.
+2020-07-12 03:17:59	ommedulla	the rest of the code could definitely need some refactoring. When I tried to move logic into functions, I kept running into errors about pointers, which I don
+2020-07-12 03:18:11	ommedulla	't understand very well. probably need to read that chapter...
+2020-07-12 03:18:16	ommedulla	https://gist.github.com/opmorgan/4bf9f2b514219c50e27fd963462f37ae
+2020-07-12 03:18:59	ommedulla	I learned that the most frequently used letter in "To the Lighthouse" is "y", not "e"
+2020-07-12 03:48:16	ommedulla	https://imgur.com/a/I2QL45F
+2020-07-12 09:21:10	zzarathustra_69	Nice!!
+2020-07-12 09:22:00	zzarathustra_69	I wasn't sure I understood what sizeof() does
+2020-07-12 09:23:42	zzarathustra_69	is that last image from the program you wrote?
+2020-07-12 10:34:19	zzarathustra_69	so Josh, you don't believe in a subconscious mind? what about the body?
+2020-07-12 10:35:17	zzarathustra_69	https://www.researchgate.net/publication/13844895_The_Body_Keeps_the_Score_Memory_and_the_Evolving_Psychobiology_of_Posttraumatic_Stress
+2020-07-12 03:48:17	ommedulla	https://imgur.com/a/I2QL45F
+2020-07-12 03:18:59	ommedulla	I learned that the most frequently used letter in "To the Lighthouse" is "y", not "e" 
+2020-07-12 03:18:16	ommedulla	https://gist.github.com/opmorgan/4bf9f2b514219c50e27fd963462f37ae
+2020-07-12 03:18:11	ommedulla	't understand very well. probably need to read that chapter...
+2020-07-12 03:18:00	ommedulla	the rest of the code could definitely need some refactoring. When I tried to move logic into functions, I kept running into errors about pointers, which I don
+2020-07-12 03:17:19	ommedulla	some hours later, this is what I've come up with. Following your gist, I defined the size of the array that will hold the counts at the beginning. Because I wanted it to be possible to change the set of characters you are counting without changing the rest of the code, I made it 255 items (?) long. 
+2020-07-11 23:58:37	ommedulla	looking at your gist, your solution makes sense. (I am understanding the idea as declaring the length of the array as a constant, as well as the contents of the array. I still think it would be nice/more elegant if there were a way to link the array contents and size. For example, if you had an array of many letters, or were reading the letters from a file, you might want the length to be determined based on the content that is fed in. (it seems to me that it could be error prone to have to enter the length, and contents, of a long array manually).   
+2020-07-11 23:53:55	ommedulla	just hopped on, am i too late?
+2020-07-11 23:48:13	zarathustra_69	https://gist.github.com/zzzebo/16967ffbe36df9311f194637a6f403c9
+2020-07-12 11:26:44	ommedulla	yes! sizeof() is to calculate the length of the array (the size of the whole array, divided by the size of each item, gives you the number of items in the array)
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg)
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:55:04	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 11:26:45	ommedulla	yes! sizeof() is to calculate the length of the array (the size of the whole array, divided by the size of each item, gives you the number of items in the array)
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-12 12:55:02	ommedulla	i found good explanations here:
+2020-07-12 12:47:14	ommedulla	I think the sizeof each iten will be an int that represents the amount of memory allocated for that item. e.g., for an int, it will give you "4" because it takes up 4 bytes (?). So, the size of each item in an array should be the same, and dividing the total size by the size of each should give you the number of items
+2020-07-12 11:57:50	zarathustra_69	/when are you moving this week? want to get together tomorrow night and work on stuff?
+2020-07-12 11:57:19	zarathustra_69	I see, but is sizeof each item going to be an int? ie, their ASCI character value?
+2020-07-12 11:29:40	ommedulla	("yes" that image was of output from the program. I fed it the text from To the Light House from project gutenberg) 
+2020-07-12 11:26:59	ommedulla	:20
+2020-07-15 22:37:52	ommedulla	so my code for the character counting was incorrect (I used the wrong number to count backwards in ASCII codes to include capital letters in addition to lowercase... so random letters were getting double counted)
+2020-07-15 22:38:05	ommedulla	//imgur.com/BbJb0OG
+2020-07-15 22:38:09	ommedulla	it should look like this:
+2020-07-15 22:38:24	ommedulla	/ttps://imgur.com/BbJb0OG
+2020-07-15 22:38:37	ommedulla	/ttps://imgur.com/BbJb0OG
+2020-07-15 22:38:46	ommedulla	it should look like this:
+2020-07-15 22:38:55	ommedulla	having a hard time copy pasting put you get the idea...
+2020-07-15 22:40:03	ommedulla	https://gist.github.com/opmorgan/a542587bb527b8727cbaaf7a134a5fe7
+2020-07-15 22:40:29	ommedulla	https://imgur.com/a/DtvLRYD
+2020-07-15 22:41:10	ommedulla	as expected, y is not the most common letter after all haha
+2020-07-15 23:05:19	zzarathustra_69	ahh
+2020-07-15 23:05:57	zzarathustra_69	I was wondering, becausue I ran a few other texts through it and it gave an almost identical distribution lol
+2020-07-15 23:06:54	zzarathustra_69	i am finishing up a version of your program, may have to edit it now cause I borrowed your capital letter thing
+2020-07-16 07:20:25	zzarathustra_69	so owen can't make it, but are y'all still free to hang tonight, Josh and Ahmed? I was thinking on working on this euler problem: https://projecteuler.net/problem=15 
+2020-07-16 11:41:51	zzarathustra_69	also, people are acting like Mac is paving the way for a new generation of computing by using ARM on the new macbook, but the Chromebook and even Microsoft Surface had these processors years ago. I guess significant that they are intorducing it to the supposedly primo Mac line, but still they are actually just lagging in the trend of having more computing done in the 'cloud'
+2020-07-16 11:41:51	zzarathustra_69	also, people are acting like Mac is paving the way for a new generation of computing by using ARM on the new macbook, but the Chromebook and even Microsoft Surface had these processors years ago. I guess significant that they are intorducing it to the supposedly primo Mac line, but still they are actually just lagging in the trend of having more computing done in the 'cloud'
+2020-07-16 07:20:25	zzarathustra_69	so owen can't make it, but are y'all still free to hang tonight, Josh and Ahmed? I was thinking on working on this euler problem: https://projecteuler.net/problem=15 
+2020-07-15 23:06:54	zzarathustra_69	i am finishing up a version of your program, may have to edit it now cause I borrowed your capital letter thing
+2020-07-15 23:05:57	zzarathustra_69	I was wondering, becausue I ran a few other texts through it and it gave an almost identical distribution lol
+2020-07-15 23:05:19	zzarathustra_69	ahh
+2020-07-15 22:41:10	ommedulla	as expected, y is not the most common letter after all haha
+2020-07-15 22:40:30	ommedulla	https://imgur.com/a/DtvLRYD
+2020-07-15 22:40:03	ommedulla	https://gist.github.com/opmorgan/a542587bb527b8727cbaaf7a134a5fe7
+2020-07-15 22:38:55	ommedulla	having a hard time copy pasting put you get the idea...
+2020-07-15 22:38:46	ommedulla	it should look like this: 
+2020-07-16 18:19:40	zzarathustra_69	??
+2020-07-16 18:28:46	&ttylta	oi polloi
+2020-07-16 18:29:00	&ttylta	I probably can't meet tonight either. When did owen say he couldn't?
+2020-07-16 18:38:01	zzarathustra_69	until Sunday
+2020-07-16 18:38:04	zzarathustra_69	i could do sunday
+2020-07-16 18:38:12	zzarathustra_69	yeah i am exhausted LOL i need to go to bed like now
+2020-07-16 18:39:00	&ttylta	I can do Sunday evening too. 
+2020-07-16 18:39:10	&ttylta	g3t s0m3 sl33p
+2020-07-16 18:57:46	zzarathustra_69	svv33t
+2020-07-16 20:00:46	zzarathustra_69	https://gist.github.com/hoffmanmc/ebd13ea14ee347ba23a4baafabb3194d
+2020-07-16 20:01:54	zzarathustra_69	improved histogram
+2020-07-16 20:02:18	zzarathustra_69	creating a struct helped gr34tly
+2020-07-16 20:09:25	zzarathustra_69	output is the same:
+2020-07-16 20:09:29	zzarathustra_69	https://imgur.com/a/Lq2XRyq
+2020-07-17 18:28:33	&ttylta	hey ol
+2020-07-16 11:41:51	zzarathustra_69	also, people are acting like Mac is paving the way for a new generation of computing by using ARM on the new macbook, but the Chromebook and even Microsoft Surface had these processors years ago. I guess significant that they are intorducing it to the supposedly primo Mac line, but still they are actually just lagging in the trend of having more computing done in the 'cloud'
+2020-07-16 07:20:25	zzarathustra_69	so owen can't make it, but are y'all still free to hang tonight, Josh and Ahmed? I was thinking on working on this euler problem: https://projecteuler.net/problem=15 
+2020-07-15 23:06:54	zzarathustra_69	i am finishing up a version of your program, may have to edit it now cause I borrowed your capital letter thing
+2020-07-15 23:05:57	zzarathustra_69	I was wondering, becausue I ran a few other texts through it and it gave an almost identical distribution lol
+2020-07-15 23:05:19	zzarathustra_69	ahh
+2020-07-15 22:41:10	ommedulla	as expected, y is not the most common letter after all haha
+2020-07-15 22:40:30	ommedulla	https://imgur.com/a/DtvLRYD
+2020-07-15 22:40:03	ommedulla	https://gist.github.com/opmorgan/a542587bb527b8727cbaaf7a134a5fe7
+2020-07-15 22:38:55	ommedulla	having a hard time copy pasting put you get the idea...
+2020-07-15 22:38:46	ommedulla	it should look like this: 
+2020-07-15 22:38:37	ommedulla	/ttps://imgur.com/BbJb0OG 
+2020-07-15 22:38:24	ommedulla	/ttps://imgur.com/BbJb0OG 
+2020-07-15 22:38:10	ommedulla	it should look like this: 
+2020-07-15 22:38:05	ommedulla	//imgur.com/BbJb0OG 
+2020-07-15 22:37:52	ommedulla	so my code for the character counting was incorrect (I used the wrong number to count backwards in ASCII codes to include capital letters in addition to lowercase... so random letters were getting double counted)
+2020-07-12 15:45:16	ommedulla	and, I'm moving on Friday! so tomorrow night I will be packing. I should be free again next satuday/sunday evening
+2020-07-12 12:56:19	ommedulla	the macro I made for ARRAY_SIZE() is just to make it easier/more readable. it seems that is is discouraged for some safety reason, but many people use it, including the linux kernel
+2020-07-12 12:55:16	ommedulla	https://www.tutorialspoint.com/how-do-i-find-the-length-of-an-array-in-c-cplusplus
+2020-07-12 12:55:05	ommedulla	https://www.tutorialspoint.com/sizeof-operator-in-c
+2020-07-18 19:39:05	ommedulla	@zzarathustra_69 nice, thanks for having a go at the hist script. I'll look in more detail when more things are unpacked (just set up the b4tt13st4ti0n). if we get a lot done tomorrow during the day, I should be free sunday evening too
+2020-07-18 19:41:03	ommedulla	the only thing is orm is very sick! in the cat ICU. we think he was exposed to some tylenol during the move (apparently, even a little residue can be really bad/deadly for a cat). he seems to be doing better today but he will need to stay there for a little bit, and I might need to pick him up any time soon.
+2020-07-18 19:41:03	ommedulla	the only thing is orm is very sick! in the cat ICU. we think he was exposed to some tylenol during the move (apparently, even a little residue can be really bad/deadly for a cat). he seems to be doing better today but he will need to stay there for a little bit, and I might need to pick him up any time soon. 
+2020-07-18 19:39:05	ommedulla	@zzarathustra_69 nice, thanks for having a go at the hist script. I'll look in more detail when more things are unpacked (just set up the b4tt13st4ti0n). if we get a lot done tomorrow during the day, I should be free sunday evening too
+2020-07-17 18:28:33	&ttylta	hey ol
+2020-07-16 20:09:29	zzarathustra_69	https://imgur.com/a/Lq2XRyq
+2020-07-16 20:09:25	zzarathustra_69	output is the same:
+2020-07-16 20:02:18	zzarathustra_69	creating a struct helped gr34tly
+2020-07-16 20:01:54	zzarathustra_69	improved histogram
+2020-07-16 20:00:46	zzarathustra_69	https://gist.github.com/hoffmanmc/ebd13ea14ee347ba23a4baafabb3194d
+2020-07-16 18:57:46	zzarathustra_69	svv33t
+2020-07-16 18:39:10	&ttylta	g3t s0m3 sl33p
+2020-07-19 14:27:28	zzarathustra_69	:-/ hope he's okay!
+2020-07-19 14:27:37	zzarathustra_69	yeah i should be free later this evening to hang
+2020-07-19 21:22:22	zarathustra_69	oi i guess i cant tonight but definitely thursday....
+2020-07-19 21:22:29	zarathustra_69	hope you had a good time movin owen
+2020-07-20 12:21:36	zarathustra_69	I'm going away for a week first week of august, but do you guys think we could probably start on a project by the time i get back? I think so. We should think about what we want to do.
+2020-07-20 12:22:13	zarathustra_69	Unless you guys think we should really focus onworking thru the book, rather than finish it simultaneously
+2020-07-20 12:22:13	zarathustra_69	Unless you guys think we should really focus onworking thru the book, rather than finish it simultaneously
+2020-07-20 12:21:36	zarathustra_69	I'm going away for a week first week of august, but do you guys think we could probably start on a project by the time i get back? I think so. We should think about what we want to do.
+2020-07-19 21:22:29	zarathustra_69	hope you had a good time movin owen
+2020-07-19 21:22:22	zarathustra_69	oi i guess i cant tonight but definitely thursday....
+2020-07-19 14:27:37	zzarathustra_69	yeah i should be free later this evening to hang
+2020-07-19 14:27:28	zzarathustra_69	:-/ hope he's okay!
+2020-07-18 19:41:03	ommedulla	the only thing is orm is very sick! in the cat ICU. we think he was exposed to some tylenol during the move (apparently, even a little residue can be really bad/deadly for a cat). he seems to be doing better today but he will need to stay there for a little bit, and I might need to pick him up any time soon. 
+2020-07-18 19:39:05	ommedulla	@zzarathustra_69 nice, thanks for having a go at the hist script. I'll look in more detail when more things are unpacked (just set up the b4tt13st4ti0n). if we get a lot done tomorrow during the day, I should be free sunday evening too
+2020-07-17 18:28:33	&ttylta	hey ol
+2020-07-16 20:09:29	zzarathustra_69	https://imgur.com/a/Lq2XRyq
+2020-07-20 17:12:34	ommedulla	Orm is okay and back home! he'll need one more bloodtest to confirm, but he seems to have made a full recovery. The move went great otherwise, and I set up a nice big desk for work/h4xing. Still got some unpacking to do, but should be able to work through the book some this week and will definitely be free thursday. I'd prefer to take it slow with the c book, but if someone has a fun idea for a project I'll be happy to dive in
