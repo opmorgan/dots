@@ -2087,3 +2087,102 @@
 2020-07-20 17:10:19		script: 364 scripts for WeeChat 2.8
 2020-07-20 17:14:01		python: scripts unloaded
 2020-07-20 17:14:01		fifo: pipe closed
+2020-07-20 20:29:18		[vimode.py] Problematic keybindings detected:
+2020-07-20 20:29:18		[vimode.py]     meta-jmeta-f -> /buffer -
+2020-07-20 20:29:18		[vimode.py]     meta-jmeta-l -> /buffer +
+2020-07-20 20:29:18		[vimode.py]     meta-jmeta-r -> /server raw
+2020-07-20 20:29:18		[vimode.py]     meta-jmeta-s -> /server jump
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta-b -> /window balance
+2020-07-20 20:29:18		[vimode.py]     meta-wmeta-s -> /window swap
+2020-07-20 20:29:18		[vimode.py] These keybindings may conflict with vimode.
+2020-07-20 20:29:18		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2020-07-20 20:29:18		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#problematic-key-bindings
+2020-07-20 20:29:18		[vimode.py] tmux/screen users, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#esc-key-not-being-detected-instantly
+2020-07-20 20:29:18		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2020-07-20 20:29:18		python scripts loaded: go, matrix, notify_send, vimode
+2020-07-20 20:29:18		script: 364 scripts for WeeChat 2.8
+2020-07-20 20:29:18		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, spell, trigger, xfer
+2020-07-20 22:19:29		python: scripts unloaded
+2020-07-20 22:19:29		fifo: pipe closed
+2020-07-20 22:19:33		[vimode.py] Problematic keybindings detected:
+2020-07-20 22:19:33		[vimode.py]     meta-jmeta-f -> /buffer -
+2020-07-20 22:19:33		[vimode.py]     meta-jmeta-l -> /buffer +
+2020-07-20 22:19:33		[vimode.py]     meta-jmeta-r -> /server raw
+2020-07-20 22:19:33		[vimode.py]     meta-jmeta-s -> /server jump
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta-b -> /window balance
+2020-07-20 22:19:33		[vimode.py]     meta-wmeta-s -> /window swap
+2020-07-20 22:19:33		[vimode.py] These keybindings may conflict with vimode.
+2020-07-20 22:19:33		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2020-07-20 22:19:33		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#problematic-key-bindings
+2020-07-20 22:19:33		[vimode.py] tmux/screen users, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#esc-key-not-being-detected-instantly
+2020-07-20 22:19:33		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2020-07-20 22:19:34		python scripts loaded: go, matrix, notify_send, vimode
+2020-07-20 22:19:34		script: 364 scripts for WeeChat 2.8
+2020-07-20 22:19:34		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, spell, trigger, xfer
+2020-07-21 08:54:44		python: scripts unloaded
+2020-07-21 08:54:44		fifo: pipe closed
+2020-07-21 08:54:49		[vimode.py] Problematic keybindings detected:
+2020-07-21 08:54:49		[vimode.py]     meta-jmeta-f -> /buffer -
+2020-07-21 08:54:49		[vimode.py]     meta-jmeta-l -> /buffer +
+2020-07-21 08:54:49		[vimode.py]     meta-jmeta-r -> /server raw
+2020-07-21 08:54:49		[vimode.py]     meta-jmeta-s -> /server jump
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta-b -> /window balance
+2020-07-21 08:54:49		[vimode.py]     meta-wmeta-s -> /window swap
+2020-07-21 08:54:49		[vimode.py] These keybindings may conflict with vimode.
+2020-07-21 08:54:49		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2020-07-21 08:54:49		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#problematic-key-bindings
+2020-07-21 08:54:49		[vimode.py] tmux/screen users, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#esc-key-not-being-detected-instantly
+2020-07-21 08:54:49		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2020-07-21 08:54:49		python scripts loaded: go, matrix, notify_send, vimode
+2020-07-21 08:54:49		script: 364 scripts for WeeChat 2.8
+2020-07-21 08:54:49		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, spell, trigger, xfer
+2020-07-21 09:00:25		python: scripts unloaded
+2020-07-21 09:00:25		fifo: pipe closed
+2020-07-21 21:50:48		[vimode.py] Problematic keybindings detected:
+2020-07-21 21:50:48		[vimode.py]     meta-jmeta-f -> /buffer -
+2020-07-21 21:50:48		[vimode.py]     meta-jmeta-l -> /buffer +
+2020-07-21 21:50:48		[vimode.py]     meta-jmeta-r -> /server raw
+2020-07-21 21:50:48		[vimode.py]     meta-jmeta-s -> /server jump
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta-meta2-A -> /window up
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta-meta2-B -> /window down
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta-meta2-C -> /window right
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta-meta2-D -> /window left
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta2-1;3A -> /window up
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta2-1;3B -> /window down
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta2-1;3C -> /window right
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta2-1;3D -> /window left
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta-b -> /window balance
+2020-07-21 21:50:48		[vimode.py]     meta-wmeta-s -> /window swap
+2020-07-21 21:50:48		[vimode.py] These keybindings may conflict with vimode.
+2020-07-21 21:50:48		[vimode.py] You can remove problematic key bindings and add recommended ones by using /vimode bind_keys, or only list them with /vimode bind_keys --list
+2020-07-21 21:50:48		[vimode.py] For help, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#problematic-key-bindings
+2020-07-21 21:50:48		[vimode.py] tmux/screen users, see: https://github.com/GermainZ/weechat-vimode/blob/master/FAQ.md#esc-key-not-being-detected-instantly
+2020-07-21 21:50:48		[vimode.py] To force disable warnings, you can set plugins.var.python.vimode.no_warn to 'on'
+2020-07-21 21:50:48		python scripts loaded: go, matrix, notify_send, vimode
+2020-07-21 21:50:48		script: downloading list of scripts...
+2020-07-21 21:50:48		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, script, spell, trigger, xfer
+2020-07-21 21:50:49		script: 364 scripts for WeeChat 2.8

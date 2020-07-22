@@ -3,3 +3,4 @@ nvim/.config/nvim/plugged
 zsh/.zsh/history
 bash/.bash_history
 .ccls-cache/
+weechat/.weechat/logs
