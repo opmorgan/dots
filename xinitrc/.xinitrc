@@ -1,5 +1,7 @@
 xrdb ~/.Xresources
 
+xrandr --auto
+
 wal -R
 
 setxkbmap -option ctrl:nocaps
@@ -9,4 +11,5 @@ unclutter --timeout 1 &
 dunst &
 st -e tmux & 
 sxhkd &
+xbindkeys &
 exec bspwm

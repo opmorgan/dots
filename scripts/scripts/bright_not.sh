@@ -5,8 +5,8 @@
 # $./bright_not.sh up
 # $./bright_not.sh down
 
-icon_up="$HOME/scripts/resources/bright_not/ic_brightness_7_black_24dp.png"
-icon_down="$HOME/scripts/resources/bright_not/ic_brightness_5_black_24dp.png"
+icon_up="$HOME/scripts/resources/bright_not/ic_brightness_7_white_24dp.png"
+icon_down="$HOME/scripts/resources/bright_not/ic_brightness_5_white_24dp.png"
 
 function get_brightness {
     cat /sys/class/backlight/intel_backlight/actual_brightness
