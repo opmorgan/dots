@@ -2,13 +2,14 @@
 
 # This script changes screen brightness.
 # Takes one argument, an integer (% to change)
-# brightness.sh +5
+# bright_inc.sh +5
 
 # base dir for backlight class
 basedir="/sys/class/backlight/"
 
 # get the backlight handler
-handler=$basedir$(ls $basedir)"/"
+handler="/sys/class/backlight/intel_backlight/"
+echo $handler
 
 # get current brightness
 old_brightness=$(cat $handler"brightness")

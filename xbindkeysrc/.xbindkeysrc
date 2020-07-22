@@ -19,11 +19,11 @@
 "playerctl previous"
     XF86AudioPrev
 
-"bash /home/om/scripts/backlight.sh +5; bash /home/om/scripts/bright_not.sh up"
+"bash /home/om/scripts/bright.sh +5; bash /home/om/scripts/bright_not.sh up"
     m:0x0 + c:233
     XF86MonBrightnessUp
 
-"bash /home/om/scripts/backlight.sh -5; bash /home/om/scripts/bright_not.sh down"
+"bash /home/om/scripts/bright.sh -5; bash /home/om/scripts/bright_not.sh down"
     m:0x0 + c:232
     XF86MonBrightnessDown
 
