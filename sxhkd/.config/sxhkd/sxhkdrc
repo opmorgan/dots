@@ -5,7 +5,10 @@ super + F1
 # open a new terminal
 super + Return
     urxvt -e tmux
-
+#
+# open a terminal with tmate (for shared sessions)
+super + alt + Return
+  urxvt -e tmate
 # open rofi
 super + space
     rofi -combi-modi window,drun,run -show combi -modi combi
