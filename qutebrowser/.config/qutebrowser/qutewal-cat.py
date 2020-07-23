@@ -106,18 +106,22 @@ if os.path.isfile(colors_absolute):
     #   - none: Don't show a gradient.
     c.colors.downloads.system.bg = 'none'
 
+    # Hints border
+    c.hints.border = '1px solid' + foreground
+
     # Background color for hints. Note that you can use a `rgba(...)` value
     # for transparency.
     # Type: QssColor
-    c.colors.hints.bg = yellow
+    c.colors.hints.bg = 'rgba(239, 239, 244, 0.8)'
+    # c.colors.hints.bg = background
 
     # Font color for hints.
     # Type: QssColor
-    c.colors.hints.fg = background
+    c.colors.hints.fg = foreground
 
     # Font color for the matched part of hints.
     # Type: QssColor
-    c.colors.hints.match.fg = blue
+    c.colors.hints.match.fg = magenta
 
     # Background color of the keyhint widget.
     # Type: QssColor
@@ -185,7 +189,7 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the statusbar in caret mode.
     # Type: QssColor
-    c.colors.statusbar.caret.bg = cyan
+    c.colors.statusbar.caret.bg = red
 
     # Foreground color of the statusbar in caret mode.
     # Type: QssColor
@@ -201,11 +205,11 @@ if os.path.isfile(colors_absolute):
 
     # Background color of the statusbar in command mode.
     # Type: QssColor
-    c.colors.statusbar.command.bg = background
+    c.colors.statusbar.command.bg = yellow
 
     # Foreground color of the statusbar in command mode.
     # Type: QssColor
-    c.colors.statusbar.command.fg = foreground
+    c.colors.statusbar.command.fg = background
 
     # Background color of the statusbar in private browsing + command mode.
     # Type: QssColor
@@ -237,7 +241,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of the statusbar in passthrough mode.
     # Type: QssColor
-    c.colors.statusbar.passthrough.fg = foreground
+    c.colors.statusbar.passthrough.fg = background
 
     # Background color of the statusbar in private browsing mode.
     # Type: QssColor
@@ -261,7 +265,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of the URL in the statusbar for hovered links.
     # Type: QssColor
-    c.colors.statusbar.url.hover.fg = blue
+    c.colors.statusbar.url.hover.fg = background
 
     # Foreground color of the URL in the statusbar on successful load
     # (http).
@@ -271,7 +275,7 @@ if os.path.isfile(colors_absolute):
     # Foreground color of the URL in the statusbar on successful load
     # (https).
     # Type: QssColor
-    c.colors.statusbar.url.success.https.fg = gray
+    c.colors.statusbar.url.success.https.fg = green
 
     # Foreground color of the URL in the statusbar when there's a warning.
     # Type: QssColor
@@ -320,24 +324,23 @@ if os.path.isfile(colors_absolute):
 
     # Background color of selected even tabs.
     # Type: QtColor
-    c.colors.tabs.selected.even.bg = red
+    c.colors.tabs.selected.even.bg = green
 
     # Foreground color of selected even tabs.
     # Type: QtColor
-    c.colors.tabs.selected.even.fg = foreground
+    c.colors.tabs.selected.even.fg = background
 
     # Background color of selected odd tabs.
     # Type: QtColor
-    c.colors.tabs.selected.odd.bg = red
-
+    c.colors.tabs.selected.odd.bg = yellow
     # Foreground color of selected odd tabs.
     # Type: QtColor
-    c.colors.tabs.selected.odd.fg = foreground
+    c.colors.tabs.selected.odd.fg = background
 
     # Background color for webpages if unset (or empty to use the theme's
     # color)
     # Type: QtColor
-    c.colors.webpage.bg = foreground
+    c.colors.webpage.bg = ''
 
     if qutewal_dynamic_loading or bool(os.getenv('QUTEWAL_DYNAMIC_LOADING')):
         import signal

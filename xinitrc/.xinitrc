@@ -2,7 +2,8 @@ xrdb ~/.Xresources
 
 xrandr --auto
 
-wal -R
+wal -i ~/media/pics/wall/cat.jpg
+wal --theme base16-materialer
 
 setxkbmap -option ctrl:nocaps
 xcape -e 'Caps_Lock=Escape;Control_L=Escape'

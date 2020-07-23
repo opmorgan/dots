@@ -3,7 +3,7 @@
 ## fonts.tabs
 
 # pywal theme
-config.source('qutewal-koi.py')
+config.source('qutewal-cat.py')
 
 # keybindings
 config.unbind('d')
@@ -65,10 +65,10 @@ c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 
 # fonts
-c.fonts.default_family = 'Avenir'
+c.fonts.default_family = 'Cozette'
 c.fonts.default_size = '10pt'
-c.fonts.tabs.selected = '11pt ' + 'default_family'
-c.fonts.tabs.unselected = '11pt ' + 'default_family'
+c.fonts.tabs.selected = '10pt ' + 'default_family'
+c.fonts.tabs.unselected = '10pt ' + 'default_family'
 c.fonts.contextmenu = 'default_size default_family'
 c.fonts.completion.entry = 'default_size default_family'
 c.fonts.completion.category = 'default_size default_family'
