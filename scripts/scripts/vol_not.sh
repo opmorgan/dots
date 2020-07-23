@@ -23,7 +23,7 @@ function send_notification {
     # https://en.wikipedia.org/wiki/Box-drawing_character
     bar=$(seq -s "━" $((($volume / 5)+1)) | sed 's/[0-9]//g')
     # Send the notification
-    notify-send --hint=string:x-dunst-stack-tag:volume "$volume      $bar" -i "$icon"
+    notify-send --hint=string:x-dunst-stack-tag:volume "$bar  $volume" -i "$icon"
 }
 
 case $1 in
