@@ -270,12 +270,12 @@ if os.path.isfile(colors_absolute):
     # Foreground color of the URL in the statusbar on successful load
     # (http).
     # Type: QssColor
-    c.colors.statusbar.url.success.http.fg = foreground
+    c.colors.statusbar.url.success.http.fg = background
 
     # Foreground color of the URL in the statusbar on successful load
     # (https).
     # Type: QssColor
-    c.colors.statusbar.url.success.https.fg = green
+    c.colors.statusbar.url.success.https.fg = background
 
     # Foreground color of the URL in the statusbar when there's a warning.
     # Type: QssColor
@@ -324,7 +324,7 @@ if os.path.isfile(colors_absolute):
 
     # Background color of selected even tabs.
     # Type: QtColor
-    c.colors.tabs.selected.even.bg = green
+    c.colors.tabs.selected.even.bg = yellow
 
     # Foreground color of selected even tabs.
     # Type: QtColor
