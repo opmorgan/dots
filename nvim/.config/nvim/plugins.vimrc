@@ -6,7 +6,7 @@ colorscheme wal
 
 "" Status line
 let g:lightline = {
-      \ 'colorscheme': 'koi',
+      \ 'colorscheme': 'nord',
       \ 'component_function': {
       \   'fileformat': 'LightlineFileformat',
       \   'filetype': 'LightlineFiletype',
