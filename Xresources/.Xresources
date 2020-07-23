@@ -20,7 +20,7 @@ URxvt.font: xft:cozette:size=10:minspace=FALSE:style=regular:antialias=false
 URxvt.boldFont: xft:cozette:size=10:minspace=FALSE:style=regular:antialias=false
 ! scrollbar
 URxvt.scrollBar: false
-URxvt.internalBorder: 50
+URxvt.internalBorder: 10
 ! cursor
 URxvt.cursorBlink: false
 ! style

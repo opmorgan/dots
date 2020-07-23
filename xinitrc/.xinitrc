@@ -10,7 +10,9 @@ xcape -e 'Caps_Lock=Escape;Control_L=Escape'
 
 unclutter --timeout 1 &
 dunst &
-st -e tmux & 
+urxvt -e tmux & 
 sxhkd &
+polyset.sh &
 xbindkeys &
+polybar 
 exec bspwm

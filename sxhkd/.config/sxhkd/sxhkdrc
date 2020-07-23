@@ -4,7 +4,7 @@ super + F1
 
 # open a new terminal
 super + Return
-    st -e tmux
+    urxvt -e tmux
 
 # open rofi
 super + space
