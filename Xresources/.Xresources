@@ -11,7 +11,7 @@
 
 !! urxvt
 ! default window size
-URxvt*geometry: 60x18
+URxvt*geometry: 80 x 60
 ! disable ctrl + shift
 URxvt.iso14755: false
 URxvt.iso14755_52: false
