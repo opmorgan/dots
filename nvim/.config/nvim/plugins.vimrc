@@ -58,8 +58,9 @@ nnoremap <C-P> :GFiles<CR>
 "" Vim coc
 " set colors for tab menu ("highlights"/Pmenu)
 highlight Pmenu ctermbg=magenta
+highlight Pmenu ctermfg=black
 highlight PmenuThumb ctermbg=gray
-highlight CocHighlightWrite ctermbg=gray
+highlight CocHighlightWrite ctermbg=green
 " touch up other colors
 highlight StatusLine ctermbg=gray
 highlight CursorColumn ctermbg=gray
