@@ -2,7 +2,11 @@
 center=false
 for arg in "$@"
 do
-  if [ "$arg" == "home" ] || [ "$arg" == "h" ]
+  if [ "$arg" == "--home" ] || [ "$arg" == "h" ]
+  then
+    echo "Initializing home config..."
+    /bin/bash /home/om/.screenlayout/T430-desk.sh 
+  elif [ "$arg" == "--station-north" ] || [ "$arg" == "s" ]
   then
     echo "Initializing home config..."
     /bin/bash /home/om/.screenlayout/origami-table.sh 
