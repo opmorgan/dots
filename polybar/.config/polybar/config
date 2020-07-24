@@ -8,28 +8,31 @@
 ;=====================================================
 
 [colors]
-background = ${xrdb:color0:#222}
-bg = ${xrdb:color0:#222}
-foreground = ${xrdb:color7:#222}
-fg = ${xrdb:color7:#222}
+;manually specifide colors
 black = #323232
 bg-trans = #00000000
-
-background-alt = ${xrdb:color1:#222}
 bg-trans-light = #aa1c2225
 bg-trans-medium = #dd1c2225
 bg-trans-dark = #ee1c2225
-foreground-alt = ${xrdb:color15:#222}
-hl = ${xrdb:color3}
-primary = ${xrdb:color2:#222}
-secondary = ${xrdb:color4:#222}
-tertiary = ${xrdb:color5:#222}
-quaternary = ${xrdb:color6:#222}
-alert = ${xrdb:color3:#222}
 white-alpha = #8CFFFFFF
 
+;terminal colors
+fg =    ${xrdb:color7:#222}
+bg =    ${xrdb:color0:#222}
+blue =  ${xrdb:color4:#222}
+green = ${xrdb:color2:#222}
+cyan =  ${xrdb:color6:#222}
+red =   ${xrdb:color1:#222}
+purple = ${xrdb:color5:#222}
+yellow = ${xrdb:color11:#222}
+gray = ${xrdb:color8:#222}
+light_gray = ${xrdb:color7:#222}
+
+alert = ${xrdb:color3:#222}
+hl = ${xrdb:color3}
+
 wm-restack = bspwm
-override-redirect = true
+;override-redirect = true
 
 [bar/bar1]
 monitor = ${env:MONITOR:}
@@ -40,13 +43,12 @@ offset-y = 0%
 ; offset-y = 1015
 fixed-center = true
 
-background = ${colors.background}
-foreground = ${colors.foreground}
+background = ${colors.bg}
+foreground = ${colors.fg}
 
 line-size = 3
 line-color = #f00
 
-separator = ┃
 
 border-size = 0
 border-color = #00000000
@@ -83,7 +85,7 @@ time = %H:%M
 time-alt = %H:%M
 
 label = %date% — %time%
-; label-foreground = ${colors.foreground} 
+label-foreground = ${colors.secondary} 
 ; label-background = ${colors.bg-trans}
 label-padding = 0
 
@@ -92,6 +94,10 @@ type = internal/battery
 battery = BAT0
 adapter = ADP1
 full-at = 96
+
+label-charging-foreground = ${colors.green} 
+label-discharging-foreground = ${colors.alert} 
+label-full-foreground = ${colors.blue} 
 
 format-charging = <label-charging>
 format-discharging = <label-discharging>
@@ -128,17 +134,13 @@ type = internal/xwindow
 label = %title:0:50:...%
 label-maxlen = 100 
 format-padding = 0
+label-foreground = ${colors.hl} 
 
 [module/bspwm]
 type = internal/bspwm
 
 ; Only show workspaces defined on the same output as the bar
-; NOTE: The bspwm and XRandR monitor names must match, which they do by default.
-; But if you rename your bspwm monitors with bspc -n this option will no longer
-; behave correctly.
-; Default: true
 pin-workspaces = true
-fuzzy-match = false
 
 ; ws-icon-[0-9]+ = <label>;<icon>
 ; Note that the <label> needs to correspond with the bspwm workspace name
@@ -148,76 +150,32 @@ ws-icon-1 = II;2
 ws-icon-2 = III;3
 ws-icon-3 = IV;4
 ws-icon-4 = V;5
+ws-icon-5 = VI;6
+ws-icon-6 = VII;7
 ws-icon-default = +
 
-; Available tags:
-;   <label-monitor>
-;   <label-state> - gets replaced with <label-(focused|urgent|occupied|empty)>
-;   <label-mode> - gets replaced with <label-(monocle|tiled|fullscreen|floating|locked|sticky|private)>
-; Default: <label-state>
-format = <label-mode> <label-state>
+format = <label-state>
 
-; Available tokens:
-;   %name%
-; Default: %name%
-label-monitor = %name%
-
-
-; If any values for label-dimmed-N are defined, the workspace/mode
-; colors will get overridden with those values if the monitor is out of focus
-; To only override workspaces in a specific state, use:
-;   label-dimmed-focused
-;   label-dimmed-occupied
-;   label-dimmed-urgent
-;   label-dimmed-empty
-label-dimmed-foreground = $(colors.background}
-;label-dimmed-underline = ${colors.foreground}
-label-dimmed-focused-background = ${colors.quaternary}
-label-dimmed-occupied-background = ${colors.primary}
+label-dimmed-foreground = $(colors.bg}
+label-dimmed-focused-background = ${colors.purple}
+label-dimmed-occupied-background = ${colors.cyan}
 label-dimmed-padding = 1
 
-; Available tokens:
-;   %name%
-;   %icon%
-;   %index%
-; Default: %icon%  %name%
 label-focused = %icon%
-label-focused-foreground = ${colors.background}
+label-focused-foreground = ${colors.bg}
 label-focused-background = ${colors.hl}
 label-focused-padding = 1
 
-; Available tokens:
-;   %name%
-;   %icon%
-;   %index%
-; Default: %icon%  %name%
 label-occupied = %icon%
-;label-occupied-underline = #555555
-label-occupied-background = ${colors.primary}
-label-occupied-foreground = ${colors.background}
+label-occupied-background = ${colors.blue}
+label-occupied-foreground = ${colors.bg}
 label-occupied-padding = 1
 
 label-empty = %icon%
 label-empty-padding = 1
+label-empty-foreground = ${colors.light_gray}
 
-; Available tokens:
-;   %name%
-;   %icon%
-;   %index%
-; Default: %icon%  %name%
 label-urgent = %icon%
-label-urgent-foreground = ${colors.background}
+label-urgent-foreground = ${colors.fg}
 label-urgent-background = ${colors.alert}
-;label-urgent-underline = #9b0a20
-
-
-; The following labels will be used to indicate the layout/mode
-; for the focused workspace. Requires <label-mode>
-;
-; Available tokens:
-;   None
-label-monocle = (m)
-label-tiled = (t)
-label-fullscreen = (x)
-label-floating = (s)
 

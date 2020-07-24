@@ -14,5 +14,4 @@ urxvt -e tmux &
 sxhkd &
 polyset.sh &
 xbindkeys &
-polybar 
 exec bspwm
