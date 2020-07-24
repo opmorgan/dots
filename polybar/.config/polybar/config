@@ -20,6 +20,7 @@ bg-trans-light = #aa1c2225
 bg-trans-medium = #dd1c2225
 bg-trans-dark = #ee1c2225
 foreground-alt = ${xrdb:color15:#222}
+hl = ${xrdb:color3}
 primary = ${xrdb:color2:#222}
 secondary = ${xrdb:color4:#222}
 tertiary = ${xrdb:color5:#222}
@@ -27,8 +28,11 @@ quaternary = ${xrdb:color6:#222}
 alert = ${xrdb:color3:#222}
 white-alpha = #8CFFFFFF
 
+wm-restack = bspwm
+override-redirect = true
+
 [bar/bar1]
-monitor = ${env:MONITOR:DP-1-1}
+monitor = ${env:MONITOR:}
 width = 100%
 height = 30
 offset-x = 0%
@@ -62,7 +66,7 @@ font-4 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-5 = Font Awesome 5 Brands:pixelsize=10;3
 
 modules-left = 
-modules-center = 
+modules-center = bspwm
 modules-right = xwindow musicinfo date battery
 
 cursor-click = pointer
@@ -124,4 +128,96 @@ type = internal/xwindow
 label = %title:0:50:...%
 label-maxlen = 100 
 format-padding = 0
+
+[module/bspwm]
+type = internal/bspwm
+
+; Only show workspaces defined on the same output as the bar
+; NOTE: The bspwm and XRandR monitor names must match, which they do by default.
+; But if you rename your bspwm monitors with bspc -n this option will no longer
+; behave correctly.
+; Default: true
+pin-workspaces = true
+fuzzy-match = false
+
+; ws-icon-[0-9]+ = <label>;<icon>
+; Note that the <label> needs to correspond with the bspwm workspace name
+; Neither <label> nor <icon> can contain a semicolon (;)
+ws-icon-0 = I;1
+ws-icon-1 = II;2
+ws-icon-2 = III;3
+ws-icon-3 = IV;4
+ws-icon-4 = V;5
+ws-icon-default = +
+
+; Available tags:
+;   <label-monitor>
+;   <label-state> - gets replaced with <label-(focused|urgent|occupied|empty)>
+;   <label-mode> - gets replaced with <label-(monocle|tiled|fullscreen|floating|locked|sticky|private)>
+; Default: <label-state>
+format = <label-mode> <label-state>
+
+; Available tokens:
+;   %name%
+; Default: %name%
+label-monitor = %name%
+
+
+; If any values for label-dimmed-N are defined, the workspace/mode
+; colors will get overridden with those values if the monitor is out of focus
+; To only override workspaces in a specific state, use:
+;   label-dimmed-focused
+;   label-dimmed-occupied
+;   label-dimmed-urgent
+;   label-dimmed-empty
+label-dimmed-foreground = $(colors.background}
+;label-dimmed-underline = ${colors.foreground}
+label-dimmed-focused-background = ${colors.quaternary}
+label-dimmed-occupied-background = ${colors.primary}
+label-dimmed-padding = 1
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-focused = %icon%
+label-focused-foreground = ${colors.background}
+label-focused-background = ${colors.hl}
+label-focused-padding = 1
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-occupied = %icon%
+;label-occupied-underline = #555555
+label-occupied-background = ${colors.primary}
+label-occupied-foreground = ${colors.background}
+label-occupied-padding = 1
+
+label-empty = %icon%
+label-empty-padding = 1
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-urgent = %icon%
+label-urgent-foreground = ${colors.background}
+label-urgent-background = ${colors.alert}
+;label-urgent-underline = #9b0a20
+
+
+; The following labels will be used to indicate the layout/mode
+; for the focused workspace. Requires <label-mode>
+;
+; Available tokens:
+;   None
+label-monocle = (m)
+label-tiled = (t)
+label-fullscreen = (x)
+label-floating = (s)
 

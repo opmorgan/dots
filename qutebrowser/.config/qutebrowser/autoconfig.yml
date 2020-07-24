@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  content.notifications:
-    https://www.youtube.com: false
+  tabs.show:
+    global: always
