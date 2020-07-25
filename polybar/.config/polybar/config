@@ -85,7 +85,7 @@ time = %H:%M
 time-alt = %H:%M
 
 label = %date% — %time%
-label-foreground = ${colors.secondary} 
+label-foreground = ${colors.purple} 
 ; label-background = ${colors.bg-trans}
 label-padding = 0
 
@@ -106,8 +106,8 @@ format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
 format-discharging-prefix = "↓"
-format-full-prefix = "√"
-format-unknown-prefix = "√"
+format-full-prefix = ""
+format-unknown-prefix = ""
 
 label-charging-margin-left = 1
 label-discharging-margin-left = 1

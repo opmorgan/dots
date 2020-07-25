@@ -11,7 +11,7 @@ bat_pct=${bat_pct_str:0:-2}
 discharging=$(acpi -b | grep Discharging)
 
 if [[ "$discharging" && \
-  "$bat_pct" -lt 100 && \
+  "$bat_pct" -lt 30 && \
   "$bat_pct" -gt 20 ]]; then
   notify-send "Battery low: $bat_pct% left" -i $icon_30 -u normal
 fi

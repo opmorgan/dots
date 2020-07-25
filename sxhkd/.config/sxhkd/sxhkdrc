@@ -45,7 +45,8 @@ super + g
 # set the window state
 super + {t,shift + t,s,x}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}; \
-  xdo lower -N "Polybar"
+  xdo lower -N "Polybar"; \
+  xdo above -N "Polybar" -t $(xdo id -N Bspwm -n root)
 
 # set the node flags
 super + ctrl + {m,x,y,z}
