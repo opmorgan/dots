@@ -67,8 +67,8 @@ font-3 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
 font-4 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-5 = Font Awesome 5 Brands:pixelsize=10;3
 
-modules-left = 
-modules-center = bspwm
+modules-left = bspwm
+modules-center = 
 modules-right = xwindow musicinfo date battery
 
 cursor-click = pointer
@@ -78,13 +78,13 @@ cursor-scroll = ns-resize
 type = internal/date
 interval = 5
 
-date = "%a %d %b"
-date-alt = " %Y-%m-%d"
+date = "%Y %b %d %a"
+date-alt = "%Y-%m-%d %a"
 
-time = %H:%M
-time-alt = %H:%M
+time = "%I:%M %p"
+time-alt = "%H:%M"
 
-label = %date% — %time%
+label = %date% - %time%
 label-foreground = ${colors.purple} 
 ; label-background = ${colors.bg-trans}
 label-padding = 0
@@ -167,8 +167,9 @@ label-focused-background = ${colors.hl}
 label-focused-padding = 1
 
 label-occupied = %icon%
-label-occupied-background = ${colors.blue}
-label-occupied-foreground = ${colors.bg}
+;label-occupied-background = ${colors.bg-trans-medium}
+;label-occupied-foreground = ${colors.bg}
+label-occupied-underline = ${colors.hl}
 label-occupied-padding = 1
 
 label-empty = %icon%
