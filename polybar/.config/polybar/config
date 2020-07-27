@@ -28,7 +28,7 @@ yellow = ${xrdb:color11:#222}
 gray = ${xrdb:color8:#222}
 light_gray = ${xrdb:color7:#222}
 
-alert = ${xrdb:color3:#222}
+alert = ${xrdb:color1:#222}
 hl = ${xrdb:color3}
 
 wm-restack = bspwm
@@ -106,8 +106,8 @@ format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
 format-discharging-prefix = "↓"
-format-full-prefix = ""
-format-unknown-prefix = ""
+format-full-prefix = "•"
+format-unknown-prefix = "•"
 
 label-charging-margin-left = 1
 label-discharging-margin-left = 1

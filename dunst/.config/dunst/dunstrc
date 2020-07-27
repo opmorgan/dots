@@ -44,7 +44,7 @@
     # bottom left corner
     # geometry = "400+45-45"
     # top left corner, thin
-    geometry = "280+0+0"
+    geometry = "350+0+0"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
