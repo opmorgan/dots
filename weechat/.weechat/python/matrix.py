@@ -1,1 +1,0 @@
-/home/om/bin/weechat-matrix/main.py
