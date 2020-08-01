@@ -3080,3 +3080,41 @@
 2020-07-21 21:50:48		        SHA256: 67:9F:14:5C:69:B9:07:64:79:3A:AF:05:E4:BA:39:7B:8A:8F:D4:09:7E:77:1D:26:45:1E:7D:05:1F:DD:45:27
 2020-07-21 21:50:48	--	matrix: Logging in...
 2020-07-21 21:50:49	--	matrix: Logged in as @ommedulla:matrix.org
+2020-07-23 23:15:55	--	matrix: Connecting to matrix.org:443 (SSL)...
+2020-07-23 23:15:55	--	matrix: Doing SSL handshake...
+2020-07-23 23:15:55	--	matrix: Connected using TLSv1.3, and 256 bit TLS_AES_256_GCM_SHA384 cipher suite.
+2020-07-23 23:15:55	--	matrix: received certificate
+2020-07-23 23:15:55		 - certificate info:
+2020-07-23 23:15:55		    - subject: commonName=www.matrix.org, serial number
+2020-07-23 23:15:55		        03E529AAAA56F39C4D377451C80F24482B80
+2020-07-23 23:15:55		    - issuer: countryName=US, organizationName=Let's Encrypt,
+2020-07-23 23:15:55		        commonName=Let's Encrypt Authority X3
+2020-07-23 23:15:55		    - key info: RSA key 4096 bits, signed using
+2020-07-23 23:15:55		        sha256WithRSAEncryption
+2020-07-23 23:15:55		    - period of validity:
+2020-07-23 23:15:55		        Begins on:  May 27 17:09:16 2020 GMT
+2020-07-23 23:15:55		        Expires on: Aug 25 17:09:16 2020 GMT
+2020-07-23 23:15:55		    - fingerprints:
+2020-07-23 23:15:55		        SHA1:   4F:54:EC:4E:A5:F6:F2:FB:1A:45:FA:26:D3:5A:00:2D:E7:FF:38:95
+2020-07-23 23:15:55		        SHA256: 67:9F:14:5C:69:B9:07:64:79:3A:AF:05:E4:BA:39:7B:8A:8F:D4:09:7E:77:1D:26:45:1E:7D:05:1F:DD:45:27
+2020-07-23 23:15:56	--	matrix: Logging in...
+2020-07-23 23:15:56	--	matrix: Logged in as @ommedulla:matrix.org
+2020-07-29 10:57:08	--	matrix: Connecting to matrix.org:443 (SSL)...
+2020-07-29 10:57:08	--	matrix: Doing SSL handshake...
+2020-07-29 10:57:08	--	matrix: Connected using TLSv1.3, and 256 bit TLS_AES_256_GCM_SHA384 cipher suite.
+2020-07-29 10:57:08	--	matrix: received certificate
+2020-07-29 10:57:08		 - certificate info:
+2020-07-29 10:57:08		    - subject: commonName=www.matrix.org, serial number
+2020-07-29 10:57:08		        03E529AAAA56F39C4D377451C80F24482B80
+2020-07-29 10:57:08		    - issuer: countryName=US, organizationName=Let's Encrypt,
+2020-07-29 10:57:08		        commonName=Let's Encrypt Authority X3
+2020-07-29 10:57:08		    - key info: RSA key 4096 bits, signed using
+2020-07-29 10:57:08		        sha256WithRSAEncryption
+2020-07-29 10:57:08		    - period of validity:
+2020-07-29 10:57:08		        Begins on:  May 27 17:09:16 2020 GMT
+2020-07-29 10:57:08		        Expires on: Aug 25 17:09:16 2020 GMT
+2020-07-29 10:57:08		    - fingerprints:
+2020-07-29 10:57:08		        SHA1:   4F:54:EC:4E:A5:F6:F2:FB:1A:45:FA:26:D3:5A:00:2D:E7:FF:38:95
+2020-07-29 10:57:08		        SHA256: 67:9F:14:5C:69:B9:07:64:79:3A:AF:05:E4:BA:39:7B:8A:8F:D4:09:7E:77:1D:26:45:1E:7D:05:1F:DD:45:27
+2020-07-29 10:57:09	--	matrix: Logging in...
+2020-07-29 10:57:10	--	matrix: Logged in as @ommedulla:matrix.org
