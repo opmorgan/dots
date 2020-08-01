@@ -149,16 +149,16 @@ static key keys[] = {
     //unfold horizontally
     {  MOD |CONTROL,XK_n,          maxhalf,           {.i=TWOBWM_MAXHALF_UNFOLD_HORIZONTAL}},
     // Next/Previous screen
-    {  MOD ,              XK_comma,      changescreen,      {.i=TWOBWM_NEXT_SCREEN}},
-    {  MOD ,              XK_period,     changescreen,      {.i=TWOBWM_PREVIOUS_SCREEN}},
+    {  MOD ,              XK_period,      changescreen,      {.i=TWOBWM_NEXT_SCREEN}},
+    {  MOD ,              XK_comma,     changescreen,      {.i=TWOBWM_PREVIOUS_SCREEN}},
     // Raise or lower a window
     {  MOD ,              XK_r,          raiseorlower,      {}},
     // Next/Previous workspace
-    {  MOD |CONTROL,      XK_Right,       nextworkspace,     {}},
-    {  MOD |CONTROL,      XK_Left,      prevworkspace,     {}},
+    {  CONTROL,      XK_apostrophe,       nextworkspace,     {}},
+    {  CONTROL,      XK_semicolon,      prevworkspace,     {}},
     // Move to Next/Previous workspace
-    {  MOD |SHIFT|CONTROL,       XK_Left,          sendtonextworkspace,{}},
-    {  MOD |SHIFT|CONTROL,       XK_Right,         sendtoprevworkspace,{}},
+    {  MOD |CONTROL,       XK_apostrophe,          sendtonextworkspace,{}},
+    {  MOD |CONTROL,       XK_semicolon,         sendtoprevworkspace,{}},
     // Iconify the window
     {  MOD ,              XK_i,          hide,              {}},
     // Make the window unkillable
