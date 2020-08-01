@@ -9,6 +9,18 @@ autocmd VimEnter * Alias WQ wq
 autocmd VimEnter * Alias Wq wq
 autocmd VimEnter * Alias wq wq
 
+" set f to ignore case
+nmap f :call FindChar()<CR>
+function FindChar()
+  let c = nr2char(getchar())
+  while col('.') < col('$') - 1
+    normal l
+    if getline('.')[col('.') - 1] ==? c
+      break
+    endif
+  endwhile
+endfunction
+
 " Tabs
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
