@@ -7,6 +7,10 @@ config.source('qutewal-koi.py')
 
 # keybindings
 config.unbind('d')
+config.unbind('r')
+config.unbind('R')
+config.bind('<alt-r>', 'reload')
+config.bind('<alt-R>', 'reload')
 config.bind('<alt-h>', 'tab-prev')
 config.bind('<alt-l>', 'tab-next')
 config.bind('<alt-j>', 'back')

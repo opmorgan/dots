@@ -17,12 +17,7 @@ set mouse=a
 set title
 
 " relative line numbers
-set number relativenumber
-augroup numbertoggle
-  autocmd!
-  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-augroup END
+set number rnu
 
 "ask to save if quit with unsaved changes
 set confirm
