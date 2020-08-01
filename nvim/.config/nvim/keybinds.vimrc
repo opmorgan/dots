@@ -9,6 +9,9 @@ autocmd VimEnter * Alias WQ wq
 autocmd VimEnter * Alias Wq wq
 autocmd VimEnter * Alias wq wq
 
+" open help in a vertical split by default
+:cabbrev h vert h
+
 " set f to ignore case
 nmap f :call FindChar()<CR>
 function FindChar()

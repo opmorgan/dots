@@ -9,3 +9,4 @@ source $HOME/.config/nvim/templates.vimrc
 source $HOME/.config/nvim/brackets.vimrc
 
 
+
