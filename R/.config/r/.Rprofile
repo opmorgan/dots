@@ -12,4 +12,18 @@ rm(r)
 
 # other options
 options(digits=4, show.signif.stars=FALSE)
+options("digits.secs"=3) # show sub-second time stamps
 
+# binding to restart r session
+makeActiveBinding("refresh", function() { shell("Rgui"); q("no") }, .GlobalEnv)
+makeActiveBinding("refresh", function() { system("R"); q("no") }, .GlobalEnv)
+
+options("pdfviewer"="zathura")
+
+# default graphics options
+# setHook(packageEvent("grDevices", "onLoad"),
+#         function(...) grDevices::X11.options(width=8, height=8, 
+#                                              xpos=0, pointsize=10, 
+#                                              #type="nbcairo"))  # Cairo device
+#                                              #type="cairo"))    # other Cairo dev
+#                                              type="xlib"))      # old default
