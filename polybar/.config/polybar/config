@@ -27,6 +27,7 @@ purple = ${xrdb:color5:#222}
 yellow = ${xrdb:color11:#222}
 gray = ${xrdb:color8:#222}
 light_gray = ${xrdb:color7:#222}
+light_red = ${xrdb:color9:#222}
 light_purple = ${xrdb:color13:#222}
 
 alert = ${xrdb:color1:#222}
@@ -51,8 +52,8 @@ line-size = 3
 line-color = #f00
 
 
-border-size = 0
-border-color = #00000000
+border-size = 3
+border-color = ${colors.light_red}
 radius = 0.0
 
 padding-left = 0 
