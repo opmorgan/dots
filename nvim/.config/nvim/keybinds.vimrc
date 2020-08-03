@@ -27,3 +27,6 @@ nnoremap <CR> :noh<CR><CR>
 
 " Insert the current date and time
 :nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>
+
+" remap p so that pasted text stays in main register
+xnoremap <silent> p p:let @+=@0<CR>:let @"=@0<CR>

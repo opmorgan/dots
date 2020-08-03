@@ -33,7 +33,7 @@ function send_notification {
     # https://en.wikipedia.org/wiki/Box-drawing_character
     bar=$(seq -s "━" $(((brightness / 5)+1)) | sed 's/[0-9]//g')
     # Send the notification
-    notify-send --hint=string:x-dunst-stack-tag:brightness "$bar  $brightness" -i "$icon"
+    notify-send --hint=string:x-dunst-stack-tag:brightness "$brightness $bar" -i "$icon"
 }
 
 case $1 in

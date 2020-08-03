@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/om/media/pics/wall/cat.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#232731",
+        "foreground": "#9faab8",
+        "cursor": "#9faab8"
+    },
+    
+    "colors": {
+        "color0": "#232731",
+        "color1": "#a65f69",
+        "color2": "#3b8563",
+        "color3": "#AF592F",
+        "color4": "#487799",
+        "color5": "#b9637e",
+        "color6": "#348396",
+        "color7": "#6f798c",
+        "color8": "#9e9a9a",
+        "color9": "#B86974",
+        "color10": "#469E76",
+        "color11": "#C7A775",
+        "color12": "#5287AD",
+        "color13": "#CC6D8B",
+        "color14": "#3C97AD",
+        "color15": "#9faab8"
+    }
+}
