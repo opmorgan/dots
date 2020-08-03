@@ -8,7 +8,7 @@
 ;=====================================================
 
 [colors]
-;manually specifide colors
+;manually specified colors
 black = #323232
 bg-trans = #00000000
 bg-trans-light = #aa1c2225
@@ -17,8 +17,8 @@ bg-trans-dark = #ee1c2225
 white-alpha = #8CFFFFFF
 
 ;terminal colors
-fg =    ${xrdb:color7:#222}
-bg =    ${xrdb:color0:#222}
+foreground =    ${xrdb:color7:#222}
+background=    ${xrdb:color0:#222}
 blue =  ${xrdb:color4:#222}
 green = ${xrdb:color2:#222}
 cyan =  ${xrdb:color6:#222}
@@ -27,9 +27,10 @@ purple = ${xrdb:color5:#222}
 yellow = ${xrdb:color11:#222}
 gray = ${xrdb:color8:#222}
 light_gray = ${xrdb:color7:#222}
+light_purple = ${xrdb:color13:#222}
 
 alert = ${xrdb:color1:#222}
-hl = ${xrdb:color3}
+hl = ${xrdb:color5}
 
 wm-restack = bspwm
 ;override-redirect = true
@@ -43,8 +44,8 @@ offset-y = 0%
 ; offset-y = 1015
 fixed-center = true
 
-background = ${colors.bg}
-foreground = ${colors.fg}
+background = ${colors.background}
+foreground = ${colors.foreground}
 
 line-size = 3
 line-color = #f00
@@ -55,10 +56,10 @@ border-color = #00000000
 radius = 0.0
 
 padding-left = 0 
-padding-right = 2
+padding-right = 4
 
-module-margin-left = 2
-module-margin-right = 2
+module-margin-left = 4
+module-margin-right = 0
 
 font-0 = Cozette:style=Regular:pixelsize=10;0
 font-1 = Source Sans Pro:style=Regular:pixelsize=13;1
@@ -67,8 +68,8 @@ font-3 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
 font-4 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-5 = Font Awesome 5 Brands:pixelsize=10;3
 
-modules-left = bspwm
-modules-center = 
+modules-left = 
+modules-center = bspwm
 modules-right = xwindow musicinfo date battery
 
 cursor-click = pointer
@@ -78,15 +79,15 @@ cursor-scroll = ns-resize
 type = internal/date
 interval = 5
 
-date = "%Y %b %d %a"
-date-alt = "%Y-%m-%d %a"
+date = "  %Y %b %d %a"
+date-alt = "  %Y-%m-%d %a"
 
-time = "%I:%M %p"
-time-alt = "%H:%M"
+time = "%I:%M %p  "
+time-alt = "%H:%M  "
 
 label = %date% - %time%
-label-foreground = ${colors.purple} 
-; label-background = ${colors.bg-trans}
+label-foreground = ${colors.foreground} 
+label-background = ${colors.background}
 label-padding = 0
 
 [module/battery]
@@ -95,9 +96,9 @@ battery = BAT0
 adapter = ADP1
 full-at = 96
 
-label-charging-foreground = ${colors.green} 
-label-discharging-foreground = ${colors.alert} 
-label-full-foreground = ${colors.blue} 
+label-charging-foreground = ${colors.foreground} 
+label-discharging-foreground = ${colors.foreground} 
+label-full-foreground = ${colors.foreground} 
 
 format-charging = <label-charging>
 format-discharging = <label-discharging>
@@ -134,7 +135,7 @@ type = internal/xwindow
 label = %title:0:50:...%
 label-maxlen = 100 
 format-padding = 0
-label-foreground = ${colors.hl} 
+label-foreground = ${colors.foreground} 
 
 [module/bspwm]
 type = internal/bspwm
@@ -156,19 +157,19 @@ ws-icon-default = +
 
 format = <label-state>
 
-label-dimmed-foreground = $(colors.bg}
+label-dimmed-foreground = $(colors.background}
 label-dimmed-focused-background = ${colors.purple}
-label-dimmed-occupied-background = ${colors.cyan}
+label-dimmed-occupied-background = ${colors.purple}
 label-dimmed-padding = 1
 
 label-focused = %icon%
-label-focused-foreground = ${colors.bg}
+label-focused-foreground = ${colors.background}
 label-focused-background = ${colors.hl}
 label-focused-padding = 1
 
 label-occupied = %icon%
 ;label-occupied-background = ${colors.bg-trans-medium}
-;label-occupied-foreground = ${colors.bg}
+;label-occupied-foreground = ${colors.background}
 label-occupied-underline = ${colors.hl}
 label-occupied-padding = 1
 
@@ -177,6 +178,6 @@ label-empty-padding = 1
 label-empty-foreground = ${colors.light_gray}
 
 label-urgent = %icon%
-label-urgent-foreground = ${colors.fg}
+label-urgent-foreground = ${colors.foreground}
 label-urgent-background = ${colors.alert}
 

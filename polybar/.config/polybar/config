@@ -27,6 +27,7 @@ purple = ${xrdb:color5:#222}
 yellow = ${xrdb:color11:#222}
 gray = ${xrdb:color8:#222}
 light_gray = ${xrdb:color7:#222}
+light_purple = ${xrdb:color13:#222}
 
 alert = ${xrdb:color1:#222}
 hl = ${xrdb:color5}

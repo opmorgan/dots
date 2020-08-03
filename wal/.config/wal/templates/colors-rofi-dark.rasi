@@ -13,23 +13,23 @@
     alternate-urgent-background: {background};
     alternate-urgent-foreground: {foreground};
 
-    selected-active-background: {color3};
+    selected-active-background: {color2};
     selected-active-foreground: {background};
-    selected-normal-background: {color3};
+    selected-normal-background: {color2};
     selected-normal-foreground: {background};
-    selected-urgent-background: {color3};
+    selected-urgent-background: {color2};
     selected-urgent-foreground: {background};
 
     background-color: @background;
     background: {background};
     foreground: {foreground};
-    border-color: @background;
+    border-color: {color5};
     spacing: 2;
 }}
 
 #window {{
     background-color: @background;
-    border: 0;
+    border: 2;
     padding: 2.5ch;
 }}
 

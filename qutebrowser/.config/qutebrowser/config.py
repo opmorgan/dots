@@ -3,7 +3,7 @@
 ## fonts.tabs
 
 # pywal theme
-config.source('qutewal-cat.py')
+config.source('qutewal-jungle.py')
 
 # keybindings
 config.unbind('d')
