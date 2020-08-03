@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/om/media/pics/wall/jungle/hpj1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#8c5656",
+        "foreground": "#fcfbdd",
+        "cursor": "#fcfbdd"
+    },
+    "colors": {
+        "color0": "#8c5656",
+        "color1": "#f78584",
+        "color2": "#b1cc7b",
+        "color3": "#e7ee86",
+        "color4": "#9bab94",
+        "color5": "#e3a6b7",
+        "color6": "#c3dba1",
+        "color7": "#b6b9a8",
+        "color8": "#b6b9a8",
+        "color9": "#f8a99a",
+        "color10": "#b1cc7b",
+        "color11": "#e7ee86",
+        "color12": "#c0cbba",
+        "color13": "#f2a8b5",
+        "color14": "#c3dba1",
+        "color15": "#fcfbdd"
+    }
+}
