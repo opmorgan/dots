@@ -7,6 +7,7 @@ config.source('qutewal-jungle.py')
 
 # keybindings
 config.unbind('d')
+config.unbind('V')
 config.bind('<alt-h>', 'tab-prev')
 config.bind('<alt-l>', 'tab-next')
 config.bind('<alt-j>', 'back')

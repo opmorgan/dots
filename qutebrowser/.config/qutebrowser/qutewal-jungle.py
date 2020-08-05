@@ -107,17 +107,17 @@ if os.path.isfile(colors_absolute):
     c.colors.downloads.system.bg = 'none'
 
     # Hints border
-    c.hints.border = '1px solid' + foreground
+    c.hints.border = '1px solid' + background
 
     # Background color for hints. Note that you can use a `rgba(...)` value
     # for transparency.
     # Type: QssColor
-    c.colors.hints.bg = 'rgba(239, 239, 244, 0.8)'
+    c.colors.hints.bg = 'rgba(252, 251, 221, 0.8)'
     # c.colors.hints.bg = background
 
     # Font color for hints.
     # Type: QssColor
-    c.colors.hints.fg = foreground
+    c.colors.hints.fg = background
 
     # Font color for the matched part of hints.
     # Type: QssColor
