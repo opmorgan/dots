@@ -20,7 +20,7 @@ URxvt.font: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
 URxvt.boldFont: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
 ! scrollbar
 URxvt.scrollBar: false
-URxvt.internalBorder: 50
+URxvt.internalBorder: 40
 ! cursor
 URxvt.cursorBlink: false
 ! style

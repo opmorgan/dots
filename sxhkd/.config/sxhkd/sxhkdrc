@@ -11,7 +11,7 @@ super + alt + Return
   urxvt -e tmate
 
 # open a terminal with ranger
-alt + Return
+control + Return
   urxvt -e ranger
 
 # open rofi

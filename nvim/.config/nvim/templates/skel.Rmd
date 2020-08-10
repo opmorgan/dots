@@ -1,0 +1,39 @@
+---
+title: ""
+author: "Owen Morgan"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  pdf_document:
+    df_print: kable
+    highlight: zenburn
+    latex_engine: pdflatex
+editor_options:
+  chunk_output_type: console
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{multirow}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem}
+- \usepackage{makecell}
+- \usepackage{xcolor}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning = F, message = F, 
+                      fig.align='center', fig.width=9, fig.height=6, results = "asis")
+options(knitr.kable.NA = '')
+```
+
+```{r lib}
+library(here)
+```
+
+

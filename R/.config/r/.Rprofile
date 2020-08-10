@@ -15,8 +15,8 @@ options(digits=4, show.signif.stars=FALSE)
 options("digits.secs"=3) # show sub-second time stamps
 
 # binding to restart r session
-makeActiveBinding("refresh", function() { shell("Rgui"); q("no") }, .GlobalEnv)
-makeActiveBinding("refresh", function() { system("R"); q("no") }, .GlobalEnv)
+makeActiveBinding("refresh", function() { shell("Rgui"); q(save="no") }, .GlobalEnv)
+makeActiveBinding("refresh", function() { system("R"); q(save="no") }, .GlobalEnv)
 
 options("pdfviewer"="zathura")
 

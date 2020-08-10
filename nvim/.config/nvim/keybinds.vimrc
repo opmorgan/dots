@@ -38,7 +38,7 @@ nnoremap <C-F> :Files<CR>
 noremap = gg=G<C-o>zz
 
 " Unset the "last search pattern" register by hitting return
-nnoremap <CR> :noh<CR><CR>
+" nnoremap <CR> :noh<CR><CR>
 
 " Insert the current date and time
 :nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>

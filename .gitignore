@@ -5,3 +5,4 @@ bash/.bash_history
 .ccls-cache/
 weechat/.weechat/logs/*
 weechat/.weehcat/matrix/*
+scripts/scripts/mnt_medusa.sh
