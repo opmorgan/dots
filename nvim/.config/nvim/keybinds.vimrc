@@ -12,6 +12,16 @@ autocmd VimEnter * Alias wq wq
 " open help in a vertical split by default
 :cabbrev h vert h
 
+" shortcuts to switch windows
+" nmap <silent> <A-Up> :wincmd k<CR>
+" nmap <silent> <A-Down> :wincmd j<CR>
+" nmap <silent> <A-Left> :wincmd h<CR>
+" nmap <silent> <A-Right> :wincmd l<CR>
+map <C-J> <C-W>j<C-W>_
+map <C-K> <C-W>k<C-W>_
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+
 " set f to ignore case
 nmap f :call FindChar()<CR>
 function FindChar()
