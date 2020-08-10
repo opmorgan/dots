@@ -26,6 +26,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
+" function to get git branch
+Plug 'itchyny/vim-gitbranch'
+
 " language-specific
 Plug 'jalvesaq/Nvim-R'
 Plug 'posva/vim-vue'

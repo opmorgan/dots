@@ -1,7 +1,7 @@
 " Sloppy keybindings
 set ignorecase
 set smartcase
-map ; :
+" map ; :
 " Aliases using plugin: vim-scripts/cmdalias.vim
 autocmd VimEnter * Alias W w
 autocmd VimEnter * Alias Q q

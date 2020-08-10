@@ -8,9 +8,14 @@ colorscheme wal
 "
 let g:lightline = {
       \ 'colorscheme': 'koi',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'readonly', 'filename', 'gitbranch', 'modified' ] ]
+      \ },
       \ 'component_function': {
       \   'fileformat': 'LightlineFileformat',
       \   'filetype': 'LightlineFiletype',
+      \   'gitbranch': 'gitbranch#name',
       \ },
       \ 'component': {
       \   'lineinfo': '%3l:%-2v%<',

@@ -17,6 +17,9 @@ set mouse=a
 " set number
 set title
 
+" height of minimized files
+set wmh=0
+
 " relative line numbers
 set number rnu
 
