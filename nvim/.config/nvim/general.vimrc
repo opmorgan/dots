@@ -3,7 +3,8 @@
 syntax enable
 
 set noswapfile
-"set nowrap
+set wrap
+set linebreak " visual break at special characters only
 set noshowmode " handled by statusline
 set noshowcmd " handled by statusline
 set noruler " handled by statusline

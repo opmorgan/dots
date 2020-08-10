@@ -133,19 +133,25 @@ let g:rout_follow_colorscheme = 1
 " R commands in R output are highlighted
 let g:Rout_more_colors = 1
 "" open R console automatically for Rmd files
-" autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
+autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
 " autocmd FileType r if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
 " autocmd VimLeave * if exists("g:SendCmdToR") && string(g:SendCmdToR) != "function('SendCmdToR_fake')" | call RQuit("nosave") | endif
-
 " set binding for assignment operator
 let g:R_assign_map = '<M-->'
 " remap send line/chunk
 nmap <M-CR> <Plug>RDSendLine
 nmap <S-M-CR> <Plug>RDSendChunk
+inoremap <M-CR> <Esc>:call SendLineToR("stay")<CR><Down><Home>i
 vmap <M-CR> <Plug>RDSendSelection
 " remap start linked r console
 nmap <LocalLeader>rf <Plug>RStart
 vmap <LocalLeader>rf <Plug>RStart
 " open r quietly, don't save workspace
 let R_args = ['--no-save', '--quiet']
+" control whether console opens in a vertical split window
+let R_rconsole_width = 70
+let R_min_editor_width = 45
+"set width of r console window
+let R_rconsole_width = winwidth(0) / 3
+autocmd VimResized * let R_rconsole_width = winwidth(0) / 3
 
