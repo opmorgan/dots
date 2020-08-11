@@ -27,9 +27,10 @@ header-includes:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = F, warning = F, message = F, 
-                      fig.align='center', fig.width=9, fig.height=6, results = "asis")
-options(knitr.kable.NA = '')
+knitr::opts_chunk$set(echo = F, warning = F, message = F,
+                      fig.align = "center", fig.width = 9,
+                      fig.height = 6, results = "asis")
+options(knitr.kable.NA = "")
 ```
 
 ```{r lib}
