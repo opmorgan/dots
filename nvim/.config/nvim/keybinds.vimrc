@@ -52,3 +52,8 @@ noremap = gg=G<C-o>zz
 
 " Insert the current date and time
 :nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>
+
+" For R
+:inoremap <M-S-m> %>% 
+:inoremap <M--> -> 
+
