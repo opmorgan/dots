@@ -58,8 +58,10 @@ noremap = gg=G<C-o>zz
 :inoremap <M--> <- 
 :inoremap <M-S-i> ```{r}<CR>```<ESC><S-o>
 :nnoremap <M-S-i> 0i```{r}<CR>```<ESC><S-o>
-" autocmd BufNewFile,BufFilePre,BufRead *.rmd,*.Rmd set filetype=rmd             
-" I think filetype rmd is set by nvim-R
-autocmd Filetype rmd map <M-S-k> :!Rscript -e "rmarkdown::render('%')"<CR><CR>
-" to prompt for confirmation after knitting
-autocmd Filetype rmd map <M-S-k> :!Rscript -e "rmarkdown::render('%')"<CR>
+
+"Set keybind for knitting rmd document, if not handled by Nvim-R
+" " autocmd BufNewFile,BufFilePre,BufRead *.rmd,*.Rmd set filetype=rmd             
+" " I think filetype rmd is set by nvim-R
+" autocmd Filetype rmd map <M-S-k> :!Rscript -e "rmarkdown::render('%')"<CR><CR>
+" " to prompt for confirmation after knitting
+" " autocmd Filetype rmd map <M-S-k> :!Rscript -e "rmarkdown::render('%')"<CR>

@@ -61,7 +61,7 @@ let g:ale_set_highlights = 0
 " GFiles, Rg 
 nnoremap <C-P> :GFiles<CR>
 " command! -bang -nargs=* PRg \ call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'dir': system('git -C '.expand('%:p:h').' rev-parse --show-toplevel 2> /dev/null')[:-2]}, <bang>0)
-" nnoremap <C-S> :Rg<CR>
+nnoremap <C-S> :Rg<CR>
 " search current git repo
 " nnoremap <C-S> :PRg<CR> 
 
@@ -174,4 +174,15 @@ let R_min_editor_width = 45
 "set default width of r console window
 let R_rconsole_width = winwidth(0) / 3
 autocmd VimResized * let R_rconsole_width = winwidth(0) / 3
+
+"highlight header chunks as R code
+let rrst_syn_hl_chunk = 1
+let rmd_syn_hl_chunk = 1
+
+"do not open pdf/html after knitting
+let R_openpdf = 1 # open once
+let R_openhtml = 0 # open never
+
+" remap knit
+nmap <M-S-k> <Plug>RMakeRmd
 
