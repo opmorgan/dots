@@ -6,7 +6,7 @@
 bspc monitor -d I II III IV V VI VII
 
 bspc config border_width 3
-bspc config window_gap 15
+bspc config window_gap 0
 bspc config top_padding 0
 bspc config bottom_padding 0
 bspc config left_padding	0
@@ -39,7 +39,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a st state=tiled
-bspc rule -a zathura state=tiled
+# bspc rule -a zathura state=tiled
 bspc rule -a Chromium border_width=0
 bspc rule -a RStudio border_width=0
 bspc rule -a URxvt:urxvt_keys_help state=floating
