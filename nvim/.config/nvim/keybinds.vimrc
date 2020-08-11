@@ -55,5 +55,5 @@ noremap = gg=G<C-o>zz
 
 " For R
 :inoremap <M-S-m> %>% 
-:inoremap <M--> -> 
+:inoremap <M--> <- 
 
