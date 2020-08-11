@@ -10,10 +10,6 @@ super + Return
 super + alt + Return
   urxvt -e tmate
 
-# open a terminal with ranger
-control + Return
-  urxvt -e ranger
-
 # open rofi
 super + space
     rofi -combi-modi window,drun,run -show combi -modi combi

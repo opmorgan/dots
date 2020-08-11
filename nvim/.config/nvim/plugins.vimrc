@@ -161,13 +161,26 @@ let R_assign = 0
 
 " remap send line/chunk
 nmap <M-CR> <Plug>RDSendLine
-nmap <S-M-CR> <Plug>REDSendChunk
 inoremap <M-CR> <Esc>:call SendLineToR("stay")<CR><Down><Home>i
 vmap <M-CR> <Plug>RDSendSelection
+
+" remap chunk running
+nmap <LocalLeader>cc <Plug>RSendChunk
+nmap <LocalLeader>ce <Plug>RESendChunk
+nmap <LocalLeader>cd <Plug>RDSendChunk
+nmap <LocalLeader>ca <Plug>REDSendChunk
+nmap <LocalLeader>ch <Plug>RSendChunkFH
 
 " remap start linked r console
 nmap <LocalLeader>rf <Plug>RStart
 vmap <LocalLeader>rf <Plug>RStart
+
+" remap knit
+nmap <M-S-k> <Plug>RMakeRmd
+
+" remap jump to next chunk
+nmap <M-j> <Plug>RNextRChunk
+nmap <M-k> <Plug>RPreviousRChunk
 
 " open r quietly, don't save workspace
 let R_args = ['--no-save', '--quiet']
@@ -188,7 +201,3 @@ let rmd_syn_hl_chunk = 1
 let R_openpdf = 1
 let R_openhtml = 0
 
-" remap knit
-nmap <M-S-k> <Plug>RMakeRmd
-
-let R_csv_app = 'terminal:vd'
