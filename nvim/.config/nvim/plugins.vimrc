@@ -151,6 +151,9 @@ autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | 
 " autocmd FileType r if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
 " autocmd VimLeave * if exists("g:SendCmdToR") && string(g:SendCmdToR) != "function('SendCmdToR_fake')" | call RQuit("nosave") | endif
 
+" disable <- remapping
+let R_assign = 0
+
 " remap send line/chunk
 nmap <M-CR> <Plug>RDSendLine
 nmap <S-M-CR> <Plug>RDSendChunk
