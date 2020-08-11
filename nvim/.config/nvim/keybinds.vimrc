@@ -17,10 +17,10 @@ autocmd VimEnter * Alias wq wq
 " nmap <silent> <A-Down> :wincmd j<CR>
 " nmap <silent> <A-Left> :wincmd h<CR>
 " nmap <silent> <A-Right> :wincmd l<CR>
-map <C-J> <C-W>j<C-W>_
-map <C-K> <C-W>k<C-W>_
-map <C-H> <C-W>h
-map <C-L> <C-W>l
+nmap <C-j> <C-W>j
+nmap <C-K> <C-W>k
+nmap <C-H> <C-W>h
+nmap <C-L> <C-W>l
 
 " set f to ignore case
 nmap f :call FindChar()<CR>
@@ -39,8 +39,8 @@ nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
 " Buffers
-noremap <S-M-H> :bprev<CR>
-noremap <S-M-L> :bnext<CR>
+noremap <S-M-h> :bprev<CR>
+noremap <S-M-l> :bnext<CR>
 nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 

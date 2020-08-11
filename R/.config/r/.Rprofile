@@ -27,3 +27,12 @@ options("pdfviewer"="zathura")
 #                                              #type="nbcairo"))  # Cairo device
 #                                              #type="cairo"))    # other Cairo dev
 #                                              type="xlib"))      # old default
+
+# default graphics options
+setHook(packageEvent("grDevices", "onLoad"),
+        function(...) grDevices::X11.options(width=5, height=5, 
+                                             xpos=500, pointsize=10, 
+                                             type="nbcairo"  # Cairo device
+                                             #type="cairo"    # other Cairo dev
+                                             #type="xlib"      # old default
+                                             ))

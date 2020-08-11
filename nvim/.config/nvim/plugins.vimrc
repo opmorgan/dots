@@ -44,7 +44,12 @@ let g:ale_sign_warning = '! '
 " highlight ALEErrorSign ctermfg=yellow
 " highlight ALEWarningSign ctermfg=blue
 let g:ale_set_highlights = 0
-
+let g:ale_fixers = {'rmd': ['styler']}
+let g:ale_fixers = {'r': ['styler']}
+let g:ale_r_lintr_lint_package = 0
+" for r linting, install the coc-nvim extension:
+" CocInstall coc-r-lsp
+" dep: in R, install.packages('languageserver')
 
 "" Nerdtree
 "
@@ -180,9 +185,10 @@ let rrst_syn_hl_chunk = 1
 let rmd_syn_hl_chunk = 1
 
 "do not open pdf/html after knitting
-let R_openpdf = 1 # open once
-let R_openhtml = 0 # open never
+let R_openpdf = 1
+let R_openhtml = 0
 
 " remap knit
 nmap <M-S-k> <Plug>RMakeRmd
 
+let R_csv_app = 'terminal:vd'
