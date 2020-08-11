@@ -56,4 +56,5 @@ noremap = gg=G<C-o>zz
 " For R
 :inoremap <M-S-m> %>% 
 :inoremap <M--> <- 
-
+:inoremap <M-S-i> ```{r}<CR>```<ESC><S-o>
+:nnoremap <M-S-i> 0i```{r}<CR>```<ESC><S-o>
