@@ -4,7 +4,7 @@
 . "${HOME}/.cache/wal/colors.sh"
 
 reload_dunst() {
-  sed -i "/    frame_color =/c\    frame_color = \"${foreground}\"" ~/.config/dunst/dunstrc
+  sed -i "/    frame_color =/c\    frame_color = \"${color9}\"" ~/.config/dunst/dunstrc
   sed -i "/    background =/c\    background = \"${background}\"" ~/.config/dunst/dunstrc
   sed -i "/    foreground =/c\    foreground = \"${foreground}\"" ~/.config/dunst/dunstrc
 }
