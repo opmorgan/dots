@@ -1,7 +1,6 @@
 " Sloppy keybindings
 set ignorecase
 set smartcase
-" map ; :
 " Aliases using plugin: vim-scripts/cmdalias.vim
 autocmd VimEnter * Alias W w
 autocmd VimEnter * Alias Q q
@@ -11,12 +10,18 @@ autocmd VimEnter * Alias wq wq
 
 " open help in a vertical split by default
 :cabbrev h vert h
+:cabbrev help vert help
 
-" shortcuts to switch windows
-" nmap <silent> <A-Up> :wincmd k<CR>
-" nmap <silent> <A-Down> :wincmd j<CR>
-" nmap <silent> <A-Left> :wincmd h<CR>
-" nmap <silent> <A-Right> :wincmd l<CR>
+" map movement keys for wrapped text
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+
+" map K to "opposite of J"
+:map K i<CR><Esc>k
+
+" shortcuts to switch split windows
 nmap <C-j> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
