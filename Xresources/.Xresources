@@ -29,3 +29,16 @@ URxvt.letterSpace: -1
 URxvt.perl-ext-common: default,matcher,osc-xterm-clipboard,selection-to-clipboard
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
+
+! xterm
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+XTerm.vt100.selectToClipboard: true
+! enable truetype fonts
+! XTerm.vt100.renderFont: true
+XTerm.vt100.faceName: Source Code Pro:size=10:style=regular
+XTerm.vt100.boldFont: Source Code Pro:size=10:style=regular
+XTerm.vt100.colorBDMode: true
+XTerm.vt100.font: 6x13
+XTerm.vt100.internalBorder: 40
+
