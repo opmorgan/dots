@@ -71,7 +71,7 @@ interval = 5
 date = "%a %d %b"
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
+time = %l:%M
 time-alt = %H:%M
 
 label = %date% — %time%
