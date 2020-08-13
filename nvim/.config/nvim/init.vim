@@ -7,6 +7,3 @@ source $HOME/.config/nvim/plugins.vimrc
 source $HOME/.config/nvim/keybinds.vimrc
 source $HOME/.config/nvim/templates.vimrc
 source $HOME/.config/nvim/brackets.vimrc
-
-
-
