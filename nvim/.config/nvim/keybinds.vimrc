@@ -27,6 +27,21 @@ nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
 nmap <C-L> <C-W>l
 
+" switch tabs
+nmap gh gT
+nmap gl gt
+
+" close all buffers and tabs
+nnoremap QQ :QuitTab<cr>
+command! QuitTab call s:QuitTab()
+function! s:QuitTab()
+  try
+    tabclose
+  catch /E784/ " Can't close last tab
+    qall
+  endtry
+endfunction
+
 " set f to ignore case
 nmap f :call FindChar()<CR>
 function FindChar()
@@ -44,8 +59,8 @@ nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
 " Buffers
-noremap <S-M-h> :bprev<CR>
-noremap <S-M-l> :bnext<CR>
+noremap <C-M-j> :bprev<CR>
+noremap <C-M-k> :bnext<CR>
 nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 

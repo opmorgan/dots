@@ -3,7 +3,6 @@ colorscheme wal
 
 "" Tcomment
 
-
 "" Status line
 "
 let g:lightline = {
@@ -50,16 +49,6 @@ let g:ale_r_lintr_lint_package = 0
 " for r linting, install the coc-nvim extension:
 " CocInstall coc-r-lsp
 " dep: in R, install.packages('languageserver')
-
-"" Nerdtree
-"
-"map <C-n> :NERDTreeToggle<CR>
-"let g:NERDTreeDirArrowExpandable = '+'
-"let g:NERDTreeDirArrowCollapsible = '-'
-"let NERDTreeShowHidden=1
-
-"autocmd BufEnter * silent! lcd %:p:h
-"autocmd InsertEnter,InsertLeave * set cul!
 
 "" fzf-vim
 "
@@ -152,7 +141,7 @@ let g:rout_follow_colorscheme = 1
 let g:Rout_more_colors = 1
 
 "" open R console automatically for Rmd files
-autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
+" autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
 " autocmd FileType r if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
 " autocmd VimLeave * if exists("g:SendCmdToR") && string(g:SendCmdToR) != "function('SendCmdToR_fake')" | call RQuit("nosave") | endif
 
