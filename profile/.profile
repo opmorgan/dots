@@ -60,6 +60,7 @@ alias rm='rm -i'
 alias weechat='pkill weechat; weechat'
 alias git pul='git pull'
 alias git pus='git push'
+alias untar='tar -xvzf'
 alias calc='python -ic "from math import *"'
 alias R='R --quiet --no-save'
 alias grep='grep -i' # to ignore case, use --no-ignore-case
