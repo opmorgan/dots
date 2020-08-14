@@ -5,13 +5,22 @@ colorscheme wal
 
 
 "" Status line
+"
 let g:lightline = {
-      \ 'colorscheme': 'nord',
+      \ 'colorscheme': 'wal',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'readonly', 'filename', 'gitbranch', 'modified' ] ]
+      \ },
       \ 'component_function': {
       \   'fileformat': 'LightlineFileformat',
       \   'filetype': 'LightlineFiletype',
+      \   'gitbranch': 'gitbranch#name',
       \ },
-      \ }
+      \ 'component': {
+      \   'lineinfo': '%3l:%-2v%<',
+      \ },
+      \ } 
 
 " make the statusline thinner
 function! LightlineFileformat()
@@ -35,9 +44,15 @@ let g:ale_sign_warning = '! '
 " highlight ALEErrorSign ctermfg=yellow
 " highlight ALEWarningSign ctermfg=blue
 let g:ale_set_highlights = 0
-
+let g:ale_fixers = {'rmd': ['styler']}
+let g:ale_fixers = {'r': ['styler']}
+let g:ale_r_lintr_lint_package = 0
+" for r linting, install the coc-nvim extension:
+" CocInstall coc-r-lsp
+" dep: in R, install.packages('languageserver')
 
 "" Nerdtree
+"
 "map <C-n> :NERDTreeToggle<CR>
 "let g:NERDTreeDirArrowExpandable = '+'
 "let g:NERDTreeDirArrowCollapsible = '-'
@@ -47,20 +62,21 @@ let g:ale_set_highlights = 0
 "autocmd InsertEnter,InsertLeave * set cul!
 
 "" fzf-vim
+"
 " GFiles, Rg 
 nnoremap <C-P> :GFiles<CR>
 " command! -bang -nargs=* PRg \ call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'dir': system('git -C '.expand('%:p:h').' rev-parse --show-toplevel 2> /dev/null')[:-2]}, <bang>0)
-" nnoremap <C-S> :Rg<CR>
+nnoremap <C-S> :Rg<CR>
 " search current git repo
 " nnoremap <C-S> :PRg<CR> 
 
 
 "" Vim coc
+"
 " set colors for tab menu ("highlights"/Pmenu)
 highlight Pmenu ctermbg=magenta
-highlight Pmenu ctermfg=black
 highlight PmenuThumb ctermbg=gray
-highlight CocHighlightWrite ctermbg=green
+highlight CocHighlightWrite ctermbg=gray
 " touch up other colors
 highlight StatusLine ctermbg=gray
 highlight CursorColumn ctermbg=gray
@@ -128,4 +144,60 @@ function! s:show_documentation()
   endif
 endfunction
 
+"" Nvim-R
+"
+" R output is highlighted with current colorscheme
+let g:rout_follow_colorscheme = 1
+" R commands in R output are highlighted
+let g:Rout_more_colors = 1
+
+"" open R console automatically for Rmd files
+autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
+" autocmd FileType r if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
+" autocmd VimLeave * if exists("g:SendCmdToR") && string(g:SendCmdToR) != "function('SendCmdToR_fake')" | call RQuit("nosave") | endif
+
+" disable <- remapping
+let R_assign = 0
+
+" remap send line/chunk
+nmap <M-CR> <Plug>RDSendLine
+inoremap <M-CR> <Esc>:call SendLineToR("stay")<CR><Down><Home>i
+vmap <M-CR> <Plug>RDSendSelection
+
+" remap chunk running
+nmap <LocalLeader>cc <Plug>RSendChunk
+nmap <LocalLeader>ce <Plug>RESendChunk
+nmap <LocalLeader>cd <Plug>RDSendChunk
+nmap <LocalLeader>ca <Plug>REDSendChunk
+nmap <LocalLeader>ch <Plug>RSendChunkFH
+
+" remap start linked r console
+nmap <LocalLeader>rf <Plug>RStart
+vmap <LocalLeader>rf <Plug>RStart
+
+" remap knit
+nmap <M-S-k> <Plug>RMakeRmd
+
+" remap jump to next chunk
+nmap <M-j> <Plug>RNextRChunk
+nmap <M-k> <Plug>RPreviousRChunk
+
+" open r quietly, don't save workspace
+let R_args = ['--no-save', '--quiet']
+
+" control when console opens in a vertical split window
+let R_rconsole_width = 70
+let R_min_editor_width = 45
+
+"set default width of r console window
+let R_rconsole_width = winwidth(0) / 3
+autocmd VimResized * let R_rconsole_width = winwidth(0) / 3
+
+"highlight header chunks as R code
+let rrst_syn_hl_chunk = 1
+let rmd_syn_hl_chunk = 1
+
+"do not open pdf/html after knitting
+let R_openpdf = 1
+let R_openhtml = 0
 

@@ -7,7 +7,7 @@ Plug 'dylanaraps/wal.vim'
 
 " navigation
 Plug 'tpope/vim-vinegar'
-" Plug 'preservim/nerdtree'
+"Plug 'preservim/nerdtree'
 "Plug 'vim-scripts/buftabs'
 
 " editing
@@ -26,12 +26,12 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
+" function to get git branch
+Plug 'itchyny/vim-gitbranch'
+
 " language-specific
 Plug 'jalvesaq/Nvim-R'
 Plug 'posva/vim-vue'
-" Plug 'LucHermitte/lh-vim-lib'
-" Plug 'LucHermitte/lh-style'
-" Plug 'LucHermitte/lh-brackets'
 
 " keypress aliases
 Plug 'vim-scripts/cmdalias.vim'

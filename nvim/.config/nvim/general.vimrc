@@ -1,7 +1,10 @@
 " Vim settings
+
 syntax enable
+
 set noswapfile
-"set nowrap
+set wrap
+set linebreak " visual break at special characters only
 set noshowmode " handled by statusline
 set noshowcmd " handled by statusline
 set noruler " handled by statusline
@@ -11,13 +14,19 @@ set autoindent
 set clipboard=unnamedplus
 set hidden
 set mouse=a
-set number
+" set number
 set title
+
+" height of minimized files
+set wmh=0
+
 " relative line numbers
-set nu rnu 
+set number rnu
+
 "ask to save if quit with unsaved changes
 set confirm
 set hidden
+
 " from vim-sensible
 set backspace=indent,eol,start
 "set complete-=i
@@ -30,3 +39,10 @@ if !&sidescrolloff
   set sidescrolloff=5
 endif
 set display+=lastline
+
+" Split window below/right when creating horizontal/vertical windows
+set splitbelow splitright
+
+" no numbers in terminal buffers
+autocmd TermOpen * setlocal nonumber
+autocmd TermOpen * setlocal norelativenumber
