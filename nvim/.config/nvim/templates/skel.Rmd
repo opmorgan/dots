@@ -5,16 +5,16 @@ date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
   pdf_document:
     df_print: kable
-    latex_engine: xelatex
+    highlight: zenburn
+    latex_engine: pdflatex
 editor_options:
   chunk_output_type: console
-
 header-includes:
 - \usepackage{booktabs}
 - \usepackage{longtable}
 - \usepackage{colortbl}
 - \usepackage{fontspec}
-- \setmainfont{EB Garamond}
+- \setmainfont{EBGaramond-Regular}
 - \setmonofont{Source Code Pro}
 ---
 

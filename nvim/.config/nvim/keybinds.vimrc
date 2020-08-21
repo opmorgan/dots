@@ -1,7 +1,6 @@
 " Sloppy keybindings
 set ignorecase
 set smartcase
-" map ; :
 " Aliases using plugin: vim-scripts/cmdalias.vim
 autocmd VimEnter * Alias W w
 autocmd VimEnter * Alias Q q
@@ -11,16 +10,37 @@ autocmd VimEnter * Alias wq wq
 
 " open help in a vertical split by default
 :cabbrev h vert h
+:cabbrev help vert help
 
-" shortcuts to switch windows
-" nmap <silent> <A-Up> :wincmd k<CR>
-" nmap <silent> <A-Down> :wincmd j<CR>
-" nmap <silent> <A-Left> :wincmd h<CR>
-" nmap <silent> <A-Right> :wincmd l<CR>
+" map movement keys for wrapped text
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+
+" map K to "opposite of J"
+:map K 0i<CR><Esc>k
+
+" shortcuts to switch split windows
 nmap <C-j> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-H> <C-W>h
 nmap <C-L> <C-W>l
+
+" switch tabs
+nmap gh gT
+nmap gl gt
+
+" close all buffers and tabs
+nnoremap QQ :QuitTab<cr>
+command! QuitTab call s:QuitTab()
+function! s:QuitTab()
+  try
+    tabclose
+  catch /E784/ " Can't close last tab
+    qall
+  endtry
+endfunction
 
 " set f to ignore case
 nmap f :call FindChar()<CR>
@@ -39,8 +59,8 @@ nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
 " Buffers
-noremap <S-M-h> :bprev<CR>
-noremap <S-M-l> :bnext<CR>
+noremap <C-M-j> :bprev<CR>
+noremap <C-M-k> :bnext<CR>
 nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
