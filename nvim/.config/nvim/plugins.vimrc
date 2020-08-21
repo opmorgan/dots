@@ -161,7 +161,7 @@ let R_assign = 0
 
 " remap send line/chunk
 nmap <M-CR> <Plug>RDSendLine
-inoremap <M-CR> <Esc>:call SendLineToR("stay")<CR><Down><Home>i
+inoremap <M-CR> <Esc>:call SendLineToR("stay")<CR><Home>i
 vmap <M-CR> <Plug>RDSendSelection
 
 " remap chunk running

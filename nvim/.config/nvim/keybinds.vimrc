@@ -56,7 +56,7 @@ nnoremap <CR> :noh<CR><CR>
 " For R
 :inoremap <M-S-m> %>% 
 :inoremap <M--> <- 
-:inoremap <M-S-i> ```{r}<CR>```<ESC><S-o>
+:inoremap <M-S-i> <Esc>0i```{r}<CR>```<ESC><S-o>
 :nnoremap <M-S-i> 0i```{r}<CR>```<ESC><S-o>
 
 "Set keybind for knitting rmd document, if not handled by Nvim-R

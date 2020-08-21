@@ -8,3 +8,5 @@
 	ui = auto
 [alias]
 	glog = log --oneline --graph
+[pull]
+	ff = only
