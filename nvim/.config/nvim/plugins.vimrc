@@ -6,7 +6,7 @@ colorscheme wal
 "" Status line
 "
 let g:lightline = {
-      \ 'colorscheme': 'koi',
+      \ 'colorscheme': 'wal',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'readonly', 'filename', 'gitbranch', 'modified' ] ]
