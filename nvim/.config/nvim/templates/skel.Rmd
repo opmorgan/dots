@@ -5,8 +5,7 @@ date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
   pdf_document:
     df_print: kable
-    highlight: zenburn
-    latex_engine: pdflatex
+    latex_engine: xelatex
 editor_options:
   chunk_output_type: console
 header-includes:
