@@ -43,6 +43,7 @@ function gpu-intel {
 
 # set aliases
 alias sudo='sudo '
+alias please='sudo '
 alias a='./a.out'
 alias ls='ls --color=auto'
 alias l.='ls -d .*'
@@ -57,7 +58,7 @@ alias v='nvim'
 alias z='zathura'
 alias d='drive'
 alias rm='rm -i'
-alias weechat='pkill weechat; weechat'
+alias ping!='ping archlinux.com'
 alias git pul='git pull'
 alias git pus='git push'
 alias untar='tar -xvzf'
@@ -66,6 +67,8 @@ alias R='R --quiet --no-save'
 alias grep='grep -i' # to ignore case, use --no-ignore-case
 alias feh='feh --image-bg black -.'
 alias lo='libreoffice'
+# print microsoft documents to pdf
+alias lopdf='libreoffice --headless --convert-to pdf '
 alias oms='optimus-manager --status'
 alias cdrlib='cd $HOME/.local/lib/R/x86_64-pc-linux-gnu-library/3.5'
 # shortcut to qmk flashing keymap to dz60 keyboard. use a keymap named "custom" in the folder ~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter (or holding escape while plugging in the keyboard)  before flashing. Run this command from bin/qmkfirmware/, with sudo.
