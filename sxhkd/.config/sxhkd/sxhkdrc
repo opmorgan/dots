@@ -20,7 +20,20 @@ super + Escape
 
 # take screenshots with maim
 Print
-  maim ~/media/pics/shots/$(date +%y-%m-%d_%H%M-%S).png & screenshot_not.sh
+  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H%M-%S).png & screenshot_not.sh
+
+# take screenshot of selection with maim (macOS keybind)
+shift + Print
+  maim --delay=1.0 -s ~/media/pics/shots/$(date +%Y-%m-%d_%H%M-%S).png & screenshot_not.sh
+
+# take fullscreen screenshot with maim (macOS keybind)
+ctrl + 4
+  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H%M-%S).png & screenshot_not.sh
+
+# take screenshot of selection with maim (macOS keybind)
+shift + ctrl + 4
+  maim --delay=1.0 -s ~/media/pics/shots/$(date +%Y-%m-%d_%H%M-%S).png & screenshot_not.sh
+
 
 # decrease/increase transparency
 super + alt + {j, k}
