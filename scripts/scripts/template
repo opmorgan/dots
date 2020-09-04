@@ -1,0 +1,34 @@
+#! /usr/bin/env bash
+# argument 1: filename of template to copy
+# argument 2: directory to copy template to
+
+TEMPLATE_DIR="$HOME/.config/nvim/templates"
+
+template_path="${TEMPLATE_DIR}/${1}"
+dest_dir="${2:-.}"
+
+if [[ -d $TEMPLATE_DIR ]]; then
+  echo "Template directory: '$TEMPLATE_DIR'" >&1
+
+  if [[ -d $dest_dir ]]; then
+    echo "Destination directory: '$dest_dir'" >&1
+
+    if [[ -f $template_path ]]; then
+      echo "Template file path: '$template_path'"
+      # Copy template files to current directory
+      cp $template_path $dest_dir
+
+    else 
+      echo "No such template file: '$template_path'" >&2
+      exit 1
+    fi
+
+  else
+    echo "No such destination directory: '$dest_dir'" >&2
+    exit 1
+  fi
+
+else
+  echo "No such directory: '$TEMPLATE_DIR'" >&2
+  exit 1
+fi
