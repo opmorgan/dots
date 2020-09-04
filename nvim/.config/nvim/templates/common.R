@@ -1,4 +1,6 @@
 knitr::opts_chunk$set(
+  warning = F,
+  message = F,
   comment = "#>",
   collapse = TRUE,
   cache = TRUE,
@@ -8,12 +10,14 @@ knitr::opts_chunk$set(
   fig.align = "center",
   fig.width = 6,
   fig.asp = 0.618,
-  fig.show = "hold"
+  fig.show = "hold",
+  results = "asis"
 )
 
 options(
   digits = 3,
-  str = strOptions(strict.width = "cut")
+  str = strOptions(strict.width = "cut"),
+  knitr.kable.NA = ""
 )
 
 if (knitr::is_latex_output()) {
