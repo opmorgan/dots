@@ -114,14 +114,14 @@ c.hints.radius = 0
 c.hints.uppercase = False 
 
 # default page
-c.url.default_page = 'news.google.com'
+c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
 
 # default search engine
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
 
 # start pages
-c.url.start_pages = 'news.google.com'
+c.url.start_pages = 'https://workflowy.com/#/86cd9fc25479'
 
 # xwindow title
 c.window.title_format = '{perc}{current_title} | qb'
