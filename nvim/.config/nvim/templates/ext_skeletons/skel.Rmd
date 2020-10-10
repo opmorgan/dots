@@ -1,20 +1,15 @@
 ---
-title: ""
+title: "PDF Report"
 author: "Owen Morgan"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
   pdf_document:
     df_print: kable
     latex_engine: xelatex
+    includes:
+        in_header: headers.tex
 editor_options:
   chunk_output_type: console
-header-includes:
-- \usepackage{booktabs}
-- \usepackage{longtable}
-- \usepackage{colortbl}
-- \usepackage{fontspec}
-- \setmainfont{EBGaramond-Regular}
-- \setmonofont{Source Code Pro}
 ---
 
 ```{r setup, include=FALSE}
