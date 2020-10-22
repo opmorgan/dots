@@ -12,13 +12,6 @@ foreground = ${xrdb:color7:#222}
 black = #323232
 bg-trans = #00000000
 
-foreground-alt = ${xrdb:color7:#222}
-primary = ${xrdb:color2:#222}
-secondary = ${xrdb:color4:#222}
-tertiary = ${xrdb:color5:#222}
-quaternary = ${xrdb:color6:#222}
-alert = ${xrdb:color3:#222}
-
 [bar/bar1]
 monitor = ${env:MONITOR:}
 width = 96%
@@ -58,13 +51,11 @@ cursor-scroll = ns-resize
 type = internal/date
 interval = 5
 
-date = "%A %d %B"
-date-alt = " %Y-%m-%d"
+date = "%A, %d %B"
 
-time = %H:%M
-time-alt = %H:%M:%S
+time = %l:%M
 
-label = %date% %time%
+label = %date%  @ %time%
 ; label-foreground = ${colors.foreground} 
 ; label-background = ${colors.bg-trans}
 label-padding = 4
@@ -81,7 +72,7 @@ format-full = <label-full>
 format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
-format-discharging-prefix = "↓"
+/* format-discharging-prefix =  */
 format-full-prefix = "√"
 format-unknown-prefix = "√"
 
