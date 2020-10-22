@@ -1,7 +1,6 @@
 {
     "wallpaper": "/home/om/media/pics/wall/mitani-curves.jpg",
     "alpha": "100",
-
     "special": {
         "background": "#efeff4",
         "foreground": "#3e3e3e",
@@ -26,3 +25,4 @@
         "color15": "#7a9ca9"
     }
 }
+

@@ -6,30 +6,39 @@
 ;   The README contains alot of information
 ;
 ;=====================================================
+
 [colors]
 background = ${xrdb:color0:#222}
 foreground = ${xrdb:color7:#222}
 black = #323232
 bg-trans = #00000000
 
+background-alt = ${xrdb:color1:#222}
+bg-trans-light = #aa1c2225
+bg-trans-medium = #dd1c2225
+bg-trans-dark = #ee1c2225
 foreground-alt = ${xrdb:color7:#222}
 primary = ${xrdb:color2:#222}
 secondary = ${xrdb:color4:#222}
 tertiary = ${xrdb:color5:#222}
 quaternary = ${xrdb:color6:#222}
 alert = ${xrdb:color3:#222}
+white-alpha = #8CFFFFFF
 
 [bar/bar1]
 monitor = ${env:MONITOR:}
-width = 96%
+width = 88%
 height = 80
-offset-x = 2%
+offset-x = 0%
 offset-y = 0%
 ; offset-y = 1015
 fixed-center = true
 
 background = ${colors.bg-trans}
 foreground = ${colors.black}
+
+line-size = 3
+line-color = #f00
 
 border-size = 0
 border-color = #00000000
@@ -38,18 +47,19 @@ radius = 0.0
 padding-left = 4 
 padding-right = 0
 
-module-margin-left = 0
+module-margin-left = 12
 module-margin-right = 0
 
 font-0 = GillSans:style=Light:pixelsize=13;1
-font-1 = Material Icons:style=Regular:pixelsize=12;2
-font-2 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
-font-3 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
-font-4 = Font Awesome 5 Brands:pixelsize=10;3
+font-1 = Source Sans Pro:style=Regular:pixelsize=13;1
+font-2 = Material Icons:style=Regular:pixelsize=12;2
+font-3 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
+font-4 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
+font-5 = Font Awesome 5 Brands:pixelsize=10;3
 
-modules-left = battery
-modules-center = xwindow 
-modules-right = date
+modules-left = 
+modules-center = 
+modules-right = xwindow date battery
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -58,13 +68,13 @@ cursor-scroll = ns-resize
 type = internal/date
 interval = 5
 
-date = "%A %d %B"
+date = "%a %d %b"
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
-time-alt = %H:%M:%S
+time = %l:%M
+time-alt = %H:%M
 
-label = %date% %time%
+label = %date% — %time%
 ; label-foreground = ${colors.foreground} 
 ; label-background = ${colors.bg-trans}
 label-padding = 4
@@ -72,7 +82,7 @@ label-padding = 4
 [module/battery]
 type = internal/battery
 battery = BAT0
-adapter = ADP1
+adapter = AC0
 full-at = 96
 
 format-charging = <label-charging>
@@ -82,8 +92,8 @@ format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
 format-discharging-prefix = "↓"
-format-full-prefix = "√"
-format-unknown-prefix = "√"
+format-full-prefix = "•"
+format-unknown-prefix = "•"
 
 label-charging-margin-left = 1
 label-discharging-margin-left = 1
@@ -91,7 +101,7 @@ label-full-margin-left = 1
 
 [module/musicinfo]
 type = custom/script
-exec = if [[ "$(playerctl status)" = "Playing" ]]; then playerctl metadata mpris:artUrL; playerctl metadata xesam:artist; else playerctl metadata xesam:artist; fi
+exec = if [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]]; then echo " $(playerctl metadata title | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')  |  $(playerctl metadata album | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')  |  $(playerctl metadata artist | awk -v len=30 '{ if (length($0) > len) print substr($0, 1, len-3) "..."; else print; }')"; else playerctl metadata xesam:artist; fi
 exec-if = [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]] && echo "0"
 interval = .1
 format = <label>
@@ -116,12 +126,11 @@ monitor = ${env:MONITOR:}
 width = 100%
 height = 80
 offset-x = 0%
-;offset-y = 90%
 offset-y = 1000
 fixed-center = true
 
 background = ${colors.bg-trans}
-foreground = ${colors.background}
+foreground = ${colors.black}
 
 line-size = 3
 line-color = #f00
@@ -131,25 +140,30 @@ border-color = #00000000
 radius = 0.0
 
 padding-left = 0 
-padding-right = 2
+padding-right = 12
 
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = GillSans:style=Regular:pixelsize=13;1
-font-1 = Material Icons:style=Regular:pixelsize=12;2
+font-0 = GillSans:style=Light:pixelsize=13;1
+font-1 = Source Sans Pro:style=Regular:pixelsize=13;1
+font-2 = Material Icons:style=Regular:pixelsize=12;2
+font-3 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
+font-4 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
+font-5 = Font Awesome 5 Brands:pixelsize=10;3
 
-modules-left =  
-modules-center =  
-modules-right = playstatus musicinfo 
+modules-left = 
+modules-center = 
+modules-right = playstatus musicinfo
 
-tray-position = right
-tray-padding-left = 0
-tray-padding-right = 10
-tray-background = ${colors.bg-trans}
+;tray-position = right
+;tray-padding-left = 0
+;tray-padding-right = 0
+;tray-background = ${colors.bg-trans}
 
 cursor-click = pointer
 cursor-scroll = ns-resize
+
 
 [module/null]
 type = custom/script

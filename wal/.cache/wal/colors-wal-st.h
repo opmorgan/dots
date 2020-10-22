@@ -2,28 +2,28 @@ const char *colorname[] = {
 
   /* 8 normal colors */
   [0] = "#efeff4", /* black   */
-  [1] = "#b32530", /* red     */
+  [1] = "#bf616A", /* red     */
   [2] = "#447a67", /* green   */
-  [3] = "#b68b59", /* yellow  */
-  [4] = "#1789a7", /* blue    */
+  [3] = "#D08770", /* yellow  */
+  [4] = "#5e81ac", /* blue    */
   [5] = "#7a9ca9", /* magenta */
-  [6] = "#b32536", /* cyan    */
+  [6] = "#B48EAD", /* cyan    */
   [7] = "#3e3e3e", /* white   */
 
   /* 8 bright colors */
   [8]  = "#3e3e3e",  /* black   */
-  [9]  = "#b32530",  /* red     */
+  [9]  = "#bf616A",  /* red     */
   [10] = "#447a67", /* green   */
-  [11] = "#b68b59", /* yellow  */
-  [12] = "#1789a7", /* blue    */
+  [11] = "#D08770", /* yellow  */
+  [12] = "#5e81ac", /* blue    */
   [13] = "#7a9ca9", /* magenta */
-  [14] = "#b32536", /* cyan    */
-  [15] = "#3e3e3e", /* white   */
+  [14] = "#B48EAD", /* cyan    */
+  [15] = "#7a9ca9", /* white   */
 
   /* special colors */
   [256] = "#efeff4", /* background */
   [257] = "#3e3e3e", /* foreground */
-  [258] = "#3e3e3e",     /* cursor */
+  [258] = "#7a9ca9",     /* cursor */
 };
 
 /* Default colors (colorname index)

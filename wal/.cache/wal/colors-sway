@@ -1,21 +1,21 @@
-set $wallpaper /home/om/media/pics/wall/koi.jpg
+set $wallpaper /home/om/media/pics/wall/mitani-curves.jpg
 
 set $background #efeff4
 set $foreground #3e3e3e
 
 set $color0 #efeff4
-set $color1 #b32530
+set $color1 #bf616A
 set $color2 #447a67
-set $color3 #b68b59
-set $color4 #1789a7
+set $color3 #D08770
+set $color4 #5e81ac
 set $color5 #7a9ca9
-set $color6 #b32536
+set $color6 #B48EAD
 set $color7 #3e3e3e
 set $color8 #3e3e3e
-set $color9 #b32530
+set $color9 #bf616A
 set $color10 #447a67
-set $color11 #b68b59
-set $color12 #1789a7
+set $color11 #D08770
+set $color12 #5e81ac
 set $color13 #7a9ca9
-set $color14 #b32536
-set $color15 #3e3e3e
+set $color14 #B48EAD
+set $color15 #7a9ca9
