@@ -5,7 +5,7 @@ set $foreground #3e3e3e
 
 set $color0 #efeff4
 set $color1 #bf616A
-set $color2 #447a67
+set $color2 #639986
 set $color3 #D08770
 set $color4 #5e81ac
 set $color5 #7a9ca9
@@ -13,7 +13,7 @@ set $color6 #B48EAD
 set $color7 #3e3e3e
 set $color8 #3e3e3e
 set $color9 #bf616A
-set $color10 #447a67
+set $color10 #639986
 set $color11 #D08770
 set $color12 #5e81ac
 set $color13 #7a9ca9

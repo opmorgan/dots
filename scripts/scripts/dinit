@@ -16,11 +16,5 @@ do
   fi
 done
 echo "Initializing ricey goodness..."
-if [ "$center" = true ]
-then
-  wllppr center &
-else
-  wllppr &
-fi
 nohup wal -R -n &
 exec nohup polyset.sh &
