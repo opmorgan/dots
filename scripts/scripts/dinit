@@ -16,5 +16,5 @@ do
   fi
 done
 echo "Initializing ricey goodness..."
-nohup wal -R -n &
+nohup wal -R &
 exec nohup polyset.sh &
