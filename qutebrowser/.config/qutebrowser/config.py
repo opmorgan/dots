@@ -7,9 +7,14 @@ config.source('qutewal-jungle.py')
 
 # keybindings
 config.unbind('d')
-config.unbind('V')
+config.unbind('r')
+config.unbind('R')
+config.bind('<alt-r>', 'reload')
+config.bind('<alt-R>', 'reload')
 config.bind('<alt-h>', 'tab-prev')
 config.bind('<alt-l>', 'tab-next')
+config.bind('<alt-shift-h>', 'tab-move -')
+config.bind('<alt-shift-l>', 'tab-move +')
 config.bind('<alt-j>', 'back')
 config.bind('<alt-k>', 'forward')
 config.bind('a', 'enter-mode passthrough')
@@ -43,6 +48,12 @@ c.zoom.default = '100%'
 ## Type: List of Perc
 c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%', '150%', '175%', '200%', '250%', '300%', '400%', '500%']
 
+# mode switching behavior
+c.input.insert_mode.auto_leave = True
+c.input.insert_mode.auto_load = False
+c.input.insert_mode.leave_on_load = True
+
+
 # statusbar: behavior
 c.statusbar.show = 'in-mode'
 # config.bind('b', 'config-cycle statusbar.show always in-mode')
@@ -64,12 +75,13 @@ c.tabs.title.format = '{perc}{audio} [{index}] {current_title}'
 c.content.mute = True
 c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
+c.tabs.close_mouse_button = 'right'
 
 # fonts
-c.fonts.default_family = 'Cozette'
+c.fonts.default_family = 'Avenir'
 c.fonts.default_size = '10pt'
-c.fonts.tabs.selected = '10pt ' + 'default_family'
-c.fonts.tabs.unselected = '10pt ' + 'default_family'
+c.fonts.tabs.selected = '11pt ' + 'default_family'
+c.fonts.tabs.unselected = '11pt ' + 'default_family'
 c.fonts.contextmenu = 'default_size default_family'
 c.fonts.completion.entry = 'default_size default_family'
 c.fonts.completion.category = 'default_size default_family'
@@ -102,14 +114,14 @@ c.hints.radius = 0
 c.hints.uppercase = False 
 
 # default page
-c.url.default_page = 'news.google.com'
+c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
 
 # default search engine
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
 
 # start pages
-c.url.start_pages = 'news.google.com'
+c.url.start_pages = 'https://workflowy.com/#/86cd9fc25479'
 
 # xwindow title
 c.window.title_format = '{perc}{current_title} | qb'
