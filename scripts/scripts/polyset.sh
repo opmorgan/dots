@@ -8,7 +8,6 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 
 ## launch on primary monitor only
 polybar --reload bar1 &
-polybar --reload bar2 &
 
 ## open on all monitors
 # for m in $(polybar --list-monitors | cut -d":" -f1); do

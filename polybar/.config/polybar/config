@@ -14,9 +14,9 @@ bg-trans = #00000000
 
 [bar/bar1]
 monitor = ${env:MONITOR:}
-width = 96%
+width = 98%
 height = 80
-offset-x = 2%
+offset-x = 1%
 offset-y = 0%
 ; offset-y = 1015
 fixed-center = true
@@ -55,7 +55,7 @@ date = "%A, %d %B"
 
 time = %l:%M
 
-label = %date%  @ %time%
+label = %date% — %time%
 ; label-foreground = ${colors.foreground} 
 ; label-background = ${colors.bg-trans}
 label-padding = 4
