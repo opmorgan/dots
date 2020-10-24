@@ -27,7 +27,7 @@ URxvt.cursorBlink: false
 URxvt.letterSpace: -1
 ! perl plugins
 URxvt.perl-ext-common: default,matcher,osc-xterm-clipboard,selection-to-clipboard
-URxvt.url-launcher: /usr/bin/xdg-open
+# URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
 ! xterm
