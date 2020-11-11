@@ -78,7 +78,7 @@ c.tabs.indicator.width = 0
 c.tabs.close_mouse_button = 'right'
 
 # fonts
-c.fonts.default_family = 'Avenir'
+c.fonts.default_family = 'Cozette'
 c.fonts.default_size = '10pt'
 c.fonts.tabs.selected = '11pt ' + 'default_family'
 c.fonts.tabs.unselected = '11pt ' + 'default_family'
