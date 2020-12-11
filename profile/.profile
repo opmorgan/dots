@@ -72,5 +72,8 @@ alias qb='qutebrowser'
 alias lopdf='libreoffice --headless --convert-to pdf '
 alias tem='template'
 alias oms='optimus-manager --status'
+# print to Brother printer (Duplex)
+alias pb='lp -o sides=two-sided-long-edge -o PageSize=Letter'
+alias bp='pb'
 # shortcut to qmk flashing keymap to dz60 keyboard. use a keymap named "custom" in the folder ~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter (or holding escape while plugging in the keyboard)  before flashing. Run this command from bin/qmkfirmware/, with sudo.
 alias flash='make dztech/dz60rgb:custom:flash'

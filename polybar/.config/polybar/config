@@ -72,7 +72,7 @@ format-full = <label-full>
 format-unknown = <label-unknown>
 
 format-charging-prefix = "↑"
-/* format-discharging-prefix =  */
+; format-discharging-prefix = ""
 format-full-prefix = "√"
 format-unknown-prefix = "√"
 
