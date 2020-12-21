@@ -2,6 +2,9 @@
 ## statusbar.hide
 ## fonts.tabs
 
+## Do not load config settings from GUI
+config.load_autoconfig(False)
+
 # pywal theme
 config.source('qutewal-jungle.py')
 
