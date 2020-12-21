@@ -1,0 +1,32 @@
+body{
+  font-family: "Arial", "GillSans";
+  font-size: 13pt;
+}
+
+.plot_half{
+    width: 10;
+    max-width: 49%;
+}
+
+.plot_full{
+    width: 10;
+    max-width: 98%;
+}
+
+caption {
+      color: black;
+      font-weight: normal;
+      font-size: 1.5em;
+    } 
+    
+header {
+    color: black;
+    font-weight: normal;
+    font-size: 1.0em;
+  } 
+  
+thead {
+    color: black;
+    font-weight: normal;
+    font-size: 1.0em;
+  } 
