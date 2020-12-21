@@ -74,8 +74,8 @@ nnoremap <CR> :noh<CR><CR>
 :nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>
 
 " For R
-:inoremap <M-S-m> %>% 
-:inoremap <M--> <- 
+:inoremap <M-S-m> <space>%>%
+:inoremap <M-->  <space><-<space>
 :inoremap <M-S-i> <Esc>0i```{r}<CR>```<ESC><S-o>
 :nnoremap <M-S-i> 0i```{r}<CR>```<ESC><S-o>
 
