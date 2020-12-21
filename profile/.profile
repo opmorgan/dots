@@ -61,6 +61,8 @@ alias calc='python -ic "from math import *"'
 alias rm='rm -i'
 alias R='R --quiet --no-save'
 alias feh='feh --image-bg black -.'
+alias lo="libreoffice"
+alias z="zathura"
 alias oms='optimus-manager --status'
 # shortcut to qmk flashing keymap to dz60 keyboard. use a keymap named "custom" in the folder ~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter (or holding escape while plugging in the keyboard)  before flashing. Run this command from bin/qmkfirmware/, with sudo.
 alias flash='make dztech/dz60rgb:custom:flash'
