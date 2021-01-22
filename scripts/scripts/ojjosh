@@ -1,0 +1,4 @@
+#! /bin/sh
+
+# obviously if the output of $(whoami) if not your ojjo username, change it.
+sshfs om@ojjo.sh:/opt/compendium ~/remote/compendium
