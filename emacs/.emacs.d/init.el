@@ -19,6 +19,7 @@
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
+(global-visual-line-mode t)
 ;(window-divider-mode 1)
 (setq inhibit-splash-screen t)
 (setq inhibit-startup-message t)

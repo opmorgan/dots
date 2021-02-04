@@ -10,17 +10,17 @@ bat_pct_str=$(acpi -b | cut -f 4 -d " ")
 bat_pct=${bat_pct_str:0:-2}
 discharging=$(acpi -b | grep Discharging)
 
-if [[ "$discharging" && \
-  "$bat_pct" -lt 30 && \
-  "$bat_pct" -gt 20 ]]; then
-  notify-send "Battery low: $bat_pct% left" -i $icon_30 -u normal
-fi
-
-if [[ "$discharging" && \
-  "$bat_pct" -lt 20 && \
-  "$bat_pct" -gt 10 ]]; then
-  notify-send "Battery low: $bat_pct% left" -i $icon_20 -u normal
-fi
+# if [[ "$discharging" && \
+#   "$bat_pct" -lt 30 && \
+#   "$bat_pct" -gt 20 ]]; then
+#   notify-send "Battery low: $bat_pct% left" -i $icon_30 -u normal
+# fi
+#
+# if [[ "$discharging" && \
+#   "$bat_pct" -lt 20 && \
+#   "$bat_pct" -gt 10 ]]; then
+#   notify-send "Battery low: $bat_pct% left" -i $icon_20 -u normal
+# fi
 
 if [[ "$discharging" && \
   "$bat_pct" -lt 10 && \
