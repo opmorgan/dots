@@ -2,8 +2,11 @@
 ## statusbar.hide
 ## fonts.tabs
 
+## Do not load config settings from GUI
+config.load_autoconfig(False)
+
 # pywal theme
-config.source('qutewal-koi.py')
+config.source('qutewal-jungle.py')
 
 # keybindings
 config.unbind('d')
@@ -78,7 +81,7 @@ c.tabs.indicator.width = 0
 c.tabs.close_mouse_button = 'right'
 
 # fonts
-c.fonts.default_family = 'Avenir'
+c.fonts.default_family = 'Cozette'
 c.fonts.default_size = '10pt'
 c.fonts.tabs.selected = '11pt ' + 'default_family'
 c.fonts.tabs.unselected = '11pt ' + 'default_family'
@@ -125,3 +128,4 @@ c.url.start_pages = 'https://workflowy.com/#/86cd9fc25479'
 
 # xwindow title
 c.window.title_format = '{perc}{current_title} | qb'
+

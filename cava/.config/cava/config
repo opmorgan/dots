@@ -103,8 +103,8 @@ foreground = blue
 # or remain commented out. 1 = on, 0 = off. Warning: for certain terminal emulators cava will
 # not able to restore color definitions on exit, simply restart your terminal to restore colors.
 gradient = 1
-gradient_color_1="#929687"
-gradient_color_2="#A39D88"
+gradient_color_1="#d0bf8f"
+gradient_color_2="#6ca0a3"
 
 
 

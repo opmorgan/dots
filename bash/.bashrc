@@ -1,4 +1,5 @@
 # ~/.bashrc
+source ~/.profile
 
 # activate vi mode with ESC
 set -o vi

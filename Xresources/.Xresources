@@ -1,4 +1,5 @@
 Xft.dpi: 96
+
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintfull
@@ -34,7 +35,7 @@ URxvt.matcher.button: 1
 XTerm.vt100.backarrowKey: false
 XTerm.ttyModes: erase ^?
 XTerm.vt100.selectToClipboard: true
-! enable truetype fonts
+! enable truetype fonts:q
 ! XTerm.vt100.renderFont: true
 XTerm.vt100.faceName: Source Code Pro:size=10:style=regular
 XTerm.vt100.boldFont: Source Code Pro:size=10:style=regular

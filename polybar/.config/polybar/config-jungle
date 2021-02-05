@@ -61,7 +61,8 @@ padding-right = 4
 module-margin-left = 4
 module-margin-right = 0
 
-font-1 = Source Sans Pro:style=Regular:pixelsize=13;1
+font-0 = Source Code Pro:style=Regulat:pixelsize=10;1
+font-1 = Source Sans Pro:style=Regular:pixelsize=10;1
 font-2 = Material Icons:style=Regular:pixelsize=12;2
 font-3 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
 font-4 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
