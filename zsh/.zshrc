@@ -68,11 +68,9 @@ esac
 # echo 'om@monad'
 
 # git prompt: show git status using github.com/woefe/git-prompt.zsh
-#source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
-#source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
+source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
+source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
 
 # set left prompt
 NEWLINE=$'\n'
-PROMPT='%{$fg[red]%}%(?..(%?%) )%{$fg[green]%}%(5~|%-1~/…/%3~|%4~) • %{$reset_color%}%'
-
-
+PROMPT='%{$fg[red]%}%(?..(%?%) )%{$fg[yellow]%}%(5~|%-1~/?/%3~|%4~) >  %{$reset_color%}%'

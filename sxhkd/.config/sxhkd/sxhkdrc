@@ -66,8 +66,8 @@ super + {Tab, Grave}
 	bspc node -f {next,prev}.local
 
 # focus the next/previous desktop in the current monitor
-super + {comma,period}
-	bspc desktop -f {prev,next}.local
+# super + {comma,period}
+# 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
 super + {c,v}
@@ -80,8 +80,14 @@ super + {o,i}
 	bspc wm -h on
 
 # focus or send to the given desktop
+# super + {_,shift + }{1-9,0}
+# 	bspc {desktop -f,node -d} '^{1-9,10}'
 super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+	bspc {desktop --focus,node --to-desktop} 'focused:^{1-9,10}'
+
+# move and switch windows between monitors
+super + {_,shift +} {comma, period}
+    bspc {monitor --focus,node --to-monitor} {prev,next}
 
 #
 # preselect

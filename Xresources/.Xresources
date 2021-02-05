@@ -37,8 +37,10 @@ XTerm.ttyModes: erase ^?
 XTerm.vt100.selectToClipboard: true
 ! enable truetype fonts:q
 ! XTerm.vt100.renderFont: true
-XTerm.vt100.faceName: Source Code Pro:size=10:style=regular
-XTerm.vt100.boldFont: Source Code Pro:size=10:style=regular
+! XTerm.vt100.faceName: Source Code Pro:size=10:style=regular
+! XTerm.vt100.boldFont: Source Code Pro:size=10:style=regular
+XTerm.vt100.faceName: IBM Plex Mono:size=10:style=regular
+XTerm.vt100.boldFont: IBM Plex Mono:size=10:style=regular
 XTerm.vt100.colorBDMode: true
 XTerm.vt100.font: 6x13
 XTerm.vt100.internalBorder: 40
