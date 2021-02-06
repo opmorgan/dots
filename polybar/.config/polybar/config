@@ -48,11 +48,11 @@ background = ${colors.background}
 foreground = ${colors.foreground}
 
 line-size = 3
-line-color = #f00
+line-color = f00
 
 
-border-size = 0
-border-color = #00000000
+border-size = 2
+border-color = ${colors.gray}
 radius = 0.0
 
 padding-left = 4
@@ -86,8 +86,8 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 0
-border-color = #00000000
+border-size = 1
+border-color = ${colors.gray}
 radius = 0.0
 
 padding-left = 0 
