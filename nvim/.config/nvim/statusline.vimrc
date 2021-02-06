@@ -1,3 +1,6 @@
+" This statusbar configuration was taken from:
+" https://sidneyliebrand.io/blog/creating-my-own-vim-statusline
+
 let g:mode_colors = {
       \ 'n':  'StatusLineSection',
       \ 'v':  'StatusLineSectionV',
