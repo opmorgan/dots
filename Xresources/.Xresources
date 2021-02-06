@@ -17,11 +17,11 @@ URxvt*geometry: 60x18
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 ! font
-URxvt.font: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
-URxvt.boldFont: xft:Source Code Pro:size=10:minspace=FALSE:style=regular
+URxvt.font: xft:IBM Plex Mono:size=10:minspace=FALSE:style=regular
+URxvt.boldFont: xft:IBM Plex Mono:size=10:minspace=FALSE:style=regular
 ! scrollbar
 URxvt.scrollBar: false
-URxvt.internalBorder: 40
+URxvt.internalBorder: 25
 ! cursor
 URxvt.cursorBlink: false
 ! style

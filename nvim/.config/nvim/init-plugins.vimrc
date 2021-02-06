@@ -12,9 +12,6 @@ Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-surround'
 Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 
-" statusbar
-Plug 'itchyny/lightline.vim'
-
 " LSP, autocompletion, linting, +
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'w0rp/ale'

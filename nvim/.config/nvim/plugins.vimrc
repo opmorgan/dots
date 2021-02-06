@@ -5,30 +5,30 @@ colorscheme wal
 
 "" Status line
 "
-let g:lightline = {
-      \ 'colorscheme': 'koi',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'readonly', 'filename', 'gitbranch', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'fileformat': 'LightlineFileformat',
-      \   'filetype': 'LightlineFiletype',
-      \   'gitbranch': 'gitbranch#name',
-      \ },
-      \ 'component': {
-      \   'lineinfo': '%3l:%-2v%<',
-      \ },
-      \ } 
+" let g:lightline = {
+"       \ 'colorscheme': 'koi',
+"       \ 'active': {
+"       \   'left': [ [ 'mode', 'paste' ],
+"       \             [ 'readonly', 'filename', 'gitbranch', 'modified' ] ]
+"       \ },
+"       \ 'component_function': {
+"       \   'fileformat': 'LightlineFileformat',
+"       \   'filetype': 'LightlineFiletype',
+"       \   'gitbranch': 'gitbranch#name',
+"       \ },
+"       \ 'component': {
+"       \   'lineinfo': '%3l:%-2v%<',
+"       \ },
+"       \ } 
 
 " make the statusline thinner
-function! LightlineFileformat()
-  return winwidth(0) > 70 ? &fileformat : ''
-endfunction
-
-function! LightlineFiletype()
-  return winwidth(0) > 70 ? (&filetype !=# '' ? &filetype : 'no ft') : ''
-endfunction
+" function! LightlineFileformat()
+"   return winwidth(0) > 70 ? &fileformat : ''
+" endfunction
+"
+" function! LightlineFiletype()
+"   return winwidth(0) > 70 ? (&filetype !=# '' ? &filetype : 'no ft') : ''
+" endfunction
 
 " enable statusbar
 set laststatus=2

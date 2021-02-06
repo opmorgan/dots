@@ -5,16 +5,12 @@ syntax enable
 set noswapfile
 set wrap
 set linebreak " visual break at special characters only
-set noshowmode " handled by statusline
-set noshowcmd " handled by statusline
-set noruler " handled by statusline
 set list
 set tabstop=2 shiftwidth=2 expandtab " use spaces
 set autoindent
 set clipboard=unnamedplus
 set hidden
 set mouse=a
-" set number
 set title
 
 " height of minimized files
