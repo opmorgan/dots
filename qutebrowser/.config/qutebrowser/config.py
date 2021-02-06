@@ -81,10 +81,10 @@ c.tabs.indicator.width = 0
 c.tabs.close_mouse_button = 'right'
 
 # fonts
-c.fonts.default_family = 'Cozette'
+c.fonts.default_family = 'IBM Plex Mono'
 c.fonts.default_size = '10pt'
-c.fonts.tabs.selected = '11pt ' + 'default_family'
-c.fonts.tabs.unselected = '11pt ' + 'default_family'
+c.fonts.tabs.selected = '10pt ' + 'default_family'
+c.fonts.tabs.unselected = '10pt ' + 'default_family'
 c.fonts.contextmenu = 'default_size default_family'
 c.fonts.completion.entry = 'default_size default_family'
 c.fonts.completion.category = 'default_size default_family'
