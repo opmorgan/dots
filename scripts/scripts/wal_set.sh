@@ -15,20 +15,19 @@ reload_cava(){
 }
 
 reload_zathura() {
-  sed -i "/set default-bg/c\set default-bg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
-  sed -i "/set default-fg/c\set default-fg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
-  sed -i "/set statusbar-bg/c\set statusbar-bg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
-  sed -i "/set statusbar-fg/c\set statusbar-fg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set default-bg/c\set default-bg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set default-fg/c\set default-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set statusbar-bg/c\set statusbar-bg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set statusbar-fg/c\set statusbar-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
   sed -i "/set highlight-color/c\set highlight-color \"${color3:-#FFFFFF}\"" ~/.config/zathura/zathurarc
   sed -i "/set highlight-active-color/c\set highlight-active-color \"${color4:-#FFFFFF}\"" ~/.config/zathura/zathurarc
-  sed -i "/set recolor-lightcolor/c\set recolor-lightcolor \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
-  sed -i "/set recolor-darkcolor/c\set recolor-darkcolor \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
-  sed -i "/set inputbar-bg/c\set inputbar-bg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
-  sed -i "/set inputbar-fg/c\set inputbar-fg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set recolor-lightcolor/c\set recolor-lightcolor \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set recolor-darkcolor/c\set recolor-darkcolor \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set inputbar-bg/c\set inputbar-bg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
+  sed -i "/set inputbar-fg/c\set inputbar-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
   sed -i "/set notification-bg/c\set notification-bg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
   sed -i "/set notification-fg/c\set notification-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
 }
-
 main() {
     reload_dunst
     reload_zathura
