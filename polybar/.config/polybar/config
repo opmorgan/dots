@@ -33,7 +33,7 @@ alert = ${xrdb:color1:#222}
 hl = ${xrdb:color5}
 
 wm-restack = bspwm
-;override-redirect = true
+override-redirect = false
 
 [bar/bar1]
 monitor = ${env:MONITOR:}
