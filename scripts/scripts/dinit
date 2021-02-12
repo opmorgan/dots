@@ -17,4 +17,5 @@ do
 done
 echo "Initializing ricey goodness..."
 nohup wal -R &
+wllppr &
 exec nohup polyset.sh &

@@ -52,7 +52,7 @@ line-color = f00
 
 
 border-size = 0
-border-color = ${colors.gray}
+border-color = ${colors.blue}
 radius = 0.0
 
 padding-left = 4
@@ -87,7 +87,7 @@ line-size = 3
 line-color = #f00
 
 border-size = 0
-border-color = ${colors.gray}
+border-color = ${colors.blue}
 radius = 0.0
 
 padding-left = 0 

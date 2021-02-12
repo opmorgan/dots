@@ -17,6 +17,6 @@ if [ $# -eq 0 ]
 then
     echo "Setting wallpaper: "
     echo $wallpaper
-    feh --bg-fill $wallpaper
+    feh --bg-scale $wallpaper
 fi
 
