@@ -30,7 +30,7 @@ light_gray = ${xrdb:color7:#222}
 light_purple = ${xrdb:color13:#222}
 
 alert = ${xrdb:color1:#222}
-hl = ${xrdb:color5}
+hl = ${xrdb:color4}
 
 wm-restack = bspwm
 override-redirect = false
@@ -51,7 +51,7 @@ line-size = 3
 line-color = f00
 
 
-border-size = 2
+border-size = 0
 border-color = ${colors.gray}
 radius = 0.0
 
@@ -86,7 +86,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 1
+border-size = 0
 border-color = ${colors.gray}
 radius = 0.0
 

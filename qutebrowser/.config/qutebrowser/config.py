@@ -6,7 +6,7 @@
 config.load_autoconfig(False)
 
 # pywal theme
-config.source('qutewal-jungle.py')
+config.source('qutewal.py')
 
 # keybindings
 config.unbind('d')
