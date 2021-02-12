@@ -1,14 +1,10 @@
-## need to update deprecated settings:
-## statusbar.hide
-## fonts.tabs
-
 ## Do not load config settings from GUI
 config.load_autoconfig(False)
 
-# pywal theme
+# Pywal theme
 config.source('qutewal.py')
 
-# keybindings
+# Keybindings
 config.unbind('d')
 config.unbind('r')
 config.unbind('R')
@@ -32,55 +28,55 @@ config.bind('<Ctrl-->', 'zoom-out')
 config.bind('z', 'zotero')
 config.bind('Z', 'Zotero')
 
-# aliases
+# Aliases
 c.aliases = {
         'zotero': 'hint links userscript zotero',
         'Zotero': 'spawn --userscript zotero'
         }
 
 
-# save session?
+# Save session?
 c.auto_save.session = True
 
-# scrollbar
+# Scrollbar
 c.scrolling.bar = 'when-searching'
 
-# zoom
+# Zoom
 c.zoom.default = '100%'
 ## Available zoom levels.
 ## Type: List of Perc
 c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%', '150%', '175%', '200%', '250%', '300%', '400%', '500%']
 
-# mode switching behavior
+# Mode switching behavior
 c.input.insert_mode.auto_leave = True
 c.input.insert_mode.auto_load = False
 c.input.insert_mode.leave_on_load = True
 
 
-# statusbar: behavior
+# Statusbar: behavior
 c.statusbar.show = 'in-mode'
 # config.bind('b', 'config-cycle statusbar.show always in-mode')
 config.bind('t', 'config-cycle tabs.show always switching')
-# statusbar: widgets
+# Statusbar: widgets
 c.statusbar.widgets = ['keypress', 'url', 'scroll', 'progress']
-# style
+# Style
 c.statusbar.padding = {'top': 12, 'bottom': 1, 'left': 12, 'right': 12}
 
-# tabs: behavior
+# Tabs: behavior
 c.tabs.last_close = 'close'
 c.tabs.background = True
 c.tabs.show = 'always'
 c.tabs.show_switching_delay = 1200
-# tabs: style
+# Tabs: style
 c.tabs.favicons.show = 'never'
 c.tabs.title.format = '{perc}{audio} [{index}] {current_title}'
-# mute tabs by default?
+# Mute tabs by default?
 c.content.mute = True
 c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
 c.tabs.indicator.width = 0
 c.tabs.close_mouse_button = 'right'
 
-# fonts
+# Fonts
 c.fonts.default_family = 'IBM Plex Mono'
 c.fonts.default_size = '10pt'
 c.fonts.tabs.selected = '10pt ' + 'default_family'
@@ -98,14 +94,14 @@ c.fonts.messages.warning = 'default_size default_family'
 c.fonts.prompts = 'default_size default_family'
 c.fonts.statusbar = 'default_size default_family'
 
-# downloads
+# Downloads
 c.downloads.location.directory = '/home/om/temp/'
 c.downloads.location.suggestion = 'both'
 c.downloads.position = 'bottom'
 c.downloads.remove_finished = 1200
 c.confirm_quit = ['downloads']
 
-# hints
+# Hints
 ## Padding (in pixels) for hints.
 ## Type: Padding
 c.hints.padding = {'top': 2, 'bottom': 2, 'left': 4, 'right': 4}
@@ -116,16 +112,19 @@ c.hints.radius = 0
 ## Type: Bool
 c.hints.uppercase = False 
 
-# default page
+# Default page
 c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
 
-# default search engine
+# Default search engine
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
 
-# start pages
+# Start pages
 c.url.start_pages = 'https://workflowy.com/#/86cd9fc25479'
 
-# xwindow title
+# Request dark mode
+c.colors.webpage.darkmode.enabled = True
+
+# Xwindow title
 c.window.title_format = '{perc}{current_title} | qb'
 
