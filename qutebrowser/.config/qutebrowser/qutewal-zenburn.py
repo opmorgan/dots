@@ -237,7 +237,7 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color of the statusbar in passthrough mode.
     # Type: QssColor
-    c.colors.statusbar.passthrough.fg = foreground
+    c.colors.statusbar.passthrough.fg = background
 
     # Background color of the statusbar in private browsing mode.
     # Type: QssColor
@@ -271,7 +271,7 @@ if os.path.isfile(colors_absolute):
     # Foreground color of the URL in the statusbar on successful load
     # (https).
     # Type: QssColor
-    c.colors.statusbar.url.success.https.fg = gray
+    c.colors.statusbar.url.success.https.fg = foreground
 
     # Foreground color of the URL in the statusbar when there's a warning.
     # Type: QssColor
