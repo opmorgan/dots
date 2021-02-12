@@ -1,3 +1,6 @@
+# Dependencies:
+# bspwm; xdo; xdotool
+
 # show keybindings help
 super + F1
     urxvt -geometry 100x30 -name urxvt_keys_help -e ~/.config/sxhkd/show_help.sh
@@ -83,13 +86,14 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop --focus,node --to-desktop} 'focused:^{1-9,10}'
 
-# move windows between monitors
+# move focus between monitors
 super + {comma, period}
   bspc {monitor --focus} {prev, next}
 
-# switch window between monitors and follow focus
+# send window between monitors and follow focus
 super + shift + {comma, period}
   bspc node --to-monitor {prev, next} --follow;
+  && xdotool mousemove --window $(bspc query -N -n) --polar 0 0
 
 #
 #
