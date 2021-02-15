@@ -122,9 +122,6 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # Start pages
 c.url.start_pages = 'https://workflowy.com/#/86cd9fc25479'
 
-# Request dark mode
-c.colors.webpage.darkmode.enabled = True
-
 # Xwindow title
 c.window.title_format = '{perc}{current_title} | qb'
 
