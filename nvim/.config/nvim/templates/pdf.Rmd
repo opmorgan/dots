@@ -6,6 +6,7 @@ output:
   pdf_document:
     df_print: kable
     latex_engine: xelatex
+    highlight: zenburn
     includes:
         in_header: headers.tex
 editor_options:
