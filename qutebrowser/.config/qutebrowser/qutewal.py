@@ -91,11 +91,11 @@ if os.path.isfile(colors_absolute):
 
     # Foreground color for downloads with errors.
     # Type: QtColor
-    c.colors.downloads.error.fg = foreground
+    c.colors.downloads.error.fg = background
 
     # Color gradient stop for download backgrounds.
     # Type: QtColor
-    c.colors.downloads.stop.bg = cyan
+    c.colors.downloads.stop.bg = magenta
 
     # Color gradient interpolation system for download backgrounds.
     # Type: ColorSystem
