@@ -11,7 +11,7 @@ options(prompt = "R > ")
 # rm(r)
 
 # other options
-options(digits=4, show.signif.stars=FALSE)
+# options(digits=4, show.signif.stars=FALSE)
 options("digits.secs"=3) # show sub-second time stamps
 
 # binding to restart r session

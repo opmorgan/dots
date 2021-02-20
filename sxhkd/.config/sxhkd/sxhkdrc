@@ -92,8 +92,8 @@ super + {comma, period}
 
 # send window between monitors and follow focus
 super + shift + {comma, period}
-  bspc node --to-monitor {prev, next} --follow;
-  && xdotool mousemove --window $(bspc query -N -n) --polar 0 0
+  bspc node --to-monitor {prev, next} --follow
+  # && xdotool mousemove --window $(bspc query -N -n) --polar 0 0
 
 #
 #
