@@ -9,7 +9,7 @@ export HISTCONTROL=ignoredups #shell history ignores duplicates
 export HISTSIZE=1000 #increase shell history length
 
 # set $PATH
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"
 
 # permissions
 umask 0002 #makes directory sharing easier

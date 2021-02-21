@@ -68,3 +68,15 @@ polybar|error: Invalid value for "module/bspwm.label-dimmed-foreground", using d
 polybar|warn:  No fonts specified, using fallback font "fixed"
 polybar|notice:  Loaded font "fixed" (name=Noto Sans, offset=0, file=/usr/share/fonts/noto/NotoSans-Regular.ttf)
 polybar|notice:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=10" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=10" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...
