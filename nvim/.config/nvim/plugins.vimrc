@@ -1,5 +1,7 @@
 "" Wal
 colorscheme wal
+"" change error color
+hi Error ctermfg=black ctermbg=magenta 
 
 "" Tcomment
 
@@ -74,6 +76,7 @@ highlight NvimInternalError ctermfg=black
 highlight Error ctermbg=white
 highlight CocListBgWhite ctermbg=white
 highlight Color664499 ctermbg=magenta
+highlight CocRustTypeHint ctermbg=magenta ctermfg=black
 
 " if hidden is not set, TextEdit might fail.
 set hidden
