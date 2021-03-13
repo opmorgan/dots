@@ -2,11 +2,12 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 export R_ENVIRON_USER="$HOME/.config/r/.Renviron"
 export GOPATH="$HOME/.go"
-export QT_QPA_PLATFORMTHEME=gtk2 #use gtk theme in qt applications
+export QT_QPA_PLATFORMTHEME=gtk2 # use gtk theme in qt applications
+export GTK_USE_PORTAL=1 # same file dialog for gtk and qt
 export EDITOR=nvim
 export VISUAL=nvim
-export HISTCONTROL=ignoredups #shell history ignores duplicates
-export HISTSIZE=1000 #increase shell history length
+export HISTCONTROL=ignoredups # shell history ignores duplicates
+export HISTSIZE=1000 # increase shell history length
 
 # set $PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"

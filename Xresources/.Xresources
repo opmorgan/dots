@@ -28,7 +28,7 @@ URxvt.cursorBlink: false
 URxvt.letterSpace: -1
 ! perl plugins
 URxvt.perl-ext-common: default,matcher,osc-xterm-clipboard,selection-to-clipboard
-# URxvt.url-launcher: /usr/bin/xdg-open
+! URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
 ! xterm
@@ -41,7 +41,15 @@ XTerm.vt100.selectToClipboard: true
 ! XTerm.vt100.boldFont: Source Code Pro:size=10:style=regular
 XTerm.vt100.faceName: IBM Plex Mono:size=10:style=regular
 XTerm.vt100.boldFont: IBM Plex Mono:size=10:style=regular
-XTerm.vt100.colorBDMode: true
+! XTerm.vt100.colorBDMode: true
 XTerm.vt100.font: 6x13
 XTerm.vt100.internalBorder: 40
+
+
+## All, including st-luke
+! *.font:	IBM Plex Mono:size=10:minspace=FALSE:style=regular:autohint=true:antialias=true
+*.font:	IBM Plex Mono:size=10:antialias=true:autohint=true;
+*.boldFont: IBM Plex Mono:size=10:style=regular
+*.internalBorder: 25
+*.alpha: 1
 
