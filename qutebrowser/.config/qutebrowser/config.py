@@ -113,7 +113,8 @@ c.hints.radius = 0
 c.hints.uppercase = False 
 
 # Default page
-c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
+# c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
+c.url.default_page = 'https://writenow.facultydiversity.org/session/273/group/17154/home'
 
 # Default search engine
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
