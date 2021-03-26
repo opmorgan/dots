@@ -78,6 +78,7 @@ c.tabs.close_mouse_button = 'right'
 
 # Fonts
 c.fonts.default_family = 'IBM Plex Mono'
+# c.fonts.default_family = 'IBM Plex Sans'
 c.fonts.default_size = '10pt'
 c.fonts.tabs.selected = '10pt ' + 'default_family'
 c.fonts.tabs.unselected = '10pt ' + 'default_family'
