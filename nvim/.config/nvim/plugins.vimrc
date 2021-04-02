@@ -193,3 +193,6 @@ let rmd_syn_hl_chunk = 1
 let R_openpdf = 1
 let R_openhtml = 0
 
+
+"" bbye
+nnoremap <Leader>q :Bdelete<CR>

@@ -7,6 +7,7 @@ Plug 'dylanaraps/wal.vim'
 
 " navigation
 Plug 'tpope/vim-vinegar'
+Plug 'moll/vim-bbye'
 
 " editing
 Plug 'tpope/vim-surround'
