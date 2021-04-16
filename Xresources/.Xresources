@@ -30,6 +30,10 @@ URxvt.letterSpace: -1
 URxvt.perl-ext-common: default,matcher,osc-xterm-clipboard,selection-to-clipboard
 ! URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Control-V: eval:paste_clipboard
+URxvt.keysym.Control-C: eval:selection_to_clipboard
 
 ! xterm
 XTerm.vt100.backarrowKey: false

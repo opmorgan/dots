@@ -1,13 +1,15 @@
 #!/bin/bash
 
+# Depends on pamixer to query volume
+
 # You can call this script like this:
 # $./vol_not.sh up 
 # $./vol_not.sh down
 # $./vol_not.sh mute
 
-icon_up="$HOME/scripts/resources/vol_not/ic_volume_up_black_24dp.png"
-icon_down="$HOME/scripts/resources/vol_not/ic_volume_down_black_24dp.png"
-icon_mute="$HOME/scripts/resources/vol_not/ic_volume_off_black_24dp.png"
+icon_up="$HOME/scripts/resources/vol_not/ic_volume_up_white_24dp.png"
+icon_down="$HOME/scripts/resources/vol_not/ic_volume_down_white_24dp.png"
+icon_mute="$HOME/scripts/resources/vol_not/ic_volume_off_white_24dp.png"
 
 function get_volume {
   pamixer --get-volume
