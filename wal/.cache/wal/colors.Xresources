@@ -16,6 +16,7 @@ URxvt*cursorColor:  #7a9ca9
 XTerm*cursorColor:  #7a9ca9
 UXTerm*cursorColor: #7a9ca9
 URxvt*borderColor:  [100]#efeff4
+
 ! Colors 0-15.
 *.color0: #efeff4
 *color0:  #efeff4
@@ -49,9 +50,11 @@ URxvt*borderColor:  [100]#efeff4
 *color14:  #B48EAD
 *.color15: #7a9ca9
 *color15:  #7a9ca9
+
 ! Black color that will not be affected by bold highlighting.
 *.color66: #efeff4
 *color66:  #efeff4
+
 ! Xclock colors.
 XClock*foreground: #3e3e3e
 XClock*background: #efeff4
@@ -60,11 +63,6 @@ XClock*minorColor:  rgba:7a/9c/a9/ff
 XClock*hourColor:   rgba:7a/9c/a9/ff
 XClock*minuteColor: rgba:7a/9c/a9/ff
 XClock*secondColor: rgba:7a/9c/a9/ff
+
 ! Set depth to make transparency work.
 URxvt*depth: 32
-twobwm.border_width: 5
-twobwm.outer_border: 5
-twobwm.focus_color: #efeff4
-twobwm.unfocus_color: #efeff4
-twobwm.fixed_color: #D08770
-twobwm.outer_border_color: #efeff4
