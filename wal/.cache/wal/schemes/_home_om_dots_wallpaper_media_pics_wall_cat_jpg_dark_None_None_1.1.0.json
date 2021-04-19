@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/dots/wallpaper/media/pics/wall/cat.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#070F0D",
+        "foreground": "#e3dddc",
+        "cursor": "#e3dddc"
+    },
+    "colors": {
+        "color0": "#070F0D",
+        "color1": "#AF592F",
+        "color2": "#82847B",
+        "color3": "#758A8D",
+        "color4": "#959E9F",
+        "color5": "#C4B9B2",
+        "color6": "#D2C4BA",
+        "color7": "#e3dddc",
+        "color8": "#9e9a9a",
+        "color9": "#AF592F",
+        "color10": "#82847B",
+        "color11": "#758A8D",
+        "color12": "#959E9F",
+        "color13": "#C4B9B2",
+        "color14": "#D2C4BA",
+        "color15": "#e3dddc"
+    }
+}
