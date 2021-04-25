@@ -40,6 +40,7 @@ setopt EXTENDED_GLOB
 setopt globdots
 setopt CORRECT
 setopt CORRECT_ALL
+setopt AUTOCD
 
 # history 
 SAVEHIST=10000

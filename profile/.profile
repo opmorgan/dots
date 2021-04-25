@@ -8,6 +8,7 @@ export EDITOR=nvim
 export VISUAL=nvim
 export HISTCONTROL=ignoredups # shell history ignores duplicates
 export HISTSIZE=1000 # increase shell history length
+export WOW_ADDONS_PATH="$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns"
 
 # set $PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"
@@ -42,7 +43,10 @@ function gpu-intel {
 #  exec tmux new-session -A -s main
 #fi
 
-# set aliases
+# Directory shortcuts
+alias wow_addons='/home/om/games/world-of-warcraft-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns'
+
+# Aliases
 alias sudo='sudo '
 alias please='sudo '
 alias a='./a.out'

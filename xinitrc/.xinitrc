@@ -10,5 +10,6 @@ wal_set.sh &
 dunst &
 polyset.sh &
 focus_toplayer.sh &
+picom &
 sxhkd &
 exec bspwm
