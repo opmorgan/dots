@@ -8,6 +8,7 @@ output:
     latex_engine: xelatex
     includes:
         in_header: headers.tex
+    highlight: zenburn
 editor_options:
   chunk_output_type: console
 ---

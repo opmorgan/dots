@@ -1,0 +1,6 @@
+configuration {
+	modi: "drun";
+	font: "Avenir 18";
+	combi-modi: "drun,window";
+	theme: "~/.cache/wal/colors-rofi-dark.rasi";
+}
