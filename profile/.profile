@@ -1,3 +1,4 @@
+source $HOME/.secret_aliases
 # set environmental variables
 export XDG_CONFIG_HOME="$HOME/.config"
 export R_ENVIRON_USER="$HOME/.config/r/.Renviron"
