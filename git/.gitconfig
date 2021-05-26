@@ -10,3 +10,5 @@
 	glog = log --oneline --graph
 [pull]
 	ff = only
+[init]
+	defaultBranch = trunk
