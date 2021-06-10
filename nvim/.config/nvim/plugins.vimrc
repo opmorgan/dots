@@ -196,3 +196,6 @@ let R_openhtml = 0
 
 "" bbye
 nnoremap <Leader>q :Bdelete<CR>
+
+"" vimtex / latex
+let g:vimtex_view_method = 'zathura'

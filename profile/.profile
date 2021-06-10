@@ -39,6 +39,10 @@ function gpu-intel {
   optimus-manager --switch intel --no-confirm
 }
 
+function sync-time {
+  sudo timedatectl set-ntp 1
+}
+
 ## if the shell is interactive, tmux exists, and tmux isn't already running, start tmux.
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 #  exec tmux new-session -A -s main
@@ -64,6 +68,7 @@ alias v='nvim'
 alias z='zathura'
 alias d='drive'
 alias rm='rm -i'
+alias s='sync-time'
 alias ping!='ping archlinux.com'
 #alias git pul='git pull'
 #alias git pus='git push'

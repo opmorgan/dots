@@ -28,6 +28,7 @@ Plug 'itchyny/vim-gitbranch'
 " language-specific
 Plug 'jalvesaq/Nvim-R'
 Plug 'posva/vim-vue'
+Plug 'lervag/vimtex'
 
 " keypress aliases
 Plug 'vim-scripts/cmdalias.vim'

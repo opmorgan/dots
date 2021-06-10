@@ -120,7 +120,8 @@ c.hints.uppercase = False
 c.url.default_page = 'https://writenow.facultydiversity.org/session/273/group/17154/home'
 
 # Default search engine
-c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
+c.url.searchengines = {'DEFAULT': 'searx.be/?q={}'}
+# c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
 
 # Start pages
