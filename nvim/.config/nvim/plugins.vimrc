@@ -198,4 +198,16 @@ let R_openhtml = 0
 nnoremap <Leader>q :Bdelete<CR>
 
 "" vimtex / latex
-let g:vimtex_view_method = 'zathura'
+" let g:vimtex_view_method = 'zathura'
+" let g:tex_indent_items=0
+" let g:tex_indent_and=0
+" let g:tex_indent_brace=0
+
+" arara
+" let g:tex_flavor='arara'
+" let g:Tex_DefaultTargetFormat='pdf'
+" " https://tex.stackexchange.com/questions/83715/biber-backend-and-vim-latex
+" let g:Tex_BibtexFlavor = 'biber'
+" " The following is relevant to make LaTeX rerun after biber if necessary: 
+" " (include all formats for which re-running is to be enabled)
+" let g:Tex_MultipleCompileFormats='pdf'

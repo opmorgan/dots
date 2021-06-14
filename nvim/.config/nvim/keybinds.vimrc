@@ -65,7 +65,14 @@ nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
 " Code formatting
-" noremap = gg=G<C-o>zz
+noremap = gg=G<C-o>zz
+
+" Remap paste so that copied text persists in register ""
+xnoremap p pgvy
+xnoremap P Pgvy
+
+" Toggle auto_save
+:cabbrev ast AutoSaveToggle
 
 " Unset the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>

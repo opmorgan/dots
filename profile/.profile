@@ -12,7 +12,7 @@ export HISTSIZE=1000 # increase shell history length
 export WOW_ADDONS_PATH="$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns"
 
 # set $PATH
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin:$HOME/.TinyTeX/bin/x86_64-linux"
 
 # permissions
 umask 0002 #makes directory sharing easier
@@ -42,6 +42,12 @@ function gpu-intel {
 function sync-time {
   sudo timedatectl set-ntp 1
 }
+
+# remove temporary latex files
+function texc {
+  ls | grep -P '.*(?<!tex|bib)$' | xargs rm
+}
+
 
 ## if the shell is interactive, tmux exists, and tmux isn't already running, start tmux.
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then

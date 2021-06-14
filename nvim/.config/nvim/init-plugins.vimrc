@@ -29,6 +29,10 @@ Plug 'itchyny/vim-gitbranch'
 Plug 'jalvesaq/Nvim-R'
 Plug 'posva/vim-vue'
 Plug 'lervag/vimtex'
+" Plug 'xuhdev/vim-latex-live-preview'
+" Plug 'goballooning/vim-live-latex-preview'
+" Autosave, for latex livepreviewing with vimtex
+Plug '907th/vim-auto-save'
 
 " keypress aliases
 Plug 'vim-scripts/cmdalias.vim'
