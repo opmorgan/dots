@@ -45,7 +45,7 @@ function sync-time {
 
 # remove temporary latex files
 function texc {
-  ls | grep -P '.*(?<!tex|bib)$' | xargs rm
+  ls | grep -P '.*(?<!tex|bib|bbx|cbx|dbx)$' | xargs rm
 }
 
 

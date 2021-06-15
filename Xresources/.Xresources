@@ -34,6 +34,9 @@ URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 URxvt.keysym.Control-V: eval:paste_clipboard
 URxvt.keysym.Control-C: eval:selection_to_clipboard
+! zoom
+URxvt.keysym.Control-plus: resize-font:smaller
+URxvt.keysym.Control-minus: resize-font:bigger
 
 ! xterm
 XTerm.vt100.backarrowKey: false
