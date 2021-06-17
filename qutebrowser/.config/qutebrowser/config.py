@@ -50,6 +50,8 @@ c.zoom.default = '100%'
 ## Available zoom levels.
 ## Type: List of Perc
 c.zoom.levels = ['25%', '33%', '50%', '67%', '75%', '90%', '100%', '110%', '125%', '150%', '175%', '200%', '250%', '300%', '400%', '500%']
+## try to disable mousewheel zoom
+c.zoom.mouse_divider = 0
 
 # mode switching behavior
 c.input.insert_mode.auto_leave = True
