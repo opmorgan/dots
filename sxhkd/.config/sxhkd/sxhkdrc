@@ -7,7 +7,7 @@ super + F1
 
 # open a new terminal
 super + Return
-    urxvt -e tmux
+    st -e tmux
 #
 # open a terminal with tmate (for shared sessions)
 super + alt + Return
