@@ -118,7 +118,7 @@ c.hints.uppercase = False
 
 # Default page
 # c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
-c.url.default_page = 'https://writenow.facultydiversity.org/session/273/group/17154/home'
+c.url.default_page = 'https://writenow.facultydiversity.org/session/300/group/18659/home'
 
 # Default search engine
 # c.url.searchengines = {'DEFAULT': 'searx.xyz/?q={}'}
