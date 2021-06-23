@@ -1,14 +1,14 @@
 # show keybindings help
 super + F1
-    urxvt -geometry 100x30 -name urxvt_keys_help -e ~/.config/sxhkd/show_help.sh
+    st -geometry 100x30 -name st_keys_help -e ~/.config/sxhkd/show_help.sh
 
 # open a new terminal
 super + Return
-    urxvt -e tmux
+    st -e tmux
 #
 # open a terminal with tmate (for shared sessions)
 super + alt + Return
-  urxvt -e tmat
+  st -e tmat
 
 # open rofi
 super + space
