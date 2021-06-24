@@ -8,9 +8,12 @@ Plug 'dylanaraps/wal.vim'
 " navigation
 Plug 'tpope/vim-vinegar'
 Plug 'moll/vim-bbye'
+" Plug 'justinmk/vim-sneak'
 
 " editing
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+" Plug 'tpope/vim-easyclip'
 Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 
 " LSP, autocompletion, linting, +
