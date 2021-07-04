@@ -3,9 +3,9 @@
  sxhkd &
  . "${HOME}/.cache/wal/colors.sh"
 
-bspc monitor eDP-1 -d 1 2 3 4 5
-bspc monitor HDMI-1-1 -d 1 2 3 4 5
-bspc monitor HDMI-2 -d 1 2 3 4 5
+bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9
+bspc monitor HDMI-1-1 -d 1 2 3 4 5 6 7 8 9
+bspc monitor HDMI-2 -d 1 2 3 4 5 6 7 8 9
 bspc config border_width 4
 bspc config window_gap 12
 bspc config top_padding -12
