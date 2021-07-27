@@ -23,28 +23,12 @@ if [ -f /usr/share/nvm/init-nvm.sh ]; then
 fi
 
 # functions
-function gpu-offload {
-  /usr/bin/prime-offload
-}
-
-function gpu-switch {
-  sudo /usr/bin/prime-switch
-}
-
-function gpu-nvidia {
-  optimus-manager --switch nvidia --no-confirm
-}
-
-function gpu-intel {
-  optimus-manager --switch intel --no-confirm
-}
-
-function sync-time {
+sync-time() {
   sudo timedatectl set-ntp 1
 }
 
 # remove temporary latex files
-function texc {
+texc() {
   ls | grep -P '.*(?<!tex|bib|bbx|cbx|dbx)$' | xargs rm
 }
 
