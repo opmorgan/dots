@@ -48,6 +48,12 @@ function texc {
   ls | grep -P '.*(?<!tex|bib|bbx|cbx|dbx)$' | xargs rm
 }
 
+# Launch fff and cd on exit
+f() {
+    fff "$@"
+    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
+}
+
 
 ## if the shell is interactive, tmux exists, and tmux isn't already running, start tmux.
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
