@@ -1,4 +1,3 @@
-source $HOME/.secret_aliases
 # set environmental variables
 export XDG_CONFIG_HOME="$HOME/.config"
 export R_ENVIRON_USER="$HOME/.config/r/.Renviron"
@@ -10,6 +9,9 @@ export VISUAL=nvim
 export HISTCONTROL=ignoredups # shell history ignores duplicates
 export HISTSIZE=1000 # increase shell history length
 export WOW_ADDONS_PATH="$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns"
+
+source $XDG_CONFIG_HOME/.fffrc
+source $HOME/.secret_aliases
 
 # set $PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$HOME/scripts/copy_without_linebreaks:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin:$HOME/.TinyTeX/bin/x86_64-linux"
