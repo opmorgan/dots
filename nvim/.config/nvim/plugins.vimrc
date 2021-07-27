@@ -211,3 +211,8 @@ nnoremap <Leader>q :Bdelete<CR>
 " " The following is relevant to make LaTeX rerun after biber if necessary: 
 " " (include all formats for which re-running is to be enabled)
 " let g:Tex_MultipleCompileFormats='pdf'
+
+"" fff
+" Open fff on press of 'f'
+nnoremap F :F<CR>
+let g:fff#split = "100new"

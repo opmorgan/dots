@@ -7,6 +7,7 @@ Plug 'dylanaraps/wal.vim'
 
 " navigation
 Plug 'tpope/vim-vinegar'
+Plug 'dylanaraps/fff.vim'
 Plug 'moll/vim-bbye'
 " Plug 'justinmk/vim-sneak'
 
