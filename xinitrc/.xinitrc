@@ -1,10 +1,10 @@
 xrdb ~/.Xresources
 
-xrandr --auto
+xrandr --output HDMI-A-1 --mode 1920x1080 --rate 143.98
 
 wal -R
 unclutter --timeout 1 &
-urxvt -e tmux & 
+st -e tmux & 
 xbindkeys & 
 wal_set.sh &
 dunst &
