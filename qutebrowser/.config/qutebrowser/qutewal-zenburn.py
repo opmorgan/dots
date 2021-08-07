@@ -339,6 +339,12 @@ if os.path.isfile(colors_absolute):
     # Type: QtColor
     c.colors.webpage.bg = ""
 
+    ## Colors for pinned tabs
+    c.colors.tabs.pinned.even.bg = black
+    c.colors.tabs.pinned.odd.bg = black
+    c.colors.tabs.pinned.selected.even.bg = black
+    c.colors.tabs.pinned.selected.even.bg = black
+
     if qutewal_dynamic_loading or bool(os.getenv('QUTEWAL_DYNAMIC_LOADING')):
         import signal
         import subprocess

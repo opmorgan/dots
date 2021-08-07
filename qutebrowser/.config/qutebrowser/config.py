@@ -2,7 +2,7 @@
 config.load_autoconfig(False)
 
 # Pywal theme
-config.source('qutewal.py')
+config.source('qutewal-zenburn.py')
 
 # Keybindings
 config.unbind('d')
@@ -79,8 +79,8 @@ c.tabs.close_mouse_button = 'right'
 
 # Fonts
 
-c.fonts.default_family = 'Gill Sans Light'
-# c.fonts.default_family = 'IBM Plex Mono'
+# c.fonts.default_family = 'Gill Sans Light'
+c.fonts.default_family = 'IBM Plex Mono'
 # c.fonts.default_family = 'IBM Plex Sans'
 c.fonts.default_size = '10pt'
 c.fonts.tabs.selected = '10pt ' + 'default_family'
@@ -130,5 +130,5 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 c.url.start_pages = 'https://writenow.facultydiversity.org/session/273/group/17154/home'
 
 # Xwindow title
-c.window.title_format = '{perc}{current_title} | qb'
+c.window.title_format = 'qb | {perc}{current_title}'
 

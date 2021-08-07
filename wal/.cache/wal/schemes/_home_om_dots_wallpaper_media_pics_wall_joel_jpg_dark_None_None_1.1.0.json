@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/om/dots/wallpaper/media/pics/wall/joel.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#061316",
+        "foreground": "#bdc1c0",
+        "cursor": "#bdc1c0"
+    },
+    "colors": {
+        "color0": "#061316",
+        "color1": "#79827D",
+        "color2": "#29728B",
+        "color3": "#4B7A89",
+        "color4": "#358899",
+        "color5": "#5B9CA3",
+        "color6": "#75BCC1",
+        "color7": "#bdc1c0",
+        "color8": "#848786",
+        "color9": "#79827D",
+        "color10": "#29728B",
+        "color11": "#4B7A89",
+        "color12": "#358899",
+        "color13": "#5B9CA3",
+        "color14": "#75BCC1",
+        "color15": "#bdc1c0"
+    }
+}

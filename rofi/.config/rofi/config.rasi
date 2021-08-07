@@ -1,12 +1,12 @@
 configuration {
 	modi: "drun";
-	font: "Avenir 18";
+	font: "IBM Plex Mono 10";
 	combi-modi: "drun,window";
 	theme: "~/.cache/wal/colors-rofi-dark.rasi";
-  location: 2;
-  border-color: blue;
+  location: 7;
 }
+
 window {
   width: 100%;
-  height: 100%;
+  height: 97.23%;
 }
