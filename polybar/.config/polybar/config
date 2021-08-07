@@ -7,6 +7,9 @@
 ;
 ;=====================================================
 
+; For joel.jpg
+; For two side by side monitors
+
 [colors]
 ;manually specified colors
 black = #323232
