@@ -340,10 +340,14 @@ if os.path.isfile(colors_absolute):
     c.colors.webpage.bg = ""
 
     ## Colors for pinned tabs
-    c.colors.tabs.pinned.even.bg = black
-    c.colors.tabs.pinned.odd.bg = black
-    c.colors.tabs.pinned.selected.even.bg = black
-    c.colors.tabs.pinned.selected.even.bg = black
+    c.colors.tabs.pinned.even.bg = background
+    c.colors.tabs.pinned.odd.bg = background
+    c.colors.tabs.pinned.even.fg = foreground
+    c.colors.tabs.pinned.odd.fg = foreground
+    c.colors.tabs.pinned.selected.even.bg = blue
+    c.colors.tabs.pinned.selected.odd.bg = blue
+    c.colors.tabs.pinned.selected.even.fg = background
+    c.colors.tabs.pinned.selected.odd.fg = background
 
     if qutewal_dynamic_loading or bool(os.getenv('QUTEWAL_DYNAMIC_LOADING')):
         import signal
