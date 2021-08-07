@@ -3,4 +3,10 @@ configuration {
 	font: "Avenir 18";
 	combi-modi: "drun,window";
 	theme: "~/.cache/wal/colors-rofi-dark.rasi";
+  location: 2;
+  border-color: blue;
+}
+window {
+  width: 100%;
+  height: 100%;
 }
