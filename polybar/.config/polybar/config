@@ -14,6 +14,7 @@ light_purple = ${xrdb:color13:#222}
 alert = ${xrdb:color1:#222}
 hl = ${xrdb:color4}
 
+[global/wm]
 wm-restack = bspwm
 override-redirect = false
 
@@ -22,6 +23,10 @@ monitor = ${env:MONITOR:}
 width = 100%
 height = 30
 fixed-center = true
+
+modules-left = xwindow
+modules-center = bspwm
+modules-right = date battery
 
 font-0 = "IBM Plex Mono:style=Regular:pixelsize=10;1"
 font-1 = "Material Icons:style=Regular:pixelsize=12;2"
@@ -34,10 +39,7 @@ padding-right = 3
 
 line-size = 3
 
-modules-left = xwindow
-modules-center = bspwm
-modules-right = date battery
-
+tray-position = none
 
 [module/date]
 type = internal/date

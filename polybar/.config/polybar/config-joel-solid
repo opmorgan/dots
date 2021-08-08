@@ -14,6 +14,7 @@ light_purple = ${xrdb:color13:#222}
 alert = ${xrdb:color1:#222}
 hl = ${xrdb:color4}
 
+[global/wm]
 wm-restack = bspwm
 override-redirect = false
 
@@ -23,19 +24,22 @@ width = 100%
 height = 30
 fixed-center = true
 
+modules-left = xwindow
+modules-center = bspwm
+modules-right = date battery
+
+font-0 = "IBM Plex Mono:style=Regular:pixelsize=10;1"
+font-1 = "Material Icons:style=Regular:pixelsize=12;2"
+
 background = ${colors.background}
 foreground = ${colors.foreground}
 
 padding-left = 3
 padding-right = 3
 
-font-0 = "IBM Plex Mono:style=Regular:pixelsize=10;1"
-font-1 = "Material Icons:style=Regular:pixelsize=12;2"
+line-size = 3
 
-modules-left = xwindow
-modules-center = bspwm
-modules-right = date battery
-
+tray-position = none
 
 [module/date]
 type = internal/date
@@ -91,8 +95,8 @@ label-occupied-padding = 1
 
 label-empty = %icon%
 label-empty-padding = 1
+label-empty-foreground = ${colors.light_gray}
 
 label-urgent = %icon%
-label-urgent-padding = 1
 label-urgent-foreground = ${colors.foreground}
 label-urgent-background = ${colors.alert}
