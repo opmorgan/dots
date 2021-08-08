@@ -1,6 +1,6 @@
-gtk-theme-name="oomox-xresources3"
+gtk-theme-name="zenburn-gtk2-3"
 gtk-icon-theme-name="Paper"
-gtk-font-name="IBM Plex Sans 11"
+gtk-font-name="Avenir 10"
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
 gtk-button-images=1

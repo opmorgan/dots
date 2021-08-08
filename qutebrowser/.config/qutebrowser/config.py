@@ -70,7 +70,7 @@ c.tabs.show = 'always'
 c.tabs.show_switching_delay = 1200
 # Tabs: style
 c.tabs.favicons.show = 'never'
-c.tabs.title.format = '{perc}{audio} [{index}] {current_title}'
+c.tabs.title.format = '{perc}{audio}[{index}] {current_title}'
 # Mute tabs by default?
 c.content.mute = True
 c.tabs.padding = {'top': 6, 'bottom': 6, 'left': 12, 'right': 12}
@@ -79,11 +79,11 @@ c.tabs.close_mouse_button = 'right'
 
 # Fonts
 
-# c.fonts.default_family = 'Gill Sans Light'
-c.fonts.default_family = 'IBM Plex Mono'
+c.fonts.default_family = 'Avenir'
+# c.fonts.default_family = 'IBM Plex Mono'
 # c.fonts.default_family = 'IBM Plex Sans'
-c.fonts.default_size = '10pt'
-c.fonts.tabs.selected = '10pt ' + 'default_family'
+c.fonts.default_size = '11pt'
+c.fonts.tabs.selected = '10pt' + 'default_family'
 c.fonts.tabs.unselected = '10pt ' + 'default_family'
 c.fonts.contextmenu = 'default_size default_family'
 c.fonts.completion.entry = 'default_size default_family'

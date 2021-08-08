@@ -26,8 +26,8 @@ fi
 
 # functions
 sync-time() {
-  # sudo timedatectl set-ntp 1
-  sudo ntpd -qg
+# sudo timedatectl set-ntp 1
+sudo ntpd -qg
 }
 
 # remove temporary latex files
@@ -37,10 +37,14 @@ texc() {
 
 # Launch fff and cd on exit
 f() {
-    fff "$@"
-    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
+  fff "$@"
+  cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
 }
 
+# list 
+pac_recent() {
+  grep "\(upgraded\|installed\|removed\) $pkg" /var/log/pacman.log
+}
 
 ## if the shell is interactive, tmux exists, and tmux isn't already running, start tmux.
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then

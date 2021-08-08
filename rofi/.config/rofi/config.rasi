@@ -1,6 +1,6 @@
 configuration {
 	modi: "drun";
-	font: "IBM Plex Mono 10";
+	font: "Avenir 14";
 	combi-modi: "drun,window";
 	theme: "~/.cache/wal/colors-rofi-dark.rasi";
   location: 7;
