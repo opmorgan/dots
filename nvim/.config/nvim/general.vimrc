@@ -13,19 +13,19 @@ set hidden
 set mouse=a
 set title
 
-" height of minimized files
+" Height of minimized files
 set wmh=0
 
-" relative line numbers
+" Relative line numbers
 set number rnu
 
 "ask to save if quit with unsaved changes
 set confirm
 set hidden
 
-" from vim-sensible
+" From vim-sensible
 set backspace=indent,eol,start
-"set complete-=i
+" set complete-=i
 set smarttab
 set autoread
 if !&scrolloff
@@ -39,6 +39,13 @@ set display+=lastline
 " Split window below/right when creating horizontal/vertical windows
 set splitbelow splitright
 
-" no numbers in terminal buffers
+" No gutter numbers in terminal buffers
 autocmd TermOpen * setlocal nonumber
 autocmd TermOpen * setlocal norelativenumber
+
+" Highlight trailing spaces
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
