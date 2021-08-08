@@ -48,7 +48,7 @@ setopt AUTOCD
 ## history 
 SAVEHIST=10000
 HISTFILE=~/.zsh/history
-setopt APPEND_HISTORY
+setopt SHARE_HISTORY
 setopt EXTENDED_HISTORY
 # setopt HIST_VERIFY
 setopt HIST_REDUCE_BLANKS
