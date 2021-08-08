@@ -26,7 +26,7 @@ fixed-center = true
 
 modules-left = xwindow
 modules-center = bspwm
-modules-right = date battery
+modules-right = date
 
 font-0 = "IBM Plex Mono:style=Regular:pixelsize=10;1"
 font-1 = "Material Icons:style=Regular:pixelsize=12;2"
