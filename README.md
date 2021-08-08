@@ -1,6 +1,6 @@
 These \*nix dotfiles can be deployed quickly with stow. You can clone this repo to your home directory, then [use stow to symlink config files to their target locations.](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html) 
 
 
-![JoelCooper-rice](https://github.com/opmorgan/dots/blob/razer/.glamour-shots/joel.png?raw=true)
+![JoelCooper-rice](https://github.com/opmorgan/dots/blob/pons/.glamour-shots/joel.png?raw=true)
 
 Background image: Photo and fold by Joel Cooper ("Art Nouveau"), from [flickr](https://www.flickr.com/photos/origamijoel/6720406315/), last accessed 2021-02-23.
