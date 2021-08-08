@@ -10,6 +10,7 @@ wal_set.sh &
 dunst &
 polyset.sh &
 focus_toplayer.sh &
+stalonetray &
 picom &
 sxhkd &
 exec bspwm

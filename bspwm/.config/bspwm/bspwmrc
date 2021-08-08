@@ -44,3 +44,4 @@ bspc rule -a Zathura state=tiled
 bspc rule -a Chromium border_width=0
 bspc rule -a RStudio border_width=0
 bspc rule -a URxvt:urxvt_keys_help state=floating
+bspc rule -a stalonetray border=off
