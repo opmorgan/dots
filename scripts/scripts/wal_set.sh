@@ -28,10 +28,16 @@ reload_zathura() {
   sed -i "/set notification-bg/c\set notification-bg \"${background:-#FFFFFF}\"" ~/.config/zathura/zathurarc
   sed -i "/set notification-fg/c\set notification-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
 }
+
+reload_stalonetray() {
+  sed -i "/background/c\background \"${background}\"" ~/.stalonetrayrc
+}
+
 main() {
     reload_dunst
     reload_zathura
     reload_cava
+    reload_stalonetray
 }
 
 main
