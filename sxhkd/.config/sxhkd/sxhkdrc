@@ -13,9 +13,17 @@ super + Return
 super + alt + Return
   urxvt -e tmat
 
-# open rofi
+# run rofi
 super + space
     rofi -combi-modi window,drun,run -show combi -modi combi
+
+# run rofi file finder
+alt + space
+  rofi -show find -modi find:~/scripts/rofi/finder.sh
+
+# run rofi spotlight imitator
+super + alt + space
+  rofi -modi "Global Search":"~/src/rofi-spotlight/rofi-spotlight.sh" -show "Global Search"
 
 # make sxhkd reload its configuration files:
 super + Escape

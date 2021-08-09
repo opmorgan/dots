@@ -22,7 +22,7 @@ fi
 #### Alias to show help for zsh builtins
 unalias run-help
 autoload run-help
-alias help=run-help  
+alias help=run-help
 
 
 #### Plugins
@@ -36,7 +36,7 @@ fi
 
 ## zsh-vi-mode (use instead of builtin, bindkey-v)
 ## https://github.com/jeffreytse/zsh-vi-mode
-source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh 
+source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 
 #### Globbing
@@ -47,7 +47,7 @@ setopt CORRECT_ALL
 setopt AUTOCD
 
 
-#### History 
+#### History
 HISTFILE=~/.zsh/history
 SAVEHIST=10000 ## The number of commands to be saved to the history file
 ## (HISTSIZE, the number of commands each session should remember, is set in .profile)
@@ -79,8 +79,8 @@ NEWLINE=$'\n'
 PROMPT='%{$fg[red]%}%(?..(%?%) )%{$fg[yellow]%}%(5~|%-1~/.../%3~|%4~) > %{$reset_color%}%'
 ## | %(?..[%?] )         | Shows the exit code of the last command, if unsuccessful,
 ##                         followed by a space.
-## | 5~|%-1~/.../%3~|%4~ | Show truncated path. 
-##                         If the path is at least 5 elements (5~), 
+## | 5~|%-1~/.../%3~|%4~ | Show truncated path.
+##                         If the path is at least 5 elements (5~),
 ##                         Print the first element (%-1~), then three dots (/.../),
 ##                         Then, print the last three elements (%3~)
 ##                         Else, print the 4 or less elements (%4~).

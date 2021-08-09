@@ -29,19 +29,14 @@ bspc config pointer_action2 resize_corner
 
 bspc config pointer_motion_interval 7
 
-bspc rule -a * floating=on
-bspc rule -a * state=floating
-bspc rule -a Gimp desktop='^4' state=floating follow=on
-bspc rule -a Firefox desktop='^2'
-bspc rule -a LibreOffice desktop='^4'
-bspc rule -a LibreOffice state=floating
-bspc rule -a Spotify desktop='^5'
+bspc rule -a Gimp desktop=^4 state=floating follow=on
+bspc rule -a Firefox desktop=^2
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-bspc rule -a st state=tiled
 bspc rule -a Zathura state=tiled
 bspc rule -a Chromium border_width=0
 bspc rule -a RStudio border_width=0
-bspc rule -a URxvt:urxvt_keys_help state=floating
-bspc rule -a trayer state=floating
+bspc rule -a libreoffice-startcenter desktop=^5
+bspc rule -a Pavucontrol desktop=^9
+bspc rule -a Spotify desktop=^8

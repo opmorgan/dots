@@ -4,7 +4,7 @@
 ## This way, it is easy to switch between shells and keep settings similar.
 
 #### Set environmental variables
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$HOME/scripts/copy_without_linebreaks:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin:$HOME/.TinyTeX/bin/x86_64-linux:$HOME/src/st"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$HOME/scripts/copy_without_linebreaks:$HOME/scripts/rofi:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin:$HOME/.TinyTeX/bin/x86_64-linux:$HOME/src/st"
 
 ## Special directories
 if [ -f "$HOME/.config" ]; then
@@ -35,7 +35,7 @@ umask 0002 #makes directory sharing easier
 
 
 #### Source configuration files
-## fff (file manager) config 
+## fff (file manager) config
 if [ -f $XDG_CONFIG_HOME/.fffrc ]; then
   source $XDG_CONFIG_HOME/.fffrc
 fi
@@ -122,13 +122,13 @@ alias lopdf='libreoffice --headless --convert-to pdf '
 alias oms='optimus-manager --status'
 
 ## Cups (https://github.com/OpenPrinting/cups)
-## Print to default printer, two-sided. 
+## Print to default printer, two-sided.
 alias pb='lp -o sides=two-sided-long-edge -o PageSize=Letter'
 alias bp='pb'
 
 ## QMK
-## Shortcut to flash keymap to dz60 keyboard. Use a keymap named "custom" in the folder 
-## "~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter 
-## (or holding escape while plugging in the keyboard)  before flashing. Run this command from 
+## Shortcut to flash keymap to dz60 keyboard. Use a keymap named "custom" in the folder
+## "~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter
+## (or holding escape while plugging in the keyboard)  before flashing. Run this command from
 ## bin/qmkfirmware/, with sudo.
 alias flash='make dztech/dz60rgb:custom:flash'
