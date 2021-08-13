@@ -1,18 +1,18 @@
-"pulseaudio-ctl up 5; bash /home/om/scripts/vol_not.sh up"
+"pulseaudio-ctl up 5"
     m:0x0 + c:123
     XF86AudioRaiseVolume
 
-"pulseaudio-ctl down 5; bash /home/om/scripts/vol_not.sh down"
+"pulseaudio-ctl down 5"
     m:0x0 + c:122
     XF86AudioLowerVolume
 
-"pulseaudio-ctl mute; bash /home/om/scripts/vol_not.sh mute"
+"pulseaudio-ctl mute"
     m:0x0 + c:121
     XF86AudioMute
 
 "playerctl play-pause"
     XF86AudioPlay
-    
+
 "playerctl play-pause"
     Pause
 

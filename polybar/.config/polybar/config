@@ -24,12 +24,15 @@ width = 100%
 height = 30
 fixed-center = true
 
-modules-left = xwindow
-modules-center = bspwm
-modules-right = date
+modules-left = bspwm xwindow
+modules-center = date
+modules-right = pulseaudio
 
 font-0 = "IBM Plex Mono:style=Regular:pixelsize=10;1"
+;For volume icons:
 font-1 = "Material Icons:style=Regular:pixelsize=12;2"
+;For box characters:
+font-2 = "Fira Mono:style=Regular:pixelsize=10;3" 
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -37,9 +40,34 @@ foreground = ${colors.foreground}
 padding-left = 3
 padding-right = 3
 
+module-margin-right = 3
+
 line-size = 3
 
 tray-position = none
+
+[module/pulseaudio]
+type = internal/pulseaudio
+interval = 5
+
+format-volume = <ramp-volume> <label-volume> <bar-volume>
+format-muted = <label-muted> <bar-volume>
+label-volume = %percentage:3%
+label-muted =  %percentage:3%
+label-muted-foreground = ${colors.alert}
+
+bar-volume-width = 20
+bar-volume-indicator = ╸
+bar-volume-fill = ─
+bar-volume-fill-font = 3
+bar-volume-empty = ─
+bar-volume-empty-foreground = ${colors.gray}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+click-right = pavucontrol
 
 [module/date]
 type = internal/date
@@ -60,10 +88,9 @@ label-padding = 0
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:50:...%
-label-maxlen = 100 
+label-maxlen = 100
 format-padding = 0
-label-foreground = ${colors.foreground} 
-
+label-foreground = ${colors.foreground}
 
 
 [module/bspwm]

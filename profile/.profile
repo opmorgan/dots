@@ -19,9 +19,7 @@ fi
 if [ -f "$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns" ]; then
   export WOW_ADDONS_PATH="$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns"
 fi
-if [ -f "$HOME/media/pics/shots" ]; then
-  export SHOTS="$HOME/media/pics/shots"
-fi
+export SHOTS="$HOME/media/pics/shots"
 
 ## Shell
 export HISTSIZE=1000 ## The number of commands each shell session should remember
