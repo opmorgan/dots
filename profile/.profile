@@ -4,7 +4,7 @@
 ## This way, it is easy to switch between shells and keep settings similar.
 
 #### Set environmental variables
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$HOME/scripts/copy_without_linebreaks:$HOME/scripts/rofi:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin:$HOME/.TinyTeX/bin/x86_64-linux:$HOME/src/st"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$HOME/scripts/copy_without_linebreaks:$HOME/scripts/rofi:$HOME/scripts/polybar:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin:$HOME/.TinyTeX/bin/x86_64-linux:$HOME/src/st"
 
 ## Special directories
 if [ -f "$HOME/.config" ]; then
