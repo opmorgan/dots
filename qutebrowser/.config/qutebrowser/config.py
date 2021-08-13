@@ -41,6 +41,7 @@ c.auto_save.session = True
 
 # Scrollbar
 c.scrolling.bar = 'when-searching'
+config.bind('s', 'config-cycle scrolling.bar always when-searching')
 
 # Zoom
 c.zoom.default = '100%'
@@ -56,8 +57,11 @@ c.input.insert_mode.leave_on_load = True
 
 # Statusbar: behavior
 c.statusbar.show = 'in-mode'
-# config.bind('b', 'config-cycle statusbar.show always in-mode')
+config.bind('b', 'config-cycle statusbar.show always in-mode')
 config.bind('t', 'config-cycle tabs.show always switching')
+# remap "b/B" to "q/Q"
+config.bind('q', 'set-cmd-text -s :quickmark-load')
+config.bind('Q', 'set-cmd-text -s :quickmark-load -t')
 # Statusbar: widgets
 c.statusbar.widgets = ['keypress', 'url', 'scroll', 'progress']
 # Style
