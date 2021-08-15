@@ -2,7 +2,7 @@
 title: "PDF Report"
 author: "Owen Morgan"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: 
+output:
   pdf_document:
     df_print: kable
     latex_engine: xelatex
@@ -23,5 +23,3 @@ options(knitr.kable.NA = "")
 ```{r lib}
 library(here)
 ```
-
-

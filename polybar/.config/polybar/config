@@ -54,7 +54,7 @@ label = RAM %gb_used%
 [module/updates]
 type = custom/script
 exec = ~/scripts/polybar/updates-pacman-aurhelper.sh
-interval = 3600
+interval = 6
 
 
 [module/temperature]
@@ -125,7 +125,7 @@ time = "%I:%M %p  "
 time-alt = "%H:%M  "
 
 label = %date% - %time%
-label-foreground = ${colors.foreground} 
+label-foreground = ${colors.foreground}
 label-background = ${colors.background}
 label-padding = 0
 

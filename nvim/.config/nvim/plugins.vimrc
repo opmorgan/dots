@@ -203,6 +203,7 @@ nnoremap <Leader>q :Bdelete<CR>
 " let g:tex_indent_and=0
 " let g:tex_indent_brace=0
 
+
 " arara
 " let g:tex_flavor='arara'
 " let g:Tex_DefaultTargetFormat='pdf'
@@ -211,6 +212,7 @@ nnoremap <Leader>q :Bdelete<CR>
 " " The following is relevant to make LaTeX rerun after biber if necessary: 
 " " (include all formats for which re-running is to be enabled)
 " let g:Tex_MultipleCompileFormats='pdf'
+
 
 "" fff
 " Open fff on press of 'f'
