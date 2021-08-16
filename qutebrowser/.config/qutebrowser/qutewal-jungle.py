@@ -337,6 +337,16 @@ if os.path.isfile(colors_absolute):
     # Type: QtColor
     c.colors.tabs.selected.odd.fg = background
 
+    # Colors for pinned tabs
+    c.colors.tabs.pinned.even.bg = background
+    c.colors.tabs.pinned.odd.bg = background
+    c.colors.tabs.pinned.even.fg = foreground
+    c.colors.tabs.pinned.odd.fg = foreground
+    c.colors.tabs.pinned.selected.even.bg = magenta
+    c.colors.tabs.pinned.selected.odd.bg = magenta
+    c.colors.tabs.pinned.selected.even.fg = background
+    c.colors.tabs.pinned.selected.odd.fg = background
+
     # Background color for webpages if unset (or empty to use the theme's
     # color)
     # Type: QtColor

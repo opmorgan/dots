@@ -20,51 +20,94 @@ if [ -f /usr/share/nvm/init-nvm.sh ]; then
   source /usr/share/nvm/init-nvm.sh
 fi
 
-# functions
-function gpu-offload {
-  /usr/bin/prime-offload
+
+#### Source configuration files
+## fff (file manager) config
+if [ -f $XDG_CONFIG_HOME/.fffrc ]; then
+  source $XDG_CONFIG_HOME/.fffrc
+fi
+
+## Nvm (Node package manager) config
+if [ -f /usr/share/nvm/init-nvm.sh ]; then
+  source /usr/share/nvm/init-nvm.sh
+fi
+
+
+#### Functions
+## Sync time when dual-booted Windows changes clock
+sync_time() {
+  sudo ntpd -qg
 }
 
-function gpu-switch {
-  sudo /usr/bin/prime-switch
+## Remove temporary latex files
+texc() {
+  ls | grep -P '.*(?<!tex|bib|bbx|cbx|dbx)$' | xargs rm
 }
 
-function gpu-nvidia {
-  optimus-manager --switch nvidia --no-confirm
+## Launch fff and cd on exit
+## depends on: fff
+f() {
+  fff "$@"
+  cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
 }
 
-function gpu-intel {
-  optimus-manager --switch intel --no-confirm
+## List recenty installed, upgraded, and removed packages
+pac_recent() {
+  grep "\(installed\|upgraded\|removed\) $pkg" /var/log/pacman.log
 }
 
-## if the shell is interactive, tmux exists, and tmux isn't already running, start tmux.
-#if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#  exec tmux new-session -A -s main
-#fi
 
-# set aliases
-alias sudo='sudo '
+#### Aliases
+
+## Shell
+alias sudo='sudo ' # The space is so that aliases can be run after sudo
+alias please='sudo '
+alias a='./a.out'
 alias ls='ls --color=auto'
 alias l.='ls -d .*'
 alias lsa='ls -a'
 alias ll='ls -lh'
 alias ll.='ll -d .*'
-alias la='ls -lha'
-alias tp='trash-put'
-alias git pus='git push'
+alias lla='ls -lha'
+alias rm='rm -i' ## Makes rm unusable for many files: use trash instead
+
+## Directory shortcuts
+alias cd.='cd ~/dots'
+
+### External programs
+alias ping!='ping archlinux.com'
+alias grep='grep -i' ## Ignore case. To match case, override with --no-ignore-case
+alias untar='tar -xvzf'
 alias vi='nvim'
 alias v='nvim'
-alias d='drive'
-alias git pul='git pull'
-alias git pus='git push'
-alias untar='tar -xvzf'
-alias calc='python -ic "from math import *"'
-alias rm='rm -i'
+alias z='zathura'
+alias g='git'
+alias ga='git add -A'
+alias gc='git commit -m'
+alias gp='git push'
+alias gl='git pull'
 alias R='R --quiet --no-save'
 alias feh='feh --image-bg black -.'
-alias lo="libreoffice"
-alias z="zathura"
+alias qb='qutebrowser'
+alias tp='trash-put' ## trash-cli (https://github.com/andreafrancia/trash-cli.git)
+alias d='drive' ## https://github.com/odeke-em/drive.git
+
+alias m='systemctl start moneroocean_miner.service' ## https://github.com/MoneroOcean/xmrig_setup.git
+alias sm='systemctl stop moneroocean_miner.service'
+alias calc='python -ic "from math import *"'
+
+## Scripts
+alias cwl='copy_without_linebreaks.sh' ## ~/scripts/copy_without_linebreaks.sh
+alias tem='template' ## ~/scripts/template
+
+## Libreoffice
+alias lo='libreoffice'
+## Print microsoft documents to pdf
+alias lopdf='libreoffice --headless --convert-to pdf '
 alias oms='optimus-manager --status'
-# shortcut to qmk flashing keymap to dz60 keyboard. use a keymap named "custom" in the folder ~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter (or holding escape while plugging in the keyboard)  before flashing. Run this command from bin/qmkfirmware/, with sudo.
-alias flash='make dztech/dz60rgb:custom:flash'
+
+## Cups (https://github.com/OpenPrinting/cups)
+## Print to default printer, two-sided.
+alias pb='lp -o sides=two-sided-long-edge -o PageSize=Letter'
+alias bp='pb'
 
