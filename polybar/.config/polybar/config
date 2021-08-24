@@ -54,7 +54,7 @@ label = RAM %gb_used%
 [module/updates]
 type = custom/script
 exec = ~/scripts/polybar/updates-pacman-aurhelper.sh
-interval = 6
+interval = 12
 
 
 [module/temperature]
