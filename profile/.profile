@@ -10,7 +10,7 @@ export HISTSIZE=1000 #increase shell history length
 export MPD_HOST=~/.mpv/socket
 
 # set $PATH
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/scripts/copy_without_linebreaks:$HOME/scripts/polybar"
 
 # permissions
 umask 0002 #makes directory sharing easier
@@ -86,6 +86,7 @@ alias ga='git add -A'
 alias gc='git commit -m'
 alias gp='git push'
 alias gl='git pull'
+alias gs='git status'
 alias R='R --quiet --no-save'
 alias feh='feh --image-bg black -.'
 alias qb='qutebrowser'

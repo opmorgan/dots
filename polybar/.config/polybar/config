@@ -42,7 +42,6 @@ width = 100%
 height = 30
 offset-x = 0%
 offset-y = 0%
-; offset-y = 1015
 fixed-center = true
 
 background = ${colors.background}
@@ -56,7 +55,7 @@ border-size = 3
 border-color = ${colors.light_red}
 radius = 0.0
 
-padding-left = 0 
+padding-left = 4 
 padding-right = 4
 
 module-margin-left = 4
@@ -69,7 +68,7 @@ font-3 = Font Awesome 5 Free:style=Regular:pixelsize=12;3
 font-4 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-5 = Font Awesome 5 Brands:pixelsize=10;3
 
-modules-left = 
+modules-left = pulseaudio updates network cpu memory
 modules-center = bspwm
 modules-right = xwindow musicinfo date battery
 
@@ -90,6 +89,70 @@ label = %date% - %time%
 label-foreground = ${colors.foreground} 
 label-background = ${colors.background}
 label-padding = 0
+
+[module/memory]
+type = internal/memory
+interval = 6
+format = <label>
+label = RAM %gb_used%
+
+
+[module/updates]
+type = custom/script
+exec = ~/scripts/polybar/updates-pacman-aurhelper.sh
+interval = 12
+
+[module/cpu]
+type = internal/cpu
+interval = 6
+format = <label>
+label = CPU %percentage%%
+
+
+[module/network]
+type = internal/network
+interface = wlp3s0
+interval = 6
+
+format-connected = <label-connected> <ramp-signal>
+format-disconnected = <label-disconnected>
+label-connected = %ifname% 
+label-connected-foreground = ${colors.green}
+label-disconnected = %ifname% not connected
+disconnected-foreground = ${colors.alert}
+
+; Only applies if <ramp-signal> is used
+ramp-signal-foreground = ${colors.green}
+ramp-signal-0 = [x]
+ramp-signal-1 = [1/5]
+ramp-signal-2 = [2/5]
+ramp-signal-3 = [3/5]
+ramp-signal-4 = [4/5]
+ramp-signal-5 = [5/5]
+
+[module/pulseaudio]
+type = internal/pulseaudio
+interval = 5
+
+format-volume = <ramp-volume> <label-volume> <bar-volume>
+format-muted = <label-muted> <bar-volume>
+
+label-volume = %percentage:3%
+label-muted =  %percentage:3%
+label-muted-foreground = ${colors.alert}
+
+bar-volume-width = 20
+bar-volume-indicator = ╸
+bar-volume-fill = ─
+bar-volume-fill-font = 3
+bar-volume-empty = ─
+bar-volume-empty-foreground = ${colors.gray}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+click-right = pavucontrol
 
 [module/battery]
 type = internal/battery
