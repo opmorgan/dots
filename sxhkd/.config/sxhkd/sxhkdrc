@@ -141,15 +141,15 @@ super + {semicolon,slash,bracketleft,apostrophe}
 #
 # take screenshots with maim
 Print
-  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S).png & screenshot_not.sh
+  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_fullscreen).png & screenshot_not.sh
 
 # take fullscreen screenshot with maim (macOS-like keybind)
 ctrl + 4
-  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S).png & screenshot_not.sh
+  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_fullscreen).png & screenshot_not.sh
 
 # take screenshot of selection with maim (macOS-like keybind)
 shift + ctrl + 4
-  maim --delay=1.0 -s ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S).png & screenshot_not.sh
+  maim --delay=1.0 -s ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_selection).png & screenshot_not.sh
 
 # decrease/increase transparency
 control + super + alt + k

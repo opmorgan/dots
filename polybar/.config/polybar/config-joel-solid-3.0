@@ -24,35 +24,9 @@ width = 100%
 height = 30
 fixed-center = true
 
-modules-left = pulseaudio xwindow
+modules-left = pulseaudio updates xwindow
 modules-center = bspwm
-modules-right = cpu temperature memory filesystem network updates date
-
-font-0 = "IBM Plex Mono:style=Regular:pixelsize=10;1"
-;For volume icons:
-font-1 = "Material Icons:style=Regular:pixelsize=12;2"
-;For box characters:
-font-2 = "Fira Mono:style=Regular:pixelsize=10;3"
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-padding-left = 3
-padding-right = 3
-module-margin-right = 3
-line-size = 3
-
-tray-position = none
-
-[bar/bar2]
-monitor = ${env:MONITOR:}
-width = 100%
-height = 30
-fixed-center = true
-
-modules-left = bspwm
-modules-center = xwindow
-modules-right = date
+modules-right = cpu temperature memory filesystem network date
 
 font-0 = "IBM Plex Mono:style=Regular:pixelsize=10;1"
 ;For volume icons:

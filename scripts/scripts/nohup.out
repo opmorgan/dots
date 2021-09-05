@@ -80,3 +80,20 @@ polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=10" (name=IB
 polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=10" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
 polybar|notice:  Termination signal received, shutting down...
 polybar|notice:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0c_00.4.analog-stereo
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=10" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=10" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  Termination signal received, shutting down...

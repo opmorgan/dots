@@ -20,12 +20,14 @@ if [ -f "$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World
   export WOW_ADDONS_PATH="$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns"
 fi
 export SHOTS="$HOME/media/pics/shots"
+export EDU="$HOME/gdrive/edu"
 
 ## Shell
 export HISTSIZE=1000 ## The number of commands each shell session should remember
 
 ## System
-export QT_QPA_PLATFORMTHEME=gtk2 ## use gtk theme in qt applications
+# export QT_QPA_PLATFORMTHEME=gtk2 ## use gtk theme in qt applications
+# export QT_QPA_PLATFORMTHEME=gnome ## use gtk theme in qt applications 
 export GTK_USE_PORTAL=1 ## same file dialog for gtk and qt
 export EDITOR=nvim
 export VISUAL=nvim
@@ -111,6 +113,7 @@ alias d='drive' ## https://github.com/odeke-em/drive.git
 
 alias m='systemctl start moneroocean_miner.service' ## https://github.com/MoneroOcean/xmrig_setup.git
 alias sm='systemctl stop moneroocean_miner.service'
+alias mj='journalctl -u moneroocean_miner -f'
 alias calc='python -ic "from math import *"'
 
 ## Scripts
