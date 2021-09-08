@@ -152,10 +152,10 @@ shift + ctrl + 4
   maim --delay=1.0 -s ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_selection).png & screenshot_not.sh
 
 # decrease/increase transparency
-control + super + alt + k
+control + alt + k
   picom-trans -c -5
 
-control + super + alt + j
+control + alt + j
   picom-trans -c +5
 
 

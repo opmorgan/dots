@@ -5,7 +5,7 @@ do
   if [ "$arg" == "home" ] || [ "$arg" == "h" ]
   then
     echo "Initializing home config..."
-    /bin/bash /home/om/.screenlayout/ithaca.sh
+    /bin/bash /home/om/.screenlayout/Ithaca_2.sh
   elif [ "$arg" == "--center" ] || [ "$arg" == "c" ]
   then
     center=true
