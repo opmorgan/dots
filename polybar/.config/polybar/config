@@ -100,7 +100,7 @@ label = RAM %gb_used%
 [module/updates]
 type = custom/script
 exec = ~/scripts/polybar/updates-pacman-aurhelper.sh
-interval = 12
+interval = 600
 
 [module/cpu]
 type = internal/cpu
@@ -116,7 +116,7 @@ interval = 6
 
 format-connected = <label-connected> <ramp-signal>
 format-disconnected = <label-disconnected>
-label-connected = %ifname% 
+label-connected = %essid% 
 label-connected-foreground = ${colors.green}
 label-disconnected = %ifname% not connected
 disconnected-foreground = ${colors.alert}
