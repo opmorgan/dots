@@ -6,9 +6,9 @@ super + F1
 super + Return
     st -e tmux
 #
-# open a terminal with tmate (for shared sessions)
-super + alt + Return
-  st -e tmat
+# open a terminal with ranger
+Super + alt + return
+  st -e ranger
 
 # open rofi
 super + space
