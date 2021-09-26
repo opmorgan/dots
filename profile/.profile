@@ -84,9 +84,9 @@ alias a='./a.out'
 alias ls='ls --color=auto'
 alias l.='ls -d .*'
 alias lsa='ls -a'
-alias ll='ls -lh'
+alias ll='ls -lh --sort=time'
 alias ll.='ll -d .*'
-alias lla='ls -lha'
+alias lla='ls -lha --sort=time'
 alias rm='rm -i' ## Makes rm unusable for many files: use trash instead
 
 ## Directory shortcuts
