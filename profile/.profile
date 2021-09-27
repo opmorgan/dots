@@ -34,8 +34,8 @@ export VISUAL=nvim
 
 
 #### Permissions
-umask 0002 #makes directory sharing easier
-
+umask 027 #Gentoo's default
+## https://blogs.gentoo.org/mgorny/2011/10/18/027-umask-a-compromise-between-security-and-simplicity/
 
 #### Source configuration files
 ## fff (file manager) config
