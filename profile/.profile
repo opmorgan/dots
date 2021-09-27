@@ -34,7 +34,7 @@ export VISUAL=nvim
 
 
 #### Permissions
-umask 027 #Gentoo's default
+umask 0027 #Gentoo's default
 ## https://blogs.gentoo.org/mgorny/2011/10/18/027-umask-a-compromise-between-security-and-simplicity/
 
 #### Source configuration files
