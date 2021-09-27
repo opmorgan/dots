@@ -21,6 +21,7 @@ if [ -f "$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World
 fi
 export SHOTS="$HOME/media/pics/shots"
 export EDU="$HOME/gdrive/edu"
+export XC="$HOME/gdrive/xcog"
 
 ## Shell
 export HISTSIZE=1000 ## The number of commands each shell session should remember
