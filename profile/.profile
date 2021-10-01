@@ -75,6 +75,7 @@ alias rm='rm -i' ## Makes rm unusable for many files: use trash instead
 alias cd.='cd ~/dots'
 
 ### External programs
+alias md='pandoc -t markdown' ## convert document to markdown (e.g., to read docx in vim)
 alias ping!='ping archlinux.com'
 alias grep='grep -i' ## Ignore case. To match case, override with --no-ignore-case
 alias untar='tar -xvzf'
