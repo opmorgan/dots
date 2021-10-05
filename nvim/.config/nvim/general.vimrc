@@ -49,3 +49,22 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
+
+" Set terminal to default to insert mode
+" https://github.com/neovim/neovim/issues/8816
+if has('nvim')
+    autocmd TermOpen term://* startinsert
+endif
+" let g:previous_window = -1
+" function SmartInsert()
+"   if &buftype == 'terminal'
+"     if g:previous_window != winnr()
+"       startinsert
+"     endif
+"     let g:previous_window = winnr()
+"   else
+"     let g:previous_window = -1
+"   endif
+" endfunction
+"
+" au BufEnter * call SmartInsert()

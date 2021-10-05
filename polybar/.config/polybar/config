@@ -177,6 +177,8 @@ label-foreground = ${colors.foreground}
 [module/bspwm]
 type = internal/bspwm
 
+enable-click = true
+
 ; ws-icon-[0-9]+ = <label>;<icon>
 ; Note that the <label> needs to correspond with the bspwm workspace name
 ; Neither <label> nor <icon> can contain a semicolon (;)

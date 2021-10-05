@@ -6,8 +6,11 @@ config.source('qutewal-zenburn.py')
 
 # Keybindings
 config.unbind('d')
+config.unbind('D')
 config.unbind('r')
 config.unbind('R')
+config.unbind('<Ctrl-x>')
+config.unbind('.')
 config.bind('<alt-r>', 'reload')
 config.bind('<alt-R>', 'reload')
 config.bind('<alt-h>', 'tab-prev')

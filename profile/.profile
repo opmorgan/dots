@@ -35,8 +35,7 @@ export VISUAL=nvim
 
 
 #### Permissions
-umask 0027 #Gentoo's default
-## https://blogs.gentoo.org/mgorny/2011/10/18/027-umask-a-compromise-between-security-and-simplicity/
+umask 0002
 
 #### Source configuration files
 ## fff (file manager) config
