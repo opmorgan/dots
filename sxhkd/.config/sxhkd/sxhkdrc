@@ -117,10 +117,18 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {semicolon,slash,bracketleft,apostrophe}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
-#
+
 # take screenshots with maim
 Print
-  maim ~/media/pics/shots/$(date +%m-%d-%y_%H%M-%S).png & screenshot_not.sh
+  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_fullscreen).png & screenshot_not.sh
+
+# take fullscreen screenshot with maim (macOS-like keybind)
+ctrl + 4
+  maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_fullscreen).png & screenshot_not.sh
+
+# take screenshot of selection with maim (macOS-like keybind)
+shift + ctrl + 4
+  maim --delay=1.0 -s ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_selection).png & screenshot_not.sh
 
 # decrease/increase transparency
 control + super + alt + k
