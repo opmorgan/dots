@@ -23,6 +23,7 @@ Plug 'airblade/vim-gitgutter'
 " multi-file search
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+" For full functionality, install ripgrep on system
 
 " function to get git branch
 Plug 'itchyny/vim-gitbranch'
