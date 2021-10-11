@@ -10,3 +10,5 @@
 	glog = log --oneline --graph
 [init]
 	defaultBranch = trunk
+[credential]
+	helper = cache

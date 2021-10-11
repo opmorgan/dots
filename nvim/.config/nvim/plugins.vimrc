@@ -155,12 +155,13 @@ let R_assign = 0
 nmap <M-CR> <Plug>RDSendLine
 inoremap <M-CR> <Esc>:call SendLineToR("stay")<CR><Down><Home>i
 vmap <M-CR> <Plug>RDSendSelection
+nmap <M-c> <Plug>RDSendChunk
 
 " remap chunk running
-nmap <LocalLeader>cc <Plug>RSendChunk
-nmap <LocalLeader>ce <Plug>RESendChunk
-nmap <LocalLeader>cd <Plug>RDSendChunk
-nmap <LocalLeader>ca <Plug>REDSendChunk
+" nmap <LocalLeader>cc <Plug>RSendChunk
+nmap <LocalLeader>cc <Plug>RESendChunk
+" nmap <LocalLeader>cd <Plug>RDSendChunk
+nmap <LocalLeader>cd <Plug>REDSendChunk
 nmap <LocalLeader>ch <Plug>RSendChunkFH
 
 " remap start linked r console
