@@ -82,6 +82,8 @@ alias sudo='sudo ' # The space is so that aliases can be run after sudo
 alias please='sudo '
 alias a='./a.out'
 
+alias lt='exa --tree'
+alias lta='exa -a --tree'
 alias ls='exa -F'
 alias l.='exa -dF .*'
 alias lsa='exa -aF'
