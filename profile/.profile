@@ -81,12 +81,20 @@ source $HOME/.secret_aliases
 alias sudo='sudo ' # The space is so that aliases can be run after sudo
 alias please='sudo '
 alias a='./a.out'
-alias ls='ls --color=auto'
-alias l.='ls -d .*'
-alias lsa='ls -a'
-alias ll='ls -lh --sort=time'
-alias ll.='ll -d .*'
-alias lla='ls -lha --sort=time'
+
+alias ls='exa -F'
+alias l.='exa -dF .*'
+alias lsa='exa -aF'
+alias ll='exa -lF --sort=time'
+alias ll.='exa -dF .*'
+alias lla='exa -laF --sort=time'
+
+# alias ls='ls --color=auto'
+# alias l.='ls -d .*'
+# alias lsa='ls -a'
+# alias ll='ls -lh --sort=time'
+# alias ll.='ll -d .*'
+# alias lla='ls -lha --sort=time'
 alias rm='rm -i' ## Makes rm unusable for many files: use trash instead
 
 ## Directory shortcuts
