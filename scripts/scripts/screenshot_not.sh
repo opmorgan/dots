@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+## Depends on mpg123, notify-send
+
 icon="$HOME/scripts/resources/screenshot_not/ic_camera_black_24dp.png"
 
 notify-send "Shot saved to: media/pics/shots/" -i "$icon"
