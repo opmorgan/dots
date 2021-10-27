@@ -18,9 +18,11 @@ Plug 'tpope/vim-repeat'
 Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 
 "" LSP, autocompletion, linting, +
+"" TODO: switch to native LSP support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
+Plug 'github/copilot.vim'
 
 "" Multi-file search
 Plug 'junegunn/fzf'
@@ -33,11 +35,11 @@ Plug 'itchyny/vim-gitbranch'
 Plug 'jalvesaq/Nvim-R'
 Plug 'posva/vim-vue'
 Plug 'lervag/vimtex'
+Plug 'm-pilia/vim-pkgbuild'
 " Plug 'xuhdev/vim-latex-live-preview'
 " Plug 'goballooning/vim-live-latex-preview'
 "" Autosave, for latex livepreviewing with vimtex
 Plug '907th/vim-auto-save'
-Plug 'm-pilia/vim-pkgbuild'
 
 "" Keypress aliases
 Plug 'vim-scripts/cmdalias.vim'
