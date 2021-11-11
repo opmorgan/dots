@@ -184,6 +184,7 @@ static unsigned int defaultattr = 11;
  */
 static uint forcemousemod = ShiftMask;
 
+
 /*
  * Xresources preferences to load at startup
  */
