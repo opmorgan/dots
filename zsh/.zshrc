@@ -11,7 +11,9 @@ fi
 ## Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.
-(cat ~/.cache/wal/sequences &)
+if [ -f ~/.cache/wal/sequences ]; then
+  (cat ~/.cache/wal/sequences &)
+fi
 
 ## Add wal colors to TTY
 if [ -f ~/.cache/wal/colors-tty.sh ]; then
