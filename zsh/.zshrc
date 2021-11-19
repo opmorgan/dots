@@ -1,5 +1,5 @@
 ## ~/.zshrc
-## zsh-specific shell configuration.
+# zsh-specific shell configuration.
 
 #### Source base configuration from .profile
 if [ -f ~/.profile ]; then
@@ -19,13 +19,6 @@ fi
 if [ -f ~/.cache/wal/colors-tty.sh ]; then
   source ~/.cache/wal/colors-tty.sh
 fi
-
-
-#### Alias to show help for zsh builtins
-unalias run-help
-autoload run-help
-alias help=run-help
-
 
 #### Plugins
 ## Install by cloning to /usr/share/zsh/plugins/

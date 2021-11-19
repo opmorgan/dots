@@ -1,9 +1,0 @@
-[Unit]
-Description=test unit. should send a notification
-
-[Service]
-Type=simple
-ExecStart=/home/om/.config/systemd/user/test.sh
-
-[Install]
-WantedBy=multi.unit.target
