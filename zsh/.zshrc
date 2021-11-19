@@ -36,7 +36,9 @@ fi
 
 ## zsh-vi-mode (use instead of builtin, bindkey-v)
 ## https://github.com/jeffreytse/zsh-vi-mode
-source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+if [ -f /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh ]; then
+  source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+fi
 
 
 #### Globbing

@@ -8,7 +8,11 @@ super + F1
 # open a new terminal
 super + Return
     st -e tmux
-#
+
+# open a new terminal with tabbed
+alt + shift + Return
+    tabbed -r 2 st -w ''
+
 # open a terminal with tmate (for shared sessions)
 super + alt + Return
   urxvt -e tmat
