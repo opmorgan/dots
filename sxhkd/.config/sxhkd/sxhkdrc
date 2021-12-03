@@ -19,7 +19,7 @@ super + alt + Return
 
 # run rofi
 super + space
-    rofi -combi-modi window,drun,run -show combi -modi combi
+    rofi -combi-modi drun,window,run -show combi -modi combi
 
 # run rofi file finder
 alt + space

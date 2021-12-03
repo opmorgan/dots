@@ -1,11 +1,12 @@
 configuration {
 	modi: "drun";
 	font: "Avenir 14";
-	combi-modi: "drun,window,blocks";
-	theme: "~/.cache/wal/colors-rofi-zenburn.rasi";
-  /* theme: "purple"; */
+	/* combi-modi: "drun,window,blocks"; */
+  combi-modi: "drun";
   location: 7;
 }
+
+@theme "~/.cache/wal/colors-rofi-zenburn.rasi"
 
 window {
   width: 100%;
