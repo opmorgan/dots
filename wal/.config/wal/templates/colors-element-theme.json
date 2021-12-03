@@ -1,0 +1,21 @@
+ {{  "name": "Pywaler",
+  "is_dark": true,
+  "colors": {{
+    "accent-color": "{color2}",
+    "primary-color": "{color2}",
+    "warning-color": "{color2}",
+    "sidebar-color": "{background}",
+    "roomlist-background-color": "{background}",
+    "roomlist-text-color": "{foreground}",
+    "roomlist-text-secondary-color": "{foreground}",
+    "roomlist-highlights-color": "#00000030",
+    "roomlist-separator-color": "#00000000",
+    "timeline-background-color": "{background}",
+    "timeline-text-color": "{foreground}",
+    "secondary-content": "{foreground}",
+    "tertiary-content": "{foreground}",
+    "timeline-text-secondary-color": "{color5}",
+    "timeline-highlights-color": "#00000030",
+    "reaction-row-button-selected-bg-color": "{color4}"
+  }}
+}}
