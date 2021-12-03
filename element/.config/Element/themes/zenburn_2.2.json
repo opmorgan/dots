@@ -1,12 +1,12 @@
 {
-    "name": "Zenburn 2.1",
+    "name": "Zenburn 2.2",
     "is_dark": true,
     "colors": {
         "accent-color": "#dc8cc3",
         "primary-color": "#dcdccc",
         "warning-color": "#cc9393",
 
-        "sidebar-color": "#828282",
+        "sidebar-color": "#3f3f3f",
         "roomlist-background-color": "#3f3f3f",
         "roomlist-text-color": "#7f9f7f",
         "roomlist-text-secondary-color": "#dcdccc",
