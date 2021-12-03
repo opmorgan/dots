@@ -1,5 +1,5 @@
 {
-    "name": "Zenburn 2.3",
+    "name": "Zenburn 2.4",
     "is_dark": true,
     "colors": {
         "accent-color": "#dc8cc3",
@@ -18,7 +18,7 @@
         "secondary-content": "#dcdccc",
         "tertiary-content": "#dcdccc",
         "timeline-text-secondary-color": "#93e0e3",
-        "timeline-highlights-color": "#262626",
+        "timeline-highlights-color": "#333333",
         "reaction-row-button-selected-bg-color": "#cc9393"
     }
 }
