@@ -9,9 +9,9 @@ reload_dunst() {
   sed -i "/    foreground =/c\    foreground = \"${foreground}\"" ~/.config/dunst/dunstrc
 }
 
-reload_cava(){
-  sed -i "/gradient_color_1=/c\gradient_color_1=\"${color3:-#000000}\"" ~/.config/cava/config
-  sed -i "/gradient_color_2=/c\gradient_color_2=\"${color4:-#000000}\"" ~/.config/cava/config
+reload_cava() {
+  sed -i "/gradient_color_1=/c\gradient_color_1 = \"${color3:-#000000}\"" ~/.config/cava/config
+  sed -i "/gradient_color_2=/c\gradient_color_2 = \"${color4:-#000000}\"" ~/.config/cava/config
 }
 
 reload_zathura() {
@@ -41,10 +41,15 @@ reload_zathura() {
   sed -i "/set notification-fg/c\set notification-fg \"${foreground:-#FFFFFF}\"" ~/.config/zathura/zathurarc
 }
 
+reload_tabbed() {
+  sed -i "/static const char* normbgcolor =/c\static const char* normbgcolor =\"${background}\"" ~/src/tabbed/config.h
+}
+
 main() {
     reload_dunst
     reload_zathura
     reload_cava
+    reload_tabbed
 }
 
 main
