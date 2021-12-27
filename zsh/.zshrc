@@ -77,7 +77,7 @@ case "$TERM" in (rxvt|rxvt-*|st|st-*|*xterm*|(dt|k|E)term|screen*|tmux*)
 esac
 
 # greeting message
-echo 'om@medulla'
+# echo 'om@medulla'
 
 # git prompt: show git status using github.com/woefe/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
