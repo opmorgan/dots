@@ -1,0 +1,15 @@
+configuration {
+	modi: "drun";
+	font: "Cozette 10";
+	combi-modi: "drun,window,blocks";
+  location: 7;
+}
+
+
+@theme "colors-rofi-jungle.rasi"
+
+window {
+  width: 100%;
+  height: 97.23%;
+}
+

@@ -29,6 +29,7 @@ config.bind('S', 'view-source')
 config.bind('s', 'config-source')
 config.bind('<Ctrl-=>', 'zoom-in')
 config.bind('<Ctrl-->', 'zoom-out')
+# config.bind('<Ctrl-T>', 'set-cmd-text -s :open -t')
 config.bind('z', 'zotero')
 config.bind('Z', 'Zotero')
 
@@ -116,17 +117,17 @@ c.hints.padding = {'top': 2, 'bottom': 2, 'left': 4, 'right': 4}
 c.hints.radius = 0
 ## Make characters in hint strings uppercase.
 ## Type: Bool
-c.hints.uppercase = False 
+c.hints.uppercase = False
 
 # default page
-c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
+c.url.default_page = 'about:blank'
 
 # default search engine
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 # c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q=!g {}', 'ddg': 'https://duckduckgo.com/?q={}', '!': 'https://duckduckgo.com/?q=!{}'}
 
 # start pages
-c.url.start_pages = 'https://workflowy.com/#/86cd9fc25479'
+c.url.start_pages = 'about:blank'
 
 # xwindow title
 c.window.title_format = '{perc}{current_title} | qb'
