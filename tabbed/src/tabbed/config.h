@@ -19,8 +19,8 @@ static       Bool urgentswitch  = False;
  * then the current position is changed + newposition. If npisrelative
  * is False, then newposition is an absolute position.
  */
-static int  newposition   = 0;
-static Bool npisrelative  = False;
+static int  newposition   = 1;
+static Bool npisrelative  = True;
 
 #define SETPROP(p) { \
         .v = (char *[]){ "/bin/sh", "-c", \
@@ -44,8 +44,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,     XK_Return, spawn,       { 0 } },
 	{ MODKEY,               XK_Return, spawn,       { 0 } },
 	{ ControlMask,          XK_Return, spawn,       { 0 } },
-	{ ControlMask,          XK_t, spawn,       { 0 } },
-	{ Mod1Mask,             XK_t, spawn,       { 0 } },
+	{ ControlMask,          XK_t, spawn,            { 0 } },
+	{ Mod1Mask,             XK_t, spawn,            { 0 } },
 
 	{ MODKEY,               XK_h,      rotate,      { .i = -1 } },
 	{ MODKEY,               XK_l,      rotate,      { .i = +1 } },
