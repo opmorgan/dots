@@ -33,6 +33,10 @@ Plug 'itchyny/vim-gitbranch'
 
 " Language/filetyle specific
 Plug 'jalvesaq/Nvim-R'
+" Trying old version too see if it
+" prevents R session from restarting
+" when I enter insert mode after running some code
+" Plug 'wsdjeg/Nvim-R'
 Plug 'posva/vim-vue'
 Plug 'lervag/vimtex'
 Plug 'm-pilia/vim-pkgbuild'

@@ -1,7 +1,7 @@
 "" Wal
 colorscheme wal
 "" change error color
-hi Error ctermfg=black ctermbg=magenta 
+hi Error ctermfg=black ctermbg=magenta
 
 "" Tcomment
 
@@ -21,7 +21,7 @@ hi Error ctermfg=black ctermbg=magenta
 "       \ 'component': {
 "       \   'lineinfo': '%3l:%-2v%<',
 "       \ },
-"       \ } 
+"       \ }
 
 " make the statusline thinner
 " function! LightlineFileformat()
@@ -54,12 +54,12 @@ let g:ale_r_lintr_lint_package = 0
 
 "" fzf-vim
 "
-" GFiles, Rg 
+" GFiles, Rg
 nnoremap <C-P> :GFiles<CR>
 " command! -bang -nargs=* PRg \ call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'dir': system('git -C '.expand('%:p:h').' rev-parse --show-toplevel 2> /dev/null')[:-2]}, <bang>0)
 nnoremap <C-S> :Rg<CR>
 " search current git repo
-" nnoremap <C-S> :PRg<CR> 
+" nnoremap <C-S> :PRg<CR>
 
 
 "" Vim coc
@@ -143,13 +143,15 @@ let g:rout_follow_colorscheme = 1
 " R commands in R output are highlighted
 let g:Rout_more_colors = 1
 
-"" open R console automatically for Rmd files
-" autocmd FileType rmd if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
-" autocmd FileType r if string(g:SendCmdToR) == "function('SendCmdToR_fake')" | call StartR("R") | endif
-" autocmd VimLeave * if exists("g:SendCmdToR") && string(g:SendCmdToR) != "function('SendCmdToR_fake')" | call RQuit("nosave") | endif
-
 " disable <- remapping
 let R_assign = 0
+
+" Start R automatically when opening an R file
+" 1 = start when you load an R script when starting vim
+" 2 = start r automatically when you start editing an R script (could this be
+" causing the problem that R restarts every time I enter input mode as of Jan
+" 9 2022?
+let R_auto_start = 1
 
 " remap send line/chunk
 nmap <M-CR> <Plug>RDSendLine
@@ -210,7 +212,7 @@ nnoremap <Leader>q :Bdelete<CR>
 " let g:Tex_DefaultTargetFormat='pdf'
 " " https://tex.stackexchange.com/questions/83715/biber-backend-and-vim-latex
 " let g:Tex_BibtexFlavor = 'biber'
-" " The following is relevant to make LaTeX rerun after biber if necessary: 
+" " The following is relevant to make LaTeX rerun after biber if necessary:
 " " (include all formats for which re-running is to be enabled)
 " let g:Tex_MultipleCompileFormats='pdf'
 
