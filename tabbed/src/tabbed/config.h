@@ -4,6 +4,7 @@
 /* To use wal colors, include the following line and
  * remove all lines in this file that include color declarations.
  * Customize wal colors with .config/wal/template/colors-wal-tabbed.h
+ * Running wal will create .cache/wal/... based on the template
  */
 #include "/home/om/.cache/wal/colors-wal-tabbed.h"
 static const char font[]        = "Avenir:size=9";
@@ -13,7 +14,6 @@ static const char titletrim[]   = "...";
 static const int  tabwidth      = 100;
 static const Bool foreground    = True;
 static       Bool urgentswitch  = False;
-static char cwscale = 4.0;
 
 /*
  * Where to place a new tab when it is opened. When npisrelative is True,
