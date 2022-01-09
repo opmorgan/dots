@@ -7,15 +7,7 @@ super + F1
 
 # open a new terminal
 super + Return
-    st -e tmux
-
-# open a new terminal with tabbed
-alt + shift + Return
     tabbed -r 2 st -w ''
-
-# open a terminal with tmate (for shared sessions)
-super + alt + Return
-  urxvt -e tmat
 
 # run rofi
 super + space
@@ -148,7 +140,7 @@ Print
   maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_fullscreen).png & screenshot_not.sh
 
 # take fullscreen screenshot with maim (macOS-like keybind)
-ctrl + 4
+ctrl + alt + 4
   maim ~/media/pics/shots/$(date +%Y-%m-%d_%H-%M-%S_fullscreen).png & screenshot_not.sh
 
 # take screenshot of selection with maim (macOS-like keybind)

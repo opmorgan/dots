@@ -62,12 +62,23 @@ setopt HIST_IGNORE_SPACE ## Type space at the beginning of a command to evade hi
 
 
 #### Window title
-## Set xwindow title to current directory, or last executed command
-case $TERM in
-  rxvt-unicode-256color|screen*|tmux*)
-    precmd () {print -Pn "\e]0;zsh: %~\a"}
-    preexec () {print -Pn "\e]0;zsh: $1\a"}
-    ;;
+# Dynamic window title with zsh shell.
+# Shows current directory and running (multi-line) command.
+# https://gist.github.com/resilar/ade1e0311755e7e0a402cbecc836f486
+case "$TERM" in (rxvt|rxvt-*|st|st-*|*xterm*|(dt|k|E)term|screen*|tmux*)
+    local term_title () { print -n "\e]0;${(j: :q)@}\a" }
+    precmd () {
+      #local DIR="$(print -P '%c/')"
+      local DIR="$(print -Pn '%(5~|%-1~/.../%3~|%4~)')"
+
+      term_title "zsh:" "$DIR"
+    }
+    preexec () {
+      local DIR="$(print -P '%c/')"
+      local CMD="${(j:\n:)${(f)1}}"
+      term_title "zsh:" "$CMD"
+    }
+  ;;
 esac
 
 
