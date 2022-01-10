@@ -87,8 +87,15 @@ nnoremap <CR> :noh<CR><CR>
 :nnoremap <M-S-i> 0i```{r}<CR>```<ESC><S-o>
 
 "Set keybind for knitting rmd document, if not handled by Nvim-R
-" " autocmd BufNewFile,BufFilePre,BufRead *.rmd,*.Rmd set filetype=rmd             
+" " autocmd BufNewFile,BufFilePre,BufRead *.rmd,*.Rmd set filetype=rmd
 " " I think filetype rmd is set by nvim-R
 " autocmd Filetype rmd map <M-S-k> :!Rscript -e "rmarkdown::render('%')"<CR><CR>
 " " to prompt for confirmation after knitting
 " " autocmd Filetype rmd map <M-S-k> :!Rscript -e "rmarkdown::render('%')"<CR>
+
+" from insert mode, backspace to end of previous line
+" (Using "line join" command)
+:nnoremap <F3> kJa
+" TODO: figure out how to map this to
+" shift + backspace in insert mode?
+:inoremap <F3> <Esc>kJa
