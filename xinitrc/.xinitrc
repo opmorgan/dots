@@ -10,5 +10,4 @@ xbindkeys &
 wal_set.sh &
 dunst &
 polyset.sh &
-picom &
 exec bspwm
