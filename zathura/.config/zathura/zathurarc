@@ -4,6 +4,7 @@ set page-padding 0
 set selection-clipboard "clipboard"
 set guioptions "s"
 set statusbar-basename 1
+set window-title-basename  true
 set window-title-home-tilde 1
 set window-height 1080
 set window-width 835
