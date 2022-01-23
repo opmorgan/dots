@@ -28,7 +28,7 @@ export HISTSIZE=1000 ## The number of commands each shell session should remembe
 
 ## System
 # export QT_QPA_PLATFORMTHEME=gtk2 ## use gtk theme in qt applications
-# export QT_QPA_PLATFORMTHEME=gnome ## use gtk theme in qt applications 
+# export QT_QPA_PLATFORMTHEME=gnome ## use gtk theme in qt applications
 export GTK_USE_PORTAL=1 ## same file dialog for gtk and qt
 export EDITOR=nvim
 export VISUAL=nvim
@@ -108,6 +108,7 @@ alias grep='grep -i' ## Ignore case. To match case, override with --no-ignore-ca
 alias untar='tar -xvzf'
 alias vi='nvim'
 alias v='nvim'
+alias zt='tabbed -c zathura -e"
 alias z='zathura'
 alias g='git'
 alias ga='git add -A'
