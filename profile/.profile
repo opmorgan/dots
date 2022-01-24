@@ -81,6 +81,7 @@ alias grep='grep -i' ## Ignore case. To match case, override with --no-ignore-ca
 alias untar='tar -xvzf'
 alias vi='nvim'
 alias v='nvim'
+alias zt='tabbed -c -r 2 zathura -e' # Launch zathura with tabbed
 alias z='zathura'
 alias g='git'
 alias ga='git add -A'
