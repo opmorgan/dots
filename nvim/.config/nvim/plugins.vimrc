@@ -201,7 +201,7 @@ let R_openhtml = 0
 nnoremap <Leader>q :Bdelete<CR>
 
 "" vimtex / latex
-" let g:vimtex_view_method = 'zathura'
+let g:vimtex_view_method = 'zathura'
 " let g:tex_indent_items=0
 " let g:tex_indent_and=0
 " let g:tex_indent_brace=0
