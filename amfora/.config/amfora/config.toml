@@ -169,8 +169,8 @@ bind_bottom = "o"
 # bind_pgdn
 bind_new_tab = "O"
 # bind_close_tab
-bind_next_tab = "Alt-L"
-# bind_prev_tab
+bind_next_tab = "Alt-'"
+bind_prev_tab = "Alt-;"
 # bind_quit
 # bind_help
 # bind_sub: for viewing the subscriptions page
