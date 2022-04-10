@@ -70,8 +70,8 @@ super + {_,shift + }{h,j,k,l}
 
 
 # focus the next/previous node in the current desktop
-super + {Tab, Grave}
-	bspc node -f {next,prev}.local
+# super + {Tab, Grave}
+# 	bspc node -f {next,prev}.local
 
 # focus the next/previous desktop in the current monitor
 # super + {comma,period}

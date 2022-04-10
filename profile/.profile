@@ -83,6 +83,7 @@ alias please='sudo '
 alias a='./a.out'
 
 alias lt='exa --tree'
+alias lst='exa --tree'
 alias lta='exa -a --tree'
 alias ls='exa -F'
 alias l.='exa -dF .*'
