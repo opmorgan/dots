@@ -31,6 +31,7 @@ config.bind('<Ctrl-=>', 'zoom-in')
 config.bind('<Ctrl-->', 'zoom-out')
 config.bind('z', 'zotero')
 config.bind('Z', 'Zotero')
+config.bind('<Ctrl-l>', 'set-cmd-text :open {url:pretty}')
 
 # Aliases
 c.aliases = {
@@ -121,7 +122,7 @@ c.hints.padding = {'top': 2, 'bottom': 2, 'left': 4, 'right': 4}
 c.hints.radius = 0
 ## Make characters in hint strings uppercase.
 ## Type: Bool
-c.hints.uppercase = False 
+c.hints.uppercase = False
 
 # Default page
 # c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
