@@ -42,6 +42,12 @@ if [ -f /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh ]; then
   source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 fi
 
+## zsh-output-highlighting
+if [ -f /usr/share/zsh/plugins/zsh-output-highlighting/zsh-output-highlighting.plugin.zsh ]; then
+  source /usr/share/zsh/plugins/zsh-output-highlighting/zsh-output-highlighting.plugin.zsh
+fi
+
+
 
 #### Globbing
 setopt EXTENDED_GLOB
@@ -100,3 +106,10 @@ PROMPT='%{$fg[red]%}%(?..(%?%) )%{$fg[yellow]%}%(5~|%-1~/.../%3~|%4~) > %{$reset
 ##                         Then, print the last three elements (%3~)
 ##                         Else, print the 4 or less elements (%4~).
 ## |  >                  | Prompt symbol, surrounded by spaces.
+
+
+#### Plugins that need to be sourced at end of file
+### zsh-syntax-highlighting
+if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
+  source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
