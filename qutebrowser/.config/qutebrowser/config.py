@@ -33,6 +33,14 @@ config.bind('z', 'zotero')
 config.bind('Z', 'Zotero')
 config.bind('<Ctrl-l>', 'set-cmd-text :open {url:pretty}')
 
+# Workaround for unwanted scrolling to top of page when new tab is created
+# https://github.com/qutebrowser/qutebrowser/issues/2236
+config.bind('o', 'set statusbar.show always;; set-cmd-text -s :open')
+config.bind('O', 'set statusbar.show always;; set-cmd-text -s :open -t')
+config.bind(':', 'set statusbar.show always;; set-cmd-text :')
+config.bind('<Escape>', 'enter-mode normal;; set statusbar.show in-mode', mode='command')
+config.bind('<Return>', 'command-accept;; set statusbar.show in-mode', mode='command')
+
 # Aliases
 c.aliases = {
         'zotero': 'hint links userscript zotero',

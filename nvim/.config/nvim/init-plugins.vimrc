@@ -22,7 +22,7 @@ Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 
 "" Multi-file search
 Plug 'junegunn/fzf'
