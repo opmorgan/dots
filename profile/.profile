@@ -128,6 +128,10 @@ alias sm='systemctl stop moneroocean_miner.service'
 alias mj='journalctl -u moneroocean_miner -f'
 alias calc='python -ic "from math import *"'
 
+alias pmm='python manage.py makemigrations'
+alias pm='python manage.py migrate'
+alias pr='python manage.py runserver'
+
 ## Scripts
 alias cwl='copy_without_linebreaks.sh' ## ~/scripts/copy_without_linebreaks.sh
 alias tem='template' ## ~/scripts/template
