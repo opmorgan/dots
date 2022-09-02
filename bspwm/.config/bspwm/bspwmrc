@@ -2,8 +2,6 @@
 
 polyset.sh &
 
-tabbed -r 2 st -w '' &
-
 sxhkd &
  . "${HOME}/.cache/wal/colors.sh"
 
@@ -45,3 +43,6 @@ bspc rule -a libreoffice-startcenter desktop=^3
 bspc rule -a Pavucontrol desktop=^7
 bspc rule -a Spotify desktop=^6
 bspc rule -a Discord desktop=^5
+
+
+tabbed -r 2 st -w '' &
