@@ -16,9 +16,6 @@ fi
 if [ -f "$HOME/.go" ]; then
   export GOPATH="$HOME/.go"
 fi
-if [ -f "$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns" ]; then
-  export WOW_ADDONS_PATH="$HOME/games/world-of-warcraft-classic/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns"
-fi
 export SHOTS="$HOME/media/pics/shots"
 export EDU="$HOME/gdrive/edu"
 export XC="$HOME/gdrive/xcog"
@@ -48,13 +45,7 @@ if [ -f /usr/share/nvm/init-nvm.sh ]; then
   source /usr/share/nvm/init-nvm.sh
 fi
 
-
 #### Functions
-## Sync time when dual-booted Windows changes clock
-sync_time() {
-  sudo ntpd -qg
-}
-
 ## Remove temporary latex files
 texc() {
   ls | grep -P '.*(?<!tex|bib|bbx|cbx|dbx)$' | xargs rm
@@ -74,8 +65,6 @@ pac_recent() {
 
 
 #### Aliases
-## Source aliases that shouldn't be on public version control
-source $HOME/.secret_aliases
 
 ## Shell
 alias sudo='sudo ' # The space is so that aliases can be run after sudo

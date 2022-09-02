@@ -1,13 +1,10 @@
-"pulseaudio-ctl up 5"
-    m:0x0 + c:123
+"pamixer -i 5"
     XF86AudioRaiseVolume
 
-"pulseaudio-ctl down 5"
-    m:0x0 + c:122
+"pamixer -d 5"
     XF86AudioLowerVolume
 
-"pulseaudio-ctl mute"
-    m:0x0 + c:121
+"pamixer --toggle-mute"
     XF86AudioMute
 
 "playerctl play-pause"

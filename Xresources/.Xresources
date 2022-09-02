@@ -25,7 +25,7 @@ URxvt.internalBorder: 25
 ! cursor
 URxvt.cursorBlink: false
 ! style
-URxvt.letterSpace: -1
+URxvt.letterSpace: 0
 ! perl plugins
 URxvt.perl-ext-common: default,matcher,osc-xterm-clipboard,selection-to-clipboard
 ! URxvt.url-launcher: /usr/bin/xdg-open

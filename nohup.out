@@ -1,0 +1,153 @@
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|notice:  Loading module 'updates' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=9" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|notice:  Loading module 'updates' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=9" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|notice:  Loading module 'updates' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=9" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|notice:  Loading module 'updates' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=9" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|notice:  Loading module 'updates' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=9" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+polybar|warn:  Naming your configuration file 'config' is deprecated, the expected name is 'config.ini'.
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1b.0.analog-stereo
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|notice:  Loading module 'updates' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=9" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...
+polybar|notice:  module/bspwm: Reconnecting to socket...
+polybar|error: module/bspwm: Failed to connect to socket (reason: No such file or directory)
+polybar|notice:  Stopping 'module/bspwm'...

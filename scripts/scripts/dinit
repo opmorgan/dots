@@ -9,10 +9,10 @@ do
   elif [ "$arg" == "--center" ] || [ "$arg" == "c" ]
   then
     center=true
-  elif [ "$arg" == "--joshdesk" ] || [ "$arg" == "j" ]
+  elif [ "$arg" == "xcog" ] || [ "$arg" == "x" ]
   then
-    echo "Initializing josh's desk config..."
-    /bin/bash /home/om/.screenlayout/josh-desk.sh
+    echo "Initializing lab conference room config..."
+    /bin/bash /home/om/.screenlayout/xcog-1.sh
   fi
 done
 echo "Initializing ricey goodness..."

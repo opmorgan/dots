@@ -6,8 +6,6 @@ configuration {
   location: 7;
 }
 
-@theme "~/.cache/wal/colors-rofi-zenburn.rasi"
-
 window {
   width: 100%;
   height: 97.23%;

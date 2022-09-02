@@ -86,12 +86,12 @@ c.tabs.close_mouse_button = 'right'
 
 # Fonts
 
-c.fonts.default_family = 'Avenir'
+c.fonts.default_family = 'IBM Plex Mono'
 # c.fonts.default_family = 'IBM Plex Mono'
 # c.fonts.default_family = 'IBM Plex Sans'
-c.fonts.default_size = '11pt'
+c.fonts.default_size = '10pt'
 c.fonts.tabs.selected = '10pt' + 'default_family'
-c.fonts.tabs.unselected = '10pt ' + 'default_family'
+c.fonts.tabs.unselected = '8pt ' + 'default_family'
 c.fonts.contextmenu = 'default_size default_family'
 c.fonts.completion.entry = 'default_size default_family'
 c.fonts.completion.category = 'default_size default_family'
@@ -121,7 +121,7 @@ c.hints.padding = {'top': 2, 'bottom': 2, 'left': 4, 'right': 4}
 c.hints.radius = 0
 ## Make characters in hint strings uppercase.
 ## Type: Bool
-c.hints.uppercase = False 
+c.hints.uppercase = False
 
 # Default page
 # c.url.default_page = 'https://workflowy.com/#/86cd9fc25479'
