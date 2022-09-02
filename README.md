@@ -1,4 +1,4 @@
-These \*nix dotfiles can be deployed quickly with stow. You can clone this repo to your home directory, then [use stow to symlink config files to their target locations.](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html) 
+These \*nix dotfiles can be deployed quickly with stow. You can clone this repo to your home directory, then [use stow to symlink config files to their target locations.](https://perma.cc/9QPQ-PPM8) 
 
 
 ![JoelCooper-rice](https://github.com/opmorgan/dots/blob/pons/.glamour-shots/joel.png?raw=true)
