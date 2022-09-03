@@ -84,3 +84,6 @@ Run the command: archinstall
 - select drive, disk layout ("suggestion" is good, don't create a separate partition for home)
 - audio: pulseaudio
 
+
+# Todo Sep 3
+Get Larbs to work with stow file structure, then later, think about refactoring dots (e.g., with a monorepo and script to make symlinks.
