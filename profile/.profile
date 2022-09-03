@@ -4,7 +4,7 @@
 ## This way, it is easy to switch between shells and keep settings similar.
 
 #### Set environmental variables
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$HOME/scripts/copy_without_linebreaks:$HOME/scripts/rofi:$HOME/scripts/polybar:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin:$HOME/.TinyTeX/bin/x86_64-linux:$HOME/src/st"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.cargo/bin:$HOME/scripts:$HOME/scripts/bspwm:$HOME/scripts/copy_without_linebreaks:$HOME/scripts/rofi:$HOME/scripts/polybar:$GOPATH:$GOPATH/bin:$HOME/.local/bin:$HOME/.config/systemd/user:$HOME/.config/nvim/plugged/vim-live-latex-preview/bin::$HOME/src/st"
 
 ## Special directories
 if [ -f "$HOME/.config" ]; then
@@ -80,12 +80,6 @@ alias ll='exa -lF --sort=time'
 alias ll.='exa -dF .*'
 alias lla='exa -laF --sort=time'
 
-# alias ls='ls --color=auto'
-# alias l.='ls -d .*'
-# alias lsa='ls -a'
-# alias ll='ls -lh --sort=time'
-# alias ll.='ll -d .*'
-# alias lla='ls -lha --sort=time'
 alias rm='rm -i' ## Makes rm unusable for many files: use trash instead
 
 ## Directory shortcuts
@@ -111,9 +105,6 @@ alias qb='qutebrowser'
 alias tp='trash-put' ## trash-cli (https://github.com/andreafrancia/trash-cli.git)
 alias d='drive' ## https://github.com/odeke-em/drive.git
 
-alias m='systemctl start moneroocean_miner.service' ## https://github.com/MoneroOcean/xmrig_setup.git
-alias sm='systemctl stop moneroocean_miner.service'
-alias mj='journalctl -u moneroocean_miner -f'
 alias calc='python -ic "from math import *"'
 
 ## Scripts
@@ -124,7 +115,6 @@ alias tem='template' ## ~/scripts/template
 alias lo='libreoffice'
 ## Print microsoft documents to pdf
 alias lopdf='libreoffice --headless --convert-to pdf '
-alias oms='optimus-manager --status'
 
 ## Cups (https://github.com/OpenPrinting/cups)
 ## Print to default printer, two-sided.

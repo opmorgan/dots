@@ -9,6 +9,6 @@
 [alias]
 	glog = log --oneline --graph
 [init]
-	defaultBranch = trunk
+	defaultBranch = main
 [credential]
 	helper = cache

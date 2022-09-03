@@ -10,50 +10,7 @@ Xft.rgba: rgb
 Xcursor.theme: Human
 ! Xcursor.size: 18
 
-!! urxvt
-! default window size
-URxvt*geometry: 60x18
-! disable ctrl + shift
-URxvt.iso14755: false
-URxvt.iso14755_52: false
-! font
-URxvt.font: xft:IBM Plex Mono:size=10:minspace=FALSE:style=regular
-URxvt.boldFont: xft:IBM Plex Mono:size=10:minspace=FALSE:style=regular
-! scrollbar
-URxvt.scrollBar: false
-URxvt.internalBorder: 25
-! cursor
-URxvt.cursorBlink: false
-! style
-URxvt.letterSpace: 0
-! perl plugins
-URxvt.perl-ext-common: default,matcher,osc-xterm-clipboard,selection-to-clipboard
-! URxvt.url-launcher: /usr/bin/xdg-open
-URxvt.matcher.button: 1
-URxvt.keysym.Shift-Control-V: eval:paste_clipboard
-URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
-URxvt.keysym.Control-V: eval:paste_clipboard
-URxvt.keysym.Control-C: eval:selection_to_clipboard
-! zoom
-URxvt.keysym.Control-plus: resize-font:smaller
-URxvt.keysym.Control-minus: resize-font:bigger
-
-! xterm
-XTerm.vt100.backarrowKey: false
-XTerm.ttyModes: erase ^?
-XTerm.vt100.selectToClipboard: true
-! enable truetype fonts:q
-! XTerm.vt100.renderFont: true
-! XTerm.vt100.faceName: Source Code Pro:size=10:style=regular
-! XTerm.vt100.boldFont: Source Code Pro:size=10:style=regular
-XTerm.vt100.faceName: IBM Plex Mono:size=10:style=regular
-XTerm.vt100.boldFont: IBM Plex Mono:size=10:style=regular
-! XTerm.vt100.colorBDMode: true
-XTerm.vt100.font: 6x13
-XTerm.vt100.internalBorder: 40
-
-
-## All, including st-luke
+## All terminals, including st (Luke's fork)
 ! *.font:	IBM Plex Mono:size=10:minspace=FALSE:style=regular:autohint=true:antialias=true
 *.font:	IBM Plex Mono:size=10:antialias=true:autohint=true;
 !*.boldFont: IBM Plex Mono:size=10:style=regular

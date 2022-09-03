@@ -1,0 +1,2 @@
+# Set save directory
+-o ~/media/youtube/%(title)s.%(ext)s

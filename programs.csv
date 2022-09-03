@@ -1,0 +1,86 @@
+# Programs with dotfiles in this repo, formatted for LARBS (https://github.com/LukeSmithxyz/LARBS)
+# Programs included in a gresh arch linux install (e.g., bash) are not listed.
+# stow is needed to deploy dotfiles to their appropriate locations.
+# TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
+# Tags: A (aur), G (github), blank (community repo)
+
+,stow,"is a tool for installing many files from one folder tree. [dots/]"
+,xorg-server,"is the graphical server. [dots/xinitrc]"
+,xorg-xinit,"starts the graphical server. [dots/xinitrc]"
+,unclutter,"is a program to hide the mouse when still. [dots/xinitrc]"
+,xcape,"is used to remap capslock. [dots/xinitrc]"
+,xorg-setkbmap,"is used to remap capslock. [dots/xinitrc]"
+,pulseaudio,"is an audio server [dpts/xinitrc]"
+,pulseaudio-jack,"gives jack support for pulseaudio [dots/xinitrc]"
+,xorg-xrandr,"is a cli for x screen management. [dots/xinitrc; dots/screenlayout; dots/scripts...dinit]"
+,arandr,"is a gui for xrandr, useful for creating screen layout templates. [dots/screenlayout dots/scripts...dinit]"
+,bspwm,"is a tiling window manager. [dots/bspwm; dots/xinitrc]"
+,dunst,"is a suckless notification system. [dots/dunst]"
+,libnotify,"allows desktop notifications. dots/dunst]"
+,fff,"is a simple and fast file manager. [dots/fff]"
+G,https://github.com/odeke-em/drive,"is a cli for google drive. [dots/gdrive]"
+,git,"is a version-control system. [dots/git]"
+,mpv,"is a video player. [dots/mpv; dots/scripts...umpv]"
+,neovim,"is a vim fork with some useful features. [dots/nvim]"
+,ripgrep,"is a grep-like tool. [dots/nvim]"
+,nodejs,"is javascript's package manager. [dots/nvim]"
+,pavucontrol,"is a simple GTK mixer for PulseAudio. [dots/xinitrc]"
+,polybar,"is a configurable statusbar. [dots/polybar]"
+,qutebrowser,"is a chromium-based browser with programmable keybindings. [dots/qutebrowser]"
+,R,"is a programming language for statistics. [dots/R]"
+,rofi,"is a program launcher and window-switcher. [dots/rofi]"
+G,https://github.com/lukesmithxyz/st.git,"is a fork of suckless's terminal emulator. [dots/st; dots/nvim (compile on saving config.h)]"
+,stalonetray,"is a standalone tray, that can be opened when needed. [dots/stalonetray]"
+G,https://git.suckless.org/tabbed,"is a suckless program for tabs. [dots/st]"
+,python,"is a programming language. [dots/wal; dots/profile]"
+,python-pywal,"is a program for making and setting colorschemes. [dots/wal; dots/xmode; dots/xinitrc]"
+,sxhkd,"is a program for binding keys, which works well with bspwm. [dots/sxhkd; dots/xinitrc]"
+,xbindkeys,"is a program for binding keys, which I use for media keys. [dots/xbindkeys]"
+,xorg-xbacklight,"enables changing screen brightness levels. [dots/xbindkeysrc]"
+,maim,"takes screenshots. [dots/sxhkd]"
+A,sc-im,"is an Excel-like terminal spreadsheet manager. [dots/sc-im]"
+,pamixer,"is a cli frontend for pulseaudio. [dots/xbindkeysrc]"
+,playerctl,"is an mpris media player controller. [dots/xbindkeysrc]"
+A,xcursor-human,"a cursor theme. [dots/Xresources]"
+,yt-dlp,"is a tool to download youtube videos (e.g., to stream them in mpv) [dpts/yt-dlp]"
+,zathura,"is a simple and fast pdf viewer. [dots/zathura]"
+,zathura-pdf-mupdf,"allows mupdf pdf compatibility in zathura. [dots/zathura]"
+,poppler,"manipulates .pdfs and gives .pdf previews and other .pdf functions. [dots/zathura]"
+,zsh,"is a shell. [dots/zsh]"
+G,https://github.com/andreafrancia/trash-cli,"Command line interface to the freedesktop.org trashcan. [dots/profile]"
+,exa,"replaces ls. [dots/profile]"
+
+# Other programs
+,firefox,"is a fully-featured web browser."
+A,yay,"is an AUR helper."
+A,brave-bin,"is a fully-featured web browser with a focus on privacy."
+A,lagrange,"is a gemini browser."
+A,zotero,"is a reference manager"
+,fzf,"is a fuzzy finding tool."
+,cups,"is a program for printing."
+,neofetch,"is a program for displaying system info."
+A,htop-vim,"is a graphical and colorful system monitor."
+,sxiv,"is a minimalist image viewer."
+,unzip,"unzips zips."
+A,zsh-fast-syntax-highlighting-git,"provides syntax highlighting in the shell."
+
+# fonts
+,ttf-fira-code,"Monospaced font with programming ligatures."
+A,ttf-ibm-plex-git,"IBM's mono font, with attractive curly braces."
+A,ttf-material-design-icons,"Google's Material icons."
+A,ttf-adobe-source-fonts,"Adobe's open source fonts."
+A,cozette-otb,"A bitmap programming font optimized for coziness."
+
+# big programs
+,texlive-most,"is a typesetting program."
+,texlive-lang,"provides languages for latex."
+,texlive-bibtexextra,"contains packages for references."
+,zoom,"is a video conferencing tool."
+,element-desktop,"is a glossy, discord-like matrix chat frontend"
+,discord,"is a voice and text chat client."
+,spotify,"is a music streaming service."
+
+
+
+
+

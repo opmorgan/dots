@@ -1,6 +1,7 @@
 xrdb ~/.Xresources
 
-xrandr --output HDMI-A-1 --mode 1920x1080 --rate 143.98
+setxkbmap -option ctrl:nocaps
+xcape -e 'Caps_Lock=Escape;Control_L=Escape'
 
 wal -R
 unclutter --timeout 1 &

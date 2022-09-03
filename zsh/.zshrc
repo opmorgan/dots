@@ -32,14 +32,14 @@ alias help=run-help
 
 ## zsh-autosuggestions
 ## https://github.com/zsh-users/zsh-autosuggestions
-if [ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-  source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+if [ -f /home/om/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+  source /home/om/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
 ## zsh-vi-mode (use instead of builtin, bindkey-v)
 ## https://github.com/jeffreytse/zsh-vi-mode
-if [ -f /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh ]; then
-  source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+if [ -f /home/om/zsh-vi-mode/zsh-vi-mode.plugin.zsh ]; then
+  source /home/om/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 fi
 
 
@@ -83,7 +83,7 @@ esac
 
 
 #### Prompt and greeting
-echo 'om@amygdala' ## Greeting message
+echo 'om@pons' ## Greeting message
 
 ## Set right prompt: modified from github.com/woefe/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
