@@ -51,6 +51,7 @@ G,https://github.com/andreafrancia/trash-cli,"Command line interface to the free
 ,exa,"replaces ls. [dots/profile]"
 
 # Other programs
+,vi,"is a text editor, which visudo uses by default"
 ,firefox,"is a fully-featured web browser."
 A,yay,"is an AUR helper."
 A,brave-bin,"is a fully-featured web browser with a focus on privacy."

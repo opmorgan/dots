@@ -9,10 +9,10 @@
 
 
 Todo to prep larbs
-- create programs.csv
-- create dotfile branch with base setup
-- edit larbs.sh -- be sure to point to stow-structured dots
-- Edit larbs readme: what is the curl url for my fork?
+- [done] create programs.csv
+- [done] create dotfile branch with base setup
+- [done] edit larbs.sh -- be sure to point to stow-structured dots
+- [done] Edit larbs readme: what is the curl url for my fork?
 - add stow ignore file
 
 
