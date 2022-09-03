@@ -10,8 +10,8 @@ if command -v stow 2>/dev/null
 then
   if command -v git 2>/dev/null
   then
-    echo "Deleting target configs that already exist..."
-    stow --adopt *
+    echo "Deleting target configs that already exist in fresh larbs install..."
+    stow --adopt bash st tabbed
     git restore .
     echo "Stowing configs: $FOLDERS_TO_STOW"
     stow $FOLDERS_TO_STOW --override=.bashrc --override=.bash_logout --override=config.h && echo "Done!"
