@@ -1,0 +1,86 @@
+# Adapting LARBS
+## larbs.sh
+[done] 9-12. Set dotfiles repo, progs file path, and repobranch
+[done] 71. Change $repodir to ~/src (destination for packages built from github source)
+275. Tweak paths to use stow structure. I think I can do this with: "home/$name/dots/", and removing line 276, which would remove README [done] etc. from the origina dots repo. I coud also skip the dotfiles step, and just clone the repo.
+[done] 288. Remove unused filepahts
+[done] 297-305. Delete tap-to-click stuff
+[done] 314. Delete "clear"
+
+
+Todo to prep larbs
+- create programs.csv
+- create dotfile branch with base setup
+- edit larbs.sh -- be sure to point to stow-structured dots
+- Edit larbs readme: what is the curl url for my fork?
+- add stow ignore file
+
+
+# Todo on new disk
+- Run larbs! Install packages, configs.
+- In dots folder which larbs should have created, run "stow *".
+- Configure git keys (pacman: openssh)
+- Configure gtk (use base theme from gtk4)
+- Configure google drive (odeke-em/drive)
+- Install proprietary fonts (Avenir, Gill Sans)
+
+# Firefox
+- configure save directory to temp/
+- set theme: Lush--Soft
+
+# enable Systemctl units
+- battery notifications
+- directory cleanup
+- systemctl enable docker.service
+
+# Install R packages
+- tidyverse, here
+
+# Test media keys
+- bindings are set in dots/xbindkeysrc)
+
+# Choose a colorscheme
+- Set it with pywal
+
+# Configure gtk
+- Use themix to make a theme based on wal colorscheme
+
+# Other Thinkpad setup tweaks (not done yet on amygdala)
+- Enable microphone keybind
+
+# Other Ricing tweaks (not done yet on amygdala)
+- Use a plugin manager for zsh, so I don't have to clone repos manually: https://github.com/akatrevorjay/zplugin
+- Remove nohup from dots version control
+- remove old polybar configs from pons, x220 version control
+- Edit background image color to match theme (possible to create a script for this?)
+
+
+# Arch linux installation step-by-step
+- Download the arch iso
+- Make a bootable usb (e.g., with gnome-multi-writer)
+- Boot into the USB
+- Connect to the internet
+for wifi:
+- get name of wifi interface: $ iwconfig
+make sure interface is "up"
+- check if it is UP or DOWN (ip link)
+$ ip link
+<NO-CARRIER,BROADCAST,MULTICAST,DOWN>
+- make it UP: e.g., ip link set wlan0 up
+The result should be:
+$ ip link show
+<NO-CARRIER,BROADCAST,MULTICAST,UP>
+Connec to a wifi network with iwd. e.g.,:
+$ iwd
+$ station device scan
+$ station device get-networks
+$ station device connect home-wifi-network
+
+Configure locale, select mirrors, make partitions, and install arch with the interactive installer, archinstall
+Run the command: archinstall
+- set mirror region
+- change bootloader to grub-install
+- leave Swap=True (creates a swapfile, I think, instead of a swap partition)
+- select drive, disk layout ("suggestion" is good, don't create a separate partition for home)
+- audio: pulseaudio
+
