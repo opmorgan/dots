@@ -8,8 +8,18 @@ done
 
 if command -v stow 2>/dev/null
 then
-  echo "Stowing configs: $FOLDERS_TO_STOW"
-  stow $FOLDERS_TO_STOW && echo "Done!"
+  if command -v git 2>/dev/null
+  then
+    echo "Deleting target configs that already exist..."
+    stow --adopt *
+    git restore .
+    echo "Stowing configs: $FOLDERS_TO_STOW"
+    stow $FOLDERS_TO_STOW --override=.bashrc --override=.bash_logout --override=config.h && echo "Done!"
+  else
+
+    echo "The command 'stow' could not be found. Exiting."
+    exit
+  fi
 else
   echo "The command 'stow' could not be found. Exiting."
   exit
