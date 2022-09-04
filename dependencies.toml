@@ -1,0 +1,14 @@
+[base]
+dependencies = {}
+
+[laptop]
+dependencies = {"base"}
+
+[pons]
+dependencies = {"base"}
+
+[x220]
+dependencies = {"laptop"}
+
+[theme-mitani]
+dependencies = {"base"}

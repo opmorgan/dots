@@ -1,0 +1,12 @@
+# TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
+,amfora,"is a terminal browser for the gemini protocol [dots/.../amfora]"
+A,cava,"is a terminal music visualizer [dots/.../cava]"
+A,cli-visualizer,"is a terminal music visualizer [dots/.../cli-visualizer]"
+,element-desktop,"is a glossy Matrix collaboration client. [dots/.../element]"
+,emacs,"is a text-editor. [dots/.../emacs]"
+,ncspot,"is a tui for spotify. [dots/.../ncspot]"
+,ranger,"is a terminal file browser. [dots/.../ranger]"
+,spotifyd,"is a spotify daemon. [dots/.../spotifyd]"
+,tmate,"is a tool for sharing terminal session over ssh. [dots/.../tmate]"
+,vimiv,"is an image browser with vim keybinds. [dots/.../vimiv]"
+,weechat,"is an irc frontend. [dots/.../weechat]"
