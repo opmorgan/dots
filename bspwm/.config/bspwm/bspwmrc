@@ -1,8 +1,6 @@
 #! /bin/sh
 
-polyset.sh &
-
-sxhkd &
+ sxhkd &
  . "${HOME}/.cache/wal/colors.sh"
 
 bspc monitor LVDS-1 -d 1 2 3 4 5 6 7
@@ -31,18 +29,12 @@ bspc config pointer_action2 resize_corner
 
 bspc config pointer_motion_interval 7
 
-bspc rule -a Gimp desktop=^4 state=floating follow=on
-bspc rule -a Firefox desktop=^2
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Zathura state=tiled
 bspc rule -a Chromium border_width=0
 bspc rule -a RStudio border_width=0
-bspc rule -a libreoffice-startcenter desktop=^3
 bspc rule -a Pavucontrol desktop=^7
 bspc rule -a Spotify desktop=^6
 bspc rule -a Discord desktop=^5
-
-
-tabbed -r 2 st -w '' &
