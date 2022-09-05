@@ -8,7 +8,7 @@ set linebreak " visual break at special characters only
 set list
 set tabstop=2 shiftwidth=2 expandtab " use spaces
 set autoindent
-set clipboard+=unnamedplus
+set clipboard=unnamedplus
 set hidden
 set mouse=a
 set title

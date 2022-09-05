@@ -22,7 +22,7 @@ Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 
 "" Multi-file search
 Plug 'junegunn/fzf'
@@ -33,17 +33,19 @@ Plug 'itchyny/vim-gitbranch'
 
 " Language/filetyle specific
 Plug 'jalvesaq/Nvim-R'
-" Trying old version too see if it
-" prevents R session from restarting
-" when I enter insert mode after running some code
-" Plug 'wsdjeg/Nvim-R'
+" Trying to fix Rmd syntax highlighting:
+" https://github.com/jalvesaq/Nvim-R/issues/197
+Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'posva/vim-vue'
 Plug 'lervag/vimtex'
-Plug 'm-pilia/vim-pkgbuild'
+" Plug 'm-pilia/vim-pkgbuild'
 " Plug 'xuhdev/vim-latex-live-preview'
 " Plug 'goballooning/vim-live-latex-preview'
 "" Autosave, for latex livepreviewing with vimtex
 Plug '907th/vim-auto-save'
+"" Highlighting for django templates
+Plug 'tweekmonster/django-plus.vim'
+" Plug 'vim-scripts/django.vim'
 
 "" Keypress aliases
 Plug 'vim-scripts/cmdalias.vim'
