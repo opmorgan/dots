@@ -4,6 +4,22 @@
 # TODO: handle overwriting, dependendcies when stowing modules with dependencies (should automatically gather names of files that would be stowed with submodules, and add them to the overwrite list)
 # TODO: add "stow replacement" function that lets you stow a specific dotfile from a specified module
 
+#TODO
+# Another way:
+# First, create a function that takes two arguments: a module name, and a dotfiles-folder name. This function can be used to stash individual dotfiles, and will be the foundation of the script that will deploy all dotfiles.
+stow_from_module () {
+  ## Stows dotfiles files from a specified module folder
+  ## Arguments:
+  ##   module
+  ##     (path to a module that contains a dotfile package
+  ##     (e.g., the folder "bwpsm", relative to directory where the command is run)
+  ##   package (the name of the dotfile package)
+  ##   target_dir
+  ##     (directory in which to stow the package. Default: $HOME)
+}
+
+
+
 FOLDERS_TO_STOW=""
 
 # TODO: create this path dynamically (letting user specify module)
