@@ -1,6 +1,5 @@
 # TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
 ,amfora,"is a terminal browser for the gemini protocol [dots/.../amfora]"
-A,cava,"is a terminal music visualizer [dots/.../cava]"
 A,cli-visualizer,"is a terminal music visualizer [dots/.../cli-visualizer]"
 ,element-desktop,"is a glossy Matrix collaboration client. [dots/.../element]"
 ,emacs,"is a text-editor. [dots/.../emacs]"
