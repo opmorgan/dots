@@ -16,11 +16,12 @@ stow_from_module () {
   ##   package (the name of the dotfile package)
   ##   target_dir
   ##     (directory in which to stow the package. Default: $HOME)
+  echo "test"
 }
 
 
-
-FOLDERS_TO_STOW=""
+## Initialize space-separated list of packages to stow
+PACKAGES_TO_STOW=""
 
 # TODO: create this path dynamically (letting user specify module)
 DOTS_SOURCE_DIR=$HOME/src/stow-sandbox/dots/base
@@ -33,8 +34,7 @@ DOTS_TARGET_DIR=$HOME/src/stow-sandbox
 
 for d in $DOTS_SOURCE_DIR_RELATIVE/*/ ; do
   BASENAME=$(basename "$d")
-  FOLDERS_TO_STOW="$FOLDERS_TO_STOW ${BASENAME}"
-  # FOLDERS_TO_STOW="$FOLDERS_TO_STOW ${d%/}"
+  FOLDERS_TO_STOW="$PACKAGES_TO_STOW ${BASENAME}"
 done
 
 if command -v stow 2>/dev/null
@@ -46,8 +46,8 @@ then
     ## Commented out for development
     # stow --adopt bash st tabbed
     # git restore .
-
-    echo "Stowing configs: $FOLDERS_TO_STOW"
+    echo "Cleaning config packages: $PACKAGES_TO_CLEAN"
+    echo "Stowing config packages: $PACKAGES_TO_STOW"
     echo "Dots source dir: $DOTS_SOURCE_DIR"
     echo "Dots target dir: $DOTS_TARGET_DIR"
 
@@ -55,11 +55,10 @@ then
     # stow --dir=base --target=../ dwarffortress
 
     ## Commented out for development
-    stow --dir=$DOTS_SOURCE_DIR --target=$DOTS_TARGET_DIR $FOLDERS_TO_STOW --override=.bashrc --override=.bash_logout --override=config.h && echo "Done!"
+    # stow --dir=$DOTS_SOURCE_DIR --target=$DOTS_TARGET_DIR $PACKAGES_TO_STOW --override=.bashrc --override=.bash_logout --override=config.h && echo "Done!"
 
     ## This command will unstow everything
-    # stow --dir=$DOTS_SOURCE_DIR --target=$DOTS_TARGET_DIR --delete $FOLDERS_TO_STOW --override=.bashrc --override=.bash_logout --override=config.h && echo "Done!"
-
+    # stow --dir=$DOTS_SOURCE_DIR --target=$DOTS_TARGET_DIR --delete $PACKAGES_TO_STOW --override=.bashrc --override=.bash_logout --override=config.h && echo "Done!"
 
   else
 
