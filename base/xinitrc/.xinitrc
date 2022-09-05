@@ -2,7 +2,8 @@ xrdb ~/.Xresources
 
 xrandr --output HDMI-A-1 --mode 1920x1080 --rate 143.98
 
-wal -R
+wal --theme $HOME/.config/modes/wal-theme.json
+
 unclutter --timeout 1 &
 tabbed -r 2 st -w '' &
 pavucontrol &
