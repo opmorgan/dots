@@ -1,5 +1,6 @@
 #! /bin/bash
 source ~/.xmode
+# Todo: source wallpaper link from modes/...json, instead
 echo wallpaper
 for arg in "$@"
 do
