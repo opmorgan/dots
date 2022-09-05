@@ -10,5 +10,5 @@ dependencies = {"base"}
 [x220]
 dependencies = {"laptop"}
 
-[theme-mitani]
+[theme-joel]
 dependencies = {"base"}
