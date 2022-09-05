@@ -8,7 +8,7 @@ dependencies = {"base"}
 dependencies = {"base"}
 
 [x220]
-dependencies = {"laptop"}
+dependencies = {"base", "laptop"}
 
 [theme-joel]
 dependencies = {"base"}
