@@ -10,7 +10,7 @@ Xft.rgba: rgb
 Xcursor.theme: Human
 ! Xcursor.size: 18
 
-## All terminals, including st (Luke's fork)
+## All terminals, including st (Lukes fork)
 ! *.font:	IBM Plex Mono:size=10:minspace=FALSE:style=regular:autohint=true:antialias=true
 *.font:	IBM Plex Mono:size=10:antialias=true:autohint=true;
 !*.boldFont: IBM Plex Mono:size=10:style=regular
