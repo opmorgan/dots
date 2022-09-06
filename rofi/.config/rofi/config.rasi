@@ -6,7 +6,8 @@ configuration {
   location: 7;
 }
 
-@theme "~/.cache/wal/colors-rofi-zenburn.rasi"
+/* @theme "~/.cache/wal/colors-rofi-zenburn.rasi" */
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
 
 window {
   width: 100%;
