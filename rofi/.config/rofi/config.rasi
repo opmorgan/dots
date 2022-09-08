@@ -8,7 +8,7 @@ location: 7;
 
 window {
 width: 100%;
-height: 97.23%;
+height: 738px;
 }
 
 @import "~/.cache/wal/colors-rofi-dark-temp.rasi"
