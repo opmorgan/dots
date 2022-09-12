@@ -1,0 +1,50 @@
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37mcolors.json[0m.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+Traceback (most recent call last):
+  File "/usr/bin/wal", line 33, in <module>
+    sys.exit(load_entry_point('pywal==3.3.0', 'console_scripts', 'wal')())
+  File "/usr/lib/python3.10/site-packages/pywal/__main__.py", line 208, in main
+    parse_args(parser)
+  File "/usr/lib/python3.10/site-packages/pywal/__main__.py", line 185, in parse_args
+    export.every(colors_plain)
+  File "/usr/lib/python3.10/site-packages/pywal/export.py", line 68, in every
+    template(colors, file.path, join(output_dir, file.name))
+  File "/usr/lib/python3.10/site-packages/pywal/export.py", line 15, in template
+    template_data = "".join(template_data).format(**colors)
+KeyError: '\n    background'
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config.ini
+polybar|notice:  Parsing config file: /home/om/.config/polybar/config.ini
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|error: Invalid value for "module/bspwm.label-focused-background", using default value (reason: X resource "color4" not found (no fallback set))
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_0c_00.4.analog-stereo
+polybar|error: Invalid value for "module/bspwm.label-occupied-underline", using default value (reason: X resource "color4" not found (no fallback set))
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loading module 'xwindow' of type 'internal/xwindow'
+polybar|notice:  Loaded 3 modules
+polybar|notice:  Loading module 'bspwm' of type 'internal/bspwm'
+polybar|error: Invalid value for "module/bspwm.label-focused-background", using default value (reason: X resource "color4" not found (no fallback set))
+polybar|error: Invalid value for "module/bspwm.label-occupied-underline", using default value (reason: X resource "color4" not found (no fallback set))
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'temperature' of type 'internal/temperature'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'filesystem' of type 'internal/fs'
+polybar|notice:  Loading module 'network' of type 'internal/network'
+polybar|notice:  Loading module 'updates' of type 'custom/script'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 10 modules
+polybar|notice:  Loaded font "Avenir:style=Light:pixelsize=11" (name=Avenir, offset=1, file=/home/om/.fonts/Avenir.ttc)
+polybar|notice:  Loaded font "Avenir:style=Light:pixelsize=11" (name=Avenir, offset=1, file=/home/om/.fonts/Avenir.ttc)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=Fira Mono, offset=3, file=/usr/share/fonts/TTF/FiraMono-Regular.ttf)
+polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=10" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
+polybar|warn:  Dropping unmatched character 🎨 (U+1f3a8) in '   GitHub - dylanaraps/pywal: 🎨 Generate and change c...'
+polybar|warn:  Dropping unmatched character 🎨 (U+1f3a8) in '   GitHub - dylanaraps/pywal: 🎨 Generate and change c...'
+polybar|error: X connection error, terminating... (what: Socket, pipe or stream error)
+polybar|notice:  Termination signal received, shutting down...
+polybar|error: libuv error while polling X connection: bad file descriptor
+polybar|notice:  Termination signal received, shutting down...

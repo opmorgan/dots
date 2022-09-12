@@ -6,7 +6,8 @@ configuration {
   location: 0;
 }
 
-@theme "~/.config/wal/templates/colors-rofi-dark.rasi"
+/* @theme "~/.config/wal/templates/colors-rofi-dark-custom.rasi" */
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
 
 window {
   /* width: 100%; */
