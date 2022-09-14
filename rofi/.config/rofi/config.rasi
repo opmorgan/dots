@@ -11,7 +11,7 @@ width: 100%;
 height: 738px;
 }
 
-@import "~/.cache/wal/colors-rofi-dark-temp.rasi"
+@import "~/.cache/wal/colors-rofi-dark.rasi"
 
 element-text {
   background-color: inherit;
