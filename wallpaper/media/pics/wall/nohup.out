@@ -95,3 +95,5 @@ polybar|notice:  Loaded 10 modules
 polybar|notice:  Loaded font "IBM Plex Mono:style=Regular:pixelsize=9" (name=IBM Plex Mono, offset=1, file=/usr/share/fonts/TTF/IBMPlexMono-Regular.ttf)
 polybar|notice:  Loaded font "Material Icons:style=Regular:pixelsize=12" (name=Material Icons, offset=2, file=/usr/share/fonts/TTF/MaterialIcons-Regular.ttf)
 polybar|notice:  Loaded font "Fira Mono:style=Regular:pixelsize=10" (name=FreeSans, offset=3, file=/usr/share/fonts/gnu-free/FreeSans.otf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
