@@ -33,6 +33,9 @@ export GTK_USE_PORTAL=1 ## same file dialog for gtk and qt
 export EDITOR=nvim
 export VISUAL=nvim
 
+## To allow npm to install "global" packages for current user
+export npm_config_prefix="$HOME/.local"
+
 
 #### Permissions
 umask 0002
