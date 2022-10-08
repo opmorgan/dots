@@ -55,10 +55,10 @@ let g:ale_r_lintr_lint_package = 0
 "" fzf-vim
 "
 " GFiles, Rg
-nnoremap <C-P> :GFiles<CR>
+nnoremap <C-G> :GFiles<CR>
 " command! -bang -nargs=* PRg \ call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'dir': system('git -C '.expand('%:p:h').' rev-parse --show-toplevel 2> /dev/null')[:-2]}, <bang>0)
-nnoremap <C-S> :Rg<CR>
 " search current git repo
+nnoremap <C-S> :Rg<CR>
 " nnoremap <C-S> :PRg<CR>
 
 
