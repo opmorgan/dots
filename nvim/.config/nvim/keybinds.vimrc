@@ -65,12 +65,13 @@ nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
 " Code formatting
-" noremap = gg=G<C-o>zz
+noremap = gg=G
 " In Rmd files, use "=" to format all code chunks
 " (By selecting all text from first code chunk delimeter to last)
 " use "c=" to format curent chunk
 " autocmd Filetype rmd noremap = /```<CR>ggnjV/```<CR>ggNk=<C-o><C-o><C-o>
-autocmd Filetype rmd noremap = /```<CR>ggnjV/```<CR>ggNk=/```<CR>ggn<CR>
+" autocmd Filetype rmd noremap = /```<CR>ggnjV/```<CR>ggNk=/```<CR>ggn<CR>
+autocmd Filetype rmd noremap = /```<CR>ggnjV/```<CR>ggNk=
 " autocmd Filetype rmd noremap c= /```<CR>NjV/```<CR>k=<C-o><C-o>
 autocmd Filetype rmd noremap c= /```<CR>NjV/```<CR>k=
 

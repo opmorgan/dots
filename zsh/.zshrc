@@ -32,14 +32,14 @@ alias help=run-help
 
 ## zsh-autosuggestions
 ## https://github.com/zsh-users/zsh-autosuggestions
-if [ -f /home/om/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-  source /home/om/zsh-autosuggestions/zsh-autosuggestions.zsh
+if [ -f /home/om/src/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+  source /home/om/src/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
 ## zsh-vi-mode (use instead of builtin, bindkey-v)
 ## https://github.com/jeffreytse/zsh-vi-mode
-if [ -f /home/om/zsh-vi-mode/zsh-vi-mode.plugin.zsh ]; then
-  source /home/om/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+if [ -f /home/om/src/zsh-vi-mode/zsh-vi-mode.plugin.zsh ]; then
+  source /home/om/src/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 fi
 
 

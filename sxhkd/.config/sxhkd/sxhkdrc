@@ -7,7 +7,7 @@ super + F1
 
 # open a new terminal
 super + Return
-    tabbed -r 2 st -w ''
+    tabbed -r 2 st -w ""
 
 # run rofi
 super + @space
