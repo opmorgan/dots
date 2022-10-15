@@ -65,7 +65,7 @@ nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
 " Code formatting
-noremap = gg=G
+noremap = gg=G<C-o>zz
 " In Rmd files, use "=" to format all code chunks
 " (so yaml header doesn't get
 " messed up)
