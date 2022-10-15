@@ -65,7 +65,7 @@ nnoremap <C-B> :Buffers<CR>
 nnoremap <C-F> :Files<CR>
 
 " Code formatting
-noremap = gg=G
+noremap = gg=G<C-o>zz
 " In Rmd files, use "=" to format all code chunks
 " (By selecting all text from first code chunk delimeter to last)
 " use "c=" to format curent chunk
