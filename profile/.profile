@@ -104,7 +104,7 @@ alias feh='feh --image-bg black -.'
 alias qb='qutebrowser'
 alias tp='trash-put' ## trash-cli (https://github.com/andreafrancia/trash-cli.git)
 alias d='drive' ## https://github.com/odeke-em/drive.git
-
+alias scim='sc-im'
 alias calc='python -ic "from math import *"'
 
 ## Scripts
