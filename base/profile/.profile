@@ -123,6 +123,7 @@ alias qb='qutebrowser'
 alias tp='trash-put' ## trash-cli (https://github.com/andreafrancia/trash-cli.git)
 alias d='drive' ## https://github.com/odeke-em/drive.git
 alias scim='sc-im'
+alias vd='visidata'
 
 alias m='systemctl start moneroocean_miner.service' ## https://github.com/MoneroOcean/xmrig_setup.git
 alias sm='systemctl stop moneroocean_miner.service'
