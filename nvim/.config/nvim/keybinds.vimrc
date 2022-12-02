@@ -1,6 +1,10 @@
 " Sloppy keybindings
 set ignorecase
 set smartcase
+
+" Write file with sudo
+cmap w!! w !sudo tee %
+
 " Aliases using plugin: vim-scripts/cmdalias.vim
 autocmd VimEnter * Alias W w
 autocmd VimEnter * Alias Q q
