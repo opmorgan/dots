@@ -11,6 +11,7 @@ set autoindent
 set clipboard=unnamedplus
 set hidden
 set mouse=a
+
 set title
 
 " Height of minimized files

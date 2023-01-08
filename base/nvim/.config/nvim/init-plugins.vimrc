@@ -1,9 +1,16 @@
 "" Load plugins with vim-plug
 "" https://github.com/junegunn/vim-plug
+"" Install with :PlugInstall
+"" Update with :PlugUpdate
+"" Clean unused with PlugClean
+"" Update vim-plug with PlugUpgrade
 call plug#begin()
 
+"" Colors
 "" Pywal colors
 Plug 'dylanaraps/wal.vim'
+"" Zenburn theme
+"Plug 'phha/zenburn.nvim'
 
 "" Navigation
 Plug 'tpope/vim-vinegar'
@@ -19,10 +26,23 @@ Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 
 "" LSP, autocompletion, linting, +
 "" TODO: switch to native LSP support
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'w0rp/ale'
-Plug 'airblade/vim-gitgutter'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'w0rp/ale'
+" Plug 'airblade/vim-gitgutter'
 " Plug 'github/copilot.vim'
+
+"" Jan 7 2023: switch to native LSP
+Plug 'williamboman/mason.nvim',
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig' " Must source after mason
+"" Recommended dependencies for nvim-cmp
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
 
 "" Multi-file search
 Plug 'junegunn/fzf'
