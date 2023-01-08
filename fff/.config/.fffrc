@@ -1,6 +1,6 @@
 # Show/Hide hidden files on open.
 # (Off by default)
-export FFF_HIDDEN=0
+export FFF_HIDDEN=1
 
 # Use LS_COLORS to color fff.
 # (On by default if available)
