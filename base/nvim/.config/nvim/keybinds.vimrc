@@ -86,7 +86,7 @@ xnoremap P Pgvy
 " Toggle auto_save
 :cabbrev ast AutoSaveToggle
 
-" Unset the "last search pattern" register by hitting escape (in normal mode)
+" Unset the "last search pattern" register by hitting escape
 nnoremap <Esc> :noh<CR>
 
 " Insert the current date and time
