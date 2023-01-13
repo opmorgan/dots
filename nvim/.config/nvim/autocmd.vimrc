@@ -6,3 +6,5 @@ autocmd BufWritePost ~/.Xresources,~/.Xdefaults !xrdb %
 
 " Automatically delete all trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
+
+au BufReadPost *.css.ts set syntax=css

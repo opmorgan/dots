@@ -2,7 +2,7 @@
 set ignorecase
 set smartcase
 
-" Write file with sudo
+" Write a file with sudo
 cmap w!! w !sudo tee %
 
 " Aliases using plugin: vim-scripts/cmdalias.vim
@@ -70,6 +70,14 @@ nnoremap <C-F> :Files<CR>
 
 " Code formatting
 noremap = gg=G<C-o>zz
+" In Rmd files, use "=" to format all code chunks
+" (By selecting all text from first code chunk delimeter to last)
+" use "c=" to format curent chunk
+" autocmd Filetype rmd noremap = /```<CR>ggnjV/```<CR>ggNk=<C-o><C-o><C-o>
+" autocmd Filetype rmd noremap = /```<CR>ggnjV/```<CR>ggNk=/```<CR>ggn<CR>
+autocmd Filetype rmd noremap = /```<CR>ggnjV/```<CR>ggNk=
+" autocmd Filetype rmd noremap c= /```<CR>NjV/```<CR>k=<C-o><C-o>
+autocmd Filetype rmd noremap c= /```<CR>NjV/```<CR>k=
 
 " Remap paste so that copied text persists in register ""
 xnoremap p pgvy
@@ -78,8 +86,8 @@ xnoremap P Pgvy
 " Toggle auto_save
 :cabbrev ast AutoSaveToggle
 
-" Unset the "last search pattern" register by hitting return
-nnoremap <CR> :noh<CR><CR>
+" Unset the "last search pattern" register by hitting escape
+nnoremap <Esc> :noh<CR>
 
 " Insert the current date and time
 :nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>
