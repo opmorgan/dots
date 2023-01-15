@@ -1,6 +1,8 @@
 *wallpaper/media/music/
 *nvim/.config/nvim/.netrwhist
 *nvim/.config/nvim/plugged/
+base/nvim/.config/nvim/.netrwhist
+base/nvim/.config/nvim/plugged/
 *zsh/.zsh/history
 *bash/.bash_history
 *.ccls-cache/

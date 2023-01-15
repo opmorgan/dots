@@ -111,3 +111,7 @@ nnoremap <Esc> :noh<CR>
 " TODO: figure out how to map this to
 " shift + backspace in insert mode?
 :inoremap <F3> <Esc>kJa
+
+" Set tab completion keybind (should work with cmp?)
+inoremap <expr> <TAB> pumvisible() ? "<C-y>" : "<TAB>"
+
