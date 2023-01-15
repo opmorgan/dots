@@ -139,7 +139,7 @@ cmp.setup({
     {name = 'path'},
     {name = 'nvim_lsp', keyword_length = 3},
     {name = 'buffer', keyword_length = 1},
-    {name = 'luasnip', keyword_length = 2},
+    {name = 'luasnip', keyword_length = 3},
   },
   window = {
     documentation = cmp.config.window.bordered()
@@ -149,7 +149,7 @@ cmp.setup({
     format = function(entry, item)
       local menu_icon = {
         nvim_lsp = 'λ',
-        luasnip = 'ς',
+        luasnip = 'Σ',
         buffer = 'β',
         path = 'π',
       }
@@ -183,7 +183,8 @@ cmp.setup({
 
     -- tab autocomplete
     -- If completion menu is visible, move to next/prev item.
-    -- If not, show completions if inside a word.
+    -- If not inside a word, fall back.
+    -- If inside a word, show completions if inside a word.
     ['<Tab>'] = cmp.mapping(function(fallback)
       local col = vim.fn.col('.') - 1
 
@@ -195,6 +196,7 @@ cmp.setup({
         cmp.complete()
       end
     end, {'i', 's'}),
+
     ['<S-Tab>'] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_prev_item(select_opts)
@@ -202,6 +204,28 @@ cmp.setup({
         fallback()
       end
     end, {'i', 's'}),
+
+    -- Quickly accept first suggestion
+    ['<Right>'] = cmp.mapping(function(fallback)
+
+      if cmp.visible() then
+        cmp.select_next_item(select_opts)
+        cmp.confirm({select = false})
+      else
+        fallback()
+      end
+    end, {'i', 's'}),
+
+    ['<C-l>'] = cmp.mapping(function(fallback)
+
+      if cmp.visible() then
+        cmp.select_next_item(select_opts)
+        cmp.confirm({select = false})
+      else
+        fallback()
+      end
+    end, {'i', 's'}),
+
   }
 
 })
@@ -223,3 +247,19 @@ cmp.setup.cmdline(':', {
     { name = 'cmdline' }
   })
 })
+
+-- Disable completion in comments
+cmp.setup({
+    enabled = function()
+      -- disable completion in comments
+      local context = require 'cmp.config.context'
+      -- keep command mode completion enabled when cursor is in a comment
+      if vim.api.nvim_get_mode().mode == 'c' then
+        return true
+      else
+        return not context.in_treesitter_capture("comment")
+          and not context.in_syntax_group("Comment")
+      end
+    end
+})
+
