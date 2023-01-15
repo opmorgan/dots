@@ -132,6 +132,9 @@ cmp.setup({
       luasnip.lsp_expand(args.body)
     end
   },
+  experimental = {
+    ghost_text = true
+  },
   sources = {
     {name = 'path'},
     {name = 'nvim_lsp', keyword_length = 3},
@@ -159,6 +162,8 @@ cmp.setup({
     ['<CR>'] = cmp.mapping.confirm({select = false}),
     ['<Up>'] = cmp.mapping.select_prev_item(select_opts),
     ['<Down>'] = cmp.mapping.select_next_item(select_opts),
+    ["<C-j>"] = cmp.mapping.select_next_item { behavior = cmp.SelectBehavior.Select },
+    ["<C-k>"] = cmp.mapping.select_prev_item { behavior = cmp.SelectBehavior.Select },
     ['<C-e>'] = cmp.mapping.abort(),
     -- jump in snippet
     ['<C-n>'] = cmp.mapping(function(fallback)
