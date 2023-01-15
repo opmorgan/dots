@@ -111,6 +111,7 @@ alias vi='nvim'
 alias v='nvim'
 alias zt='tabbed -c -r 2 zathura -e' # Launch zathura with tabbed
 alias z='zathura'
+alias i='sxiv'
 alias g='git'
 alias ga='git add -A'
 alias gc='git commit -m'
