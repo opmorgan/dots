@@ -151,6 +151,11 @@ alias oms='optimus-manager --status'
 alias pb='lp -o sides=two-sided-long-edge -o PageSize=Letter'
 alias bp='pb'
 
+## Desktop backlight
+alias b1='echo -e "enter brightness:\n"; read val; xrandr  --output HDMI-A-0  --brightness "${val}"'
+alias b2='echo -e "enter brightness:\n"; read val; xrandr  --output HDMI-A-1  --brightness "${val}"'
+
+
 ## QMK
 ## Shortcut to flash keymap to dz60 keyboard. Use a keymap named "custom" in the folder
 ## "~/bin/qmk_firmware/keyboards/dztech/dz60rgb/keymaps". Remember to reset eprom with fn + enter

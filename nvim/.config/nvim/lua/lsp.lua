@@ -15,6 +15,7 @@ require("mason-lspconfig").setup({
     "marksman",
     "pylsp",
     "pyright",
+    "r_language_server",
     "rust_analyzer",
     "stylelint_lsp",
     "sumneko_lua",
