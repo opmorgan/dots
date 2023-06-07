@@ -8,6 +8,7 @@
 	ui = auto
 [alias]
 	glog = log --oneline --graph
+	adog = log --all --decorate --oneline --graph
 [init]
 	defaultBranch = trunk
 [credential]
