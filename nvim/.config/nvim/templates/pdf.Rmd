@@ -14,7 +14,7 @@ editor_options:
 ---
 
 ```{r setup, include=F}
-knitr::opts_chunk$set(echo = T, warning = F, message = F,
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE,
                       fig.align = "center", fig.width = 9,
                       fig.height = 6, results = "asis")
 options(knitr.kable.NA = "")

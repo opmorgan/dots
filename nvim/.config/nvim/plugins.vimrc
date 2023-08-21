@@ -1,6 +1,5 @@
 "" Wal
 colorscheme wal
-
 "" change error color
 hi Error ctermfg=black ctermbg=magenta
 

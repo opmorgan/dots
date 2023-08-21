@@ -13,6 +13,10 @@ do
   then
     echo "Initializing lab conference room config..."
     /bin/bash /home/om/.screenlayout/xcog-1.sh
+  elif [ "$arg" == "lab" ] || [ "$arg" == "l" ]
+  then
+    echo "Initializing lab desk config..."
+    /bin/bash /home/om/.screenlayout/lab-1.sh
   fi
 done
 echo "Initializing ricey goodness..."

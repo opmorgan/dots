@@ -28,7 +28,7 @@ Plug 'tomtom/tcomment_vim', {'branch': 'master'}
 "" TODO: switch to native LSP support
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'w0rp/ale'
-" Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 " Plug 'github/copilot.vim'
 
 "" Jan 7 2023: switch to native LSP
