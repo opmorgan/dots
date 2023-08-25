@@ -1,6 +1,6 @@
 configuration {
 modi: "drun";
-font: "IBM Plex Mono 14";
+font: "IBM Plex Mono 10";
       /* combi-modi: "drun,window,blocks"; */
       combi-modi: "drun";
 location: 7;
