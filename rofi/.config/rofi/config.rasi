@@ -7,7 +7,8 @@ configuration {
 }
 
 /* @theme "~/.config/wal/templates/colors-rofi-dark-custom.rasi" */
-@theme "~/.cache/wal/colors-rofi-dark.rasi"
+/* @theme "~/.cache/wal/colors-rofi-dark.rasi" */
+@theme "~/.cache/wal/colors-rofi-zenburn.rasi"
 
 window {
   /* width: 100%; */
