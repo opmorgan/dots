@@ -36,6 +36,9 @@ export VISUAL=nvim
 ## To allow npm to install "global" packages for current user
 export npm_config_prefix="$HOME/.local"
 
+## To tell R to use its own V8
+export DOWNLOAD_STATIC_LIBV8=1
+
 
 #### Permissions
 umask 0002
