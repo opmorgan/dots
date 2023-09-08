@@ -4,6 +4,8 @@ xrandr --output HDMI-A-1 --mode 1920x1080 --rate 143.98
 
 wal --theme $HOME/.config/modes/mode.json
 
+xcape -e 'Control_L=Escape'
+
 unclutter --timeout 1 &
 tabbed -r 2 st -w '' &
 pavucontrol &
