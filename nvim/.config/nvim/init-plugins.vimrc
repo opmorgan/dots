@@ -44,6 +44,9 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 
+"" Copilot
+Plug 'github/copilot.vim'
+
 "" Multi-file search
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
