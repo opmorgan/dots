@@ -48,7 +48,7 @@ fi
 #### Functions
 ## Remove temporary latex files
 texc() {
-  ls | grep -P '.*(?<!tex|bib|bbx|cbx|dbx)$' | xargs rm
+  ls | grep -P '.*(?<!tex|bib|bbx|cbx|dbx|md)$' | xargs rm
 }
 
 ## Launch fff and cd on exit
