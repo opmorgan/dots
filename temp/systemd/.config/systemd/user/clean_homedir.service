@@ -1,8 +1,0 @@
-[Unit]
-Description=delete Downloads, Desktop folders from home directory
-
-[Service]
-ExecStart=/home/om/scripts/clean_homedir.sh
-
-[Install]
-WantedBy=multi.unit.target

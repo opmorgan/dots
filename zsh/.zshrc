@@ -28,23 +28,18 @@ alias help=run-help
 
 
 #### Plugins
-## Install by cloning to /usr/share/zsh/plugins/
+## MacOS: install with brew
+# brew install zsh-autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-## zsh-autosuggestions
-## https://github.com/zsh-users/zsh-autosuggestions
-if [ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-  source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-fi
+# brew install zsh-vi-mode
+source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+#
 
-## zsh-vi-mode (use instead of builtin, bindkey-v)
-## https://github.com/jeffreytse/zsh-vi-mode
-if [ -f /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh ]; then
-  source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-fi
-
+## MacOS: Install by cloning to $HOME/src/zsh/plugins/
 ## zsh-output-highlighting
-if [ -f /usr/share/zsh/plugins/zsh-output-highlighting/zsh-output-highlighting.plugin.zsh ]; then
-  source /usr/share/zsh/plugins/zsh-output-highlighting/zsh-output-highlighting.plugin.zsh
+if [ -f $HOME/src/zsh/plugins/zsh-output-highlighting/zsh-output-highlighting.plugin.zsh ]; then
+  source $HOME/src/zsh/plugins/zsh-output-highlighting/zsh-output-highlighting.plugin.zsh
 fi
 
 
@@ -92,8 +87,8 @@ esac
 #echo 'om@pons' ## Greeting message
 
 ## Set right prompt: modified from github.com/woefe/git-prompt.zsh
-source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh
-source /home/om/.zsh/git-prompt.zsh/prompts/rprompt.zsh
+source $HOME/.zsh/git-prompt.zsh/git-prompt.zsh
+source $HOME/.zsh/git-prompt.zsh/prompts/rprompt.zsh
 
 ## Set left prompt
 NEWLINE=$'\n'
