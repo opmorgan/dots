@@ -18,7 +18,7 @@ require("mason-lspconfig").setup({
     "r_language_server",
     "rust_analyzer",
     "stylelint_lsp",
-    "sumneko_lua",
+    "lua_ls",
     "texlab",
     "tsserver",
     "vimls",
