@@ -30,11 +30,11 @@ alias help=run-help
 #### Plugins
 ## MacOS: install with brew
 # brew install zsh-autosuggestions
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # brew install zsh-vi-mode
-source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-#
+source /opt/homebrew/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 ## MacOS: Install by cloning to $HOME/src/zsh/plugins/
 ## zsh-output-highlighting
