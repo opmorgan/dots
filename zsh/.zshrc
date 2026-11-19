@@ -65,7 +65,7 @@ esac
 
 
 #### Prompt and greeting
-echo 'om@pons' ## Greeting message
+echo 'om@medusa' ## Greeting message
 
 ## Set right prompt: modified from github.com/woefe/git-prompt.zsh
 source /home/om/.zsh/git-prompt.zsh/git-prompt.zsh

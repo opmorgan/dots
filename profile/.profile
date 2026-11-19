@@ -36,7 +36,7 @@ export HISTSIZE=1000 ## The number of commands each shell session should remembe
 
 ## System
 # export QT_QPA_PLATFORMTHEME=gtk2 ## use gtk theme in qt applications
-# export QT_QPA_PLATFORMTHEME=gnome ## use gtk theme in qt applications 
+# export QT_QPA_PLATFORMTHEME=gnome ## use gtk theme in qt applications
 export GTK_USE_PORTAL=1 ## same file dialog for gtk and qt
 export EDITOR=nvim
 export VISUAL=nvim
@@ -64,12 +64,13 @@ f() {
 
 #### Aliases
 ## Source aliases that shouldn't be on public version control
-source $HOME/.secret_aliases
+#source $HOME/.secret_aliases
 
 ## Shell
 alias sudo='sudo ' # The space is so that aliases can be run after sudo
 alias please='sudo '
 
+alias exa='eza'
 alias lt='exa --tree'
 alias lta='exa -a --tree'
 alias ls='exa -F'
